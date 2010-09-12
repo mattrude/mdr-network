@@ -27,6 +27,7 @@ function fonts_page() {
     div.typekit_box_two {border: 1px solid #CCC;float: left;height: 220px;margin-right: 25px;padding: 0px 20px;width: 260px;}
   </style>
   <div class="wrap"> 
+    <div id="icon-themes" class="icon32"><br></div>
     <h2>Typekit Fonts</h2> 
     <p><?php _e('Typekit is the easiest way to use real fonts on your website, just enter your Typekit ID and you&#8217;ll be able to choose from hundreds of fonts some available for free, and some available for a subscription fee.', 'mdr-network'); ?></p> 
  
