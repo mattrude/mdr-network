@@ -29,7 +29,7 @@ function fonts_page() {
   <div class="wrap"> 
     <div id="icon-themes" class="icon32"><br></div>
     <h2>Typekit Fonts</h2> 
-    <p><?php _e('Typekit is the easiest way to use real fonts on your website, just enter your Typekit ID and you&#8217;ll be able to choose from hundreds of fonts some available for free, and some available for a subscription fee.', 'mdr-network'); ?></p> 
+    <p><a href="http://typekit.com/"><strong>Typekit</strong></a> <?php _e('is the easiest way to use real fonts on the web. It&rsquo;s a subscription-based service for linking to high-quality Open Type fonts from some of the worlds best type foundries. Typekit fonts are served from a global network on redundant servers, offering bulletproof service and incredible speed. And it couldn&rsquo;t be easier to use.', 'mdr-network'); ?></p> 
  
     <div class="typekit_box_one"> 
       <form action="themes.php?page=typekitfonts" method="post"> 
