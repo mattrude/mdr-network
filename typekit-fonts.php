@@ -2,7 +2,7 @@
 /*
 Plugin Name: Typekit Fonts
 Plugin URI: http://github.com/mattrude/mdr-network
-Description: Provides Typekit fonts to a website by adding the needed java code to the pages.
+Description: Provides Typekit fonts to a website by adding the needed java code to the pages. See Appearance -> Fonts
 Version: 1.0
 Author: Matt Rude
 Author URI: http://mattrude.com
