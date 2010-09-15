@@ -1,4 +1,12 @@
 <?php
+/*
+Plugin Name: Typekit Fonts
+Plugin URI: http://github.com/mattrude/mdr-network
+Description: Provides Typekit fonts to a website by adding the needed java code to the pages.
+Version: 1.0
+Author: Matt Rude
+Author URI: http://mattrude.com
+*/
 
 function add_fonts_page() {
   add_submenu_page( 'themes.php', 'Typekit Fonts Options', 'Fonts', 'administrator', 'typekitfonts', 'fonts_page' );
@@ -55,7 +63,7 @@ function fonts_page() {
 function typekit_header() {
   $typekit_id = get_option( 'typekit_id' );
   if ( $typekit_id != NULL ) {
-    echo '<!-- Typekit Font download script -->
+    echo '    <!-- Typekit Font download script -->
     <script type="text/javascript" src="http://use.typekit.com/'. $typekit_id .'.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>';
   }
