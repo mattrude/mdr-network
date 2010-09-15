@@ -138,7 +138,7 @@ function mdr_webmaster_tools_page() {
     div.robots_txt_in {border: 1px solid #CCC;clear: left;float: left;height: 200px;margin-right: 25px;margin: 0px 5px 10px;padding: 10px;width: 45%;}
     div.robots_txt_out {border: 1px solid #CCC;float: left;height: 200px;margin-right: 25px;margin: 0px 5px 10px;padding: 10px;width: 45%;}
     div.robots_txt_in_lable {clear: left;float: left;margin-right: 25px;margin: 0px 5px;width: 45%;}
-    div.robots_txt_out_lable {float: left;margin-right: 25px;margin: 0px 5px;padding: 0 21px;width: 45%;}
+    div.robots_txt_out_lable {float: left;margin-right: 25px;margin: 0px 10px;padding: 0 20px;width: 45%;}
   </style>
   <div class="wrap">
     <div id="icon-themes" class="icon32"><br></div>
@@ -150,65 +150,65 @@ function mdr_webmaster_tools_page() {
      <form method="post" action="tools.php?page=site_webmaster_tools"> 
      <table class="form-table"> 
        <tr valign='top'> 
-	 <th scope='row'>Google Webmaster Tools:</th> 
+	 <th scope='row'><?php _e('Google Webmaster Tools', 'mdr-network'); ?>:</th> 
 	 <td> 
 	   <input value='<?php echo $site_verification_google_id ?>' size='70' name='site_verification_google_id' type='text' /> 
            <?php if ( $site_verification_google_id == NULL ) { echo "<span style='color: red'><strong>Disabled</strong></span>"; } else { echo "<span style='color: green'><strong>Enabled</strong></span>"; }?>
 	 </td> 
        </tr><tr> 
 	 <td colspan='2'> 
-	   <label for='site_verification_google'>Example: <code>&lt;meta name='google-site-verification' content='<strong>dBw5CvburAxi537Rp9qi5uG2174Vb6JwHwIRwPSLIK8</strong>'&gt;</code></label> 
+	   <label for='site_verification_google'><?php _e('Example', 'mdr-network'); ?>: <code>&lt;meta name='google-site-verification' content='<strong>dBw5CvburAxi537Rp9qi5uG2174Vb6JwHwIRwPSLIK8</strong>'&gt;</code></label> 
 	 </td> 
        </tr><tr valign='top'> 
-	 <th scope='row'>Yahoo! Site Explorer:</th> 
+	 <th scope='row'><?php _e('Yahoo! Site Explorer', 'mdr-network'); ?>:</th> 
 	 <td> 
 	   <input value='<?php echo $site_verification_yahoo_id ?>' size='50' name='site_verification_yahoo_id' type='text' /> 
            <?php if ( $site_verification_yahoo_id == NULL ) { echo "<span style='color: red'><strong>Disabled</strong></span>"; } else { echo "<span style='color: green'><strong>Enabled</strong></span>"; }?>
 	 </td> 
        </tr><tr> 
 	 <td colspan='2'> 
-	   <label for='site_verification_yahoo'>Example: <code>&lt;meta name='y_key' content='<strong>3236dee82aabe064</strong>'&gt;</code></label> 
+	   <label for='site_verification_yahoo'><?php _e('Example', 'mdr-network'); ?>: <code>&lt;meta name='y_key' content='<strong>3236dee82aabe064</strong>'&gt;</code></label> 
 	 </td> 
        </tr><tr valign='top'> 
-	 <th scope='row'>Bing Webmaster Center:</th> 
+	 <th scope='row'><?php _e('Bing Webmaster Center', 'mdr-network'); ?>:</th> 
 	 <td> 
 	   <input value='<?php echo $site_verification_bing_id ?>' size='50' name='site_verification_bing_id' type='text' /> 
            <?php if ( $site_verification_bing_id == NULL ) { echo "<span style='color: red'><strong>Disabled</strong></span>"; } else { echo "<span style='color: green'><strong>Enabled</strong></span>"; }?>
 	 </td> 
        </tr><tr> 
 	 <td colspan='2'> 
-	   <label for='site_verification_bing'>Example: <code>&lt;meta name='msvalidate.01' content='<strong>12C1203B5086AECE94EB3A3D9830B2E</strong>'&gt;</code></label> 
+	   <label for='site_verification_bing'><?php _e('Example', 'mdr-network'); ?>: <code>&lt;meta name='msvalidate.01' content='<strong>12C1203B5086AECE94EB3A3D9830B2E</strong>'&gt;</code></label> 
 	 </td> 
        </tr>
      </table>
      <br />
      
-     <h3>Google Analytics Tracking Script</h3>
-     <p><a href="http://www.google.com/analytics/" target="_blank" >Google Analytics</a> is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you're more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites.</p>
-     <p>Enter your "<strong>Account ID</strong>" for <strong>this</strong> site, to allow <a href="http://www.google.com/analytics/" target="_blank" >Google Analytics</a> to track you page views.
+     <h3><?php _e('Google Analytics Tracking Script', 'mdr-network'); ?></h3>
+     <p><a href="http://www.google.com/analytics/" target="_blank" ><?php _e('Google Analytics', 'mdr-network'); ?></a> <?php _e('is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you\'re more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites.', 'mdr-network'); ?></p>
+     <p><?php _e('Enter your', 'mdr-network'); ?> "<strong><?php _e('Account ID', 'mdr-network'); ?></strong>" <?php _e('for this site, to allow', 'mdr-network'); ?> <a href="http://www.google.com/analytics/" target="_blank" ><?php _e('Google Analytics', 'mdr-network'); ?></a> <?php _e('to track you page views.', 'mdr-network'); ?></p>
      <table class="form-table">
       <tr valign='top'> 
-	 <th scope='row'>Google Analytics Tracking ID:</th> 
+	 <th scope='row'><?php _e('Google Analytics Tracking ID', 'mdr-network'); ?>:</th> 
 	 <td> 
 	   <input value='<?php echo $site_google_analytics_id ?>' size='20' name='site_google_analytics_id' type='text' /> 
            <?php if ( $site_google_analytics_id == NULL ) { echo "<span style='color: red'><strong>Disabled</strong></span>"; } else { echo "<span style='color: green'><strong>Enabled</strong></span>"; }?>
 	 </td> 
        </tr><tr> 
 	 <td colspan='2'> 
-	   <label for='site_google_analytics_id'>Example: <code><strong>UA-9527634-1</strong></code></label> 
+	   <label for='site_google_analytics_id'><?php _e('Example', 'mdr-network'); ?>: <code><strong>UA-9527634-1</strong></code></label> 
 	 </td> 
        </tr>
      </table> 
      <br />
 
 
-      <h3>Robots.txt Editor</h3>
+      <h3><?php _e('Robots.txt File', 'mdr-network'); ?></h3>
       <div class="inside">
         <div class="wrap">
-          <p>Edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments.</p>
-          <p>Using robots.txt, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples.</p>
-	  <div class="robots_txt_in_lable"><strong>Modify Your Robots.txt file</strong</div>
-	  <div class="robots_txt_out_lable"><strong>Your Current Robots.txt file</strong></div>
+          <p><?php _e('You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don\'t understand what your doing, most likly you don\'t need to do anything.', 'mdr-network'); ?></p>
+          <p><?php _e('Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples.', 'mdr-network'); ?></p>
+	  <div class="robots_txt_in_lable"><strong><?php _e('Modify Your Robots.txt file', 'mdr-network'); ?>:</strong</div>
+	  <div class="robots_txt_out_lable"><strong><?php _e('Your Current Robots.txt file', 'mdr-network'); ?>:</strong></div>
 	  <div class="robots_txt_in">
             <form method="post" action="http:// <?php echo $_SERVER['HTTP_HOST']; echo $_SERVER['REQUEST_URI']; ?>">
               <textarea id="site_robots_txt" name="site_robots_txt" rows="10" cols="45" class="widefat"><?php echo $site_robots_txt_out; ?></textarea>
@@ -222,7 +222,7 @@ function mdr_webmaster_tools_page() {
 
 	  <br />
      <p class="submit"> 
-       <input type="submit" name="submit" class="button-primary" value="Save Changes" /> 
+       <input type="submit" name="submit" class="button-primary" value="<?php _e('Save Changes', 'mdr-network'); ?>" /> 
      </p> 
      </form> 
   </div>
