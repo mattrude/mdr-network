@@ -66,10 +66,11 @@ function my_plugin_help($contextual_help, $screen_id, $screen) {
 <li>Click on <code>Save Changes</code>.</li> 
 <li>Go back to the verification page and click <code>Return to the Site list</code>.</li> 
 </ol> 
-<h3>Robots.txt Samples</h3>
-<h4>Ban all robots</h4> 
+<h3>The Robots.txt File</h3>
+<p>The <strong>robots.txt</strong> file is a way to prevent cooperating web spiders and other web robots from accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code.</p>
+<h4>To Ban all robots</h4> 
 <blockquote><pre>User-agent: *<br />Disallow: /</pre></blockquote>
-<h4>Allow all robots</h4>
+<h4>To Allow all robots</h4>
 <p>To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this:</p>
 <blockquote><pre>User-agent: *<br />Allow: /</pre></blockquote>
 		';
@@ -133,6 +134,12 @@ function mdr_webmaster_tools_page() {
 
 
   // And Display the Admin Page ?>
+  <style type="text/css"> 
+    div.robots_txt_in {border: 1px solid #CCC;clear: left;float: left;height: 200px;margin-right: 25px;margin: 0px 5px 10px;padding: 10px;width: 45%;}
+    div.robots_txt_out {border: 1px solid #CCC;float: left;height: 200px;margin-right: 25px;margin: 0px 5px 10px;padding: 10px;width: 45%;}
+    div.robots_txt_in_lable {clear: left;float: left;margin-right: 25px;margin: 0px 5px;width: 45%;}
+    div.robots_txt_out_lable {float: left;margin-right: 25px;margin: 0px 5px;padding: 0 21px;width: 45%;}
+  </style>
   <div class="wrap">
     <div id="icon-themes" class="icon32"><br></div>
      <h2>Webmaster Tools</h2>
@@ -200,12 +207,20 @@ function mdr_webmaster_tools_page() {
         <div class="wrap">
           <p>Edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments.</p>
           <p>Using robots.txt, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples.</p>
-          <form method="post" action="http:// <?php echo $_SERVER['HTTP_HOST']; echo $_SERVER['REQUEST_URI']; ?>">
-            <textarea id="site_robots_txt" name="site_robots_txt" rows="10" cols="45" class="widefat"><?php echo $site_robots_txt_out; ?></textarea>
-          </form>
+	  <div class="robots_txt_in_lable"><strong>Modify Your Robots.txt file</strong</div>
+	  <div class="robots_txt_out_lable"><strong>Your Current Robots.txt file</strong></div>
+	  <div class="robots_txt_in">
+            <form method="post" action="http:// <?php echo $_SERVER['HTTP_HOST']; echo $_SERVER['REQUEST_URI']; ?>">
+              <textarea id="site_robots_txt" name="site_robots_txt" rows="10" cols="45" class="widefat"><?php echo $site_robots_txt_out; ?></textarea>
+            </form>
+	  </div>
+	  <div class="robots_txt_out">
+	    <pre><?php echo $site_robots_txt_out; ?></pre>
+	  </div>
         </div>
       </div>
 
+	  <br />
      <p class="submit"> 
        <input type="submit" name="submit" class="button-primary" value="Save Changes" /> 
      </p> 
