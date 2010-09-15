@@ -11,18 +11,95 @@ Author URI: http://mattrude.com
 
 
 function add_mdr_webmaster_tools() {
-   add_submenu_page( 'tools.php', 'Site Verification Sittings', 'Webmaster Tools', 'administrator', 'site_webmaster_tools', 'mdr_webmaster_tools_page' );
+   global $mdr_webmaster_tools_hook;
+   $mdr_webmaster_tools_hook = add_submenu_page( 'tools.php', 'Site Verification Sittings', 'Webmaster Tools', 'administrator', 'site_webmaster_tools', 'mdr_webmaster_tools_page' );
 }
 
 function register_mdr_webmaster_tools() {
   add_option('site_verification_google_id');
   add_option('site_verification_yahoo_id');
   add_option('site_verification_bing_id');
+  add_option('site_robots_txt', $site_robots_txt_default, 'Contents of robots.txt', 'no');
 }
 
+function my_plugin_help($contextual_help, $screen_id, $screen) {
+	global $mdr_webmaster_tools_hook;
+	if ($screen_id == $mdr_webmaster_tools_hook) {
+		$contextual_help = '
+<p>Here’s how you optain and setup each search engines key’s:</p>
+<h4 id="google-webmaster-tools">Google Webmaster Tools</h4> 
+<ol> 
+<li>Log in to <a href="https://www.google.com/webmasters/tools/">https://www.google.com/webmasters/tools/</a> with your Google account.</li> 
+<li>Enter your blog URL and click <code>Add Site</code>.</li> 
+<li>You will be presented with several verification methods. Choose <code>Meta Tag</code>.</li> 
+<li>Copy the meta tag, which looks something like<br /> 
+<code>&lt;meta name="google-site-verification"  content="dBw5CvburAxi537Rp9qi5uG2174Vb6JwHwIRwPSLIK8"&gt;</code></li> 
+<li>Leave the verification page open and go to your blog dashboard.</li> 
+<li>Open the Tools Page and paste the code in the appropriate field.</li> 
+<li>Click on <code>Save Changes</code>.</li> 
+<li>Go back to the verification page and click <code>Verify</code>.</li> 
+</ol> 
 
+<h4 id="yahoo-site-explorer">Yahoo Site Explorer</h4> 
+<ol> 
+<li>Log in to <a href="https://siteexplorer.search.yahoo.com/">https://siteexplorer.search.yahoo.com/</a> with your Yahoo account.</li> 
+<li>Enter your blog URL and click <code>Add My Site</code>.</li> 
+<li>You will be presented with several authentication methods. Choose <code>By adding a META tag to my home page.</code>.</li> 
+<li>Copy the meta tag, which looks something like<br /> 
+<code>&lt;meta name="y_key" content="3236dee82aabe064"&gt;</code></li> 
+<li>Leave the verification page open and go to your blog dashboard.</li> 
+<li>Open the Tools Page and paste the code in the appropriate field.</li> 
+<li>Click on <code>Save Changes</code>.</li> 
+<li>Go back to the verification page and click <code>Ready to Authenticate</code>.</li> 
+</ol> 
+<p><i>Note: It may take up to 24 hours for your site to be authenticated.</i></p> 
+
+<h4 id="bing-webmaster-center">Bing Webmaster Center</h4> 
+<ol> 
+<li>Log in to <a href="http://www.bing.com/webmaster">http://www.bing.com/webmaster</a> with your Live! account.</li> 
+<li>Click <code>Add a Site</code>.</li> 
+<li>Enter your blog URL and click <code>Submit</code>.</li> 
+<li>Copy the meta tag from the text area at the bottom. It looks something like<br /> 
+<code>&lt;meta name="msvalidate.01" content="12C1203B5086AECE94EB3A3D9830B2E"&gt;</code></li> 
+<li>Leave the verification page open and go to your blog dashboard.</li> 
+<li>Open the Tools Page and paste the code in the appropriate field.</li> 
+<li>Click on <code>Save Changes</code>.</li> 
+<li>Go back to the verification page and click <code>Return to the Site list</code>.</li> 
+</ol> 
+<h3>Robots.txt Samples</h3>
+<h4>Ban all robots</h4> 
+<blockquote><pre>User-agent: *<br />Disallow: /</pre></blockquote>
+<h4>Allow all robots</h4>
+<p>To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this:</p>
+<blockquote><pre>User-agent: *<br />Allow: /</pre></blockquote>
+		';
+	}
+	return $contextual_help;
+}
+
+add_action( 'contextual_help', 'my_plugin_help', 10, 3 );
 add_action( 'admin_menu', 'add_mdr_webmaster_tools' );
 add_action( 'admin_init', 'register_mdr_webmaster_tools' );
+
+// Adds default robots.txt file
+global $site_robots_txt_default;
+$site_robots_txt_default = "# This is the default robots.txt file
+User-agent: *
+Disallow: /";
+
+
+$request = str_replace( get_bloginfo('url'), '', 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] );
+if ( (get_bloginfo('url').'/robots.txt' != 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']) && ('/robots.txt' != $_SERVER['REQUEST_URI']) && ('robots.txt' != $_SERVER['REQUEST_URI']) )
+  return;         // checking whether they're requesting robots.txt
+  $site_robots_txt_out = get_option('site_robots_txt');
+  if ( !$site_robots_txt_out)
+  return;
+    header('Content-type: text/plain');
+    print $site_robots_txt_out;
+die;
+
+
+
 
 function mdr_webmaster_tools_page() {
 
@@ -39,17 +116,27 @@ function mdr_webmaster_tools_page() {
     update_option("site_google_analytics_id", $site_google_analytics_set);
   }
     
+  if ( $_POST['site_robots_txt'] ){
+    update_option( 'site_robots_txt', $_POST['site_robots_txt'] );
+    $urlwarning = str_replace('http://', '', get_bloginfo('url') );
+    $urlwarning = substr( $urlwarning, 0, -1 );     // in case there is a trailing slash--don't want it so set off our warning
+    if ( strpos( $urlwarning, '/' ) )                       // this is our warning checker
+      $urlwarning = '<p>It appears that your blog is installed in a subdirectory, not in a subdomain or at your domain\'s root. Be aware that search engines do not look for robots.txt files in subdirectories. <a href="http://www.robotstxt.org/wc/exclusion-admin.html">Read more</a>.</p>';
+  }
+
   // Set Options
   $site_verification_google_id = get_option( 'site_verification_google_id' );
   $site_verification_yahoo_id = get_option( 'site_verification_yahoo_id' );
   $site_verification_bing_id = get_option( 'site_verification_bing_id' );
   $site_google_analytics_id = get_option( 'site_google_analytics_id' );
+  $site_robots_txt_out = get_option('site_robots_txt');
+
 
   // And Display the Admin Page ?>
   <div class="wrap">
     <div id="icon-themes" class="icon32"><br></div>
      <h2>Webmaster Tools</h2>
-     <h3>Site Verification <small><a href="http://support.wordpress.com/webmaster-tools/" target="_blank" >(?)</a></small></h3>
+     <h3>Site Verification</h3>
      <p>All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites.</p>
      <p>Enter your meta key "content" value to verify your blog with <a href="https://www.google.com/webmasters/tools/" target="_blank" >Google Webmaster Tools</a>, <a href="https://siteexplorer.search.yahoo.com/" target="_blank" >Yahoo! Site Explorer</a>, and <a href="http://www.bing.com/webmaster" target="_blank" >Bing Webmaster Center</a></p> 
 
@@ -106,6 +193,18 @@ function mdr_webmaster_tools_page() {
        </tr>
      </table> 
      <br />
+
+
+      <h3>Robots.txt Editor</h3>
+      <div class="inside">
+        <div class="wrap">
+          <p>Edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments.</p>
+          <p>Using robots.txt, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples.</p>
+          <form method="post" action="http:// <?php echo $_SERVER['HTTP_HOST']; echo $_SERVER['REQUEST_URI']; ?>">
+            <textarea id="site_robots_txt" name="site_robots_txt" rows="10" cols="45" class="widefat"><?php echo $site_robots_txt_out; ?></textarea>
+          </form>
+        </div>
+      </div>
 
      <p class="submit"> 
        <input type="submit" name="submit" class="button-primary" value="Save Changes" /> 
