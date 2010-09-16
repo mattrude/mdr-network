@@ -15,11 +15,13 @@ function add_mdr_webmaster_tools() {
    $mdr_webmaster_tools_hook = add_submenu_page( 'tools.php', 'Site Verification Sittings', 'Webmaster Tools', 'administrator', 'site_webmaster_tools', 'mdr_webmaster_tools_page' );
 }
 
+
 function register_mdr_webmaster_tools() {
   add_option('site_verification_google_id');
   add_option('site_verification_yahoo_id');
   add_option('site_verification_bing_id');
-  add_option('site_robots_txt', $site_robots_txt_default, 'Contents of robots.txt', 'no');
+  add_option('site_robots_txt');
+  add_default_robots_txt();
 }
 
 function my_plugin_help($contextual_help, $screen_id, $screen) {
@@ -82,12 +84,17 @@ add_action( 'contextual_help', 'my_plugin_help', 10, 3 );
 add_action( 'admin_menu', 'add_mdr_webmaster_tools' );
 add_action( 'admin_init', 'register_mdr_webmaster_tools' );
 
+function add_default_robots_txt() {
 // Adds default robots.txt file
-global $site_robots_txt_default;
+$site_url = get_option('siteurl');
+$site_robots_txt_out = get_option('site_robots_txt');
+if (!$site_robots_txt_out) {
 $site_robots_txt_default = "# This is the default robots.txt file
 User-agent: *
-Disallow: /";
-
+Allow: /";
+update_option('site_robots_txt', $site_robots_txt_default);
+}
+}
 
 $request = str_replace( get_bloginfo('url'), '', 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] );
 if ( (get_bloginfo('url').'/robots.txt' != 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']) && ('/robots.txt' != $_SERVER['REQUEST_URI']) && ('robots.txt' != $_SERVER['REQUEST_URI']) )
@@ -95,12 +102,12 @@ if ( (get_bloginfo('url').'/robots.txt' != 'http://'.$_SERVER['HTTP_HOST'].$_SER
   $site_robots_txt_out = get_option('site_robots_txt');
   if ( !$site_robots_txt_out)
   return;
+    $site_url = 'http://' . $_SERVER['HTTP_HOST'];
     header('Content-type: text/plain');
     print $site_robots_txt_out;
+    echo "
+Sitemap: $site_url/sitemap.xml";
 die;
-
-
-
 
 function mdr_webmaster_tools_page() {
 
@@ -125,6 +132,11 @@ function mdr_webmaster_tools_page() {
       $urlwarning = '<p>It appears that your blog is installed in a subdirectory, not in a subdomain or at your domain\'s root. Be aware that search engines do not look for robots.txt files in subdirectories. <a href="http://www.robotstxt.org/wc/exclusion-admin.html">Read more</a>.</p>';
   }
 
+  if ( isset($_POST['reset_robots']) ) {
+    delete_option( 'site_robots_txt');
+    add_default_robots_txt();
+  }
+
   // Set Options
   $site_verification_google_id = get_option( 'site_verification_google_id' );
   $site_verification_yahoo_id = get_option( 'site_verification_yahoo_id' );
@@ -135,8 +147,8 @@ function mdr_webmaster_tools_page() {
 
   // And Display the Admin Page ?>
   <style type="text/css"> 
-    div.robots_txt_in {border: 1px solid #CCC;clear: left;float: left;height: 200px;margin-right: 25px;margin: 0px 5px 10px;padding: 10px;width: 45%;}
-    div.robots_txt_out {border: 1px solid #CCC;float: left;height: 200px;margin-right: 25px;margin: 0px 5px 10px;padding: 10px;width: 45%;}
+    div.robots_txt_in {border: 1px solid #CCC;clear: left;float: left;height: 220px;margin-right: 25px;margin: 0px 5px 10px;padding: 10px;width: 45%;}
+    div.robots_txt_out {border: 1px solid #CCC;float: left;height: 220px;margin-right: 25px;margin: 0px 5px 10px;padding: 10px;width: 45%;}
     div.robots_txt_in_lable {clear: left;float: left;margin-right: 25px;margin: 0px 5px;width: 45%;}
     div.robots_txt_out_lable {float: left;margin-right: 25px;margin: 0px 10px;padding: 0 20px;width: 45%;}
   </style>
@@ -218,6 +230,9 @@ function mdr_webmaster_tools_page() {
             <form method="post" action="http:// <?php echo $_SERVER['HTTP_HOST']; echo $_SERVER['REQUEST_URI']; ?>">
               <textarea id="site_robots_txt" name="site_robots_txt" rows="10" cols="45" class="widefat"><?php echo $site_robots_txt_out; ?></textarea>
             </form>
+	<div style="float: right;padding: 10px;">
+          <input type="submit" name="reset_robots" class="reset" value="<?php _e('reset robots.txt', 'mdr-network'); ?>" /> 
+	</div>
 	  </div>
 	  <div class="robots_txt_out">
 	    <pre><?php echo $site_robots_txt_out; ?></pre>
