@@ -2,7 +2,7 @@
 /*
 Plugin Name: Sitemap Generator
 Plugin URI: http://github.com/mattrude/mdr-network
-Description: Automatic generate standard XML sitemap that supports the protocol including Google, Yahoo, MSN, Ask.com, and others. No file store your disk, just generate when it need like feed.
+Description: Automatic generate standard XML sitemap (http://example.com/sitemap.xml) that supports the protocol including Google, Yahoo, MSN, Ask.com, and others. No files stored on your disk, the sitemap.xml file is generate as needed, like your feeds.
 Version: 1.0
 Author: Matt Rude
 Author URI: http://mattrude.com/
