@@ -142,10 +142,15 @@ function mdr_webmaster_tools_page() {
   </style>
   <div class="wrap">
     <div id="icon-themes" class="icon32"><br></div>
-     <h2>Webmaster Tools</h2>
-     <h3>Site Verification</h3>
-     <p>All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites.</p>
-     <p>Enter your meta key "content" value to verify your blog with <a href="https://www.google.com/webmasters/tools/" target="_blank" >Google Webmaster Tools</a>, <a href="https://siteexplorer.search.yahoo.com/" target="_blank" >Yahoo! Site Explorer</a>, and <a href="http://www.bing.com/webmaster" target="_blank" >Bing Webmaster Center</a></p> 
+     <h2><?php _e('Webmaster Tools', 'mdr-network'); ?></h2>
+     <h3><?php _e('Site Verification', 'mdr-network'); ?></h3>
+     <p><?php _e('All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites.', 'mdr-network'); ?></p>
+     <p><?php _e('Enter your meta key "content" value to verify your blog with', 'mdr-network'); ?> 
+        <a href="https://www.google.com/webmasters/tools/" target="_blank" ><?php _e('Google Webmaster Tools', 'mdr-network'); ?></a>, 
+        <a href="https://siteexplorer.search.yahoo.com/" target="_blank" ><?php _e('Yahoo! Site Explorer', 'mdr-network'); ?></a>, 
+        <?php _e('and', 'mdr-network'); ?> 
+        <a href="http://www.bing.com/webmaster" target="_blank" ><?php _e('Bing Webmaster Center', 'mdr-network'); ?></a>
+     </p> 
 
      <form method="post" action="tools.php?page=site_webmaster_tools"> 
      <table class="form-table"> 
