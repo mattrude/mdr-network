@@ -70,11 +70,13 @@ function my_plugin_help($contextual_help, $screen_id, $screen) {
 </ol> 
 <h3>The Robots.txt File</h3>
 <p>The <strong>robots.txt</strong> file is a way to prevent cooperating web spiders and other web robots from accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code.</p>
-<h4>To Ban all robots</h4> 
-<blockquote><pre>User-agent: *<br />Disallow: /</pre></blockquote>
 <h4>To Allow all robots</h4>
 <p>To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this:</p>
-<blockquote><pre>User-agent: *<br />Allow: /</pre></blockquote>
+<blockquote><pre>User-agent: *<br />Disallow:</pre></blockquote>
+<h4>To Ban all robots</h4> 
+<blockquote><pre>User-agent: *<br />Disallow: /</pre></blockquote>
+<h4>To Ban all crawlers from four directories of a website</h4> 
+<blockquote><pre>User-agent: *<br />Disallow: /cgi-bin/<br />Disallow: /images/<br />Disallow: /tmp/<br />Disallow: /private/</pre></blockquote>
 		';
 	}
 	return $contextual_help;
@@ -83,6 +85,62 @@ function my_plugin_help($contextual_help, $screen_id, $screen) {
 add_action( 'contextual_help', 'my_plugin_help', 10, 3 );
 add_action( 'admin_menu', 'add_mdr_webmaster_tools' );
 add_action( 'admin_init', 'register_mdr_webmaster_tools' );
+add_action( 'wp_head', 'head_mdr_webmaster_tools' );
+
+function head_mdr_webmaster_tools() {
+  $site_verification_google_id = get_option( 'site_verification_google_id' );
+  $site_verification_yahoo_id = get_option( 'site_verification_yahoo_id' );
+  $site_verification_bing_id = get_option( 'site_verification_bing_id' );
+  $site_google_analytics_id = get_option( 'site_google_analytics_id' );
+
+  echo "
+    <!-- Start Website Verification scripts -->";
+  if ( $site_verification_google_id != NULL ) {
+    echo "
+    <meta name='google-site-verification' content='$site_verification_google_id' />
+    ";
+  }
+
+  if ( $site_verification_yahoo_id != NULL ) {
+    echo "<meta name='y_key' content='$site_verification_yahoo_id'>
+    "; 
+  }
+
+  if ( $site_verification_bing_id != NULL ) {
+    echo "<meta name='msvalidate.01' content='$site_verification_bing_id'>
+    ";
+  }
+  echo "<!-- End Website Verification scripts -->
+    ";
+
+    echo "<!-- Start Google Analytics tracking script -->
+    ";
+  if ( is_user_logged_in() ) {
+    echo "<!-- User is logged in, so this request will NOT be tracked by Google Analytics -->
+    ";
+  } else {
+      if ( $site_google_analytics_id != NULL ) { ?>
+     <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', '<?php echo $site_google_analytics_id; ?>']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+          })();
+           
+        </script>
+    <?php } else {
+	echo "<!-- User is NOT logged in, but Google Analytics is not configured, so will not be displayed -->
+    ";
+	}
+  }
+    echo "<!-- End Google Analytics tracking script -->
+   ";
+}
 
 function add_default_robots_txt() {
 // Adds default robots.txt file
@@ -91,7 +149,7 @@ $site_robots_txt_out = get_option('site_robots_txt');
 if (!$site_robots_txt_out) {
 $site_robots_txt_default = "# This is the default robots.txt file
 User-agent: *
-Allow: /";
+Disallow:";
 update_option('site_robots_txt', $site_robots_txt_default);
 }
 }
@@ -235,7 +293,10 @@ function mdr_webmaster_tools_page() {
 	</div>
 	  </div>
 	  <div class="robots_txt_out">
-	    <pre><?php echo $site_robots_txt_out; ?></pre>
+	    <pre><?php echo $site_robots_txt_out; 
+		 $site_url = 'http://' . $_SERVER['HTTP_HOST'];
+	    	 echo "
+Sitemap: $site_url/sitemap.xml";?></pre>
 	  </div>
         </div>
       </div>
@@ -251,56 +312,5 @@ function mdr_webmaster_tools_page() {
 
 }
 
-function head_mdr_webmaster_tools() {
-  $site_verification_google_id = get_option( 'site_verification_google_id' );
-  $site_verification_yahoo_id = get_option( 'site_verification_yahoo_id' );
-  $site_verification_bing_id = get_option( 'site_verification_bing_id' );
-  echo "
-    <!-- Website Verification scripts -->";
-  if ( $site_verification_google_id != NULL ) {
-    echo "
-    <meta name='google-site-verification' content='$site_verification_google_id' />
-    ";
-  }
-
-  if ( $site_verification_yahoo_id != NULL ) {
-    echo "<meta name='y_key' content='$site_verification_yahoo_id'>
-    "; 
-  }
-
-  if ( $site_verification_bing_id != NULL ) {
-    echo "<meta name='msvalidate.01' content='$site_verification_bing_id'>
-    ";
-  }
-}
-
-function footer_mdr_webmaster_tools() {
-  $site_google_analytics_id = get_option( 'site_google_analytics_id' );
-  if ( is_user_logged_in() ) {
-    echo "<!--User is logged in, so this request will NOT be tracked by Google Analytics-->
-        ";
-  } else {
-      if ($site_google_analytics_id == NULL) { ?>
-<!--Begin Google Analytics tracking script-->
-        <script type="text/javascript">
-        
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', '<?php echo $GAID; ?>']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
-          })();
-           
-        </script>
-        <!--End Google Analytics tracking script-->
-       <?php }
-  }
-}
-
-add_action('wp_head','head_mdr_webmaster_tools');
-add_action('wp_footer','footer_mdr_webmaster_tools');
 
 ?>

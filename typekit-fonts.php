@@ -76,9 +76,10 @@ function fonts_page() {
 function typekit_header() {
   $typekit_id = get_option( 'typekit_id' );
   if ( $typekit_id != NULL ) {
-    echo '    <!-- Typekit Font download script -->
+    echo '    <!-- Start Typekit Font download script -->
     <script type="text/javascript" src="http://use.typekit.com/'. $typekit_id .'.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>';
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <!-- End Typekit Font download script -->';
   }
 }
 
