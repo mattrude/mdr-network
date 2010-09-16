@@ -13,6 +13,7 @@ function sitemap_flush_rules() {
 	$wp_rewrite->flush_rules();
 }
 
+remove_filter('pre_get_posts','category_excluder_exclude_categories');
 add_action('init', 'sitemap_flush_rules');
 
 function xml_feed_rewrite($wp_rewrite) {
@@ -31,11 +32,5 @@ function do_feed_sitemap() {
 }
 
 add_action('do_feed_sitemap', 'do_feed_sitemap', 10, 1);
-
-function sitemap_robots() {
-	echo "Sitemap: ".get_option('siteurl')."/sitemap.xml\n\n";
-}
-
-add_action('do_robotstxt', 'sitemap_robots');
 
 ?>
