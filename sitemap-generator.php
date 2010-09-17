@@ -13,7 +13,6 @@ function sitemap_flush_rules() {
 	$wp_rewrite->flush_rules();
 }
 
-remove_filter('pre_get_posts','category_excluder_exclude_categories');
 add_action('init', 'sitemap_flush_rules');
 
 function xml_feed_rewrite($wp_rewrite) {
@@ -27,7 +26,8 @@ function xml_feed_rewrite($wp_rewrite) {
 add_filter('generate_rewrite_rules', 'xml_feed_rewrite');
 
 function do_feed_sitemap() {
-	$template_dir = dirname(__FILE__) . 'templates';
+	remove_filter('pre_get_posts','category_excluder_exclude_categories');
+	$template_dir = dirname(__FILE__) . '/templates';
 	load_template( $template_dir . '/feed-sitemap.php' );
 }
 
