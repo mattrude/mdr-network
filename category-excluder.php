@@ -9,16 +9,21 @@ Author: Matt Rude
 Author URI: http://mattrude.com
 */
 
+define('CATEGORY_EXCLUDER_TEXTDOMAIN', 'mdr-network');
+
+if (function_exists('load_plugin_textdomain')) {
+        load_plugin_textdomain(CATEGORY_EXCLUDER_TEXTDOMAIN, false, dirname(__FILE__).'/languages' );
+}
 
 function add_category_excluder_page() {
   global $category_excluder_hook;
-  $category_excluder_hook = add_submenu_page( 'tools.php', 'Category_Excluder', __('Category Excluder', 'mdr-network'), 'administrator', 'category_excluder', 'category_excluder_admin_menu' );
+  $category_excluder_hook = add_submenu_page( 'tools.php', 'Category_Excluder', __('Category Excluder', CATEGORY_EXCLUDER_TEXTDOMAIN), 'administrator', 'category_excluder', 'category_excluder_admin_menu' );
 }
 
 function category_excluder_help($contextual_help, $screen_id, $screen) {
 	global $category_excluder_hook;
 	if ($screen_id == $category_excluder_hook) {
-		$contextual_help = '<h4>' . __('Category Excluder', 'mdr-network') . '</h4><p>' . __('On this screen you may disable any category from displaying on your main page, feeds, and/or archives. If a post is in more then one category, it will be excluded if it&rsquo;s in any exclued category.', 'mdr-network') . '</p>'; }
+		$contextual_help = '<h4>' . __('Category Excluder', CATEGORY_EXCLUDER_TEXTDOMAIN) . '</h4><p>' . __('On this screen you may disable any category from displaying on your main page, feeds, and/or archives. If a post is in more then one category, it will be excluded if it&rsquo;s in any exclued category.', CATEGORY_EXCLUDER_TEXTDOMAIN) . '</p>'; }
 	return $contextual_help;
 }
 
@@ -42,7 +47,7 @@ function category_excluder_process() {
 	$options['exclude_archives'] = $_POST[ 'exclude_archives' ];
 	update_option('site_category_excluder', $options);
 	
-	$message = "<div class='updated'><p>" . __('Excludes successfully updated', 'mdr-network') . "</p></div>";
+	$message = "<div class='updated'><p>" . __('Excludes successfully updated', CATEGORY_EXCLUDER_TEXTDOMAIN) . "</p></div>";
 	return $message;
 }
 
@@ -85,17 +90,17 @@ function category_excluder_admin_menu() {
         ?>
         <div class="wrap">
 		<div id="icon-themes" class="icon32"><br></div>
-                <h2><?php _e('Category Excluder', 'mdr-network') ?></h2>
+                <h2><?php _e('Category Excluder', CATEGORY_EXCLUDER_TEXTDOMAIN) ?></h2>
                 <?php echo $message ?>
-		<p><?php _e('This page will allow you to exclude or disable individual categories from displaying on the main page, in your feed, and/or in your archives.', 'mdr-network') ?></p>
+		<p><?php _e('This page will allow you to exclude or disable individual categories from displaying on the main page, in your feed, and/or in your archives.', CATEGORY_EXCLUDER_TEXTDOMAIN) ?></p>
         <form action="tools.php?page=category_excluder" method="post">
         <table class="widefat">
                 <thead>
                         <tr>
-                                <th scope="col"><?php _e('Category', 'mdr-network') ?></th>
-                                <th scope="col"><?php _e('Exclude from Main Page?', 'mdr-network') ?></th>
-                                <th scope="col"><?php _e('Exclude from Feeds?', 'mdr-network') ?></th>
-                                <th scope="col"><?php _e('Exclude from Archives?', 'mdr-network') ?></th>
+                                <th scope="col"><?php _e('Category', CATEGORY_EXCLUDER_TEXTDOMAIN) ?></th>
+                                <th scope="col"><?php _e('Exclude from Main Page?', CATEGORY_EXCLUDER_TEXTDOMAIN) ?></th>
+                                <th scope="col"><?php _e('Exclude from Feeds?', CATEGORY_EXCLUDER_TEXTDOMAIN) ?></th>
+                                <th scope="col"><?php _e('Exclude from Archives?', CATEGORY_EXCLUDER_TEXTDOMAIN) ?></th>
                         </tr>
                 </thead>
                 <tbody id="the-list">
@@ -116,9 +121,9 @@ function category_excluder_admin_menu() {
                 }
         ?>
         </table>
-                <p><i><?php _e('Note: If a post is in more the one category, it will be excluded if it matches <strong>any</strong> of the excluded categories.', 'mdr-network') ?></i></p>
+                <p><i><?php _e('Note: If a post is in more the one category, it will be excluded if it matches <strong>any</strong> of the excluded categories.', CATEGORY_EXCLUDER_TEXTDOMAIN) ?></i></p>
 	<p class="submit">
-            <input type="submit" name="submit" class="button-primary" value="<?php _e('Save Changes', 'mdr-network') ?>" />
+            <input type="submit" name="submit" class="button-primary" value="<?php _e('Save Changes', CATEGORY_EXCLUDER_TEXTDOMAIN) ?>" />
             <input type="hidden" name="ce" value="true" />
         </p>
         </form>

@@ -27,8 +27,8 @@ function xml_feed_rewrite($wp_rewrite) {
 add_filter('generate_rewrite_rules', 'xml_feed_rewrite');
 
 function do_feed_sitemap() {
-        $content_dir = WP_CONTENT_DIR;
-	load_template( $content_dir . '/mu-plugins/templates/feed-sitemap.php' );
+	$template_dir = dirname(__FILE__) . 'templates';
+	load_template( $template_dir . '/feed-sitemap.php' );
 }
 
 add_action('do_feed_sitemap', 'do_feed_sitemap', 10, 1);

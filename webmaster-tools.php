@@ -9,6 +9,11 @@ Author: Matt Rude
 Author URI: http://mattrude.com
 */
 
+define('WEBMASTER_TOOLS_TEXTDOMAIN', 'mdr-network');
+
+if (function_exists('load_plugin_textdomain')) {
+   load_plugin_textdomain(WEBMASTER_TOOLS_TEXTDOMAIN, false, dirname(__FILE__).'/languages' );
+}
 
 function add_mdr_webmaster_tools() {
    global $mdr_webmaster_tools_hook;
@@ -171,31 +176,22 @@ function mdr_webmaster_tools_page() {
 
   // Update Settings
   if ( isset($_POST['submit']) ) {
-    if (!current_user_can('manage_options')) die(__('You cannot edit the search-by-category options.'));
-    $site_verification_google_set = $_POST['site_verification_google_id'];
-    $site_verification_yahoo_set = $_POST['site_verification_yahoo_id'];
-    $site_verification_bing_set = $_POST['site_verification_bing_id'];
-    $site_google_analytics_set = $_POST['site_google_analytics_id'];
-    update_option("site_verification_google_id", $site_verification_google_set);
-    update_option("site_verification_yahoo_id", $site_verification_yahoo_set);
-    update_option("site_verification_bing_id", $site_verification_bing_set);
-    update_option("site_google_analytics_id", $site_google_analytics_set);
-  }
-    
-  if ( $_POST['site_robots_txt'] ){
+    if (!current_user_can('manage_options')) die(__('You cannot edit this screen.', WEBMASTER_TOOLS_TEXTDOMAIN));
+    update_option( 'site_verification_google_id', $_POST['site_verification_google_id'] );
+    update_option( 'site_verification_yahoo_id', $_POST['site_verification_yahoo_id'] );
+    update_option( 'site_verification_bing_id', $_POST['site_verification_bing_id'] );
+    update_option( 'site_google_analytics_id', $_POST['site_google_analytics_id'] );
     update_option( 'site_robots_txt', $_POST['site_robots_txt'] );
-    $urlwarning = str_replace('http://', '', get_bloginfo('url') );
-    $urlwarning = substr( $urlwarning, 0, -1 );     // in case there is a trailing slash--don't want it so set off our warning
-    if ( strpos( $urlwarning, '/' ) )                       // this is our warning checker
-      $urlwarning = '<p>It appears that your blog is installed in a subdirectory, not in a subdomain or at your domain\'s root. Be aware that search engines do not look for robots.txt files in subdirectories. <a href="http://www.robotstxt.org/wc/exclusion-admin.html">Read more</a>.</p>';
   }
-
+   
+  // The is the robots.txt reset button
   if ( isset($_POST['reset_robots']) ) {
+    if (!current_user_can('manage_options')) die(__('You cannot edit this screen.', WEBMASTER_TOOLS_TEXTDOMAIN));
     delete_option( 'site_robots_txt');
     add_default_robots_txt();
   }
 
-  // Set Options
+  // Set Current Options after updating
   $site_verification_google_id = get_option( 'site_verification_google_id' );
   $site_verification_yahoo_id = get_option( 'site_verification_yahoo_id' );
   $site_verification_bing_id = get_option( 'site_verification_bing_id' );
@@ -212,84 +208,84 @@ function mdr_webmaster_tools_page() {
   </style>
   <div class="wrap">
     <div id="icon-themes" class="icon32"><br></div>
-     <h2><?php _e('Webmaster Tools', 'mdr-network'); ?></h2>
-     <h3><?php _e('Site Verification', 'mdr-network'); ?></h3>
-     <p><?php _e('All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites.', 'mdr-network'); ?></p>
-     <p><?php _e('Enter your meta key "content" value to verify your blog with', 'mdr-network'); ?> 
-        <a href="https://www.google.com/webmasters/tools/" target="_blank" ><?php _e('Google Webmaster Tools', 'mdr-network'); ?></a>, 
-        <a href="https://siteexplorer.search.yahoo.com/" target="_blank" ><?php _e('Yahoo! Site Explorer', 'mdr-network'); ?></a>, 
-        <?php _e('and', 'mdr-network'); ?> 
-        <a href="http://www.bing.com/webmaster" target="_blank" ><?php _e('Bing Webmaster Center', 'mdr-network'); ?></a>
+     <h2><?php _e('Webmaster Tools', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h2>
+     <h3><?php _e('Site Verification', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
+     <p><?php _e('All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
+     <p><?php _e('Enter your meta key "content" value to verify your blog with', WEBMASTER_TOOLS_TEXTDOMAIN); ?> 
+        <a href="https://www.google.com/webmasters/tools/" target="_blank" ><?php _e('Google Webmaster Tools', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a>, 
+        <a href="https://siteexplorer.search.yahoo.com/" target="_blank" ><?php _e('Yahoo! Site Explorer', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a>, 
+        <?php _e('and', WEBMASTER_TOOLS_TEXTDOMAIN); ?> 
+        <a href="http://www.bing.com/webmaster" target="_blank" ><?php _e('Bing Webmaster Center', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a>
      </p> 
 
      <form method="post" action="tools.php?page=site_webmaster_tools"> 
      <table class="form-table"> 
        <tr valign='top'> 
-	 <th scope='row'><?php _e('Google Webmaster Tools', 'mdr-network'); ?>:</th> 
+	 <th scope='row'><?php _e('Google Webmaster Tools', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</th> 
 	 <td> 
 	   <input value='<?php echo $site_verification_google_id ?>' size='70' name='site_verification_google_id' type='text' /> 
-           <?php if ( $site_verification_google_id == NULL ) { echo "<span style='color: red'><strong>Disabled</strong></span>"; } else { echo "<span style='color: green'><strong>Enabled</strong></span>"; }?>
+           <?php if ( $site_verification_google_id == NULL ) { echo "<span style='color: red'><strong>" . __('Disabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>"; } else { echo "<span style='color: green'><strong>" . __('Enabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>"; }?>
 	 </td> 
        </tr><tr> 
 	 <td colspan='2'> 
-	   <label for='site_verification_google'><?php _e('Example', 'mdr-network'); ?>: <code>&lt;meta name='google-site-verification' content='<strong>dBw5CvburAxi537Rp9qi5uG2174Vb6JwHwIRwPSLIK8</strong>'&gt;</code></label> 
+	   <label for='site_verification_google'><?php _e('Example', WEBMASTER_TOOLS_TEXTDOMAIN); ?>: <code>&lt;meta name='google-site-verification' content='<strong>dBw5CvburAxi537Rp9qi5uG2174Vb6JwHwIRwPSLIK8</strong>'&gt;</code></label> 
 	 </td> 
        </tr><tr valign='top'> 
-	 <th scope='row'><?php _e('Yahoo! Site Explorer', 'mdr-network'); ?>:</th> 
+	 <th scope='row'><?php _e('Yahoo! Site Explorer', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</th> 
 	 <td> 
 	   <input value='<?php echo $site_verification_yahoo_id ?>' size='50' name='site_verification_yahoo_id' type='text' /> 
-           <?php if ( $site_verification_yahoo_id == NULL ) { echo "<span style='color: red'><strong>Disabled</strong></span>"; } else { echo "<span style='color: green'><strong>Enabled</strong></span>"; }?>
+           <?php if ( $site_verification_yahoo_id == NULL ) { echo "<span style='color: red'><strong>" . __('Disabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>"; } else { echo "<span style='color: green'><strong>" . __('Enabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>"; }?>
 	 </td> 
        </tr><tr> 
 	 <td colspan='2'> 
-	   <label for='site_verification_yahoo'><?php _e('Example', 'mdr-network'); ?>: <code>&lt;meta name='y_key' content='<strong>3236dee82aabe064</strong>'&gt;</code></label> 
+	   <label for='site_verification_yahoo'><?php _e('Example', WEBMASTER_TOOLS_TEXTDOMAIN); ?>: <code>&lt;meta name='y_key' content='<strong>3236dee82aabe064</strong>'&gt;</code></label> 
 	 </td> 
        </tr><tr valign='top'> 
-	 <th scope='row'><?php _e('Bing Webmaster Center', 'mdr-network'); ?>:</th> 
+	 <th scope='row'><?php _e('Bing Webmaster Center', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</th> 
 	 <td> 
 	   <input value='<?php echo $site_verification_bing_id ?>' size='50' name='site_verification_bing_id' type='text' /> 
-           <?php if ( $site_verification_bing_id == NULL ) { echo "<span style='color: red'><strong>Disabled</strong></span>"; } else { echo "<span style='color: green'><strong>Enabled</strong></span>"; }?>
+           <?php if ( $site_verification_bing_id == NULL ) { echo "<span style='color: red'><strong>" . __('Disabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>"; } else { echo "<span style='color: green'><strong>" . __('Enabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>"; }?>
 	 </td> 
        </tr><tr> 
 	 <td colspan='2'> 
-	   <label for='site_verification_bing'><?php _e('Example', 'mdr-network'); ?>: <code>&lt;meta name='msvalidate.01' content='<strong>12C1203B5086AECE94EB3A3D9830B2E</strong>'&gt;</code></label> 
+	   <label for='site_verification_bing'><?php _e('Example', WEBMASTER_TOOLS_TEXTDOMAIN); ?>: <code>&lt;meta name='msvalidate.01' content='<strong>12C1203B5086AECE94EB3A3D9830B2E</strong>'&gt;</code></label> 
 	 </td> 
        </tr>
      </table>
      <br />
      
-     <h3><?php _e('Google Analytics Tracking Script', 'mdr-network'); ?></h3>
-     <p><a href="http://www.google.com/analytics/" target="_blank" ><?php _e('Google Analytics', 'mdr-network'); ?></a> <?php _e('is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you\'re more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites.', 'mdr-network'); ?></p>
-     <p><?php _e('Enter your', 'mdr-network'); ?> "<strong><?php _e('Account ID', 'mdr-network'); ?></strong>" <?php _e('for this site, to allow', 'mdr-network'); ?> <a href="http://www.google.com/analytics/" target="_blank" ><?php _e('Google Analytics', 'mdr-network'); ?></a> <?php _e('to track you page views.', 'mdr-network'); ?></p>
+     <h3><?php _e('Google Analytics Tracking Script', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
+     <p><a href="http://www.google.com/analytics/" target="_blank" ><?php _e('Google Analytics', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a> <?php _e('is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you\'re more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
+     <p><?php _e('Enter your', WEBMASTER_TOOLS_TEXTDOMAIN); ?> "<strong><?php _e('Account ID', WEBMASTER_TOOLS_TEXTDOMAIN); ?></strong>" <?php _e('for this site, to allow', WEBMASTER_TOOLS_TEXTDOMAIN); ?> <a href="http://www.google.com/analytics/" target="_blank" ><?php _e('Google Analytics', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a> <?php _e('to track you page views.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
      <table class="form-table">
       <tr valign='top'> 
-	 <th scope='row'><?php _e('Google Analytics Tracking ID', 'mdr-network'); ?>:</th> 
+	 <th scope='row'><?php _e('Google Analytics Tracking ID', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</th> 
 	 <td> 
 	   <input value='<?php echo $site_google_analytics_id ?>' size='20' name='site_google_analytics_id' type='text' /> 
-           <?php if ( $site_google_analytics_id == NULL ) { echo "<span style='color: red'><strong>Disabled</strong></span>"; } else { echo "<span style='color: green'><strong>Enabled</strong></span>"; }?>
+           <?php if ( $site_google_analytics_id == NULL ) { echo "<span style='color: red'><strong>" . __('Disabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>"; } else { echo "<span style='color: green'><strong>" . __('Enabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>"; }?>
 	 </td> 
        </tr><tr> 
 	 <td colspan='2'> 
-	   <label for='site_google_analytics_id'><?php _e('Example', 'mdr-network'); ?>: <code><strong>UA-9527634-1</strong></code></label> 
+	   <label for='site_google_analytics_id'><?php _e('Example', WEBMASTER_TOOLS_TEXTDOMAIN); ?>: <code><strong>UA-9527634-1</strong></code></label> 
 	 </td> 
        </tr>
      </table> 
      <br />
 
 
-      <h3><?php _e('Robots.txt File', 'mdr-network'); ?></h3>
+      <h3><?php _e('Robots.txt File', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
       <div class="inside">
         <div class="wrap">
-          <p><?php _e('You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don\'t understand what your doing, most likly you don\'t need to do anything.', 'mdr-network'); ?></p>
-          <p><?php _e('Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples.', 'mdr-network'); ?></p>
-	  <div class="robots_txt_in_lable"><strong><?php _e('Modify Your Robots.txt file', 'mdr-network'); ?>:</strong</div>
-	  <div class="robots_txt_out_lable"><strong><?php _e('Your Current Robots.txt file', 'mdr-network'); ?>:</strong></div>
+          <p><?php _e('You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don\'t understand what your doing, most likly you don\'t need to do anything.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
+          <p><?php _e('Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
+	  <div class="robots_txt_in_lable"><strong><?php _e('Modify Your Robots.txt file', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</strong</div>
+	  <div class="robots_txt_out_lable"><strong><?php _e('Your Current Robots.txt file', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</strong></div>
 	  <div class="robots_txt_in">
             <form method="post" action="http:// <?php echo $_SERVER['HTTP_HOST']; echo $_SERVER['REQUEST_URI']; ?>">
               <textarea id="site_robots_txt" name="site_robots_txt" rows="10" cols="45" class="widefat"><?php echo $site_robots_txt_out; ?></textarea>
             </form>
 	<div style="float: right;padding: 10px;">
-          <input type="submit" name="reset_robots" class="reset" value="<?php _e('reset robots.txt', 'mdr-network'); ?>" /> 
+          <input type="submit" name="reset_robots" class="reset" value="<?php _e('reset robots.txt', WEBMASTER_TOOLS_TEXTDOMAIN); ?>" /> 
 	</div>
 	  </div>
 	  <div class="robots_txt_out">
@@ -303,7 +299,7 @@ Sitemap: $site_url/sitemap.xml";?></pre>
 
 	  <br />
      <p class="submit"> 
-       <input type="submit" name="submit" class="button-primary" value="<?php _e('Save Changes', 'mdr-network'); ?>" /> 
+       <input type="submit" name="submit" class="button-primary" value="<?php _e('Save Changes', WEBMASTER_TOOLS_TEXTDOMAIN); ?>" /> 
      </p> 
      </form> 
   </div>
