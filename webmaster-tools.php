@@ -162,14 +162,19 @@ update_option('site_robots_txt', $site_robots_txt_default);
 $request = str_replace( get_bloginfo('url'), '', 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] );
 if ( (get_bloginfo('url').'/robots.txt' != 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']) && ('/robots.txt' != $_SERVER['REQUEST_URI']) && ('robots.txt' != $_SERVER['REQUEST_URI']) )
   return;         // checking whether they're requesting robots.txt
-  $site_robots_txt_out = get_option('site_robots_txt');
-  if ( !$site_robots_txt_out)
-  return;
+  $blog_public = get_option('blog_public');
+  if ( $blog_public == 1 ) {
+    $site_robots_txt_out = get_option('site_robots_txt');
+    if ( !$site_robots_txt_out) { return; }
     $site_url = 'http://' . $_SERVER['HTTP_HOST'];
     header('Content-type: text/plain');
     print $site_robots_txt_out;
     echo "
-Sitemap: $site_url/sitemap.xml";
+";
+    echo "Sitemap: $site_url/sitemap.xml";
+  } else {
+    return;
+  }
 die;
 
 function mdr_webmaster_tools_page() {
@@ -197,7 +202,6 @@ function mdr_webmaster_tools_page() {
   $site_verification_bing_id = get_option( 'site_verification_bing_id' );
   $site_google_analytics_id = get_option( 'site_google_analytics_id' );
   $site_robots_txt_out = get_option('site_robots_txt');
-
 
   // And Display the Admin Page ?>
   <style type="text/css"> 
@@ -276,8 +280,14 @@ function mdr_webmaster_tools_page() {
       <h3><?php _e('Robots.txt File', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
       <div class="inside">
         <div class="wrap">
+          <?php $blog_public = get_option('blog_public');
+          if ( $blog_public == 1 ) {
+
+	  $private_url = 'http://' . $_SERVER['HTTP_HOST'] . '/wp-admin/options-privacy.php'; ?>
+
           <p><?php _e('You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don\'t understand what your doing, most likly you don\'t need to do anything.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
           <p><?php _e('Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
+	  <p><?php _e('To Disable all search engines from browsing your site, see the ', WEBMASTER_TOOLS_TEXTDOMAIN); ?><a href="<?php echo $private_url; ?>"><?php _e('Privacy Settings', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a> <?php _e('page.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
 	  <div class="robots_txt_in_lable"><strong><?php _e('Modify Your Robots.txt file', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</strong</div>
 	  <div class="robots_txt_out_lable"><strong><?php _e('Your Current Robots.txt file', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</strong></div>
 	  <div class="robots_txt_in">
@@ -296,6 +306,10 @@ Sitemap: $site_url/sitemap.xml";?></pre>
 	  </div>
         </div>
       </div>
+	<?php } else {
+	$private_url = 'http://' . $_SERVER['HTTP_HOST'] . '/wp-admin/options-privacy.php'; ?>
+       <p><?php _e('Privacy Settings are curently <strong>Blocking</strong> all search engines. Enable search engine browsing on the ', WEBMASTER_TOOLS_TEXTDOMAIN); ?><a href="<?php echo $private_url; ?>"><?php _e('Privacy Settings', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a> <?php _e('page to be able to modify the robots.txt file.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
+	<?php } ?>
 
 	  <br />
      <p class="submit"> 
