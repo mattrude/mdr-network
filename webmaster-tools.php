@@ -9,15 +9,22 @@ Author: Matt Rude
 Author URI: http://mattrude.com
 */
 
-define('WEBMASTER_TOOLS_TEXTDOMAIN', 'mdr-network');
+define(WEBMASTER_TOOLS_TEXTDOMAIN, 'mdr-network');
 
-if (function_exists('load_plugin_textdomain')) {
-   load_plugin_textdomain(WEBMASTER_TOOLS_TEXTDOMAIN, false, dirname(__FILE__).'/languages' );
+$currentLocale = get_locale();
+if(!empty($currentLocale)) {
+   $moFile = "/var/www/therudes.com/wp-content/mu-plugins/languages/" .  $currentLocale . ".mo";
+   if(@file_exists($moFile) && is_readable($moFile)) load_textdomain('mdr-network', $moFile);
 }
+
+
+//if (function_exists('load_plugin_textdomain')) {
+//   load_plugin_textdomain(WEBMASTER_TOOLS_TEXTDOMAIN, false, dirname(__FILE__).'/languages' );
+//}
 
 function add_mdr_webmaster_tools() {
    global $mdr_webmaster_tools_hook;
-   $mdr_webmaster_tools_hook = add_submenu_page( 'tools.php', 'Site Verification Sittings', 'Webmaster Tools', 'administrator', 'site_webmaster_tools', 'mdr_webmaster_tools_page' );
+   $mdr_webmaster_tools_hook = add_submenu_page( 'tools.php', 'Site Verification Sittings', __('Webmaster Tools', WEBMASTER_TOOLS_TEXTDOMAIN), 'administrator', 'site_webmaster_tools', 'mdr_webmaster_tools_page' );
 }
 
 
@@ -32,7 +39,7 @@ function register_mdr_webmaster_tools() {
 function my_plugin_help($contextual_help, $screen_id, $screen) {
 	global $mdr_webmaster_tools_hook;
 	if ($screen_id == $mdr_webmaster_tools_hook) {
-		$contextual_help = '
+		$contextual_help = __('
 <p>Here’s how you optain and setup each search engines key’s:</p>
 <h4 id="google-webmaster-tools">Google Webmaster Tools</h4> 
 <ol> 
@@ -81,8 +88,7 @@ function my_plugin_help($contextual_help, $screen_id, $screen) {
 <h4>To Ban all robots</h4> 
 <blockquote><pre>User-agent: *<br />Disallow: /</pre></blockquote>
 <h4>To Ban all crawlers from four directories of a website</h4> 
-<blockquote><pre>User-agent: *<br />Disallow: /cgi-bin/<br />Disallow: /images/<br />Disallow: /tmp/<br />Disallow: /private/</pre></blockquote>
-		';
+<blockquote><pre>User-agent: *<br />Disallow: /cgi-bin/<br />Disallow: /images/<br />Disallow: /tmp/<br />Disallow: /private/</pre></blockquote>', WEBMASTER_TOOLS_TEXTDOMAIN);
 	}
 	return $contextual_help;
 }
@@ -300,9 +306,8 @@ function mdr_webmaster_tools_page() {
 	  </div>
 	  <div class="robots_txt_out">
 	    <pre><?php echo $site_robots_txt_out; 
-		 $site_url = 'http://' . $_SERVER['HTTP_HOST'];
-	    	 echo "
-Sitemap: $site_url/sitemap.xml";?></pre>
+		$site_url = 'http://' . $_SERVER['HTTP_HOST'];
+	   ?> </pre>
 	  </div>
         </div>
       </div>
