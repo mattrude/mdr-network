@@ -1,0 +1,599 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mdr-network\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-18 01:08-0600\n"
+"PO-Revision-Date: 2010-09-18 01:08-0600\n"
+"Last-Translator: Matt Rude <matt@mattrude.com>\n"
+"Language-Team: Matt Rude <matt@mattrude.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: C:\Documents and Settings\mrude\Desktop\mattrude-mdr-network-c0f8514\n"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/category-excluder.php:20
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/category-excluder.php:26
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/category-excluder.php:93
+msgid "Category Excluder"
+msgstr "Kategorie Excluder"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/category-excluder.php:26
+msgid "On this screen you may disable any category from displaying on your main page, feeds, and/or archives. If a post is in more then one category, it will be excluded if it&rsquo;s in any exclued category."
+msgstr "Auf diesem Bild können Sie jede Kategorie von Anzeigen auf Ihrer Hauptseite deaktivieren kann, Feeds und / oder Archiven. Wenn ein Beitrag ist in mehr als einer Kategorie, wird es ausgeschlossen, wenn es in jeder Kategorie die exclued werden."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/category-excluder.php:50
+msgid "Excludes successfully updated"
+msgstr "Ausgeschlossen sind erfolgreich aktualisiert"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/category-excluder.php:95
+msgid "This page will allow you to exclude or disable individual categories from displaying on the main page, in your feed, and/or in your archives."
+msgstr "Diese Seite können Sie ausschließen oder deaktivieren Sie einzelne Kategorien von der Anzeige auf der Hauptseite, in Ihrem Feed-und / oder in Ihren Archiven."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/category-excluder.php:100
+msgid "Category"
+msgstr "Kategorie"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/category-excluder.php:101
+msgid "Exclude from Main Page?"
+msgstr "Ausschließen von Main Page?"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/category-excluder.php:102
+msgid "Exclude from Feeds?"
+msgstr "Ausschließen aus RSS-Feeds?"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/category-excluder.php:103
+msgid "Exclude from Archives?"
+msgstr "Ausschließen aus Archiven?"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/category-excluder.php:124
+msgid "Note: If a post is in more the one category, it will be excluded if it matches <strong>any</strong> of the excluded categories."
+msgstr "Hinweis: Wenn ein Beitrag ist in einer Kategorie mehr das, wird es Gruppen ausgeschlossen werden, wenn ausgeschlossen ist <strong>eines</strong> der Spiele."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/category-excluder.php:126
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:320
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/feedburner.php:21
+msgid "Feedburner Service"
+msgstr "Feedburner Service"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/feedburner.php:22
+msgid "Feedburner URL"
+msgstr "Feedburner-URL"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/feedburner.php:23
+msgid "Feedburner Comment URL"
+msgstr "Feedburner URL Kommentar"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/feedburner.php:24
+msgid "Append category/tag to URL"
+msgstr "Append Kategorie / tag URL"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/feedburner.php:25
+msgid "Do not redirect category or tag feeds"
+msgstr "Nicht umleiten Kategorie oder tag-Feeds"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/feedburner.php:26
+msgid "Do not redirect search result feeds"
+msgstr "Nicht umleiten Suchergebnis-Feeds"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/feedburner.php:35
+msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
+msgstr "<strong>Feedburner-Feed</strong> ist ein kostenloser Service Management, Bereitstellung von benutzerdefinierten <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> -Feeds und Management-Tools wie Traffic-Analyse und eine optionale Werbesystem."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/feedburner.php:37
+msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
+msgstr "First to go <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> und brennen Sie Ihre Feeds. Geben Sie die URL Feedburner für Sie erstellt. Optional können Sie Ihren Kommentar-Feed redirect nach dem gleichen Verfahren. Umleitung zu deaktivieren, deaktivieren Sie das Plugin oder löschen Sie die URLs."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/feedburner.php:39
+msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
+msgstr "Sobald Sie Ihre Feeds URLs werden automatisch weitergeleitet werden, und Sie brauchen keine weiteren Maßnahmen zu ergreifen. Beachten Sie, dass möglicherweise nicht für die Umleitung zu Feedburner angezeigt, bis Sie einen neuen Beitrag Feeds hinzufügen."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:19
+msgid "Fonts"
+msgstr "Fonts"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:29
+msgid "Typekit&rsquo;s fonts isn&rsquo;t the easist thing to setup. It will require that you know something about the way your page is displayed to the public. See the following resources for a overview of what your trying to do."
+msgstr "Typekit&#39;s Schriften ist nicht das, was alle Routen, um das Setup. Dies setzt voraus, dass Sie etwas über die Art und Weise Ihrer Seite ist für die Öffentlichkeit dargestellt wissen. Sehen Sie sich die folgenden Ressourcen für einen Überblick, was Sie zu tun versuchen."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:30
+msgid "Using Typekit – The Basics"
+msgstr "Mit Typekit - Die Grundlagen"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:31
+msgid "Using Typekit with WordPress"
+msgstr "Mit Typekit mit WordPress"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:32
+msgid "Finding and Using Selectors"
+msgstr "Finden und Verwenden von Selektoren"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:46
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:189
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:199
+msgid "You cannot edit this screen."
+msgstr "Sie können nicht bearbeiten diesem Bildschirm."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:58
+msgid "Typekit Fonts"
+msgstr "Typekit Fonts"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:59
+msgid "Typekit"
+msgstr "Typekit"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:59
+msgid "is the easiest way to use real fonts on the web. It&rsquo;s a subscription-based service for linking to high-quality Open Type fonts from some of the worlds best type foundries. Typekit fonts are served from a global network on redundant servers, offering bulletproof service and incredible speed. And it couldn&rsquo;t be easier to use."
+msgstr "ist der einfachste Weg, um echte Schriften im Web verwenden. Es ist ein Abonnement-basierter Dienst für die Verbindung mit hochwertigen Open Type-Schriften von einigen der weltbesten Schriftgießereien. Typekit Schriftarten werden von einem globalen Netzwerk auf redundanten Servern serviert und bietet Service und kugelsichere unglaublichen Geschwindigkeit. Und es könnte nicht einfacher zu bedienen."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:63
+msgid "Your Typekit ID"
+msgstr "Ihre Typekit ID"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:64
+msgid "You can find your Typekit ID on typekit.com under Kit Editor -> Embed Code."
+msgstr "Sie können Ihre Typekit ID auf typekit.com unter Kit-Editor -> Embed-Code zu finden."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:67
+msgid "Update ID"
+msgstr "Update ID"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:73
+msgid "Sign up for Typekit"
+msgstr "Registriere dich für Typekit"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:74
+msgid "If you don&#8217;t have a Typekit ID yet you can sign up on their site for free and enable it on your site with just a few clicks."
+msgstr "Wenn Sie nicht über eine ID Typekit noch melde Dich auf ihrer Website kostenlos und ermöglichen es auf Ihrer Website mit nur wenigen Mausklicks."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/typekit-fonts.php:76
+msgid "Sign up in seconds"
+msgstr "Melden Sie sich in Sekunden"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:27
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:220
+msgid "Webmaster Tools"
+msgstr "Webmaster Tools"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:42
+msgid "Here's how you optain and setup each search engines key's"
+msgstr "Hier ist, wie Sie beziehen und Setup jedes Suchmaschinen Schlüssels"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:43
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:224
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:233
+msgid "Google Webmaster Tools"
+msgstr "Google Webmaster Tools"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:45
+msgid "Log in to "
+msgstr "Melden Sie sich bei"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:45
+msgid "with your Google account."
+msgstr "mit Ihrem Google-Konto."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:46
+msgid "Enter your blog URL and click <code>Add Site</code>."
+msgstr "Geben Sie einfach Ihre Blog-URL und klicken Sie auf <code>Add Site</code> ."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:47
+msgid "You will be presented with several verification methods. Choose <code>Meta Tag</code>."
+msgstr "Ihnen werden verschiedene Prüfmethoden vorgestellt werden. Wählen Sie <code>Meta Tag</code> ."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:48
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:61
+msgid "Copy the meta tag, which looks something like"
+msgstr "Kopieren Sie die Meta-Tag, das ungefähr so aussieht"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:50
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:63
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:77
+msgid "Leave the verification page open and go to your blog dashboard."
+msgstr "Verlassen Sie die Bestätigungs-Seite zu öffnen und gehen Sie zu Ihrem Blog Armaturenbrett."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:51
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:64
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:78
+msgid "Open the Tools Page and paste the code in the appropriate field."
+msgstr "Öffnen Sie die Tools Seite und fügen Sie den Code in das entsprechende Feld ein."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:52
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:65
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:79
+msgid "Click on <code>Save Changes</code>."
+msgstr "Klicken Sie auf <code>Save Changes</code> ."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:53
+msgid "Go back to the verification page and click <code>Verify</code>."
+msgstr "Gehen Sie zurück zur Verifizierung Seite und klicken Sie auf <code>Verify</code> ."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:56
+msgid "Yahoo Site Explorer"
+msgstr "Yahoo Site Explorer"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:58
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:72
+msgid "Log in to"
+msgstr "Melden Sie sich bei"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:58
+msgid "with your Yahoo account."
+msgstr "mit Ihrem Yahoo-Konto."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:59
+msgid "Enter your blog URL and click <code>Add My Site</code>."
+msgstr "Geben Sie einfach Ihre Blog-URL und klicken Sie auf <code>Add My Site</code> ."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:60
+msgid "You will be presented with several authentication methods. Choose <code>By adding a META tag to my home page.</code>."
+msgstr "Ihnen werden verschiedene Authentifizierungsmethoden dargestellt werden. Wählen Sie <code>By adding a META tag to my home page.</code> ."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:66
+msgid "Go back to the verification page and click <code>Ready to Authenticate</code>."
+msgstr "Gehen Sie zurück auf die Überprüfung und klicken Sie auf Seite <code>Ready to Authenticate</code> ."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:68
+msgid "Note: It may take up to 24 hours for your site to be authenticated."
+msgstr "Hinweis: Es kann bis zu 24 Stunden für Ihre Website authentifiziert werden."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:70
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:227
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:253
+msgid "Bing Webmaster Center"
+msgstr "Bing Webmaster Center"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:72
+msgid "with your Live! account."
+msgstr "mit Ihrer Live! Konto."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:73
+msgid "Click <code>Add a Site</code>."
+msgstr "Klicken Sie auf <code>Add a Site</code> ."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:74
+msgid "Enter your blog URL and click <code>Submit</code>."
+msgstr "Geben Sie einfach Ihre Blog-URL und klicken Sie auf <code>Submit</code> ."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:75
+msgid "Copy the meta tag from the text area at the bottom. It looks something like"
+msgstr "Kopieren Sie die Meta-Tags aus dem Text im unteren Bereich. Es sieht so etwas wie"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:80
+msgid "Go back to the verification page and click <code>Return to the Site list</code>."
+msgstr "Gehen Sie zurück zur Verifizierung Seite und klicken Sie auf <code>Return to the Site list</code> ."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:82
+msgid "The Robots.txt File"
+msgstr "Die Datei robots.txt"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:83
+msgid "The <strong>robots.txt</strong> file is a way to prevent cooperating web spiders and other web robots from accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code."
+msgstr "Die <strong>robots.txt-Datei</strong> ist ein Weg, um zu verhindern kooperierenden Web Spinnen und andere Web-Robots den Zugriff auf alle oder einen Teil einer Webseite, die sonst öffentlich einsehbar. Roboter werden häufig von Suchmaschinen verwendet, um zu kategorisieren und zu archivieren Websites oder von Webmastern, den Quellcode zu lektorieren."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:84
+msgid "To Allow all robots"
+msgstr "Um alle Roboter"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:85
+msgid "To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this"
+msgstr "Um einen Roboter, um Ihre gesamte Website zugreifen, können Sie einfach verlassen die robots.txt-Datei leer ist, oder Sie können diese nutzen"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:87
+msgid ">To Ban all robots"
+msgstr "> Um Ban alle Roboter"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:89
+msgid "To Ban all crawlers from four directories of a website"
+msgstr "Um Ban alle Crawler von vier Verzeichnisse von einer Webseite"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:221
+msgid "Site Verification"
+msgstr "Website-Überprüfung"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:222
+msgid "All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites."
+msgstr "Alle drei großen Suchmaschinen bieten Webmaster-Tools, die Ihnen detaillierte Informationen und Statistiken darüber, wie sie sehen und kriechen Ihrer Website. Um die meisten Features zuzugreifen, müssen Sie Ihre Websites zu überprüfen."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:223
+msgid "Enter your meta key \"content\" value to verify your blog with"
+msgstr "Geben Sie einfach Ihre Meta Taste \"Inhalt\" Wert zu Ihrem Blog mit Überprüfung"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:225
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:243
+msgid "Yahoo! Site Explorer"
+msgstr "Yahoo! Site Explorer"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:226
+msgid "and"
+msgstr "und"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:236
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:246
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:256
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:274
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:236
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:246
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:256
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:274
+msgid "Enabled"
+msgstr "Enabled"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:240
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:250
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:260
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:278
+msgid "Example"
+msgstr "Beispiel"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:266
+msgid "Google Analytics Tracking Script"
+msgstr "Google Analytics Tracking-Skript"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:267
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:268
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:267
+msgid "is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you're more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites."
+msgstr "ist ein Web Analytics Lösung, die Ihnen reiche Einblicke in Ihre Website-Traffic und Marketing-Effizienz. Leistungsstark, flexibel und einfach zu bedienende Funktionen, jetzt können Sie sehen, und analysieren Sie Ihre Verkehrsdaten in einen völlig neuen Weg. Mit Google Analytics, sind Sie besser vorbereitet, um besser ausgerichtete Anzeigen schreiben, stärken Sie Ihre Marketing-Initiativen und schaffen höhere Konvertierung Websites."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:268
+msgid "Enter your"
+msgstr "Geben Sie einfach Ihre"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:268
+msgid "Account ID"
+msgstr "Konto-ID"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:268
+msgid "for this site, to allow"
+msgstr "Für diesen Standort, zu ermöglichen"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:268
+msgid "to track you page views."
+msgstr "Sie Seitenzugriffe."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:271
+msgid "Google Analytics Tracking ID"
+msgstr "Google Analytics-Tracking-ID"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:285
+msgid "Robots.txt File"
+msgstr "Robots.txt-Datei"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:293
+msgid "You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don't understand what your doing, most likly you don't need to do anything."
+msgstr "Sie können Ihre robots.txt-Datei in das folgende Feld zu bearbeiten. Zeilen beginnend mit <code>#</code> sind Kommentare behandelt. Wenn Sie nicht verstehen, was Ihr tut, Hilfspersonal meisten brauchen Sie nicht, etwas zu tun."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:294
+msgid "Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples."
+msgstr "Verwenden Sie Ihre robots.txt-Datei können Sie spezifische Verbot Roboter, Verbot aller Roboter, Roboter oder blockieren den Zugriff auf bestimmte Seiten oder Bereiche Ihrer Website. Wenn Sie nicht sicher sind, was Sie eingeben, sehen Sie unten auf dieser Seite für Beispiele."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:295
+msgid "To Disable all search engines from browsing your site, see the "
+msgstr "So deaktivieren Sie alle Suchmaschinen Ihre Site aus Browsing, siehe"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:295
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:315
+msgid "Privacy Settings"
+msgstr "Privacy-Einstellungen"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:295
+msgid "page."
+msgstr "page."
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:296
+msgid "Modify Your Robots.txt file"
+msgstr "Ändern Sie Ihre robots.txt-Datei"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:297
+msgid "Your Current Robots.txt file"
+msgstr "Ihre aktuellen Datei robots.txt"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:303
+msgid "reset robots.txt"
+msgstr "Reset robots.txt"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:315
+msgid "Privacy Settings are curently <strong>Blocking</strong> all search engines. Enable search engine browsing on the "
+msgstr "Privacy-Einstellungen sind curently <strong>Blockieren</strong> aller Suchmaschinen. Enable Suchmaschine Surfen auf dem"
+
+#: C:\Documents
+#: and
+#: Settings\mrude\Desktop\mattrude-mdr-network-c0f8514/webmaster-tools.php:315
+msgid "page to be able to modify the robots.txt file."
+msgstr "Seite in der Lage sein, die robots.txt-Datei zu ändern."
+
+

@@ -39,56 +39,55 @@ function register_mdr_webmaster_tools() {
 function my_plugin_help($contextual_help, $screen_id, $screen) {
 	global $mdr_webmaster_tools_hook;
 	if ($screen_id == $mdr_webmaster_tools_hook) {
-		$contextual_help = __('
-<p>Here’s how you optain and setup each search engines key’s:</p>
-<h4 id="google-webmaster-tools">Google Webmaster Tools</h4> 
+		$contextual_help = '<p>'.__('Here\'s how you optain and setup each search engines key\'s', WEBMASTER_TOOLS_TEXTDOMAIN).':</p>
+<h4>' . __('Google Webmaster Tools', WEBMASTER_TOOLS_TEXTDOMAIN) . '</h4> 
 <ol> 
-<li>Log in to <a href="https://www.google.com/webmasters/tools/">https://www.google.com/webmasters/tools/</a> with your Google account.</li> 
-<li>Enter your blog URL and click <code>Add Site</code>.</li> 
-<li>You will be presented with several verification methods. Choose <code>Meta Tag</code>.</li> 
-<li>Copy the meta tag, which looks something like<br /> 
+<li>'.__('Log in to ', WEBMASTER_TOOLS_TEXTDOMAIN).'<a href="https://www.google.com/webmasters/tools/">https://www.google.com/webmasters/tools/</a> '.__('with your Google account.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Enter your blog URL and click <code>Add Site</code>.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('You will be presented with several verification methods. Choose <code>Meta Tag</code>.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Copy the meta tag, which looks something like', WEBMASTER_TOOLS_TEXTDOMAIN).':<br /> 
 <code>&lt;meta name="google-site-verification"  content="dBw5CvburAxi537Rp9qi5uG2174Vb6JwHwIRwPSLIK8"&gt;</code></li> 
-<li>Leave the verification page open and go to your blog dashboard.</li> 
-<li>Open the Tools Page and paste the code in the appropriate field.</li> 
-<li>Click on <code>Save Changes</code>.</li> 
-<li>Go back to the verification page and click <code>Verify</code>.</li> 
+<li>'.__('Leave the verification page open and go to your blog dashboard.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Open the Tools Page and paste the code in the appropriate field.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Click on <code>Save Changes</code>.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Go back to the verification page and click <code>Verify</code>.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
 </ol> 
 
-<h4 id="yahoo-site-explorer">Yahoo Site Explorer</h4> 
+<h4>'.__('Yahoo Site Explorer', WEBMASTER_TOOLS_TEXTDOMAIN).'</h4> 
 <ol> 
-<li>Log in to <a href="https://siteexplorer.search.yahoo.com/">https://siteexplorer.search.yahoo.com/</a> with your Yahoo account.</li> 
-<li>Enter your blog URL and click <code>Add My Site</code>.</li> 
-<li>You will be presented with several authentication methods. Choose <code>By adding a META tag to my home page.</code>.</li> 
-<li>Copy the meta tag, which looks something like<br /> 
+<li>'.__('Log in to', WEBMASTER_TOOLS_TEXTDOMAIN).' <a href="https://siteexplorer.search.yahoo.com/">https://siteexplorer.search.yahoo.com/</a> '.__('with your Yahoo account.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Enter your blog URL and click <code>Add My Site</code>.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('You will be presented with several authentication methods. Choose <code>By adding a META tag to my home page.</code>.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Copy the meta tag, which looks something like', WEBMASTER_TOOLS_TEXTDOMAIN).'<br /> 
 <code>&lt;meta name="y_key" content="3236dee82aabe064"&gt;</code></li> 
-<li>Leave the verification page open and go to your blog dashboard.</li> 
-<li>Open the Tools Page and paste the code in the appropriate field.</li> 
-<li>Click on <code>Save Changes</code>.</li> 
-<li>Go back to the verification page and click <code>Ready to Authenticate</code>.</li> 
+<li>'.__('Leave the verification page open and go to your blog dashboard.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Open the Tools Page and paste the code in the appropriate field.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Click on <code>Save Changes</code>.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li>
+<li>'.__('Go back to the verification page and click <code>Ready to Authenticate</code>.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
 </ol> 
-<p><i>Note: It may take up to 24 hours for your site to be authenticated.</i></p> 
+<p><i>'.__('Note: It may take up to 24 hours for your site to be authenticated.', WEBMASTER_TOOLS_TEXTDOMAIN).'</i></p> 
 
-<h4 id="bing-webmaster-center">Bing Webmaster Center</h4> 
+<h4>'.__('Bing Webmaster Center', WEBMASTER_TOOLS_TEXTDOMAIN).'</h4> 
 <ol> 
-<li>Log in to <a href="http://www.bing.com/webmaster">http://www.bing.com/webmaster</a> with your Live! account.</li> 
-<li>Click <code>Add a Site</code>.</li> 
-<li>Enter your blog URL and click <code>Submit</code>.</li> 
-<li>Copy the meta tag from the text area at the bottom. It looks something like<br /> 
+<li>'.__('Log in to', WEBMASTER_TOOLS_TEXTDOMAIN).' <a href="http://www.bing.com/webmaster">http://www.bing.com/webmaster</a> '.__('with your Live! account.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Click <code>Add a Site</code>.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Enter your blog URL and click <code>Submit</code>.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Copy the meta tag from the text area at the bottom. It looks something like', WEBMASTER_TOOLS_TEXTDOMAIN).'<br /> 
 <code>&lt;meta name="msvalidate.01" content="12C1203B5086AECE94EB3A3D9830B2E"&gt;</code></li> 
-<li>Leave the verification page open and go to your blog dashboard.</li> 
-<li>Open the Tools Page and paste the code in the appropriate field.</li> 
-<li>Click on <code>Save Changes</code>.</li> 
-<li>Go back to the verification page and click <code>Return to the Site list</code>.</li> 
+<li>'.__('Leave the verification page open and go to your blog dashboard.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Open the Tools Page and paste the code in the appropriate field.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Click on <code>Save Changes</code>.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
+<li>'.__('Go back to the verification page and click <code>Return to the Site list</code>.', WEBMASTER_TOOLS_TEXTDOMAIN).'</li> 
 </ol> 
-<h3>The Robots.txt File</h3>
-<p>The <strong>robots.txt</strong> file is a way to prevent cooperating web spiders and other web robots from accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code.</p>
-<h4>To Allow all robots</h4>
-<p>To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this:</p>
+<h3>'.__('The Robots.txt File', WEBMASTER_TOOLS_TEXTDOMAIN).'</h3>
+<p>'.__('The <strong>robots.txt</strong> file is a way to prevent cooperating web spiders and other web robots from accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code.', WEBMASTER_TOOLS_TEXTDOMAIN).'</p>
+<h4>'.__('To Allow all robots', WEBMASTER_TOOLS_TEXTDOMAIN).'</h4>
+<p>'.__('To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this', WEBMASTER_TOOLS_TEXTDOMAIN).':</p>
 <blockquote><pre>User-agent: *<br />Disallow:</pre></blockquote>
-<h4>To Ban all robots</h4> 
+<h4'.__('>To Ban all robots', WEBMASTER_TOOLS_TEXTDOMAIN).'</h4> 
 <blockquote><pre>User-agent: *<br />Disallow: /</pre></blockquote>
-<h4>To Ban all crawlers from four directories of a website</h4> 
-<blockquote><pre>User-agent: *<br />Disallow: /cgi-bin/<br />Disallow: /images/<br />Disallow: /tmp/<br />Disallow: /private/</pre></blockquote>', WEBMASTER_TOOLS_TEXTDOMAIN);
+<h4>'.__('To Ban all crawlers from four directories of a website', WEBMASTER_TOOLS_TEXTDOMAIN).'</h4> 
+<blockquote><pre>User-agent: *<br />Disallow: /cgi-bin/<br />Disallow: /images/<br />Disallow: /tmp/<br />Disallow: /private/</pre></blockquote>';
 	}
 	return $contextual_help;
 }
