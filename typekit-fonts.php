@@ -27,7 +27,7 @@ function typekit_font_help($contextual_help, $screen_id, $screen) {
 	global $typekit_font_hook;
 	if ($screen_id == $typekit_font_hook) {
 		$contextual_help = '<p>' . __('Typekit&rsquo;s fonts isn&rsquo;t the easist thing to setup. It will require that you know something about the way your page is displayed to the public. See the following resources for a overview of what your trying to do.', TYPEKITFONTS_TEXTDOMAIN) . '</p><ul>
-		<li><a href="http://typekit.zendesk.com/entries/130054-using-typekit-the-basics" target="_blank">' . __('Using Typekit – The Basics', TYPEKITFONTS_TEXTDOMAIN) . '</a></li>
+		<li><a href="http://typekit.zendesk.com/entries/130054-using-typekit-the-basics" target="_blank">' . __('Using Typekit - The Basics', TYPEKITFONTS_TEXTDOMAIN) . '</a></li>
 		<li><a href="http://typekit.zendesk.com/entries/121731-using-typekit-with-wordpress" target="_blank">' . __('Using Typekit with WordPress', TYPEKITFONTS_TEXTDOMAIN) . '</a></li>
 		<li><a href="http://typekit.zendesk.com/entries/130283-finding-and-using-selectors" target="_blank">' . __('Finding and Using Selectors', TYPEKITFONTS_TEXTDOMAIN) . '</a></li>
 		</ul>'; }
@@ -56,7 +56,7 @@ function fonts_page() {
   <div class="wrap"> 
     <div id="icon-themes" class="icon32"><br></div>
     <h2><?php _e('Typekit Fonts', TYPEKITFONTS_TEXTDOMAIN) ?></h2> 
-    <p><a href="http://typekit.com/"><strong><?php _e('Typekit', TYPEKITFONTS_TEXTDOMAIN); ?></strong></a> <?php _e('is the easiest way to use real fonts on the web. It&rsquo;s a subscription-based service for linking to high-quality Open Type fonts from some of the worlds best type foundries. Typekit fonts are served from a global network on redundant servers, offering bulletproof service and incredible speed. And it couldn&rsquo;t be easier to use.', TYPEKITFONTS_TEXTDOMAIN); ?></p> 
+    <p><a href="http://typekit.com/"><strong><?php _e('Typekit', TYPEKITFONTS_TEXTDOMAIN); ?></strong></a> <?php _e('offer a service that allows you to select from a range of hundreds of high quality fonts for your WordPress website. The fonts are applied using the font-face standard, so they are standards compliant, fully licensed and accessible. The fonts are served from a global network on redundant servers, so they shouldn\'t slow down your site. It\'s a subscription-based service, if you don\'t already have an account, you will need to register for one.', TYPEKITFONTS_TEXTDOMAIN); ?></p> 
  
     <div class="typekit_box_one"> 
       <form action="themes.php?page=typekitfonts" method="post"> 

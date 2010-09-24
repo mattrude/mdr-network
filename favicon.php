@@ -20,7 +20,7 @@ function mdr_favicon() {
         echo "<link rel='shortcut icon' href='$favicon'>
 ";
     } else {
-        $default = urlencode('http://therudes.com/favicon.ico');
+        $default = urlencode('http://wordpress.org/favicon.ico');
         $emailhash = md5(strtolower(trim(get_settings('admin_email'))));
 	$favicon = "http://www.gravatar.com/avatar/$emailhash?s=20&d=$default";
         echo "<link rel='shortcut icon' href='$favicon'>

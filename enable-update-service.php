@@ -3,7 +3,7 @@
 /*
 Plugin Name: Enable Update Services
 Plugin URI: http://github.com/mattrude/mdr-network
-Description: Enables the Update Service for network installs of WordPress.  See Settings -> Writing
+Description: Enables the Update Service for network installs of WordPress.  See: Settings -> Writing
 Version: 1.0
 Author: Matt Rude
 Author URI: http://mattrude.com

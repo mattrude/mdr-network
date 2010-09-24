@@ -15,7 +15,6 @@ if (function_exists('load_plugin_textdomain')) {
 }
 
 add_action('admin_init', 'feedburner_config_page');
-add_action('admin_menu', 'feedburner_config_page2');
 
 function feedburner_config_page() {
 	add_settings_section( 'feedburner_section', __('Feedburner Service', FEEDBURNER_TEXTDOMAIN), 'feedburner_head_config', 'reading', 'feedburner_config' );

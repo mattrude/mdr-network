@@ -292,7 +292,7 @@ function mdr_webmaster_tools_page() {
 
           <p><?php _e('You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don\'t understand what your doing, most likly you don\'t need to do anything.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
           <p><?php _e('Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
-	  <p><?php _e('To Disable all search engines from browsing your site, see the ', WEBMASTER_TOOLS_TEXTDOMAIN); ?><a href="<?php echo $private_url; ?>"><?php _e('Privacy Settings', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a> <?php _e('page.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
+	  <p><?php _e('To Disable all search engines from browsing your site, see the', WEBMASTER_TOOLS_TEXTDOMAIN); ?> <a href="<?php echo $private_url; ?>"><?php _e('Privacy Settings', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a> <?php _e('page.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
 	  <div class="robots_txt_in_lable"><strong><?php _e('Modify Your Robots.txt file', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</strong</div>
 	  <div class="robots_txt_out_lable"><strong><?php _e('Your Current Robots.txt file', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</strong></div>
 	  <div class="robots_txt_in">
