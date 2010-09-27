@@ -64,9 +64,9 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>'; ?>
 		foreach ($images as $post) { ?>
 		<image:image>
 			<image:loc><?php echo wp_get_attachment_url(); ?></image:loc>
-<?php if ( !empty($post->post_excerpt) ) echo '			<image:caption>' . $post->post_excerpt . '</image:caption>
+<?php if ( !empty($post->post_excerpt) ) echo '			<image:caption>' . wp_specialchars($post->post_excerpt) . '</image:caption>
 '; ?>
-			<image:title><?php echo $post->post_title ?></image:title>
+			<image:title><?php echo wp_specialchars($post->post_title) ?></image:title>
 		</image:image>
 <?php } } ?>
 		<lastmod><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_post_time('Y-m-d H:i:s', true), false); ?></lastmod>
