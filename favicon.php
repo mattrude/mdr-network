@@ -10,6 +10,7 @@ Author URI: http://mattrude.com
 */
 
 function mdr_favicon() {
+    global $favicon;
     $upload_dir = wp_upload_dir();
     if (file_exists($upload_dir['basedir'] . '/favicon.ico')) {
         $favicon = $upload_dir['baseurl'] . '/favicon.ico';

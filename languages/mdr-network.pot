@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdr-network 1.o\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-25 13:33-0500\n"
+"POT-Creation-Date: 2010-11-07 03:43-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,6 +62,18 @@ msgstr ""
 
 #: mu-plugins/category-excluder.php:126 mu-plugins/webmaster-tools.php:320
 msgid "Save Changes"
+msgstr ""
+
+#: mu-plugins/contact_info.php:18
+msgid "Facebook URL"
+msgstr ""
+
+#: mu-plugins/contact_info.php:19
+msgid "Google Talk"
+msgstr ""
+
+#: mu-plugins/contact_info.php:20
+msgid "Twitter ID"
 msgstr ""
 
 #: mu-plugins/feedburner.php:20
@@ -619,16 +631,6 @@ msgid ""
 "around."
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:51
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:54
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:385
-msgid "Domain Mapping"
-msgstr ""
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:55
-msgid "Domains"
-msgstr ""
-
 #: plugins/wordpress-mu-domain-mapping/domain_mapping.php:67
 msgid "New domain added."
 msgstr ""
@@ -650,7 +652,7 @@ msgid "Domain mapping database table created."
 msgstr ""
 
 #: plugins/wordpress-mu-domain-mapping/domain_mapping.php:129
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:241
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:252
 #, php-format
 msgid ""
 "<strong>Warning!</strong> This plugin will only work if WordPress is "
@@ -683,196 +685,215 @@ msgstr ""
 msgid "Searching for %s"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:177
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:181
 msgid "Search Domains"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:181
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:185
 msgid "Domain:"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:183
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:187
 msgid "Search"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:192
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:196
 msgid "Edit Domain"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:194
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:198
 msgid "New Domain"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:204
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:208
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
 msgid "Site ID"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:205
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:209
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
 msgid "Domain"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:206
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:210
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
 msgid "Primary"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:210
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:295
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:214
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:238
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:459
+msgid "<strong>Warning!</strong> Primary domains are currently disabled."
+msgstr ""
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
 msgid "Save"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:223
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:231
 msgid "Edit"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
 msgid "Delete"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:220
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:228
 msgid "Yes"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:220
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:228
 msgid "No"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:233
 msgid "Del"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:266
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:282
 msgid "Domain Mapping Configuration"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:269
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:285
 msgid ""
 "As a super admin on this network you can set the IP address users need to "
 "point their DNS A records at <em>or</em> the domain to point CNAME record "
 "at. If you don't know what the IP address is, ping this blog to get it."
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:270
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:286
 msgid ""
 "If you use round robin DNS or another load balancing technique with more "
 "than one IP, enter each address, separating them by commas."
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:271
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:287
 msgid "Server IP Address: "
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:275
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:291
 msgid ""
 "If you prefer the use of a CNAME record, you can set the domain here. This "
 "domain must be configured with an A record or ANAME pointing at an IP "
 "address. Visitors may experience problems if it is a CNAME of another domain."
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:276
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:292
 msgid "NOTE, this voids the use of any IP address set above"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:277
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:293
 msgid "Server CNAME domain: "
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:279
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:295
 msgid ""
 "The information you enter here will be shown to your users so they can "
 "configure their DNS correctly. It is for informational purposes only"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:281
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:297
 msgid "Domain Options"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:284
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:300
 msgid "Remote Login"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:287
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:303
 msgid "Permanent redirect (better for your blogger's pagerank)"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:290
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:306
 msgid "User domain mapping page"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:293
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:309
 msgid ""
 "Redirect administration pages to site's original domain (remote login "
-"disabled if redirect disabled)"
+"disabled if this redirect is disabled)"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:337
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:312
+msgid ""
+"Disable primary domain check. Sites will not redirect to one domain name. "
+"May cause duplicate content issues."
+msgstr ""
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:357
 msgid "You must enter a domain"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:356
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:376
 #, php-format
 msgid ""
 "Please copy sunrise.php to %s/wp-content/sunrise.php and ensure the SUNRISE "
 "definition is in %swp-config.php"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:358
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:368
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:391
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:378
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:387
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:396
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:418
 msgid "This plugin has not been configured correctly yet."
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:366
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:385
 #, php-format
 msgid ""
 "Please uncomment the line <em>define( 'SUNRISE', 'on' );</em> or add it to "
 "your %swp-config.php"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:389
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:394
+#, php-format
+msgid ""
+"Please edit your %swp-config.php and move the line <em>define( 'SUNRISE', "
+"'on' );</em> above the last require_once() in that file."
+msgstr ""
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:412
+msgid "Domain Mapping"
+msgstr ""
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:416
 msgid ""
 "Please set the IP address or CNAME of your server in the <a href='wpmu-admin."
 "php?page=dm_admin_page'>site admin page</a>."
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:402
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:429
 msgid "Active domains on this blog"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:426
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:454
 msgid "Set Primary Domain"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:429
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:457
 msgid "* The primary domain cannot be deleted."
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:431
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:462
 msgid "Add new domain"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:436
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:467
 msgid "Primary domain for this blog"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:437
-msgid "Add"
-msgstr ""
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:442
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:473
 #, php-format
 msgid ""
 "If you want to redirect a domain you will need to add a DNS \"CNAME\" record "
 "pointing to the following domain name for this server: <strong>%s</strong>"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:443
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:474
 msgid ""
 "Google have published <a href=\"http://www.google.com/support/blogger/bin/"
 "answer.py?hl=en&answer=58317\" target=\"_blank\">instructions</a> for "
@@ -880,39 +901,39 @@ msgid ""
 "others."
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:445
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:476
 msgid ""
 "If your domain name includes a hostname like \"www\", \"blog\" or some other "
 "prefix before the actual domain name you will need to add a CNAME for that "
 "hostname in your DNS pointing at this blog URL."
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:448
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:479
 #, php-format
 msgid ""
 "If you want to redirect a domain you will need to add DNS \"A\" records "
 "pointing at the IP addresses of this server: <strong>%s</strong>"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:450
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:481
 #, php-format
 msgid ""
 "If you want to redirect a domain you will need to add a DNS \"A\" record "
 "pointing at the IP address of this server: <strong>%s</strong>"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:667
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:712
 msgid "Incorrect or out of date login key"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:670
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:715
 msgid "Unknown login key"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:680
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:725
 msgid "Unknown logout key"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:711
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:758
 msgid "Mapping"
 msgstr ""

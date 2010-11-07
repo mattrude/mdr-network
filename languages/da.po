@@ -1,0 +1,773 @@
+# Translation of Network Plugins in Danish
+# This file is distributed under the same license as the Network Plugins package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2010-11-07 09:43:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Network Plugins\n"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:437
+msgid "Add"
+msgstr "Tilføj"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:55
+msgid "Domains"
+msgstr "Domæner"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:270
+msgid "If you use round robin DNS or another load balancing technique with more than one IP, enter each address, separating them by commas."
+msgstr "Hvis du bruger round robin DNS eller anden load balancing teknik med mere end én IP, skal du indtaste hver adresse, der adskiller dem med kommaer."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:269
+msgid "As a super admin on this network you can set the IP address users need to point their DNS A records at <em>or</em> the domain to point CNAME record at. If you don't know what the IP address is, ping this blog to get it."
+msgstr "Som en super admin på dette netværk kan du indstille IP-adressen brugernes savn hen til punkt deres DNS A records på <em>eller</em> domænet til punkt CNAME-registrering på. Hvis du ikke ved, hvad IP-adressen er, ping denne blog for at få det."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:266
+msgid "Domain Mapping Configuration"
+msgstr "Domain Mapping Configuration"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+msgid "Del"
+msgstr "Del"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:220
+msgid "No"
+msgstr "Nr."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:220
+msgid "Yes"
+msgstr "Ja"
+
+#: mu-plugins/typekit-fonts.php:30
+msgid "Using Typekit - The Basics"
+msgstr "Brug Typekit - Grundlæggende"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+msgid "Delete"
+msgstr "Slet"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:223
+msgid "Edit"
+msgstr "Rediger"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:210
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:295
+msgid "Save"
+msgstr "Gem"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:206
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+msgid "Primary"
+msgstr "Primær"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:205
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+msgid "Domain"
+msgstr "Domæne"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:204
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+msgid "Site ID"
+msgstr "Site ID"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:194
+msgid "New Domain"
+msgstr "Ny domæne"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:192
+msgid "Edit Domain"
+msgstr "Edit Domain"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:183
+msgid "Search"
+msgstr "Søg"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:181
+msgid "Domain:"
+msgstr "Domæne:"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:177
+msgid "Search Domains"
+msgstr "Søg Domæner"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:167
+msgid "Searching for %s"
+msgstr "Søger efter%s"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:163
+msgid "Domain Deleted"
+msgstr "Domæne udgår"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:157
+msgid "Domain Updated"
+msgstr "Domæne Opdateret"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:154
+msgid "Domain Add"
+msgstr "Domæne Tilføj"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:144
+msgid "Domain not found"
+msgstr "Domæne ikke fundet"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:135
+msgid "Domain Mapping: Domains"
+msgstr "Domain Mapping: Domæner"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:114
+msgid "Domain mapping database table created."
+msgstr "Domæne kortlægning database tabel oprettet."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:129
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:241
+msgid "<strong>Warning!</strong> This plugin will only work if WordPress is installed in the root directory of your webserver. It is currently installed in &#8217;%s&#8217;."
+msgstr "<strong>Advarsel!</strong> Dette plugin vil kun fungere, hvis WordPress er installeret i rodmappen på din webserver. Det er i øjeblikket installeret i &#39;%s&#39;."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:76
+msgid "Domain deleted."
+msgstr "Domæne slettet."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:73
+msgid "New primary domain."
+msgstr "Ny primære domæne."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:70
+msgid "New domain already exists."
+msgstr "Ny domæne allerede eksisterer."
+
+#: mu-plugins/webmaster-tools.php:295
+msgid "To Disable all search engines from browsing your site, see the"
+msgstr "For at deaktivere alle søgemaskiner fra browseren dit websted, se"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:45
+msgid "The domain mapping plugin only works if the site is installed in /. This is a limitation of how virtual servers work and is very difficult to work around."
+msgstr "Domænet kortlægning plugin virker kun, hvis webstedet er installeret i /. Dette er en begrænsning på, hvordan virtuelle servere arbejde og er meget vanskeligt at arbejde omkring."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:34
+msgid "You must <a href=\"%1$s\">create a network</a> for it to work."
+msgstr "Du skal <a href=\"%1$s\">oprette et netværk</a> for at det virker."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:34
+msgid "Domain Mapping Disabled."
+msgstr "Domain Mapping Deaktiveret."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:67
+msgid "New domain added."
+msgstr "Ny domæne tilføjet."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:271
+msgid "Server IP Address: "
+msgstr "Server IP-adresse:"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:275
+msgid "If you prefer the use of a CNAME record, you can set the domain here. This domain must be configured with an A record or ANAME pointing at an IP address. Visitors may experience problems if it is a CNAME of another domain."
+msgstr "Hvis du foretrækker at anvende en CNAME record, kan du indstille domæne her. Dette domæne skal være konfigureret med en A record eller ANAME peger på en IP-adresse. Besøgende kan opleve problemer, hvis det er en CNAME af et andet domæne."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:276
+msgid "NOTE, this voids the use of any IP address set above"
+msgstr "BEMÆRK, denne tomme brug af en IP-adresse ovenfor anførte"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:277
+msgid "Server CNAME domain: "
+msgstr "Server CNAME domæne:"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:279
+msgid "The information you enter here will be shown to your users so they can configure their DNS correctly. It is for informational purposes only"
+msgstr "De oplysninger, du indtaster her vil blive vist for dine brugere, så de kan konfigurere deres DNS korrekt. Det er kun til orientering"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:281
+msgid "Domain Options"
+msgstr "Domæne"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:284
+msgid "Remote Login"
+msgstr "Remote Login"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:287
+msgid "Permanent redirect (better for your blogger's pagerank)"
+msgstr "Permanent omdirigering (bedre for din blogger&#39;s pagerank)"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:290
+msgid "User domain mapping page"
+msgstr "Bruger domæne kortlægning side"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:293
+msgid "Redirect administration pages to site's original domain (remote login disabled if redirect disabled)"
+msgstr "Omdirigere administration sider til webstedets oprindelige domæne (remote login deaktiveret hvis omdirigere handicappede)"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:337
+msgid "You must enter a domain"
+msgstr "Du skal angive et domæne"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:356
+msgid "Please copy sunrise.php to %s/wp-content/sunrise.php and ensure the SUNRISE definition is in %swp-config.php"
+msgstr "Kopier venligst sunrise.php til%s / wp-content / sunrise.php og sikre SUNRISE definition er i%sWP-config.php"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:358
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:368
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:391
+msgid "This plugin has not been configured correctly yet."
+msgstr "Dette plugin er ikke blevet konfigureret korrekt endnu."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:366
+msgid "Please uncomment the line <em>define( 'SUNRISE', 'on' );</em> or add it to your %swp-config.php"
+msgstr "Venligst afkommentere linjen <em>define (&#39;SUNRISE&#39;, &#39;på&#39;),</em> eller tilføje det til din%sWP-config.php"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:51
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:54
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:385
+msgid "Domain Mapping"
+msgstr "Domain Mapping"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:389
+msgid "Please set the IP address or CNAME of your server in the <a href='wpmu-admin.php?page=dm_admin_page'>site admin page</a>."
+msgstr "Angiv IP-adressen eller CNAME på din server i <a href='wpmu-admin.php?page=dm_admin_page'>stedet admin side</a> ."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:402
+msgid "Active domains on this blog"
+msgstr "Aktiv domæner på denne blog"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:426
+msgid "Set Primary Domain"
+msgstr "Set Primary Domain"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:429
+msgid "* The primary domain cannot be deleted."
+msgstr "* Den primære domæne kan ikke slettes."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:431
+msgid "Add new domain"
+msgstr "Tilføj nyt domæne"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:436
+msgid "Primary domain for this blog"
+msgstr "Primære domæne for denne blog"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:442
+msgid "If you want to redirect a domain you will need to add a DNS \"CNAME\" record pointing to the following domain name for this server: <strong>%s</strong>"
+msgstr "Hvis du ønsker at omdirigere et domæne skal du tilføje en DNS &quot;CNAME&quot; record peger på følgende domæne navn til denne <strong>server:%s</strong>"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:443
+msgid "Google have published <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">instructions</a> for creating CNAME records on various hosting platforms such as GoDaddy and others."
+msgstr "Google har offentliggjort <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">vejledningen</a> for at oprette CNAME-registreringer på forskellige hosting platforme som GoDaddy og andre."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:445
+msgid "If your domain name includes a hostname like \"www\", \"blog\" or some other prefix before the actual domain name you will need to add a CNAME for that hostname in your DNS pointing at this blog URL."
+msgstr "Hvis dit domænenavn indeholder et værtsnavn som &quot;www&quot;, &quot;blog&quot; eller en anden prefix, inden den egentlige domænenavn, du bliver nødt til at tilføje en CNAME for at hostname i din DNS peger på denne blog URL."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:448
+msgid "If you want to redirect a domain you will need to add DNS \"A\" records pointing at the IP addresses of this server: <strong>%s</strong>"
+msgstr "Hvis du ønsker at omdirigere et domæne skal du tilføje DNS &quot;A&quot;-records peger på IP-adresserne på denne <strong>server:%s</strong>"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:450
+msgid "If you want to redirect a domain you will need to add a DNS \"A\" record pointing at the IP address of this server: <strong>%s</strong>"
+msgstr "Hvis du ønsker at omdirigere et domæne skal du tilføje en DNS &quot;A&quot; record peger på IP-adressen på denne <strong>server:%s</strong>"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:667
+msgid "Incorrect or out of date login key"
+msgstr "Forkert eller forældede login nøgle"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:670
+msgid "Unknown login key"
+msgstr "Ukendt login nøgle"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:680
+msgid "Unknown logout key"
+msgstr "Ukendt logout nøgle"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:711
+msgid "Mapping"
+msgstr "Kortlægning"
+
+#: plugins/safecss/safecss.php:352
+msgid "Welcome to Custom CSS!"
+msgstr "Velkommen til Custom CSS!"
+
+#: plugins/safecss/safecss.php:354
+msgid "If you are familiar with CSS or you have a stylesheet ready to paste, you may delete these comments and get started."
+msgstr "Hvis du er fortrolig med CSS eller du har et stilark klar til at indsætte, kan du slette disse kommentarer og komme i gang."
+
+#: plugins/safecss/safecss.php:356
+msgid "CSS (Cascading Style Sheets) is a kind of code that tells the browser how to render a web page. Here's an example:"
+msgstr "CSS (Cascading Style Sheets) er en slags kode, som fortæller browseren, hvordan du gør en webside. Her er et eksempel:"
+
+#: plugins/safecss/safecss.php:360
+msgid "That line basically means \"give images a red border one pixel thick.\""
+msgstr "Denne linje betyder egentlig &quot;give billeder en rød kant én pixel tyk.&quot;"
+
+#: plugins/safecss/safecss.php:362
+msgid "CSS is not very hard to learn. If you already know a little HTML it will be fun to move things around on the web page by changing your stylesheet. There are many free references to help you get started. You can find helpful links, starter stylesheets and knowledgable people in the forum"
+msgstr "CSS er ikke svært at lære. Hvis du allerede kender lidt HTML det vil være sjovt at bevæge tingene rundt på websiden ved at ændre dine typografiark. Der er mange gratis referencer til at hjælpe dig i gang. Du kan finde nyttige links, starter stylesheets og vidende mennesker i forum"
+
+#: plugins/safecss/safecss.php:365
+msgid "We hope you enjoy developing your custom CSS. Here are a few things to keep in mind"
+msgstr "Vi håber du nyder at udvikle din brugerdefinerede CSS. Her er et par ting at huske på"
+
+#: plugins/safecss/safecss.php:367
+msgid "You can not edit the stylesheets of your theme. Your stylesheet will be loaded after the theme stylesheets, which means that your rules can take precedence and override the theme CSS rules. The Sandbox theme is recommended for those who would prefer to start from scratch."
+msgstr "Du kan ikke redigere stylesheets af dit tema. Din typografiark vil blive indlæst efter tema stylesheets, hvilket betyder, at dine regler kan forrang og tilsidesætte tema CSS regler. Sandbox tema anbefales til dem, der foretrækker at begynde helt fra bunden."
+
+#: plugins/safecss/safecss.php:369
+msgid "CSS comments will be stripped from your stylesheet."
+msgstr "CSS kommentarer vil blive fjernet fra dit stilark."
+
+#: plugins/safecss/safecss.php:371
+msgid "This is a comment. Comments begin with /* and end with */"
+msgstr "Dette er en kommentar. Kommentarer begynder med / * og slut med * /"
+
+#: plugins/safecss/safecss.php:374
+msgid ""
+"Things we strip out include:\n"
+" * HTML code\n"
+" * @import rules\n"
+" * expressions\n"
+" * invalid and unsafe code\n"
+" * URLs not using the http: protocol"
+msgstr "Ting vi isolere omfatter: * HTML-kode * @ import regler * udtryk * ugyldig og usikker kode * webadresser, der ikke anvender http:protocol"
+
+#: plugins/safecss/safecss.php:381
+msgid ""
+"Things we encourage include:\n"
+" * @media blocks!\n"
+" * sharing your CSS!\n"
+" * testing in several browsers!\n"
+" * helping others in the forum!"
+msgstr "Ting vi opfordre inkluderer: * @ media blokke! * Dele dine CSS! * Afprøvning i flere browsere! * At hjælpe andre i forummet!"
+
+#: plugins/safecss/safecss.php:476
+msgid "Preview: changes must be saved or they will be lost"
+msgstr "Preview: ændringer skal gemmes eller de vil blive tabt"
+
+#: plugins/safecss/safecss.php:502
+msgid "Edit CSS"
+msgstr "Edit CSS"
+
+#: plugins/safecss/safecss.php:635
+msgid "Stylesheet saved."
+msgstr "Stylesheet gemt."
+
+#: plugins/safecss/safecss.php:646
+msgid "CSS Stylesheet Editor"
+msgstr "CSS-typografiark Editor"
+
+#: plugins/safecss/safecss.php:651
+msgid "For help with this plugin, please see WordPress.com help page <a href=\"http://support.wordpress.com/editing-css/\">CSS documentation</a> or you may ask a question in the <a href=\"http://wordpress.org/support/forum/themes-and-templates\">Themes and Templates</a> forum."
+msgstr "For hjælp med dette plugin, se WordPress.com hjælpe side <a href=\"http://support.wordpress.com/editing-css/\">CSS dokumentation</a> eller du kan bede et spørgsmål i <a href=\"http://wordpress.org/support/forum/themes-and-templates\">Temaer og skabeloner</a> forum."
+
+#: plugins/safecss/safecss.php:652
+msgid "For help with CSS it&rsquo;s self, try <a href=\"http://www.w3schools.com/css/default.asp\">W3Schools</a>, <a href=\"http://alistapart.com/\">A List Apart</a>."
+msgstr "For hjælp med CSS det selv, kan du prøve <a href=\"http://www.w3schools.com/css/default.asp\">W3Schools</a> , <a href=\"http://alistapart.com/\">A List Apart</a> ."
+
+#: plugins/safecss/safecss.php:654
+msgid "Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?"
+msgstr "Ønsker du at foretage ændringer i din nuværende tema&#39;s stylesheet, eller ønsker du at starte helt fra bunden?"
+
+#: plugins/safecss/safecss.php:655
+msgid "Add this to the %s theme's CSS stylesheet (<a href=\"%s\">view original stylesheet</a>)"
+msgstr "Tilføj dette til%s tema&#39;s CSS-typografiark ( <a href=\"%s\">se original stilarket</a> )"
+
+#: plugins/safecss/safecss.php:656
+msgid "Start from scratch and just use this "
+msgstr "Start fra bunden og bare bruge denne"
+
+#: plugins/safecss/safecss.php:659
+msgid "If you change the width of your main content column, make sure your media files fit. Enter the maximum width for media files in your new CSS below."
+msgstr "Hvis du ændrer bredden på hovedindhold kolonne, skal du sikre dig mediefiler pasform. Indtast den maksimale bredde for mediefiler i dit nye CSS nedenfor."
+
+#: plugins/safecss/safecss.php:660
+msgid "Limit width to"
+msgstr "Limit bredde til"
+
+#: plugins/safecss/safecss.php:661
+msgid "pixels for videos, full size images, and other shortcodes. (<a href=\"%s\">more info</a>)"
+msgstr "pixels til videoer, fuld størrelse billeder, og andre kortkoder. ( <a href=\"%s\">mere info</a> )"
+
+#: plugins/safecss/safecss.php:666
+msgid "Preview"
+msgstr "Preview"
+
+#: plugins/safecss/safecss.php:668
+msgid "Save Stylesheet &raquo;"
+msgstr "Gem Stylesheet »"
+
+#: plugins/safecss/safecss.php:688
+msgid "CSS Revisions"
+msgstr "CSS Revisioner"
+
+#: mu-plugins/category-excluder.php:20 mu-plugins/category-excluder.php:26
+#: mu-plugins/category-excluder.php:93
+msgid "Category Excluder"
+msgstr "Kategori Excluder"
+
+#: mu-plugins/category-excluder.php:26
+msgid "On this screen you may disable any category from displaying on your main page, feeds, and/or archives. If a post is in more then one category, it will be excluded if it&rsquo;s in any exclued category."
+msgstr "På denne skærm kan du deaktivere alle kategorier fra vises på din hovedside, feeds, og / eller arkiver. Hvis en post er i mere end en kategori, vil det være udelukket, hvis det er i enhver exclued kategori."
+
+#: mu-plugins/category-excluder.php:50
+msgid "Excludes successfully updated"
+msgstr "Omfatter opdateret"
+
+#: mu-plugins/category-excluder.php:95
+msgid "This page will allow you to exclude or disable individual categories from displaying on the main page, in your feed, and/or in your archives."
+msgstr "Denne side giver dig mulighed for at udelukke eller deaktivere individuelle kategorier i at vise på forsiden, i dit feed, og / eller i dine arkiver."
+
+#: mu-plugins/category-excluder.php:100
+msgid "Category"
+msgstr "Kategori"
+
+#: mu-plugins/category-excluder.php:101
+msgid "Exclude from Main Page?"
+msgstr "Udeluk fra Main Page?"
+
+#: mu-plugins/category-excluder.php:102
+msgid "Exclude from Feeds?"
+msgstr "Udeluk fra Feeds?"
+
+#: mu-plugins/category-excluder.php:103
+msgid "Exclude from Archives?"
+msgstr "Udeluk fra Arkiver?"
+
+#: mu-plugins/category-excluder.php:124
+msgid "Note: If a post is in more the one category, it will be excluded if it matches <strong>any</strong> of the excluded categories."
+msgstr "Bemærk: Hvis en post er i mere en kategori, vil det være udelukket, hvis det passer <strong>nogen</strong> af de udelukkede kategorier."
+
+#: mu-plugins/category-excluder.php:126 mu-plugins/webmaster-tools.php:320
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: mu-plugins/feedburner.php:20
+msgid "Feedburner Service"
+msgstr "Feedburner Service"
+
+#: mu-plugins/feedburner.php:21
+msgid "Feedburner URL"
+msgstr "Feedburner URL"
+
+#: mu-plugins/feedburner.php:22
+msgid "Feedburner Comment URL"
+msgstr "Feedburner Kommentar URL"
+
+#: mu-plugins/feedburner.php:23
+msgid "Append category/tag to URL"
+msgstr "Tilføj kategori / tag til URL"
+
+#: mu-plugins/feedburner.php:24
+msgid "Do not redirect category or tag feeds"
+msgstr "Må ikke omdirigere kategori eller tag feeds"
+
+#: mu-plugins/feedburner.php:25
+msgid "Do not redirect search result feeds"
+msgstr "Må ikke omdirigere søgeresultatet feeds"
+
+#: mu-plugins/feedburner.php:34
+msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
+msgstr "<strong>Feedburner</strong> er en gratis feed ledelse service, der giver brugerdefinerede <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds og styringsværktøjer, såsom trafik analyse og en valgfri reklame system."
+
+#: mu-plugins/feedburner.php:36
+msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
+msgstr "Først gå til <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> og brænde din feed. Indtast URL&#39;en Feedburner oprettet til dig. Du kan eventuelt omdirigere dine kommentarer feed efter samme procedure. Du kan deaktivere omdirigering, den deaktivere plugin eller slette webadresser."
+
+#: mu-plugins/feedburner.php:38
+msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
+msgstr "Når du indtaster webadresser dine feeds vil blive omdirigeret automatisk, og du behøver ikke at foretage sig yderligere. Bemærk, at dine feeds kan tilsyneladende ikke omdirigere til Feedburner, indtil du tilføje et nyt indlæg."
+
+#: mu-plugins/typekit-fonts.php:19
+msgid "Fonts"
+msgstr "Skrifttyper"
+
+#: mu-plugins/typekit-fonts.php:29
+msgid "Typekit&rsquo;s fonts isn&rsquo;t the easist thing to setup. It will require that you know something about the way your page is displayed to the public. See the following resources for a overview of what your trying to do."
+msgstr "Typekit&#39;s skrifttyper er ikke easist ting at setup. Det vil kræve, at du ved noget om den måde, din side vises for offentligheden. Se følgende ressourcer til en oversigt over, hvad din forsøger at gøre."
+
+#: mu-plugins/typekit-fonts.php:31
+msgid "Using Typekit with WordPress"
+msgstr "Brug Typekit med WordPress"
+
+#: mu-plugins/typekit-fonts.php:32
+msgid "Finding and Using Selectors"
+msgstr "Finde og bruge selektorer"
+
+#: mu-plugins/typekit-fonts.php:46 mu-plugins/webmaster-tools.php:189
+#: mu-plugins/webmaster-tools.php:199
+msgid "You cannot edit this screen."
+msgstr "Du kan ikke redigere denne skærm."
+
+#: mu-plugins/typekit-fonts.php:58
+msgid "Typekit Fonts"
+msgstr "Typekit Skrifttyper"
+
+#: mu-plugins/typekit-fonts.php:59
+msgid "Typekit"
+msgstr "Typekit"
+
+#: mu-plugins/typekit-fonts.php:59
+msgid "is the easiest way to use real fonts on the web. It&rsquo;s a subscription-based service for linking to high-quality Open Type fonts from some of the worlds best type foundries. Typekit fonts are served from a global network on redundant servers, offering bulletproof service and incredible speed. And it couldn&rsquo;t be easier to use."
+msgstr "er den nemmeste måde at bruge rigtige skrifttyper på nettet. Det er en abonnement-baseret service for at linke til høj kvalitet Open Type skrifter fra nogle af verdens bedste type støberier. Typekit skrifttyper serveres fra et globalt netværk på overflødige servere, der tilbyder skudsikre service og utrolig hastighed. Og det kunne ikke være nemmere at bruge."
+
+#: mu-plugins/typekit-fonts.php:63
+msgid "Your Typekit ID"
+msgstr "Din Typekit ID"
+
+#: mu-plugins/typekit-fonts.php:64
+msgid "You can find your Typekit ID on typekit.com under Kit Editor -> Embed Code."
+msgstr "Du kan finde din Typekit ID på typekit.com under Kit Editor -&gt; Embed Code."
+
+#: mu-plugins/typekit-fonts.php:67
+msgid "Update ID"
+msgstr "Update ID"
+
+#: mu-plugins/typekit-fonts.php:73
+msgid "Sign up for Typekit"
+msgstr "Tilmeld dig Typekit"
+
+#: mu-plugins/typekit-fonts.php:74
+msgid "If you don&#8217;t have a Typekit ID yet you can sign up on their site for free and enable it on your site with just a few clicks."
+msgstr "Hvis du ikke har en Typekit ID endnu, kan du tilmelde dig på deres hjemmeside til fri og give den på dit websted med blot et par klik."
+
+#: mu-plugins/typekit-fonts.php:76
+msgid "Sign up in seconds"
+msgstr "Tilmeld dig på få sekunder"
+
+#: mu-plugins/webmaster-tools.php:27 mu-plugins/webmaster-tools.php:220
+msgid "Webmaster Tools"
+msgstr "Webmaster Tools"
+
+#: mu-plugins/webmaster-tools.php:42
+msgid "Here's how you optain and setup each search engines key's"
+msgstr "Her er hvordan du optain og setup hver søgemaskiner nøglens"
+
+#: mu-plugins/webmaster-tools.php:43 mu-plugins/webmaster-tools.php:224
+#: mu-plugins/webmaster-tools.php:233
+msgid "Google Webmaster Tools"
+msgstr "Google Webmaster Tools"
+
+#: mu-plugins/webmaster-tools.php:45
+msgid "Log in to "
+msgstr "Log ind for at"
+
+#: mu-plugins/webmaster-tools.php:45
+msgid "with your Google account."
+msgstr "med din Google-konto."
+
+#: mu-plugins/webmaster-tools.php:46
+msgid "Enter your blog URL and click <code>Add Site</code>."
+msgstr "Indtast din blog URL, og klik på <code>Add Site</code> ."
+
+#: mu-plugins/webmaster-tools.php:47
+msgid "You will be presented with several verification methods. Choose <code>Meta Tag</code>."
+msgstr "Du vil blive præsenteret for flere kontrolmetoder. Vælg <code>Meta Tag</code> ."
+
+#: mu-plugins/webmaster-tools.php:48 mu-plugins/webmaster-tools.php:61
+msgid "Copy the meta tag, which looks something like"
+msgstr "Kopier meta-tag, som ser noget lignende"
+
+#: mu-plugins/webmaster-tools.php:50 mu-plugins/webmaster-tools.php:63
+#: mu-plugins/webmaster-tools.php:77
+msgid "Leave the verification page open and go to your blog dashboard."
+msgstr "Lad verifikation side åben og gå til din blog instrumentbrættet."
+
+#: mu-plugins/webmaster-tools.php:51 mu-plugins/webmaster-tools.php:64
+#: mu-plugins/webmaster-tools.php:78
+msgid "Open the Tools Page and paste the code in the appropriate field."
+msgstr "Åbn Tools Page og indsæt koden i det relevante felt."
+
+#: mu-plugins/webmaster-tools.php:52 mu-plugins/webmaster-tools.php:65
+#: mu-plugins/webmaster-tools.php:79
+msgid "Click on <code>Save Changes</code>."
+msgstr "Klik på <code>Save Changes</code> ."
+
+#: mu-plugins/webmaster-tools.php:53
+msgid "Go back to the verification page and click <code>Verify</code>."
+msgstr "Gå tilbage til verifikation og klik <code>Verify</code> ."
+
+#: mu-plugins/webmaster-tools.php:56
+msgid "Yahoo Site Explorer"
+msgstr "Yahoo Site Explorer"
+
+#: mu-plugins/webmaster-tools.php:58 mu-plugins/webmaster-tools.php:72
+msgid "Log in to"
+msgstr "Log ind for at"
+
+#: mu-plugins/webmaster-tools.php:58
+msgid "with your Yahoo account."
+msgstr "med din Yahoo-konto."
+
+#: mu-plugins/webmaster-tools.php:59
+msgid "Enter your blog URL and click <code>Add My Site</code>."
+msgstr "Indtast din blog URL, og klik på <code>Add My Site</code> ."
+
+#: mu-plugins/webmaster-tools.php:60
+msgid "You will be presented with several authentication methods. Choose <code>By adding a META tag to my home page.</code>."
+msgstr "Du vil blive præsenteret for flere authentication metoder. Vælg <code>By adding a META tag to my home page.</code> ."
+
+#: mu-plugins/webmaster-tools.php:66
+msgid "Go back to the verification page and click <code>Ready to Authenticate</code>."
+msgstr "Gå tilbage til verifikation og klikke <code>Ready to Authenticate</code> ."
+
+#: mu-plugins/webmaster-tools.php:68
+msgid "Note: It may take up to 24 hours for your site to be authenticated."
+msgstr "Bemærk: Det kan tage op til 24 timer for dit websted for at blive godkendt."
+
+#: mu-plugins/webmaster-tools.php:70 mu-plugins/webmaster-tools.php:227
+#: mu-plugins/webmaster-tools.php:253
+msgid "Bing Webmaster Center"
+msgstr "Bing Webmaster Center"
+
+#: mu-plugins/webmaster-tools.php:72
+msgid "with your Live! account."
+msgstr "med din Live! konto."
+
+#: mu-plugins/webmaster-tools.php:73
+msgid "Click <code>Add a Site</code>."
+msgstr "Klik <code>Add a Site</code> ."
+
+#: mu-plugins/webmaster-tools.php:74
+msgid "Enter your blog URL and click <code>Submit</code>."
+msgstr "Indtast din blog URL, og klik på <code>Submit</code> ."
+
+#: mu-plugins/webmaster-tools.php:75
+msgid "Copy the meta tag from the text area at the bottom. It looks something like"
+msgstr "Kopier meta-tag fra teksten området nederst. Det ser noget lignende"
+
+#: mu-plugins/webmaster-tools.php:80
+msgid "Go back to the verification page and click <code>Return to the Site list</code>."
+msgstr "Gå tilbage til verifikation og klikke <code>Return to the Site list</code> ."
+
+#: mu-plugins/webmaster-tools.php:82
+msgid "The Robots.txt File"
+msgstr "Robots.txt-filen"
+
+#: mu-plugins/webmaster-tools.php:83
+msgid "The <strong>robots.txt</strong> file is a way to prevent cooperating web spiders and other web robots from accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code."
+msgstr "<strong>Robots.txt</strong> fil er en måde at forhindre samarbejdende web edderkopper og andre web robotter i at få adgang hele eller en del af et websted, der ellers offentligt tilgængelige. Robotter der ofte benyttes af søgemaskiner til at kategorisere og arkivere websider, eller ved webmastere til at læse korrektur kildekode."
+
+#: mu-plugins/webmaster-tools.php:84
+msgid "To Allow all robots"
+msgstr "At give alle robotter"
+
+#: mu-plugins/webmaster-tools.php:85
+msgid "To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this"
+msgstr "At tillade nogen robot for at få adgang hele dit websted, kan du bare lade robots.txt fil blank, eller du kan bruge denne"
+
+#: mu-plugins/webmaster-tools.php:87
+msgid ">To Ban all robots"
+msgstr "&gt; At forbyde al robotter"
+
+#: mu-plugins/webmaster-tools.php:89
+msgid "To Ban all crawlers from four directories of a website"
+msgstr "At forbyde al webcrawlere fra fire mapper af et websted"
+
+#: mu-plugins/webmaster-tools.php:221
+msgid "Site Verification"
+msgstr "Webstedsbekræftelse"
+
+#: mu-plugins/webmaster-tools.php:222
+msgid "All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites."
+msgstr "Alle tre store søgemaskiner giver webmaster værktøjer, der giver dig detaljerede oplysninger og statistikker om, hvordan de ser og gennemgå dit websted. For at få adgang de fleste funktioner, vil du nødt til at kontrollere dine websteder."
+
+#: mu-plugins/webmaster-tools.php:223
+msgid "Enter your meta key \"content\" value to verify your blog with"
+msgstr "Indtast din meta key &quot;indhold&quot; værdi for at kontrollere din blog med"
+
+#: mu-plugins/webmaster-tools.php:225 mu-plugins/webmaster-tools.php:243
+msgid "Yahoo! Site Explorer"
+msgstr "Yahoo! Site Explorer"
+
+#: mu-plugins/webmaster-tools.php:226
+msgid "and"
+msgstr "og"
+
+#: mu-plugins/webmaster-tools.php:236 mu-plugins/webmaster-tools.php:246
+#: mu-plugins/webmaster-tools.php:256 mu-plugins/webmaster-tools.php:274
+msgid "Disabled"
+msgstr "Handicappede"
+
+#: mu-plugins/webmaster-tools.php:236 mu-plugins/webmaster-tools.php:246
+#: mu-plugins/webmaster-tools.php:256 mu-plugins/webmaster-tools.php:274
+msgid "Enabled"
+msgstr "Aktiveret"
+
+#: mu-plugins/webmaster-tools.php:240 mu-plugins/webmaster-tools.php:250
+#: mu-plugins/webmaster-tools.php:260 mu-plugins/webmaster-tools.php:278
+msgid "Example"
+msgstr "Eksempel"
+
+#: mu-plugins/webmaster-tools.php:266
+msgid "Google Analytics Tracking Script"
+msgstr "Google Analytics Tracking Script"
+
+#: mu-plugins/webmaster-tools.php:267 mu-plugins/webmaster-tools.php:268
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: mu-plugins/webmaster-tools.php:267
+msgid "is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you're more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites."
+msgstr "er en web analytics løsning, som giver dig stor indsigt i dit websted trafik og marketing effektivitet. Kraftfuld, fleksibel og nem at bruge funktioner nu kan du se og analysere dine trafikdata i en helt ny måde. Med Google Analytics, er du mere parat til at skrive bedre annoncer, styrk dine marketing initiativer og skabe højere konvertering hjemmesider."
+
+#: mu-plugins/webmaster-tools.php:268
+msgid "Enter your"
+msgstr "Indtast din"
+
+#: mu-plugins/webmaster-tools.php:268
+msgid "Account ID"
+msgstr "Konto-id"
+
+#: mu-plugins/webmaster-tools.php:268
+msgid "for this site, to allow"
+msgstr "for dette site, at give"
+
+#: mu-plugins/webmaster-tools.php:268
+msgid "to track you page views."
+msgstr "at spore dig sidevisninger."
+
+#: mu-plugins/webmaster-tools.php:271
+msgid "Google Analytics Tracking ID"
+msgstr "Google Analytics Tracking ID"
+
+#: mu-plugins/webmaster-tools.php:285
+msgid "Robots.txt File"
+msgstr "Robots.txt Fil"
+
+#: mu-plugins/webmaster-tools.php:293
+msgid "You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don't understand what your doing, most likly you don't need to do anything."
+msgstr "Du kan redigere din robots.txt fil i rummet nedenfor. Linjer der begynder med <code>#</code> behandles som kommentarer. Hvis du ikke forstår, hvad du gør, de fleste likly du behøver ikke at gøre noget."
+
+#: mu-plugins/webmaster-tools.php:294
+msgid "Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples."
+msgstr "Brug din robots.txt fil, kan du forbyde bestemte robotter, forbyde alle robotter, eller blokere robot adgang til bestemte sider eller områder af dit websted. Hvis du ikke er sikker på, hvad man skal skrive, se nederst på denne side for eksempler."
+
+#: mu-plugins/webmaster-tools.php:295 mu-plugins/webmaster-tools.php:315
+msgid "Privacy Settings"
+msgstr "Privacy Settings"
+
+#: mu-plugins/webmaster-tools.php:295
+msgid "page."
+msgstr "side."
+
+#: mu-plugins/webmaster-tools.php:296
+msgid "Modify Your Robots.txt file"
+msgstr "Rediger din robots.txt fil"
+
+#: mu-plugins/webmaster-tools.php:297
+msgid "Your Current Robots.txt file"
+msgstr "Din nuværende Robots.txt fil"
+
+#: mu-plugins/webmaster-tools.php:303
+msgid "reset robots.txt"
+msgstr "reset robots.txt"
+
+#: mu-plugins/webmaster-tools.php:315
+msgid "Privacy Settings are curently <strong>Blocking</strong> all search engines. Enable search engine browsing on the "
+msgstr "Privacy Settings er curently <strong>Blokering</strong> alle søgemaskiner. Aktiver søgemaskine browsing på"
+
+#: mu-plugins/webmaster-tools.php:315
+msgid "page to be able to modify the robots.txt file."
+msgstr "side at kunne ændre robots.txt fil."

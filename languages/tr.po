@@ -1,0 +1,773 @@
+# Translation of Network Plugins in Turkish
+# This file is distributed under the same license as the Network Plugins package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2010-11-07 09:43:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Network Plugins\n"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:437
+msgid "Add"
+msgstr "Eklemek"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:55
+msgid "Domains"
+msgstr "Alanlar"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:270
+msgid "If you use round robin DNS or another load balancing technique with more than one IP, enter each address, separating them by commas."
+msgstr "her bir adres girin, virgülle birbirlerinden ayıran yuvarlak robin DNS veya başka bir yük birden fazla IP ile teknik dengeleme kullanın."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:269
+msgid "As a super admin on this network you can set the IP address users need to point their DNS A records at <em>or</em> the domain to point CNAME record at. If you don't know what the IP address is, ping this blog to get it."
+msgstr "kullanıcılar IP adresi kümesi gibi ağ bu süper admin tarihinde <em>veya</em> ihtiyaç kendi DNS A noktası kayıtlarına kayıt CNAME işaret alanı. Ne IP adresi bilmiyorsanız, bunu elde etmek için bu blog ping."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:266
+msgid "Domain Mapping Configuration"
+msgstr "Domain Haritalama Yapılandırma"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+msgid "Del"
+msgstr "Del"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:220
+msgid "No"
+msgstr "Yok"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:220
+msgid "Yes"
+msgstr "Evet"
+
+#: mu-plugins/typekit-fonts.php:30
+msgid "Using Typekit - The Basics"
+msgstr "Typekit Kullanma - Temelleri"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+msgid "Delete"
+msgstr "Silmek"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:223
+msgid "Edit"
+msgstr "Düzenle"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:210
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:295
+msgid "Save"
+msgstr "Kurtarmak"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:206
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+msgid "Primary"
+msgstr "Birincil"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:205
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+msgid "Domain"
+msgstr "Alan"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:204
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+msgid "Site ID"
+msgstr "Site Kimliği"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:194
+msgid "New Domain"
+msgstr "Yeni Domain"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:192
+msgid "Edit Domain"
+msgstr "Edit Domain"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:183
+msgid "Search"
+msgstr "Arama"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:181
+msgid "Domain:"
+msgstr "Domain:"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:177
+msgid "Search Domains"
+msgstr "Arama Alanlar"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:167
+msgid "Searching for %s"
+msgstr "% Aranıyor s"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:163
+msgid "Domain Deleted"
+msgstr "Domain Silindi"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:157
+msgid "Domain Updated"
+msgstr "Domain Güncelleme"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:154
+msgid "Domain Add"
+msgstr "Domain ekle"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:144
+msgid "Domain not found"
+msgstr "Domain bulunamadı"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:135
+msgid "Domain Mapping: Domains"
+msgstr "Domain Mapping: Domains"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:114
+msgid "Domain mapping database table created."
+msgstr "Etki alanı harita veritabanı tablosu oluşturdu."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:129
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:241
+msgid "<strong>Warning!</strong> This plugin will only work if WordPress is installed in the root directory of your webserver. It is currently installed in &#8217;%s&#8217;."
+msgstr "<strong>Uyarı!</strong> Bu eklenti çalışacaktır sadece webserver eğer dizininde root WordPress olduğunu. Şu anda &#39;%s&#39;. Yüklenir"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:76
+msgid "Domain deleted."
+msgstr "Domain silindi."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:73
+msgid "New primary domain."
+msgstr "Yeni birincil etki."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:70
+msgid "New domain already exists."
+msgstr "Yeni bir etki alanı zaten var."
+
+#: mu-plugins/webmaster-tools.php:295
+msgid "To Disable all search engines from browsing your site, see the"
+msgstr "sitenize göz atarken, bakın tüm arama motorları sakatlar"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:45
+msgid "The domain mapping plugin only works if the site is installed in /. This is a limitation of how virtual servers work and is very difficult to work around."
+msgstr "Sitedeki yüklüyse alanı haritalama eklenti sadece inşaat /. Bu nasıl sanal sunucular iş bir sınırlama ve çok geçici bir çözüm zordur."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:34
+msgid "You must <a href=\"%1$s\">create a network</a> for it to work."
+msgstr "Gerekir <a href=\"%1$s\">ağ oluşturmak için</a> bunun için çalışmak."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:34
+msgid "Domain Mapping Disabled."
+msgstr "Domain Haritalama Engelli."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:67
+msgid "New domain added."
+msgstr "Yeni domain ekledi."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:271
+msgid "Server IP Address: "
+msgstr "Sunucu IP Adresi:"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:275
+msgid "If you prefer the use of a CNAME record, you can set the domain here. This domain must be configured with an A record or ANAME pointing at an IP address. Visitors may experience problems if it is a CNAME of another domain."
+msgstr "Bir CNAME kaydı kullanımını tercih ederseniz, burada etki ayarlayabilirsiniz. Bu etki bir kayıt veya ANAME bir IP adresi göstererek bir ile yapılandırılması gerekir. başka bir etki alanının bir CNAME eğer Ziyaretçi sorunlarla karşılaşabilirsiniz."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:276
+msgid "NOTE, this voids the use of any IP address set above"
+msgstr "NOT, bu herhangi bir IP adresi yukarıda belirlenen kullanım boşlukları"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:277
+msgid "Server CNAME domain: "
+msgstr "Server CNAME alanı:"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:279
+msgid "The information you enter here will be shown to your users so they can configure their DNS correctly. It is for informational purposes only"
+msgstr "doğru kendi DNS yapılandırmak, böylece Buraya girdiğiniz bilgiler kullanıcılara görünecek. Bu bilgilendirme amaçlıdır sadece"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:281
+msgid "Domain Options"
+msgstr "Domain Seçenekleri"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:284
+msgid "Remote Login"
+msgstr "Uzaktan Giriş"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:287
+msgid "Permanent redirect (better for your blogger's pagerank)"
+msgstr "Kalıcı (daha iyi blogger&#39;s pagerank için) yönlendirme"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:290
+msgid "User domain mapping page"
+msgstr "Kullanım alanı haritalama sayfa"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:293
+msgid "Redirect administration pages to site's original domain (remote login disabled if redirect disabled)"
+msgstr "sitenin özgün etki (uzaktan giriş yönlendirme özürlü eğer engelli yönlendirme yönetim sayfa)"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:337
+msgid "You must enter a domain"
+msgstr "Bir etki girmelisiniz"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:356
+msgid "Please copy sunrise.php to %s/wp-content/sunrise.php and ensure the SUNRISE definition is in %swp-config.php"
+msgstr "/ Sunrise.php / wp-content%s Lütfen kopya sunrise.php ve SUNRISE tanımı sağlamak%swp-config.php içinde"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:358
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:368
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:391
+msgid "This plugin has not been configured correctly yet."
+msgstr "Bu eklenti doğru henüz yapılandırılmamış."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:366
+msgid "Please uncomment the line <em>define( 'SUNRISE', 'on' );</em> or add it to your %swp-config.php"
+msgstr "<em>define (uncomment</em> line <em>&#39;SUNRISE&#39;, &#39;Lütfen&#39;);</em> veya config.php-swp ekleyin için%"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:51
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:54
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:385
+msgid "Domain Mapping"
+msgstr "Domain Haritalama"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:389
+msgid "Please set the IP address or CNAME of your server in the <a href='wpmu-admin.php?page=dm_admin_page'>site admin page</a>."
+msgstr "Lütfen set IP adresini sunucusunun CNAME veya <a href='wpmu-admin.php?page=dm_admin_page'>site admin sayfa</a> ."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:402
+msgid "Active domains on this blog"
+msgstr "Bu blogda Aktif etki"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:426
+msgid "Set Primary Domain"
+msgstr "Set birincil alan"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:429
+msgid "* The primary domain cannot be deleted."
+msgstr "* Birincil etki alanı silinemez."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:431
+msgid "Add new domain"
+msgstr "Yeni domain ekle"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:436
+msgid "Primary domain for this blog"
+msgstr "Bu blog için Birincil etki alanı"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:442
+msgid "If you want to redirect a domain you will need to add a DNS \"CNAME\" record pointing to the following domain name for this server: <strong>%s</strong>"
+msgstr "DNS Eğer bir eklemeniz olacak lüzum size alanı bir yönlendirme istemek &quot;CNAME&quot; Kayıt sunucusu etki gösteren aşağıdaki bu isim <strong>oranı:%s</strong>"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:443
+msgid "Google have published <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">instructions</a> for creating CNAME records on various hosting platforms such as GoDaddy and others."
+msgstr "Google yayımlanmıştır <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">talimatları</a> ve başkaları gibi GoDaddy gibi çeşitli barındırma platformlar kayıtlar için yaratıcı CNAME."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:445
+msgid "If your domain name includes a hostname like \"www\", \"blog\" or some other prefix before the actual domain name you will need to add a CNAME for that hostname in your DNS pointing at this blog URL."
+msgstr "Alan adınız &quot;www&quot; gibi bir isim, varsa &quot;veya gerçek etki alanı adından önce başka bir önek size DNS bu hostname bu blogu URL&#39;de işaret için bir CNAME eklemeniz gerekir blog."
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:448
+msgid "If you want to redirect a domain you will need to add DNS \"A\" records pointing at the IP addresses of this server: <strong>%s</strong>"
+msgstr "DNS Eğer eklemeniz gerekir Eğer size etki bir yönlendirme istiyorum &quot;A&quot; kayıtları IP çekerek, sunucu bu <strong>adresleri:%s</strong>"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:450
+msgid "If you want to redirect a domain you will need to add a DNS \"A\" record pointing at the IP address of this server: <strong>%s</strong>"
+msgstr "DNS Eğer bir eklemeniz olacak lüzum size alanı bir yönlendirme istemek &quot;A&quot; kaydı sunucu bu IP adresi işaret <strong>olarak:%s</strong>"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:667
+msgid "Incorrect or out of date login key"
+msgstr "Yanlış veya güncel oturum anahtarı"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:670
+msgid "Unknown login key"
+msgstr "Bilinmeyen giriş anahtarı"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:680
+msgid "Unknown logout key"
+msgstr "Bilinmeyen çıkış anahtarı"
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:711
+msgid "Mapping"
+msgstr "Haritalama"
+
+#: plugins/safecss/safecss.php:352
+msgid "Welcome to Custom CSS!"
+msgstr "Hoşgeldiniz Özel CSS!"
+
+#: plugins/safecss/safecss.php:354
+msgid "If you are familiar with CSS or you have a stylesheet ready to paste, you may delete these comments and get started."
+msgstr "CSS bilginiz varsa ya da bir stil yapıştırmak için hazır olması, bu yorumları silebilir ve başlayın."
+
+#: plugins/safecss/safecss.php:356
+msgid "CSS (Cascading Style Sheets) is a kind of code that tells the browser how to render a web page. Here's an example:"
+msgstr "CSS (Cascading Style Sheets) nasıl bir web sayfası işlemek için tarayıcı söyler kod türüdür. İşte bir örnek:"
+
+#: plugins/safecss/safecss.php:360
+msgid "That line basically means \"give images a red border one pixel thick.\""
+msgstr "Bu çizginin temelde demektir &quot;görüntüleri kırmızı bir sınır bir piksel kalınlığında ver.&quot;"
+
+#: plugins/safecss/safecss.php:362
+msgid "CSS is not very hard to learn. If you already know a little HTML it will be fun to move things around on the web page by changing your stylesheet. There are many free references to help you get started. You can find helpful links, starter stylesheets and knowledgable people in the forum"
+msgstr "CSS çok öğrenmek zor değildir. Zaten eğlenceli etrafında web sayfasında stil değiştirerek şeyleri taşımak olacak biraz HTML biliyorsanız. Birçok ücretsiz referansları başlamanıza yardımcı olacak. Bu forumda yararlı bağlantılar, starter stylesheets ve bilgili insanlar bulabilirsiniz"
+
+#: plugins/safecss/safecss.php:365
+msgid "We hope you enjoy developing your custom CSS. Here are a few things to keep in mind"
+msgstr "Size özel CSS gelişmekte beğeneceğinizi umuyoruz. Burada birkaç şey akılda tutmak için"
+
+#: plugins/safecss/safecss.php:367
+msgid "You can not edit the stylesheets of your theme. Your stylesheet will be loaded after the theme stylesheets, which means that your rules can take precedence and override the theme CSS rules. The Sandbox theme is recommended for those who would prefer to start from scratch."
+msgstr "Eğer temanın stil düzenleyemezsiniz. Stil ki kurallara öncelik alabilir ve tema CSS kuralları geçersiz kılmak demektir tema stylesheets sonra yüklenecektir. Sandbox tema edenler sıfırdan başlamak istersiniz için önerilir."
+
+#: plugins/safecss/safecss.php:369
+msgid "CSS comments will be stripped from your stylesheet."
+msgstr "CSS yorum stil kaldırılır olacaktır."
+
+#: plugins/safecss/safecss.php:371
+msgid "This is a comment. Comments begin with /* and end with */"
+msgstr "Bu bir yorumdur. Yorumlar / * ve * ile sona başlar /"
+
+#: plugins/safecss/safecss.php:374
+msgid ""
+"Things we strip out include:\n"
+" * HTML code\n"
+" * @import rules\n"
+" * expressions\n"
+" * invalid and unsafe code\n"
+" * URLs not using the http: protocol"
+msgstr "Şeyleri strip dışarı şunlardır: * HTML kodu * @ import kuralları * ifadeler * geçersiz ve güvensiz kod http:protocol kullanarak URL&#39;leri değil"
+
+#: plugins/safecss/safecss.php:381
+msgid ""
+"Things we encourage include:\n"
+" * @media blocks!\n"
+" * sharing your CSS!\n"
+" * testing in several browsers!\n"
+" * helping others in the forum!"
+msgstr "Şeyler katmak teşvik: * @ media blokları! * CSS paylaşma! * Tarayıcılar çeşitli test! * Yardım forumu diğerleri!"
+
+#: plugins/safecss/safecss.php:476
+msgid "Preview: changes must be saved or they will be lost"
+msgstr "Önizleme: değişiklikler kaydedilmiş olması gerekir ya da kaybolur"
+
+#: plugins/safecss/safecss.php:502
+msgid "Edit CSS"
+msgstr "Edit CSS"
+
+#: plugins/safecss/safecss.php:635
+msgid "Stylesheet saved."
+msgstr "Stil kaydedildi."
+
+#: plugins/safecss/safecss.php:646
+msgid "CSS Stylesheet Editor"
+msgstr "CSS Stil Editörü"
+
+#: plugins/safecss/safecss.php:651
+msgid "For help with this plugin, please see WordPress.com help page <a href=\"http://support.wordpress.com/editing-css/\">CSS documentation</a> or you may ask a question in the <a href=\"http://wordpress.org/support/forum/themes-and-templates\">Themes and Templates</a> forum."
+msgstr "sayfa WordPress.com bakın lütfen yardım eklentisi Bunun için yardımcı <a href=\"http://support.wordpress.com/editing-css/\">CSS belgelerine</a> veya bir soru sorabiliriz <a href=\"http://wordpress.org/support/forum/themes-and-templates\">Temalar ve Şablonlar</a> forum."
+
+#: plugins/safecss/safecss.php:652
+msgid "For help with CSS it&rsquo;s self, try <a href=\"http://www.w3schools.com/css/default.asp\">W3Schools</a>, <a href=\"http://alistapart.com/\">A List Apart</a>."
+msgstr "CSS yardım almak için denemek kendine, <a href=\"http://www.w3schools.com/css/default.asp\">W3Schools</a> , <a href=\"http://alistapart.com/\">List Apart A</a> ."
+
+#: plugins/safecss/safecss.php:654
+msgid "Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?"
+msgstr "Geçerli tema&#39;s stylesheet değişiklik yapmak istiyorum, yoksa sıfırdan başlamak istersiniz?"
+
+#: plugins/safecss/safecss.php:655
+msgid "Add this to the %s theme's CSS stylesheet (<a href=\"%s\">view original stylesheet</a>)"
+msgstr "% Ekle Bu (ler tema&#39;s CSS stylesheet <a href=\"%s\">görüntülemek özgün stil</a> )"
+
+#: plugins/safecss/safecss.php:656
+msgid "Start from scratch and just use this "
+msgstr "Sıfırdan başlamak ve sadece bu kullanım"
+
+#: plugins/safecss/safecss.php:659
+msgid "If you change the width of your main content column, make sure your media files fit. Enter the maximum width for media files in your new CSS below."
+msgstr "Eğer medya dosyalarını yerleştiğinden emin olun ana içerik sütun genişliği değişir. aşağıda yeni CSS medya dosyaları için maksimum genişlik girin."
+
+#: plugins/safecss/safecss.php:660
+msgid "Limit width to"
+msgstr "Limit genişliğine"
+
+#: plugins/safecss/safecss.php:661
+msgid "pixels for videos, full size images, and other shortcodes. (<a href=\"%s\">more info</a>)"
+msgstr "videolar için piksel, tam boy resimler ve diğer shortcodes. ( <a href=\"%s\">Daha fazla bilgi</a> )"
+
+#: plugins/safecss/safecss.php:666
+msgid "Preview"
+msgstr "Önizleme"
+
+#: plugins/safecss/safecss.php:668
+msgid "Save Stylesheet &raquo;"
+msgstr "Save Stil »"
+
+#: plugins/safecss/safecss.php:688
+msgid "CSS Revisions"
+msgstr "CSS Düzeltmeler"
+
+#: mu-plugins/category-excluder.php:20 mu-plugins/category-excluder.php:26
+#: mu-plugins/category-excluder.php:93
+msgid "Category Excluder"
+msgstr "Kategori önleyici"
+
+#: mu-plugins/category-excluder.php:26
+msgid "On this screen you may disable any category from displaying on your main page, feeds, and/or archives. If a post is in more then one category, it will be excluded if it&rsquo;s in any exclued category."
+msgstr "Eğer ana sayfada görüntülenmesini herhangi bir kategoriye devre dışı bırakabiliriz bu ekran, beslemeleri ve Açık / veya arşiv. Bir yazının birden fazla kategoride ise herhangi bir exclued kategoride eğer, o hariç tutulur."
+
+#: mu-plugins/category-excluder.php:50
+msgid "Excludes successfully updated"
+msgstr "başarıyla güncellendi hariçtir"
+
+#: mu-plugins/category-excluder.php:95
+msgid "This page will allow you to exclude or disable individual categories from displaying on the main page, in your feed, and/or in your archives."
+msgstr "Bu sayfa veya ana sayfada görüntülenmesini devre dışı bireysel kategoriler hariç tutmak, senin beslemek, ve izin verir / veya arşivlerinde."
+
+#: mu-plugins/category-excluder.php:100
+msgid "Category"
+msgstr "Kategori"
+
+#: mu-plugins/category-excluder.php:101
+msgid "Exclude from Main Page?"
+msgstr "Dışlamak Ana Sayfa&#39;da?"
+
+#: mu-plugins/category-excluder.php:102
+msgid "Exclude from Feeds?"
+msgstr "Dışlamak Besleme mi?"
+
+#: mu-plugins/category-excluder.php:103
+msgid "Exclude from Archives?"
+msgstr "Dışlamak Archives mi?"
+
+#: mu-plugins/category-excluder.php:124
+msgid "Note: If a post is in more the one category, it will be excluded if it matches <strong>any</strong> of the excluded categories."
+msgstr "bir maç kategori, o eğer olacaktır hariç <strong>herhangi bir</strong> kategori hariç daha Not: Eğer bir yazı."
+
+#: mu-plugins/category-excluder.php:126 mu-plugins/webmaster-tools.php:320
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: mu-plugins/feedburner.php:20
+msgid "Feedburner Service"
+msgstr "Feedburner Servisi"
+
+#: mu-plugins/feedburner.php:21
+msgid "Feedburner URL"
+msgstr "Feedburner URL"
+
+#: mu-plugins/feedburner.php:22
+msgid "Feedburner Comment URL"
+msgstr "Feedburner Yorum URL"
+
+#: mu-plugins/feedburner.php:23
+msgid "Append category/tag to URL"
+msgstr "URL ekleme kategori / tag"
+
+#: mu-plugins/feedburner.php:24
+msgid "Do not redirect category or tag feeds"
+msgstr "yönlendirme kategori veya etiket Don&#39;t beslemeleri"
+
+#: mu-plugins/feedburner.php:25
+msgid "Do not redirect search result feeds"
+msgstr "yönlendirme arama sonucu Don&#39;t beslemeleri"
+
+#: mu-plugins/feedburner.php:34
+msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
+msgstr "<strong>Feedburner</strong> özel ücretsiz bir içerik yönetim servisi, <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> beslemeleri sistem ve yönetim isteğe reklam araçları gibi trafik analiz ve bir."
+
+#: mu-plugins/feedburner.php:36
+msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
+msgstr "İlk gitmek <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> ve yem yanık senin. URL Feedburner girin sizin için yarattı. Isterseniz Yorumlarınızı aynı prosedürü kullanarak yem yönlendirebilir. devre dışı yönlendirme için, sakatlar tapa ya da silmek URLs."
+
+#: mu-plugins/feedburner.php:38
+msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
+msgstr "Siz beslemeleri URL&#39;lerini girin otomatik olarak yönlendirileceksiniz ve herhangi başka bir önlem almaları gerekmez. ki yeni yazı eklemek kadar Feedburner yönlendirmek için görünmeyebilir beslemeleri unutmayın."
+
+#: mu-plugins/typekit-fonts.php:19
+msgid "Fonts"
+msgstr "Fonts"
+
+#: mu-plugins/typekit-fonts.php:29
+msgid "Typekit&rsquo;s fonts isn&rsquo;t the easist thing to setup. It will require that you know something about the way your page is displayed to the public. See the following resources for a overview of what your trying to do."
+msgstr "Typekit&#39;s yazı kurulum easist şey değildir. Bu size yol sayfa hakkında bir şeyler halka görüntülenir bilmek gerekir. senin yapmaya çalıştığı şeyin bir bakış için aşağıdaki kaynaklara bakın."
+
+#: mu-plugins/typekit-fonts.php:31
+msgid "Using Typekit with WordPress"
+msgstr "WordPress ile Typekit Kullanma"
+
+#: mu-plugins/typekit-fonts.php:32
+msgid "Finding and Using Selectors"
+msgstr "Bulma ve Seçiciler Kullanma"
+
+#: mu-plugins/typekit-fonts.php:46 mu-plugins/webmaster-tools.php:189
+#: mu-plugins/webmaster-tools.php:199
+msgid "You cannot edit this screen."
+msgstr "Bu ekranı düzenleyemezsiniz."
+
+#: mu-plugins/typekit-fonts.php:58
+msgid "Typekit Fonts"
+msgstr "Typekit Fonts"
+
+#: mu-plugins/typekit-fonts.php:59
+msgid "Typekit"
+msgstr "Typekit"
+
+#: mu-plugins/typekit-fonts.php:59
+msgid "is the easiest way to use real fonts on the web. It&rsquo;s a subscription-based service for linking to high-quality Open Type fonts from some of the worlds best type foundries. Typekit fonts are served from a global network on redundant servers, offering bulletproof service and incredible speed. And it couldn&rsquo;t be easier to use."
+msgstr "en kolay yolu web gerçek fontları kullanmaktır. Bu bir abonelik tabanlı hizmet yüksek kaliteli Open Type fontları bazı dünyanın en iyi tip döküm bağlantı için. Typekit yazı gereksiz sunucular üzerinde küresel bir ağ, kurşun geçirmez hizmet ve inanılmaz hız sunan servis edilmektedir. Ve kullanmak daha kolay olamazdı."
+
+#: mu-plugins/typekit-fonts.php:63
+msgid "Your Typekit ID"
+msgstr "Sizin Typekit ID"
+
+#: mu-plugins/typekit-fonts.php:64
+msgid "You can find your Typekit ID on typekit.com under Kit Editor -> Embed Code."
+msgstr "Sen Kit Editor -&gt; Embed Code altında typekit.com üzerinde Typekit kimliği bulabilirsiniz."
+
+#: mu-plugins/typekit-fonts.php:67
+msgid "Update ID"
+msgstr "Güncelleştirme numarası"
+
+#: mu-plugins/typekit-fonts.php:73
+msgid "Sign up for Typekit"
+msgstr "Üye Ol Typekit için"
+
+#: mu-plugins/typekit-fonts.php:74
+msgid "If you don&#8217;t have a Typekit ID yet you can sign up on their site for free and enable it on your site with just a few clicks."
+msgstr "Bir Typekit kimliği henüz ücretsiz olarak kendi sitesinde kaydolabilirsiniz ve sitenizde sadece birkaç tıklama ile etkinleştirmek yoksa."
+
+#: mu-plugins/typekit-fonts.php:76
+msgid "Sign up in seconds"
+msgstr "Üye Ol saniye"
+
+#: mu-plugins/webmaster-tools.php:27 mu-plugins/webmaster-tools.php:220
+msgid "Webmaster Tools"
+msgstr "Web Yöneticisi Araçları"
+
+#: mu-plugins/webmaster-tools.php:42
+msgid "Here's how you optain and setup each search engines key's"
+msgstr "Burada &#39;nasıl sen optain ve kurulum&#39;s her arama motorları anahtar&#39;s"
+
+#: mu-plugins/webmaster-tools.php:43 mu-plugins/webmaster-tools.php:224
+#: mu-plugins/webmaster-tools.php:233
+msgid "Google Webmaster Tools"
+msgstr "Google Web Yöneticisi Araçları"
+
+#: mu-plugins/webmaster-tools.php:45
+msgid "Log in to "
+msgstr "giriş yapın"
+
+#: mu-plugins/webmaster-tools.php:45
+msgid "with your Google account."
+msgstr "Google hesabınızla."
+
+#: mu-plugins/webmaster-tools.php:46
+msgid "Enter your blog URL and click <code>Add Site</code>."
+msgstr "tıklayın girin blogunuza URL ve <code>Add Site</code> ."
+
+#: mu-plugins/webmaster-tools.php:47
+msgid "You will be presented with several verification methods. Choose <code>Meta Tag</code>."
+msgstr "Birkaç doğrulama yöntemi ile sunulacak. Seç <code>Meta Tag</code> ."
+
+#: mu-plugins/webmaster-tools.php:48 mu-plugins/webmaster-tools.php:61
+msgid "Copy the meta tag, which looks something like"
+msgstr "şöyle meta etiketi, Kopyala"
+
+#: mu-plugins/webmaster-tools.php:50 mu-plugins/webmaster-tools.php:63
+#: mu-plugins/webmaster-tools.php:77
+msgid "Leave the verification page open and go to your blog dashboard."
+msgstr "açık doğrulama sayfa bırak ve blogunuza dashboard gidin."
+
+#: mu-plugins/webmaster-tools.php:51 mu-plugins/webmaster-tools.php:64
+#: mu-plugins/webmaster-tools.php:78
+msgid "Open the Tools Page and paste the code in the appropriate field."
+msgstr "Araçlar sayfayı açın ve ilgili alana yapıştırın."
+
+#: mu-plugins/webmaster-tools.php:52 mu-plugins/webmaster-tools.php:65
+#: mu-plugins/webmaster-tools.php:79
+msgid "Click on <code>Save Changes</code>."
+msgstr "Tıklayın <code>Save Changes</code> ."
+
+#: mu-plugins/webmaster-tools.php:53
+msgid "Go back to the verification page and click <code>Verify</code>."
+msgstr "Git düğmesini tıklatın ve geri doğrulama sayfa <code>Verify</code> ."
+
+#: mu-plugins/webmaster-tools.php:56
+msgid "Yahoo Site Explorer"
+msgstr "Yahoo Site Explorer"
+
+#: mu-plugins/webmaster-tools.php:58 mu-plugins/webmaster-tools.php:72
+msgid "Log in to"
+msgstr "giriş yapın"
+
+#: mu-plugins/webmaster-tools.php:58
+msgid "with your Yahoo account."
+msgstr "Yahoo hesabınız ile."
+
+#: mu-plugins/webmaster-tools.php:59
+msgid "Enter your blog URL and click <code>Add My Site</code>."
+msgstr "tıklayın girin blogunuza URL ve <code>Add My Site</code> ."
+
+#: mu-plugins/webmaster-tools.php:60
+msgid "You will be presented with several authentication methods. Choose <code>By adding a META tag to my home page.</code>."
+msgstr "Birden fazla kimlik doğrulama yöntemleri ile sunulacak. Seç <code>By adding a META tag to my home page.</code> ."
+
+#: mu-plugins/webmaster-tools.php:66
+msgid "Go back to the verification page and click <code>Ready to Authenticate</code>."
+msgstr "Git düğmesini tıklatın ve geri doğrulama sayfasına <code>Ready to Authenticate</code> ."
+
+#: mu-plugins/webmaster-tools.php:68
+msgid "Note: It may take up to 24 hours for your site to be authenticated."
+msgstr "Not: siteniz için kimlik doğrulaması için 24 saate kadar sürebilir."
+
+#: mu-plugins/webmaster-tools.php:70 mu-plugins/webmaster-tools.php:227
+#: mu-plugins/webmaster-tools.php:253
+msgid "Bing Webmaster Center"
+msgstr "Bing Webmaster Merkezi"
+
+#: mu-plugins/webmaster-tools.php:72
+msgid "with your Live! account."
+msgstr "Live ile! hesabı."
+
+#: mu-plugins/webmaster-tools.php:73
+msgid "Click <code>Add a Site</code>."
+msgstr "Tıklayın <code>Add a Site</code> ."
+
+#: mu-plugins/webmaster-tools.php:74
+msgid "Enter your blog URL and click <code>Submit</code>."
+msgstr "tıklayın girin blogunuza URL ve <code>Submit</code> ."
+
+#: mu-plugins/webmaster-tools.php:75
+msgid "Copy the meta tag from the text area at the bottom. It looks something like"
+msgstr "alt metin alanından meta etiketi kopyalayın. Bu gibi bir şey görünüyor"
+
+#: mu-plugins/webmaster-tools.php:80
+msgid "Go back to the verification page and click <code>Return to the Site list</code>."
+msgstr "Git düğmesini tıklatın ve geri doğrulama sayfasına <code>Return to the Site list</code> ."
+
+#: mu-plugins/webmaster-tools.php:82
+msgid "The Robots.txt File"
+msgstr "Robots.txt Dosyası"
+
+#: mu-plugins/webmaster-tools.php:83
+msgid "The <strong>robots.txt</strong> file is a way to prevent cooperating web spiders and other web robots from accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code."
+msgstr "<strong>Robots.txt</strong> dosyası görülebilir herkesin aksi takdirde veya bir kısmını bir web sitesi, tüm erişim yolu önlemek web robotlar işbirliği diğer web örümcekler ve. Robotlar genellikle arama motorları tarafından ve arşiv web siteleri, kategorize etmek veya web yöneticileri tarafından kaynak kodu yazım için kullanılır."
+
+#: mu-plugins/webmaster-tools.php:84
+msgid "To Allow all robots"
+msgstr "Tüm robotları izin ver için"
+
+#: mu-plugins/webmaster-tools.php:85
+msgid "To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this"
+msgstr "Tüm sitesine erişmek için herhangi bir robot izin vermek için sadece boş bir dosya veya bu kullanabilirsiniz robots.txt bırakabilirsiniz"
+
+#: mu-plugins/webmaster-tools.php:87
+msgid ">To Ban all robots"
+msgstr "Ban için&gt; tüm robotlar"
+
+#: mu-plugins/webmaster-tools.php:89
+msgid "To Ban all crawlers from four directories of a website"
+msgstr "Bir web sitesinin dört dizinlerin tüm tarayıcıların Ban için"
+
+#: mu-plugins/webmaster-tools.php:221
+msgid "Site Verification"
+msgstr "Site Doğrulama"
+
+#: mu-plugins/webmaster-tools.php:222
+msgid "All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites."
+msgstr "Her üç büyük arama motorları size detaylı bilgi ve istatistikleri hakkında nasıl gördükleri ve web sitenizi taramasını vermek yöneticisi araçları sağlar. amacıyla çoğu özelliğini erişmek için, sitelerinize doğrulamak zorunda kalacaktır."
+
+#: mu-plugins/webmaster-tools.php:223
+msgid "Enter your meta key \"content\" value to verify your blog with"
+msgstr "Girin meta anahtar &quot;içerik&quot; değeri ile blogunuzu doğrulamak için"
+
+#: mu-plugins/webmaster-tools.php:225 mu-plugins/webmaster-tools.php:243
+msgid "Yahoo! Site Explorer"
+msgstr "Yahoo! Site Explorer"
+
+#: mu-plugins/webmaster-tools.php:226
+msgid "and"
+msgstr "ve"
+
+#: mu-plugins/webmaster-tools.php:236 mu-plugins/webmaster-tools.php:246
+#: mu-plugins/webmaster-tools.php:256 mu-plugins/webmaster-tools.php:274
+msgid "Disabled"
+msgstr "Özürlü"
+
+#: mu-plugins/webmaster-tools.php:236 mu-plugins/webmaster-tools.php:246
+#: mu-plugins/webmaster-tools.php:256 mu-plugins/webmaster-tools.php:274
+msgid "Enabled"
+msgstr "Enabled"
+
+#: mu-plugins/webmaster-tools.php:240 mu-plugins/webmaster-tools.php:250
+#: mu-plugins/webmaster-tools.php:260 mu-plugins/webmaster-tools.php:278
+msgid "Example"
+msgstr "Örnek"
+
+#: mu-plugins/webmaster-tools.php:266
+msgid "Google Analytics Tracking Script"
+msgstr "Google Analytics Script İzleme"
+
+#: mu-plugins/webmaster-tools.php:267 mu-plugins/webmaster-tools.php:268
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: mu-plugins/webmaster-tools.php:267
+msgid "is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you're more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites."
+msgstr "web sitenizin trafiği ve pazarlama etkinliği içine zengin anlayışlar veren bir web analitik bir çözümdür. , Esnek ve kolay kullanımlı Güçlü şimdi gördüğünüz ve tamamen yeni bir şekilde trafik verileri analiz izin özellikleri. Google Analytics ile, daha iyi hedefli reklamlar yazmak için hazırlanan pazarlama girişimlerinizi güçlendirmek ve daha yüksek dönüşüm sağlayan web siteleri oluşturmak konum."
+
+#: mu-plugins/webmaster-tools.php:268
+msgid "Enter your"
+msgstr "Girin"
+
+#: mu-plugins/webmaster-tools.php:268
+msgid "Account ID"
+msgstr "Hesap numarası"
+
+#: mu-plugins/webmaster-tools.php:268
+msgid "for this site, to allow"
+msgstr "Bu site, izin vermek için"
+
+#: mu-plugins/webmaster-tools.php:268
+msgid "to track you page views."
+msgstr "sayfa izlenimi izlemek."
+
+#: mu-plugins/webmaster-tools.php:271
+msgid "Google Analytics Tracking ID"
+msgstr "Google ID İzleme Analytics"
+
+#: mu-plugins/webmaster-tools.php:285
+msgid "Robots.txt File"
+msgstr "Robots.txt Dosyası"
+
+#: mu-plugins/webmaster-tools.php:293
+msgid "You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don't understand what your doing, most likly you don't need to do anything."
+msgstr "Aşağıdaki alana robots.txt dosyasını düzenleyebilirsiniz. Ile başlayan satırlar <code>#</code> comments olarak kabul edilir. sen ne yaptığını anlamak yoksa, en likly bir şey yapmanız gerekmez."
+
+#: mu-plugins/webmaster-tools.php:294
+msgid "Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples."
+msgstr "robots.txt dosyasını kullanarak, özel robotlar yasak olabilir, tüm robotların yasaklamak veya belirli sayfalara veya sitenizin alanlarına robot erişimi engellemek. Eğer emin değilseniz ne kadar tip örnekler için bu sayfanın altındaki bakıyorum."
+
+#: mu-plugins/webmaster-tools.php:295 mu-plugins/webmaster-tools.php:315
+msgid "Privacy Settings"
+msgstr "Gizlilik Ayarları"
+
+#: mu-plugins/webmaster-tools.php:295
+msgid "page."
+msgstr "sayfa."
+
+#: mu-plugins/webmaster-tools.php:296
+msgid "Modify Your Robots.txt file"
+msgstr "Değiştirmek senin Robots.txt dosyası"
+
+#: mu-plugins/webmaster-tools.php:297
+msgid "Your Current Robots.txt file"
+msgstr "Geçerli Robots.txt dosyası"
+
+#: mu-plugins/webmaster-tools.php:303
+msgid "reset robots.txt"
+msgstr "reset robots.txt"
+
+#: mu-plugins/webmaster-tools.php:315
+msgid "Privacy Settings are curently <strong>Blocking</strong> all search engines. Enable search engine browsing on the "
+msgstr "Gizlilik Ayarları motorları olan arama curently <strong>Engelleme</strong> tüm. Enable arama motoru üzerinde tarama"
+
+#: mu-plugins/webmaster-tools.php:315
+msgid "page to be able to modify the robots.txt file."
+msgstr "sayfa robots.txt dosyasını değiştirmek edebilmek için."
