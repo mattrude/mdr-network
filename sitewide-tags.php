@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WordPress MU Sitewide Tags Pages
+Plugin Name: Sitewide Tags
 Plugin URI: http://ocaoimh.ie/wordpress-mu-sitewide-tags/
 Description: Creates a blog where all the most recent posts on a WordPress MU site may be found. Plugin in mu-plugins is linked to downloaded plugins/wordpress-mu-sitewide-tags/ See: http://mdr-network.mattrude.com
 Version: 0.4.0.1
