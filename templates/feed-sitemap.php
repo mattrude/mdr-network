@@ -71,8 +71,8 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>'; ?>
 		<changefreq>weekly</changefreq>
 		<priority>0.5</priority>
 	</url>
-<?php } } ?>
-<?php
+<?php } }
+
         $args = array(
                 'post_type' => 'technology',
                 'numberposts' => 100,
