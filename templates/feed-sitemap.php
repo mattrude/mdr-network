@@ -14,9 +14,8 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>'; ?>
 		<lastmod><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_lastpostmodified('GMT'), false); ?></lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
-	</url>
+	</url> <?php
 
-<?php
         $args = array(
                 'post_type' => 'page',
                 'numberposts' => 100,
@@ -33,8 +32,8 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>'; ?>
                 <lastmod><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_post_time('Y-m-d H:i:s', true), false); ?></lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.7</priority>
-        </url>
-<?php } }
+        </url> <?php
+ } }
 	$args = array(
 		'post_type' => 'post',
 		'numberposts' => 100,
@@ -47,8 +46,8 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>'; ?>
 	if ($post_ids) {
 		foreach ($post_ids as $post) { ?>
 	<url>
-		<loc><?php the_permalink_rss() ?></loc>
-<?php
+		<loc><?php the_permalink_rss() ?></loc><?php
+
 	$args2 = array(
                 'post_type' => 'attachment',
                 'numberposts' => 200,
