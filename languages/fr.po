@@ -1,44 +1,142 @@
-# Translation of Network Plugins in French (France)
-# This file is distributed under the same license as the Network Plugins package.
+# Translation of MDR Network Plugins in French (France)
+# This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-11-28 09:43:12+0000\n"
+"PO-Revision-Date: 2010-12-03 20:49:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: Network Plugins\n"
+"Project-Id-Version: MDR Network Plugins\n"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:437
-msgid "Add"
-msgstr "Ajouter"
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:214
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:238
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:459
+msgid "<strong>Warning!</strong> Primary domains are currently disabled."
+msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:55
-msgid "Domains"
-msgstr "Domaines"
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:309
+msgid "Redirect administration pages to site's original domain (remote login disabled if this redirect is disabled)"
+msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:270
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:394
+msgid "Please edit your %swp-config.php and move the line <em>define( 'SUNRISE', 'on' );</em> above the last require_once() in that file."
+msgstr ""
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:312
+msgid "Disable primary domain check. Sites will not redirect to one domain name. May cause duplicate content issues."
+msgstr ""
+
+#: mu-plugins/contact_info.php:18
+msgid "Facebook URL"
+msgstr ""
+
+#: mu-plugins/typekit-fonts.php:59
+msgid "offer a service that allows you to select from a range of hundreds of high quality fonts for your WordPress website. The fonts are applied using the font-face standard, so they are standards compliant, fully licensed and accessible. The fonts are served from a global network on redundant servers, so they shouldn't slow down your site. It's a subscription-based service, if you don't already have an account, you will need to register for one."
+msgstr ""
+
+#: mu-plugins/contact_info.php:19
+msgid "Google Talk"
+msgstr ""
+
+#: mu-plugins/contact_info.php:20
+msgid "Twitter ID"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:35
+msgid "Global Tags"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:38
+msgid "Tags Blog"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:51
+msgid "You can create your post archive in a specific 'tags' blog of your choosing, or you can use the main blog of your site. Each has it's own pros and cons."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:53
+msgid "<strong>Blogname</strong> of the blog your global tags and posts will live in. Blog will be created."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:54
+msgid "Post to main blog"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:55
+msgid "Create posts in your main blog. All posts will appear on the front page of your site. Remember to to add a post loop to home.php in the theme directory if it exists."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:59
+msgid "Max Posts"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:63
+msgid "The maximum number of posts stored in the tags blog."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:67
+msgid "Include Pages"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:73
+msgid "Privacy"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:75
+msgid "Tags pages can be indexed by search engines."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:76
+msgid "Tags pages will not be indexed by search engines."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:78
+msgid "Will your tags pages be visible to Google and other search engines?"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:85
+msgid "Non-Public Blogs"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:88
+msgid "Include posts from blogs not indexed by search engines."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:92
+msgid "Post Meta"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:96
+msgid "If you want to copy custom fields with posts. One custom field per line."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:142
+msgid "Global Posts"
+msgstr ""
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:286
 msgid "If you use round robin DNS or another load balancing technique with more than one IP, enter each address, separating them by commas."
 msgstr "Si vous utilisez DNS round robin ou d&#39;une autre technique d&#39;équilibrage de charge avec plus d&#39;une IP, entrez chaque adresse, en les séparant par des virgules."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:269
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:285
 msgid "As a super admin on this network you can set the IP address users need to point their DNS A records at <em>or</em> the domain to point CNAME record at. If you don't know what the IP address is, ping this blog to get it."
 msgstr "En tant que super admin sur ce réseau, vous pouvez définir les utilisateurs adresse IP doivent point leur DNS des enregistrements au niveau <em>ou</em> le domaine pour pointer à l&#39;enregistrement CNAME. Si vous ne savez pas ce que l&#39;adresse IP, ping ce blog pour l&#39;obtenir."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:266
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:282
 msgid "Domain Mapping Configuration"
 msgstr "Configuration mappage de domaine"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:233
 msgid "Del"
 msgstr "Del"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:220
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:228
 msgid "No"
 msgstr "Aucun"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:220
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:228
 msgid "Yes"
 msgstr "Oui"
 
@@ -46,55 +144,54 @@ msgstr "Oui"
 msgid "Using Typekit - The Basics"
 msgstr "Utilisation TypeKit - L&#39;essentiel"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
 msgid "Delete"
 msgstr "Effacer"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:223
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:231
 msgid "Edit"
 msgstr "Éditer"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:210
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:295
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
 msgid "Save"
 msgstr "Sauver"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:206
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:210
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
 msgid "Primary"
 msgstr "Primaire"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:205
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:209
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
 msgid "Domain"
 msgstr "Domaine"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:204
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:208
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
 msgid "Site ID"
 msgstr "Site ID"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:194
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:198
 msgid "New Domain"
 msgstr "Nouveau domaine"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:192
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:196
 msgid "Edit Domain"
 msgstr "Edit de domaine"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:183
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:187
 msgid "Search"
 msgstr "Recherche"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:181
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:185
 msgid "Domain:"
 msgstr "Domaine:"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:177
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:181
 msgid "Search Domains"
 msgstr "Domaines de recherche"
 
@@ -127,7 +224,7 @@ msgid "Domain mapping database table created."
 msgstr "table de domaine de base de données de cartographie créé."
 
 #: plugins/wordpress-mu-domain-mapping/domain_mapping.php:129
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:241
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:252
 msgid "<strong>Warning!</strong> This plugin will only work if WordPress is installed in the root directory of your webserver. It is currently installed in &#8217;%s&#8217;."
 msgstr "<strong>Attention!</strong> Ce plugin ne fonctionne que si WordPress est installé dans le répertoire racine de votre serveur web. Il est actuellement installé dans &#39;%s&#39;."
 
@@ -163,127 +260,122 @@ msgstr "Disabled mappage de domaine."
 msgid "New domain added."
 msgstr "Nouveau domaine ajouté."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:271
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:287
 msgid "Server IP Address: "
 msgstr "Adresse IP du serveur:"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:275
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:291
 msgid "If you prefer the use of a CNAME record, you can set the domain here. This domain must be configured with an A record or ANAME pointing at an IP address. Visitors may experience problems if it is a CNAME of another domain."
 msgstr "Si vous préférez l&#39;utilisation d&#39;un enregistrement CNAME, vous pouvez définir le domaine ici. Ce domaine doit être configuré avec un enregistrement ou AName pointant vers une adresse IP. Les visiteurs peuvent rencontrer des problèmes si c&#39;est un CNAME d&#39;un autre domaine."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:276
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:292
 msgid "NOTE, this voids the use of any IP address set above"
 msgstr "NOTE, cela annule l&#39;utilisation d&#39;une adresse IP définie ci-dessus"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:277
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:293
 msgid "Server CNAME domain: "
 msgstr "Server CNAME de domaine:"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:279
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:295
 msgid "The information you enter here will be shown to your users so they can configure their DNS correctly. It is for informational purposes only"
 msgstr "Les informations que vous entrez ici sera affiché à vos utilisateurs afin qu&#39;ils puissent configurer leur DNS correctement. Il est à titre informatif seulement"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:281
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:297
 msgid "Domain Options"
 msgstr "Options de domaine"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:284
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:300
 msgid "Remote Login"
 msgstr "Connexion à distance"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:287
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:303
 msgid "Permanent redirect (better for your blogger's pagerank)"
 msgstr "Redirection permanente (mieux pour votre pagerank de Blogger)"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:290
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:306
 msgid "User domain mapping page"
 msgstr "Page utilisateur cartographie de domaine"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:293
-msgid "Redirect administration pages to site's original domain (remote login disabled if redirect disabled)"
-msgstr "Redirection vers des pages d&#39;administration de domaine d&#39;origine du site (connexion à distance handicapés en cas de handicap de redirection)"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:337
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:357
 msgid "You must enter a domain"
 msgstr "Vous devez entrer un nom de domaine"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:356
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:376
 msgid "Please copy sunrise.php to %s/wp-content/sunrise.php and ensure the SUNRISE definition is in %swp-config.php"
 msgstr "S&#39;il vous plaît sunrise.php copie de%s / wp-content / sunrise.php et de veiller à la définition Sunrise est en SWP%-config.php"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:358
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:368
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:391
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:378
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:387
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:396
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:418
 msgid "This plugin has not been configured correctly yet."
 msgstr "Ce plugin n&#39;a pas été configuré correctement pour le moment."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:366
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:385
 msgid "Please uncomment the line <em>define( 'SUNRISE', 'on' );</em> or add it to your %swp-config.php"
 msgstr "S&#39;il vous plaît décommentez la ligne <em>define (&#39;Sunrise&#39;, &#39;on&#39;),</em> ou l&#39;ajouter à votre SWP%-config.php"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:51
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:54
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:385
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:412
 msgid "Domain Mapping"
 msgstr "Domain Mapping"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:389
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:416
 msgid "Please set the IP address or CNAME of your server in the <a href='wpmu-admin.php?page=dm_admin_page'>site admin page</a>."
 msgstr "S&#39;il vous plaît définir l&#39;adresse IP ou CNAME de votre serveur dans la <a href='wpmu-admin.php?page=dm_admin_page'>page administrateur du site</a> ."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:402
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:429
 msgid "Active domains on this blog"
 msgstr "domaines Active sur ce blog"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:426
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:454
 msgid "Set Primary Domain"
 msgstr "Set de domaine principal"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:429
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:457
 msgid "* The primary domain cannot be deleted."
 msgstr "* Le domaine principal ne peut pas être supprimé."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:431
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:462
 msgid "Add new domain"
 msgstr "Ajouter nouveau domaine"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:436
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:467
 msgid "Primary domain for this blog"
 msgstr "de domaine principal pour ce blog"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:442
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:473
 msgid "If you want to redirect a domain you will need to add a DNS \"CNAME\" record pointing to the following domain name for this server: <strong>%s</strong>"
 msgstr "Si vous souhaitez rediriger un nom de domaine, vous devrez ajouter un DNS CNAME &quot;record pointant sur le nom de domaine suivants pour ce <strong>serveur:%s</strong>"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:443
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:474
 msgid "Google have published <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">instructions</a> for creating CNAME records on various hosting platforms such as GoDaddy and others."
 msgstr "Google a publié <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">des instructions</a> pour créer des enregistrements CNAME sur diverses plates-formes d&#39;hébergement tels que GoDaddy et d&#39;autres."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:445
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:476
 msgid "If your domain name includes a hostname like \"www\", \"blog\" or some other prefix before the actual domain name you will need to add a CNAME for that hostname in your DNS pointing at this blog URL."
 msgstr "Si votre nom de domaine comprend un nom d&#39;hôte comme &quot;www&quot;, &quot;blog&quot; ou quelque autre préfixe avant le nom de domaine réel que vous aurez besoin d&#39;ajouter un CNAME pour que le nom d&#39;hôte dans votre DNS pointant vers cette URL blog."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:448
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:479
 msgid "If you want to redirect a domain you will need to add DNS \"A\" records pointing at the IP addresses of this server: <strong>%s</strong>"
 msgstr "Si vous souhaitez rediriger un nom de domaine, vous devrez ajouter DNS enregistrements &quot;A&quot; pointant vers l&#39;adresse IP de ce <strong>serveur:%s</strong>"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:450
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:481
 msgid "If you want to redirect a domain you will need to add a DNS \"A\" record pointing at the IP address of this server: <strong>%s</strong>"
 msgstr "Si vous souhaitez rediriger un nom de domaine, vous devrez ajouter un DNS &quot;Un pointage record&quot; à l&#39;adresse IP de ce <strong>serveur:%s</strong>"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:667
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:712
 msgid "Incorrect or out of date login key"
 msgstr "Incorrects ou de connexion date clé"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:670
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:715
 msgid "Unknown login key"
 msgstr "clés connexion inconnue"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:680
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:725
 msgid "Unknown logout key"
 msgstr "clés déconnexion inconnue"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:711
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:758
 msgid "Mapping"
 msgstr "Cartographie"
 
@@ -443,42 +535,6 @@ msgstr "Note: Si un poste est en plus la seule catégorie, il sera exclu si elle
 msgid "Save Changes"
 msgstr "Enregistrer les modifications"
 
-#: mu-plugins/feedburner.php:20
-msgid "Feedburner Service"
-msgstr "Feedburner Service"
-
-#: mu-plugins/feedburner.php:21
-msgid "Feedburner URL"
-msgstr "Feedburner URL"
-
-#: mu-plugins/feedburner.php:22
-msgid "Feedburner Comment URL"
-msgstr "Commentaire URL Feedburner"
-
-#: mu-plugins/feedburner.php:23
-msgid "Append category/tag to URL"
-msgstr "Catégorie ajouter / tag à l&#39;URL"
-
-#: mu-plugins/feedburner.php:24
-msgid "Do not redirect category or tag feeds"
-msgstr "Ne pas rediriger catégorie ou tag feeds"
-
-#: mu-plugins/feedburner.php:25
-msgid "Do not redirect search result feeds"
-msgstr "Ne pas rediriger Résultat de la recherche se nourrit"
-
-#: mu-plugins/feedburner.php:34
-msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
-msgstr "<strong>FeedBurner</strong> est un service gratuit de gestion de l&#39;alimentation, fournissant personnalisé <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds et les outils de gestion tels que l&#39;analyse du trafic et un système de publicité facultative."
-
-#: mu-plugins/feedburner.php:36
-msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
-msgstr "D&#39;abord allez à <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> et brûler vos aliments. Entrez le URL Feedburner créé pour vous. Vous pouvez éventuellement réorienter les flux de vos commentaires en utilisant la même procédure. Pour désactiver la redirection, désactiver le plugin ou supprimer des URL."
-
-#: mu-plugins/feedburner.php:38
-msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
-msgstr "Une fois que vous entrez des URL de votre flux allez être redirigé automatiquement et vous n&#39;avez pas besoin de prendre d&#39;autres mesures. Notez que vos flux peuvent ne pas apparaître pour rediriger vers Feedburner jusqu&#39;à ce que vous ajoutez un nouveau poste."
-
 #: mu-plugins/typekit-fonts.php:19
 msgid "Fonts"
 msgstr "Polices"
@@ -507,10 +563,6 @@ msgstr "Polices TypeKit"
 #: mu-plugins/typekit-fonts.php:59
 msgid "Typekit"
 msgstr "TypeKit"
-
-#: mu-plugins/typekit-fonts.php:59
-msgid "is the easiest way to use real fonts on the web. It&rsquo;s a subscription-based service for linking to high-quality Open Type fonts from some of the worlds best type foundries. Typekit fonts are served from a global network on redundant servers, offering bulletproof service and incredible speed. And it couldn&rsquo;t be easier to use."
-msgstr "est la meilleure façon d&#39;utiliser les polices réel sur le web. Il s&#39;agit d&#39;un service sur abonnement pour relier à la haute qualité polices Open Type de certains des mondes meilleures fonderies de type. TypeKit polices sont servis à partir d&#39;un réseau mondial de serveurs redondants, offre de services-balles et une vitesse incroyable. Et il ne pouvait pas être plus facile à utiliser."
 
 #: mu-plugins/typekit-fonts.php:63
 msgid "Your Typekit ID"
@@ -690,8 +742,10 @@ msgstr "et"
 msgid "Disabled"
 msgstr "Handicapé"
 
-#: mu-plugins/webmaster-tools.php:236 mu-plugins/webmaster-tools.php:246
-#: mu-plugins/webmaster-tools.php:256 mu-plugins/webmaster-tools.php:274
+#: mu-plugins/sitewide-tags.php:40 mu-plugins/sitewide-tags.php:69
+#: mu-plugins/sitewide-tags.php:87 mu-plugins/webmaster-tools.php:236
+#: mu-plugins/webmaster-tools.php:246 mu-plugins/webmaster-tools.php:256
+#: mu-plugins/webmaster-tools.php:274
 msgid "Enabled"
 msgstr "Activé"
 

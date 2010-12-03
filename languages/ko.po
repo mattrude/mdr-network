@@ -1,44 +1,142 @@
-# Translation of Network Plugins in Korean
-# This file is distributed under the same license as the Network Plugins package.
+# Translation of MDR Network Plugins in Korean
+# This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-11-28 09:43:15+0000\n"
+"PO-Revision-Date: 2010-12-03 20:49:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: Network Plugins\n"
+"Project-Id-Version: MDR Network Plugins\n"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:437
-msgid "Add"
-msgstr "추가하기"
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:214
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:238
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:459
+msgid "<strong>Warning!</strong> Primary domains are currently disabled."
+msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:55
-msgid "Domains"
-msgstr "도메인"
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:309
+msgid "Redirect administration pages to site's original domain (remote login disabled if this redirect is disabled)"
+msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:270
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:394
+msgid "Please edit your %swp-config.php and move the line <em>define( 'SUNRISE', 'on' );</em> above the last require_once() in that file."
+msgstr ""
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:312
+msgid "Disable primary domain check. Sites will not redirect to one domain name. May cause duplicate content issues."
+msgstr ""
+
+#: mu-plugins/contact_info.php:18
+msgid "Facebook URL"
+msgstr ""
+
+#: mu-plugins/typekit-fonts.php:59
+msgid "offer a service that allows you to select from a range of hundreds of high quality fonts for your WordPress website. The fonts are applied using the font-face standard, so they are standards compliant, fully licensed and accessible. The fonts are served from a global network on redundant servers, so they shouldn't slow down your site. It's a subscription-based service, if you don't already have an account, you will need to register for one."
+msgstr ""
+
+#: mu-plugins/contact_info.php:19
+msgid "Google Talk"
+msgstr ""
+
+#: mu-plugins/contact_info.php:20
+msgid "Twitter ID"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:35
+msgid "Global Tags"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:38
+msgid "Tags Blog"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:51
+msgid "You can create your post archive in a specific 'tags' blog of your choosing, or you can use the main blog of your site. Each has it's own pros and cons."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:53
+msgid "<strong>Blogname</strong> of the blog your global tags and posts will live in. Blog will be created."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:54
+msgid "Post to main blog"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:55
+msgid "Create posts in your main blog. All posts will appear on the front page of your site. Remember to to add a post loop to home.php in the theme directory if it exists."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:59
+msgid "Max Posts"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:63
+msgid "The maximum number of posts stored in the tags blog."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:67
+msgid "Include Pages"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:73
+msgid "Privacy"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:75
+msgid "Tags pages can be indexed by search engines."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:76
+msgid "Tags pages will not be indexed by search engines."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:78
+msgid "Will your tags pages be visible to Google and other search engines?"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:85
+msgid "Non-Public Blogs"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:88
+msgid "Include posts from blogs not indexed by search engines."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:92
+msgid "Post Meta"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:96
+msgid "If you want to copy custom fields with posts. One custom field per line."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:142
+msgid "Global Posts"
+msgstr ""
+
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:286
 msgid "If you use round robin DNS or another load balancing technique with more than one IP, enter each address, separating them by commas."
 msgstr "당신은 각각의 주소를 입력 쉼표로 그들을 분리 라운드 로빈 DNS를로드하거나 다른 하나 이상의 IP와 기술을 균형 조정을 사용하는 경우."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:269
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:285
 msgid "As a super admin on this network you can set the IP address users need to point their DNS A records at <em>or</em> the domain to point CNAME record at. If you don't know what the IP address is, ping this blog to get it."
 msgstr "사용자의 IP 주소 설정이 수 있듯이 네트워크에이 수퍼 관리자에있는 <em>또는</em> 필요에 해당 DNS A 레코드 지점에서 레코드를 CNAME 레코드 만들기를 가리킨 도메인을. 어떤 IP 주소가 모르는 경우, 그걸 얻기 위해이 블로그를 Ping."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:266
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:282
 msgid "Domain Mapping Configuration"
 msgstr "도메인 매핑 구성"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:233
 msgid "Del"
 msgstr "델"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:220
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:228
 msgid "No"
 msgstr "아니"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:220
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:228
 msgid "Yes"
 msgstr "예"
 
@@ -46,55 +144,54 @@ msgstr "예"
 msgid "Using Typekit - The Basics"
 msgstr "Typekit 사용하기 - 기본 사항"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
 msgid "Delete"
 msgstr "삭제"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:223
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:231
 msgid "Edit"
 msgstr "편집"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:210
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:295
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
 msgid "Save"
 msgstr "저장"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:206
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:210
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
 msgid "Primary"
 msgstr "기본"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:205
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:403
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:209
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
 msgid "Domain"
 msgstr "도메인"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:204
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:208
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
 msgid "Site ID"
 msgstr "사이트 아이디"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:194
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:198
 msgid "New Domain"
 msgstr "새 도메인"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:192
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:196
 msgid "Edit Domain"
 msgstr "도메인 수정"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:183
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:187
 msgid "Search"
 msgstr "수색"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:181
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:185
 msgid "Domain:"
 msgstr "도메인 :"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:177
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:181
 msgid "Search Domains"
 msgstr "도메인 검색"
 
@@ -127,7 +224,7 @@ msgid "Domain mapping database table created."
 msgstr "도메인 매핑 데이터베이스 테이블이 만들어졌습니다."
 
 #: plugins/wordpress-mu-domain-mapping/domain_mapping.php:129
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:241
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:252
 msgid "<strong>Warning!</strong> This plugin will only work if WordPress is installed in the root directory of your webserver. It is currently installed in &#8217;%s&#8217;."
 msgstr "<strong>경고!이</strong> 플러그인이 동작에만 웹 서버의 경우 디렉토리의 루트 설치되어있는 워드 프레스가됩니다. 이것은 현재 &#39;에있는 %s&#39;. 설치되어 있습니다"
 
@@ -163,127 +260,122 @@ msgstr "도메인 매핑 함."
 msgid "New domain added."
 msgstr "새로운 도메인이 추가되었습니다."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:271
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:287
 msgid "Server IP Address: "
 msgstr "서버의 IP 주소 :"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:275
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:291
 msgid "If you prefer the use of a CNAME record, you can set the domain here. This domain must be configured with an A record or ANAME pointing at an IP address. Visitors may experience problems if it is a CNAME of another domain."
 msgstr "당신은 CNAME 레코드의 사용을 선호하는 경우, 당신은 여기에 도메인을 설정할 수 있습니다. 이 도메인은 기록 또는 ANAME가 IP 주소를 겨누고으로 구성해야합니다. 그것은 다른 도메인의 CNAME 레코드 경우 방문자는 문제가 발생할 수 있습니다."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:276
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:292
 msgid "NOTE, this voids the use of any IP address set above"
 msgstr "참고이 임의의 IP 주소 위에 세트를 사용하는 빈"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:277
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:293
 msgid "Server CNAME domain: "
 msgstr "서버의 CNAME 레코드 도메인 :"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:279
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:295
 msgid "The information you enter here will be shown to your users so they can configure their DNS correctly. It is for informational purposes only"
 msgstr "그들은 정확하게 자신의 DNS를 구성할 수 있도록 여기에 입력하신 정보가 사용자에게 표시됩니다. 그것은 정보를 제공할 목적으로만"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:281
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:297
 msgid "Domain Options"
 msgstr "도메인 옵션"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:284
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:300
 msgid "Remote Login"
 msgstr "원격 로그인"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:287
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:303
 msgid "Permanent redirect (better for your blogger's pagerank)"
 msgstr "영구는 (더 나은 귀하의 Blogger의 PageRank)를 리디렉션"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:290
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:306
 msgid "User domain mapping page"
 msgstr "사용자 도메인 매핑 페이지"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:293
-msgid "Redirect administration pages to site's original domain (remote login disabled if redirect disabled)"
-msgstr "사이트의 원본 도메인 (원격 로그인 장애 리디렉션하는 경우 장애인으로 리디렉션 관리 페이지)"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:337
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:357
 msgid "You must enter a domain"
 msgstr "당신은 도메인을 입력해야합니다"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:356
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:376
 msgid "Please copy sunrise.php to %s/wp-content/sunrise.php and ensure the SUNRISE definition is in %swp-config.php"
 msgstr "/ sunrise.php / WP - 콘텐츠 %s로 복사하시기 바랍니다 sunrise.php과 일출 정의를 보장하기는 %sWP - config.php에"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:358
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:368
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:391
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:378
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:387
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:396
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:418
 msgid "This plugin has not been configured correctly yet."
 msgstr "이 플러그인은 아직 제대로 구성되지 않았습니다."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:366
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:385
 msgid "Please uncomment the line <em>define( 'SUNRISE', 'on' );</em> or add it to your %swp-config.php"
 msgstr "<em>정의 (주석</em> 라인은 <em>&#39;SUNRISE&#39;, &#39;하시면&#39;);</em> 또는 config.php - SWP 추가를하려면 %의"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:51
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:54
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:385
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:412
 msgid "Domain Mapping"
 msgstr "도메인 매핑"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:389
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:416
 msgid "Please set the IP address or CNAME of your server in the <a href='wpmu-admin.php?page=dm_admin_page'>site admin page</a>."
 msgstr "제발 집합의 IP 주소에서 서버의 CNAME을 또는 <a href='wpmu-admin.php?page=dm_admin_page'>사이트 관리자 페이지</a> ."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:402
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:429
 msgid "Active domains on this blog"
 msgstr "이 블로그에 활성 도메인"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:426
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:454
 msgid "Set Primary Domain"
 msgstr "주 도메인 설정"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:429
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:457
 msgid "* The primary domain cannot be deleted."
 msgstr "* 기본 도메인을 삭제할 수 없습니다."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:431
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:462
 msgid "Add new domain"
 msgstr "새 도메인 추가"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:436
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:467
 msgid "Primary domain for this blog"
 msgstr "이 블로그에 대한 기본 도메인"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:442
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:473
 msgid "If you want to redirect a domain you will need to add a DNS \"CNAME\" record pointing to the following domain name for this server: <strong>%s</strong>"
 msgstr "DNS를하는 경우 추가 것입니다 필요가 당신이 도메인 리디렉션하려는 &quot;CNAME 레코드&quot;레코드는 서버의 도메인 가리키는 다음이 이름 : <strong>%s을</strong>"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:443
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:474
 msgid "Google have published <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">instructions</a> for creating CNAME records on various hosting platforms such as GoDaddy and others."
 msgstr "구글은 출판이 <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">지침을</a> 다른 사람과 같이 GoDaddy 등 다양한 기록을 호스팅하는 플랫폼에 대한 CNAME 레코드 만들기."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:445
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:476
 msgid "If your domain name includes a hostname like \"www\", \"blog\" or some other prefix before the actual domain name you will need to add a CNAME for that hostname in your DNS pointing at this blog URL."
 msgstr "귀하의 도메인 이름이 &quot;www가&quot;와 같은 호스트 이름을 포함하는 경우 &quot;&quot;또는 실제 도메인 이름 앞에 다른 접두사 당신의 DNS에 해당 호스트 이름이 블로그 가리키는 URL에 대한 CNAME을 추가하셔야합니다 블로그."
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:448
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:479
 msgid "If you want to redirect a domain you will need to add DNS \"A\" records pointing at the IP addresses of this server: <strong>%s</strong>"
 msgstr "DNS를 추가하면 필요한 것입니다 당신이 도메인을 리디렉션할 &quot;A&quot;레코드는 IP 방향에서 서버이 주소 : <strong>%s을</strong>"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:450
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:481
 msgid "If you want to redirect a domain you will need to add a DNS \"A\" record pointing at the IP address of this server: <strong>%s</strong>"
 msgstr "DNS를하는 경우 추가 것입니다 필요가 당신이 도메인 리디렉션하려는 &quot;A&quot;레코드 서버는이 IP 주소의 방향에서 : <strong>%s을</strong>"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:667
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:712
 msgid "Incorrect or out of date login key"
 msgstr "잘못된 날짜 또는 아웃 로그인의 열쇠"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:670
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:715
 msgid "Unknown login key"
 msgstr "알 수없는 로그인 열쇠"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:680
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:725
 msgid "Unknown logout key"
 msgstr "알 수없는 키를 로그아웃"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:711
+#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:758
 msgid "Mapping"
 msgstr "매핑"
 
@@ -443,42 +535,6 @@ msgstr "하나와 일치하는 범주, 이건 경우가 될거 <strong>제외이
 msgid "Save Changes"
 msgstr "변경 사항 저장"
 
-#: mu-plugins/feedburner.php:20
-msgid "Feedburner Service"
-msgstr "피드 버너 서비스"
-
-#: mu-plugins/feedburner.php:21
-msgid "Feedburner URL"
-msgstr "피드 버너 URL을"
-
-#: mu-plugins/feedburner.php:22
-msgid "Feedburner Comment URL"
-msgstr "피드 버너 코멘트 URL을"
-
-#: mu-plugins/feedburner.php:23
-msgid "Append category/tag to URL"
-msgstr "URL로 추가 분류 / 태그"
-
-#: mu-plugins/feedburner.php:24
-msgid "Do not redirect category or tag feeds"
-msgstr "리디렉션 카테고리 또는 태그를하지 마십시오 피드"
-
-#: mu-plugins/feedburner.php:25
-msgid "Do not redirect search result feeds"
-msgstr "리디렉션 검색 결과를하지 마십시오 피드"
-
-#: mu-plugins/feedburner.php:34
-msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
-msgstr "<strong>피드 버너 사용자</strong> 정의는 무료로 피드 관리 서비스를 제공하고, <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS를</a> 피드 시스템 및 관리 옵션 광고 도구와 같은 트래픽 분석 및."
-
-#: mu-plugins/feedburner.php:36
-msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
-msgstr "처음에 가서 <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> 및 피드를 구울 네. 피드 버너의 URL을 입력합니다 당신을 위해 만들었습니다. 당신은 선택적으로 귀하의 의견은 동일한 절차를 사용하여 피드를 리디렉션 수 있습니다. 리디렉션을 해제하려면 해제 플러그인 또는 URL을 지울."
-
-#: mu-plugins/feedburner.php:38
-msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
-msgstr "일단 당신이 당신의 피드 URL을 입력할가 자동으로 리디렉션됩니다 그리고 당신은 더 이상 조치를 취할 필요가 없습니다. 당신은 당신이 새로운 게시물을 추가할 때까지 피드 버너로 리디렉션하도록 나타나지 않을 수도 있습니다 피드 있습니다."
-
 #: mu-plugins/typekit-fonts.php:19
 msgid "Fonts"
 msgstr "글꼴"
@@ -507,10 +563,6 @@ msgstr "Typekit 글꼴"
 #: mu-plugins/typekit-fonts.php:59
 msgid "Typekit"
 msgstr "Typekit"
-
-#: mu-plugins/typekit-fonts.php:59
-msgid "is the easiest way to use real fonts on the web. It&rsquo;s a subscription-based service for linking to high-quality Open Type fonts from some of the worlds best type foundries. Typekit fonts are served from a global network on redundant servers, offering bulletproof service and incredible speed. And it couldn&rsquo;t be easier to use."
-msgstr "가장 쉬운 방법은 웹상에서 실제 글꼴을 사용하는 것입니다. 그것은 가입 기반 서비스 고품질의 오픈 타입 글꼴 일부는 세계에서 가장 좋은 유형 파운드리 업체를 연결하는 위해. Typekit 글꼴은 중복 서버에서 글로벌 네트워크에서 방탄 서비스와 놀라운 속도를 제공하고 제공하고 있습니다. 그리고 그것은 사용하기 쉬운 수 없습니다."
 
 #: mu-plugins/typekit-fonts.php:63
 msgid "Your Typekit ID"
@@ -690,8 +742,10 @@ msgstr "과"
 msgid "Disabled"
 msgstr "사용 불가"
 
-#: mu-plugins/webmaster-tools.php:236 mu-plugins/webmaster-tools.php:246
-#: mu-plugins/webmaster-tools.php:256 mu-plugins/webmaster-tools.php:274
+#: mu-plugins/sitewide-tags.php:40 mu-plugins/sitewide-tags.php:69
+#: mu-plugins/sitewide-tags.php:87 mu-plugins/webmaster-tools.php:236
+#: mu-plugins/webmaster-tools.php:246 mu-plugins/webmaster-tools.php:256
+#: mu-plugins/webmaster-tools.php:274
 msgid "Enabled"
 msgstr "활성 화됨"
 
