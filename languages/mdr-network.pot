@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdr-network 1.o\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 03:43-0600\n"
+"POT-Creation-Date: 2010-11-28 03:43-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,51 +76,91 @@ msgstr ""
 msgid "Twitter ID"
 msgstr ""
 
-#: mu-plugins/feedburner.php:20
-msgid "Feedburner Service"
+#: mu-plugins/sitewide-tags.php:35
+msgid "Global Tags"
 msgstr ""
 
-#: mu-plugins/feedburner.php:21
-msgid "Feedburner URL"
+#: mu-plugins/sitewide-tags.php:38
+msgid "Tags Blog"
 msgstr ""
 
-#: mu-plugins/feedburner.php:22
-msgid "Feedburner Comment URL"
+#: mu-plugins/sitewide-tags.php:40 mu-plugins/sitewide-tags.php:69
+#: mu-plugins/sitewide-tags.php:87 mu-plugins/webmaster-tools.php:236
+#: mu-plugins/webmaster-tools.php:246 mu-plugins/webmaster-tools.php:256
+#: mu-plugins/webmaster-tools.php:274
+msgid "Enabled"
 msgstr ""
 
-#: mu-plugins/feedburner.php:23
-msgid "Append category/tag to URL"
-msgstr ""
-
-#: mu-plugins/feedburner.php:24
-msgid "Do not redirect category or tag feeds"
-msgstr ""
-
-#: mu-plugins/feedburner.php:25
-msgid "Do not redirect search result feeds"
-msgstr ""
-
-#: mu-plugins/feedburner.php:34
+#: mu-plugins/sitewide-tags.php:51
 msgid ""
-"<strong>Feedburner</strong> is a free feed management service, providing "
-"custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</"
-"a> feeds and management tools such as traffic analysis and an optional "
-"advertising system."
+"You can create your post archive in a specific 'tags' blog of your choosing, "
+"or you can use the main blog of your site. Each has it's own pros and cons."
 msgstr ""
 
-#: mu-plugins/feedburner.php:36
+#: mu-plugins/sitewide-tags.php:53
 msgid ""
-"First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner."
-"com</a> and burn your feed. Enter the URL Feedburner created for you. You "
-"may optionally redirect your comments feed using the same procedure. To "
-"disable redirection, disable the plugin or erase the URLs."
+"<strong>Blogname</strong> of the blog your global tags and posts will live "
+"in. Blog will be created."
 msgstr ""
 
-#: mu-plugins/feedburner.php:38
+#: mu-plugins/sitewide-tags.php:54
+msgid "Post to main blog"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:55
 msgid ""
-"Once you enter URLs your feeds will be redirected automatically and you do "
-"not need to take any further action. Note that your feeds may not appear to "
-"redirect to Feedburner until you add a new post."
+"Create posts in your main blog. All posts will appear on the front page of "
+"your site. Remember to to add a post loop to home.php in the theme directory "
+"if it exists."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:59
+msgid "Max Posts"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:63
+msgid "The maximum number of posts stored in the tags blog."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:67
+msgid "Include Pages"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:73
+msgid "Privacy"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:75
+msgid "Tags pages can be indexed by search engines."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:76
+msgid "Tags pages will not be indexed by search engines."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:78
+msgid "Will your tags pages be visible to Google and other search engines?"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:85
+msgid "Non-Public Blogs"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:88
+msgid "Include posts from blogs not indexed by search engines."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:92
+msgid "Post Meta"
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:96
+msgid ""
+"If you want to copy custom fields with posts. One custom field per line."
+msgstr ""
+
+#: mu-plugins/sitewide-tags.php:142
+msgid "Global Posts"
 msgstr ""
 
 #: mu-plugins/typekit-fonts.php:19
@@ -367,11 +407,6 @@ msgstr ""
 #: mu-plugins/webmaster-tools.php:236 mu-plugins/webmaster-tools.php:246
 #: mu-plugins/webmaster-tools.php:256 mu-plugins/webmaster-tools.php:274
 msgid "Disabled"
-msgstr ""
-
-#: mu-plugins/webmaster-tools.php:236 mu-plugins/webmaster-tools.php:246
-#: mu-plugins/webmaster-tools.php:256 mu-plugins/webmaster-tools.php:274
-msgid "Enabled"
 msgstr ""
 
 #: mu-plugins/webmaster-tools.php:240 mu-plugins/webmaster-tools.php:250
