@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-03 20:49:18+0000\n"
+"PO-Revision-Date: 2010-12-03 21:00:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,818 +10,422 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: MDR Network Plugins\n"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:214
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:238
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:459
-msgid "<strong>Warning!</strong> Primary domains are currently disabled."
-msgstr ""
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:309
-msgid "Redirect administration pages to site's original domain (remote login disabled if this redirect is disabled)"
-msgstr ""
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:394
-msgid "Please edit your %swp-config.php and move the line <em>define( 'SUNRISE', 'on' );</em> above the last require_once() in that file."
-msgstr ""
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:312
-msgid "Disable primary domain check. Sites will not redirect to one domain name. May cause duplicate content issues."
-msgstr ""
-
-#: mu-plugins/contact_info.php:18
+#: contact_info.php:18
 msgid "Facebook URL"
 msgstr ""
 
-#: mu-plugins/typekit-fonts.php:59
+#: typekit-fonts.php:59
 msgid "offer a service that allows you to select from a range of hundreds of high quality fonts for your WordPress website. The fonts are applied using the font-face standard, so they are standards compliant, fully licensed and accessible. The fonts are served from a global network on redundant servers, so they shouldn't slow down your site. It's a subscription-based service, if you don't already have an account, you will need to register for one."
 msgstr ""
 
-#: mu-plugins/contact_info.php:19
+#: contact_info.php:19
 msgid "Google Talk"
 msgstr ""
 
-#: mu-plugins/contact_info.php:20
+#: contact_info.php:20
 msgid "Twitter ID"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:35
+#: sitewide-tags.php:35
 msgid "Global Tags"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:38
+#: sitewide-tags.php:38
 msgid "Tags Blog"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:51
+#: sitewide-tags.php:51
 msgid "You can create your post archive in a specific 'tags' blog of your choosing, or you can use the main blog of your site. Each has it's own pros and cons."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:53
+#: sitewide-tags.php:53
 msgid "<strong>Blogname</strong> of the blog your global tags and posts will live in. Blog will be created."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:54
+#: sitewide-tags.php:54
 msgid "Post to main blog"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:55
+#: sitewide-tags.php:55
 msgid "Create posts in your main blog. All posts will appear on the front page of your site. Remember to to add a post loop to home.php in the theme directory if it exists."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:59
+#: sitewide-tags.php:59
 msgid "Max Posts"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:63
+#: sitewide-tags.php:63
 msgid "The maximum number of posts stored in the tags blog."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:67
+#: sitewide-tags.php:67
 msgid "Include Pages"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:73
+#: sitewide-tags.php:73
 msgid "Privacy"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:75
+#: sitewide-tags.php:75
 msgid "Tags pages can be indexed by search engines."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:76
+#: sitewide-tags.php:76
 msgid "Tags pages will not be indexed by search engines."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:78
+#: sitewide-tags.php:78
 msgid "Will your tags pages be visible to Google and other search engines?"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:85
+#: sitewide-tags.php:85
 msgid "Non-Public Blogs"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:88
+#: sitewide-tags.php:88
 msgid "Include posts from blogs not indexed by search engines."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:92
+#: sitewide-tags.php:92
 msgid "Post Meta"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:96
+#: sitewide-tags.php:96
 msgid "If you want to copy custom fields with posts. One custom field per line."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:142
+#: sitewide-tags.php:142
 msgid "Global Posts"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:286
-msgid "If you use round robin DNS or another load balancing technique with more than one IP, enter each address, separating them by commas."
-msgstr "あなたは各アドレスを入力し、カンマで区切ってラウンドロビンDNSまたは別の負荷複数のIPと技術をバランスを使用する場合。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:285
-msgid "As a super admin on this network you can set the IP address users need to point their DNS A records at <em>or</em> the domain to point CNAME record at. If you don't know what the IP address is, ping this blog to get it."
-msgstr "ユーザーのIPアドレスを設定することができますように、ネットワーク、このスーパー管理者には、または必要とする<em>のDNS</em>を指すレコードでレコードをCNAMEを指すドメインを。あなたはどのIPアドレスがわからない場合は、それを得るためにこのブログをpingします。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:282
-msgid "Domain Mapping Configuration"
-msgstr "ドメインマッピングの設定"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:233
-msgid "Del"
-msgstr "デル"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:228
-msgid "No"
-msgstr "ノー"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:228
-msgid "Yes"
-msgstr "はい"
-
-#: mu-plugins/typekit-fonts.php:30
+#: typekit-fonts.php:30
 msgid "Using Typekit - The Basics"
 msgstr "Typekitを使用する - 基本"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
-msgid "Delete"
-msgstr "削除"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:231
-msgid "Edit"
-msgstr "[編集]"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-msgid "Save"
-msgstr "保存"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:210
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
-msgid "Primary"
-msgstr "主要な"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:209
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
-msgid "Domain"
-msgstr "ドメイン"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:208
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-msgid "Site ID"
-msgstr "サイトID"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:198
-msgid "New Domain"
-msgstr "新しいドメイン"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:196
-msgid "Edit Domain"
-msgstr "[編集]ドメイン"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:187
-msgid "Search"
-msgstr "検索"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:185
-msgid "Domain:"
-msgstr "ドメイン："
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:181
-msgid "Search Domains"
-msgstr "検索ドメイン"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:167
-msgid "Searching for %s"
-msgstr "％を探すほうがよ"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:163
-msgid "Domain Deleted"
-msgstr "ドメイン削除"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:157
-msgid "Domain Updated"
-msgstr "ドメイン更新"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:154
-msgid "Domain Add"
-msgstr "ドメインを追加"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:144
-msgid "Domain not found"
-msgstr "ドメインが見つかりません"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:135
-msgid "Domain Mapping: Domains"
-msgstr "ドメインマッピング：ドメイン"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:114
-msgid "Domain mapping database table created."
-msgstr "ドメインマッピングデータベーステーブルを作成しました。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:129
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:252
-msgid "<strong>Warning!</strong> This plugin will only work if WordPress is installed in the root directory of your webserver. It is currently installed in &#8217;%s&#8217;."
-msgstr "<strong>警告！</strong>このプラグインのみ機能しますウェブサーバ場合のディレクトリのルートにインストールワードプレスです。これは、現在は&#39;％s&#39;をインストールされて"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:76
-msgid "Domain deleted."
-msgstr "ドメインは削除されます。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:73
-msgid "New primary domain."
-msgstr "新しいプライマリドメイン。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:70
-msgid "New domain already exists."
-msgstr "新しいドメインは既に存在します。"
-
-#: mu-plugins/webmaster-tools.php:295
+#: webmaster-tools.php:295
 msgid "To Disable all search engines from browsing your site, see the"
 msgstr "あなたのサイトを参照してから、参照してくださいすべての検索エンジンを無効にする"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:45
-msgid "The domain mapping plugin only works if the site is installed in /. This is a limitation of how virtual servers work and is very difficult to work around."
-msgstr "サイトにインストールされている場合、ドメインマッピングプラグインは動作/。このように仮想サーバーの動作の制限であり、非常に回避することは困難です。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:34
-msgid "You must <a href=\"%1$s\">create a network</a> for it to work."
-msgstr "する必要があります<a href=\"%1$s\">ネットワークを作成すること</a>のために働く。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:34
-msgid "Domain Mapping Disabled."
-msgstr "ドメインマッピングは無効です。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:67
-msgid "New domain added."
-msgstr "新しいドメインを追加しました。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:287
-msgid "Server IP Address: "
-msgstr "サーバーのIPアドレス："
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:291
-msgid "If you prefer the use of a CNAME record, you can set the domain here. This domain must be configured with an A record or ANAME pointing at an IP address. Visitors may experience problems if it is a CNAME of another domain."
-msgstr "あなたはCNAMEレコードの使用を好む場合は、ここでドメインを設定することができます。このドメインは、レコードまたはanameでは、IPアドレスを指して構成する必要があります。それは別のドメインのCNAMEれている場合訪問者は問題が発生する場合があります。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:292
-msgid "NOTE, this voids the use of any IP address set above"
-msgstr "注、これは任意のIPアドレス上記の設定の使用を無効になります"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:293
-msgid "Server CNAME domain: "
-msgstr "サーバーのCNAMEドメイン："
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:295
-msgid "The information you enter here will be shown to your users so they can configure their DNS correctly. It is for informational purposes only"
-msgstr "彼らは正しくは、DNSを設定できるようにここに入力した情報は、ユーザーに表示されます。これは、情報提供のみを目的"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:297
-msgid "Domain Options"
-msgstr "ドメインオプション"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:300
-msgid "Remote Login"
-msgstr "リモートログイン"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:303
-msgid "Permanent redirect (better for your blogger's pagerank)"
-msgstr "永久に（もっと自分のブロガーのページランク）のリダイレクト"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:306
-msgid "User domain mapping page"
-msgstr "ユーザーのドメインマッピングページ"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:357
-msgid "You must enter a domain"
-msgstr "あなたがドメイン名を入力する必要があります"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:376
-msgid "Please copy sunrise.php to %s/wp-content/sunrise.php and ensure the SUNRISE definition is in %swp-config.php"
-msgstr "/ sunrise.php / wp - コンテンツ％sへのコピーしてくださいsunrise.phpとサンライズの定義を確実に％swp - config.phpでいる"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:378
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:387
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:396
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:418
-msgid "This plugin has not been configured correctly yet."
-msgstr "このプラグインが正しくまだ設定されていない。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:385
-msgid "Please uncomment the line <em>define( 'SUNRISE', 'on' );</em> or add it to your %swp-config.php"
-msgstr "<em>定義（</em>解除の行は&#39; <em>サンライズ&#39;、&#39;してください&#39;）;または</em> config.phpを- SWPを追加してくださいあなたの％"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:412
-msgid "Domain Mapping"
-msgstr "ドメインマッピング"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:416
-msgid "Please set the IP address or CNAME of your server in the <a href='wpmu-admin.php?page=dm_admin_page'>site admin page</a>."
-msgstr "してください設定したIPアドレスのサーバーの各CNAMEまたはサイト<a href='wpmu-admin.php?page=dm_admin_page'>管理者のページです。</a>"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:429
-msgid "Active domains on this blog"
-msgstr "このブログ上のActiveドメイン"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:454
-msgid "Set Primary Domain"
-msgstr "設定プライマリドメイン"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:457
-msgid "* The primary domain cannot be deleted."
-msgstr "*プライマリドメインを削除することはできません。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:462
-msgid "Add new domain"
-msgstr "新しいドメインを追加する"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:467
-msgid "Primary domain for this blog"
-msgstr "このブログのプライマリドメイン"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:473
-msgid "If you want to redirect a domain you will need to add a DNS \"CNAME\" record pointing to the following domain name for this server: <strong>%s</strong>"
-msgstr "DNSをした場合に追加するされます必要がありますあなたがドメインをリダイレクトしたい&quot;CNAME&quot;レコードは、サーバーのドメインを指す次のこの名前：％sは"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:474
-msgid "Google have published <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">instructions</a> for creating CNAME records on various hosting platforms such as GoDaddy and others."
-msgstr "Googleが公開している<a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">手順を</a>他の人としてGoDaddyのような様々なホストプラットフォームのレコードを上に作成するのCNAME。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:476
-msgid "If your domain name includes a hostname like \"www\", \"blog\" or some other prefix before the actual domain name you will need to add a CNAME for that hostname in your DNS pointing at this blog URL."
-msgstr "お客様のドメイン名は&quot;www&quot;のようにホスト名を含む場合は、&quot;&quot;または実際のドメイン名の前にいくつかの他のプリフィックスあなたのDNSで、ホスト名、このブログのURLを指すためにCNAMEを追加する必要がブログ。"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:479
-msgid "If you want to redirect a domain you will need to add DNS \"A\" records pointing at the IP addresses of this server: <strong>%s</strong>"
-msgstr "DNSをした場合に追加する必要が必要になります場合は、ドメインにリダイレクトする&quot;A&quot;レコードは、IPを指すのサーバーは、このアドレスの：％s <strong>は</strong>"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:481
-msgid "If you want to redirect a domain you will need to add a DNS \"A\" record pointing at the IP address of this server: <strong>%s</strong>"
-msgstr "DNSをした場合に追加するされます必要がありますあなたがドメインをリダイレクトしたい&quot;A&quot;レコードサーバーは、このIPアドレスのポインティングで：％sを"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:712
-msgid "Incorrect or out of date login key"
-msgstr "不適切な、または古いログインのキー"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:715
-msgid "Unknown login key"
-msgstr "不明ログインキー"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:725
-msgid "Unknown logout key"
-msgstr "不明ログアウトキー"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:758
-msgid "Mapping"
-msgstr "マッピング"
-
-#: plugins/safecss/safecss.php:352
-msgid "Welcome to Custom CSS!"
-msgstr "ようこそカスタムCSSに！"
-
-#: plugins/safecss/safecss.php:354
-msgid "If you are familiar with CSS or you have a stylesheet ready to paste, you may delete these comments and get started."
-msgstr "あなたは、CSSに精通している場合、またはスタイルシートを貼り付けする準備ができている場合は、これらのコメントを削除することが開始する。"
-
-#: plugins/safecss/safecss.php:356
-msgid "CSS (Cascading Style Sheets) is a kind of code that tells the browser how to render a web page. Here's an example:"
-msgstr "CSSは（カスケーディングスタイルシート）どのようにWebページをレンダリングするためにブラウザに指示コードの一種である。次に例を示します："
-
-#: plugins/safecss/safecss.php:360
-msgid "That line basically means \"give images a red border one pixel thick.\""
-msgstr "この行は基本的に意味する&quot;画像に赤い枠に1つのピクセルを厚さを与える。&quot;"
-
-#: plugins/safecss/safecss.php:362
-msgid "CSS is not very hard to learn. If you already know a little HTML it will be fun to move things around on the web page by changing your stylesheet. There are many free references to help you get started. You can find helpful links, starter stylesheets and knowledgable people in the forum"
-msgstr "CSSは非常に学ぶのは難しいされていません。あなたは既にそれが楽しいの周りのWebページでスタイルシートを変更することによって物事を移動することがほとんどHTMLを知っている。多くのフリーの参照では、始めるのに役立つしています。あなたがフォーラムに役立つリンクを、スタータースタイルシートと知識豊富な人を見つけることができます"
-
-#: plugins/safecss/safecss.php:365
-msgid "We hope you enjoy developing your custom CSS. Here are a few things to keep in mind"
-msgstr "私たちはあなたのカスタムCSSを開発してお楽しみください。ここではいくつかのことを覚えておくしている"
-
-#: plugins/safecss/safecss.php:367
-msgid "You can not edit the stylesheets of your theme. Your stylesheet will be loaded after the theme stylesheets, which means that your rules can take precedence and override the theme CSS rules. The Sandbox theme is recommended for those who would prefer to start from scratch."
-msgstr "あなたのテーマのスタイルシートを編集することはできません。あなたのスタイルシートは、あなたのルールが優先順位を取ることができる、テーマのCSSルールを上書きすることを意味テーマのスタイルシート、後に読み込まれます。サンドボックスのテーマは、人をゼロから開始する希望をお勧めします。"
-
-#: plugins/safecss/safecss.php:369
-msgid "CSS comments will be stripped from your stylesheet."
-msgstr "CSSのコメントはあなたのスタイルシートから削除されます。"
-
-#: plugins/safecss/safecss.php:371
-msgid "This is a comment. Comments begin with /* and end with */"
-msgstr "これはコメントです。コメントは/ *と*で始まる/"
-
-#: plugins/safecss/safecss.php:374
-msgid ""
-"Things we strip out include:\n"
-" * HTML code\n"
-" * @import rules\n"
-" * expressions\n"
-" * invalid and unsafe code\n"
-" * URLs not using the http: protocol"
-msgstr "物事我々はストリップが含まれます：* HTMLコード* @ importルール*式*無効と安全でないコードhttp:protocolを使用してURLをしない"
-
-#: plugins/safecss/safecss.php:381
-msgid ""
-"Things we encourage include:\n"
-" * @media blocks!\n"
-" * sharing your CSS!\n"
-" * testing in several browsers!\n"
-" * helping others in the forum!"
-msgstr "物事は我々が含まれて奨励：* @メディアブロック！* CSSを共有するあなた！*ブラウザ、いくつかのテストをで！*支援フォーラムなどに！"
-
-#: plugins/safecss/safecss.php:476
-msgid "Preview: changes must be saved or they will be lost"
-msgstr "プレビューは：変更を保存する必要がありますか、失われる"
-
-#: plugins/safecss/safecss.php:502
-msgid "Edit CSS"
-msgstr "[編集] CSSの"
-
-#: plugins/safecss/safecss.php:635
-msgid "Stylesheet saved."
-msgstr "スタイルシートが保存されます。"
-
-#: plugins/safecss/safecss.php:646
-msgid "CSS Stylesheet Editor"
-msgstr "CSSのスタイルシートエディタ"
-
-#: plugins/safecss/safecss.php:651
-msgid "For help with this plugin, please see WordPress.com help page <a href=\"http://support.wordpress.com/editing-css/\">CSS documentation</a> or you may ask a question in the <a href=\"http://wordpress.org/support/forum/themes-and-templates\">Themes and Templates</a> forum."
-msgstr "ページWordPress.comを参照くださいに役立つプラグインこのためのヘルプ<a href=\"http://support.wordpress.com/editing-css/\">のCSSのドキュメントを</a>するか、の質問を求めることができるテーマと<a href=\"http://wordpress.org/support/forum/themes-and-templates\">テンプレートフォーラム。</a>"
-
-#: plugins/safecss/safecss.php:652
-msgid "For help with CSS it&rsquo;s self, try <a href=\"http://www.w3schools.com/css/default.asp\">W3Schools</a>, <a href=\"http://alistapart.com/\">A List Apart</a>."
-msgstr "CSSでヘルプを参照することを試している自己<a href=\"http://www.w3schools.com/css/default.asp\">W3Schoolsのを</a> 、 <a href=\"http://alistapart.com/\">リストを離れて。</a>"
-
-#: plugins/safecss/safecss.php:654
-msgid "Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?"
-msgstr "あなたの現在のテーマのスタイルシートを変更したい、またはしない場合は、ゼロからスタートしたいですか？"
-
-#: plugins/safecss/safecss.php:655
-msgid "Add this to the %s theme's CSS stylesheet (<a href=\"%s\">view original stylesheet</a>)"
-msgstr "％に追加この（だテーマのCSSスタイルシートを表示<a href=\"%s\">、元のスタイルシート）</a>"
-
-#: plugins/safecss/safecss.php:656
-msgid "Start from scratch and just use this "
-msgstr "ゼロからスタートただ、これを使用する"
-
-#: plugins/safecss/safecss.php:659
-msgid "If you change the width of your main content column, make sure your media files fit. Enter the maximum width for media files in your new CSS below."
-msgstr "あなたのメディアファイルが収まることを確認しますメインコンテンツ列の幅を変更する場合。下記に新しいCSSのメディアファイルの最大幅を入力します。"
-
-#: plugins/safecss/safecss.php:660
-msgid "Limit width to"
-msgstr "制限幅に"
-
-#: plugins/safecss/safecss.php:661
-msgid "pixels for videos, full size images, and other shortcodes. (<a href=\"%s\">more info</a>)"
-msgstr "ビデオのピクセルで、フルサイズの画像、およびその他のショート。 （ <a href=\"%s\">詳細はこちら</a> ）"
-
-#: plugins/safecss/safecss.php:666
-msgid "Preview"
-msgstr "プレビュー"
-
-#: plugins/safecss/safecss.php:668
-msgid "Save Stylesheet &raquo;"
-msgstr "保存スタイルシート»"
-
-#: plugins/safecss/safecss.php:688
-msgid "CSS Revisions"
-msgstr "CSSの修正"
-
-#: mu-plugins/category-excluder.php:20 mu-plugins/category-excluder.php:26
-#: mu-plugins/category-excluder.php:93
+#: category-excluder.php:20 category-excluder.php:26 category-excluder.php:93
 msgid "Category Excluder"
 msgstr "カテゴリーよけ"
 
-#: mu-plugins/category-excluder.php:26
+#: category-excluder.php:26
 msgid "On this screen you may disable any category from displaying on your main page, feeds, and/or archives. If a post is in more then one category, it will be excluded if it&rsquo;s in any exclued category."
 msgstr "あなたのメインページに表示から任意のカテゴリを無効にすること、この画面で、フィード、および/またはアーカイブ。ポストが複数のカテゴリにある場合は、任意のexcluedカテゴリにある場合、それは除外されます。"
 
-#: mu-plugins/category-excluder.php:50
+#: category-excluder.php:50
 msgid "Excludes successfully updated"
 msgstr "正常に更新を除外"
 
-#: mu-plugins/category-excluder.php:95
+#: category-excluder.php:95
 msgid "This page will allow you to exclude or disable individual categories from displaying on the main page, in your feed, and/or in your archives."
 msgstr "このページでは、またはメインページに表示から個別に無効カテゴリを除外するには、フィードで、できるようになります/またはあなたのアーカイブです。"
 
-#: mu-plugins/category-excluder.php:100
+#: category-excluder.php:100
 msgid "Category"
 msgstr "カテゴリ"
 
-#: mu-plugins/category-excluder.php:101
+#: category-excluder.php:101
 msgid "Exclude from Main Page?"
 msgstr "除外メインページから？"
 
-#: mu-plugins/category-excluder.php:102
+#: category-excluder.php:102
 msgid "Exclude from Feeds?"
 msgstr "除外フィードから？"
 
-#: mu-plugins/category-excluder.php:103
+#: category-excluder.php:103
 msgid "Exclude from Archives?"
 msgstr "除外アーカイブから？"
 
-#: mu-plugins/category-excluder.php:124
+#: category-excluder.php:124
 msgid "Note: If a post is in more the one category, it will be excluded if it matches <strong>any</strong> of the excluded categories."
 msgstr "1つの一致するカテゴリは、場合はされますが除外<strong>の</strong>いずれか<strong>の</strong>カテゴリ除外より注で：れている場合ポストが。"
 
-#: mu-plugins/category-excluder.php:126 mu-plugins/webmaster-tools.php:320
+#: category-excluder.php:126 webmaster-tools.php:320
 msgid "Save Changes"
 msgstr "変更を保存"
 
-#: mu-plugins/typekit-fonts.php:19
+#: typekit-fonts.php:19
 msgid "Fonts"
 msgstr "フォント"
 
-#: mu-plugins/typekit-fonts.php:29
+#: typekit-fonts.php:29
 msgid "Typekit&rsquo;s fonts isn&rsquo;t the easist thing to setup. It will require that you know something about the way your page is displayed to the public. See the following resources for a overview of what your trying to do."
 msgstr "Typekitのフォントをセットアップするする容易ではない。それは、あなたの方法あなたのページについて何かを公に表示されている必要があります。あなたのやろうとして何の概要については以下のリソースを参照してください。"
 
-#: mu-plugins/typekit-fonts.php:31
+#: typekit-fonts.php:31
 msgid "Using Typekit with WordPress"
 msgstr "ワードプレスでTypekitを使用して"
 
-#: mu-plugins/typekit-fonts.php:32
+#: typekit-fonts.php:32
 msgid "Finding and Using Selectors"
 msgstr "検索とセレクタを使用して"
 
-#: mu-plugins/typekit-fonts.php:46 mu-plugins/webmaster-tools.php:189
-#: mu-plugins/webmaster-tools.php:199
+#: typekit-fonts.php:46 webmaster-tools.php:189 webmaster-tools.php:199
 msgid "You cannot edit this screen."
 msgstr "あなたはこの画面を編集することはできません。"
 
-#: mu-plugins/typekit-fonts.php:58
+#: typekit-fonts.php:58
 msgid "Typekit Fonts"
 msgstr "Typekitフォント"
 
-#: mu-plugins/typekit-fonts.php:59
+#: typekit-fonts.php:59
 msgid "Typekit"
 msgstr "Typekit"
 
-#: mu-plugins/typekit-fonts.php:63
+#: typekit-fonts.php:63
 msgid "Your Typekit ID"
 msgstr "あなたのTypekit IDを"
 
-#: mu-plugins/typekit-fonts.php:64
+#: typekit-fonts.php:64
 msgid "You can find your Typekit ID on typekit.com under Kit Editor -> Embed Code."
 msgstr "あなたはキットエディタ - &gt;埋め込みコードの下にtypekit.com上Typekit IDを見つけることができます。"
 
-#: mu-plugins/typekit-fonts.php:67
+#: typekit-fonts.php:67
 msgid "Update ID"
 msgstr "アップデートID"
 
-#: mu-plugins/typekit-fonts.php:73
+#: typekit-fonts.php:73
 msgid "Sign up for Typekit"
 msgstr "サインアップTypekitの"
 
-#: mu-plugins/typekit-fonts.php:74
+#: typekit-fonts.php:74
 msgid "If you don&#8217;t have a Typekit ID yet you can sign up on their site for free and enable it on your site with just a few clicks."
 msgstr "あなたはTypekit IDをまだあなたは無料で自分のサイトにサインアップすることができます、それはあなたのサイトをわずか数回のクリックでの有効にしていない場合。"
 
-#: mu-plugins/typekit-fonts.php:76
+#: typekit-fonts.php:76
 msgid "Sign up in seconds"
 msgstr "サインアップを秒単位で"
 
-#: mu-plugins/webmaster-tools.php:27 mu-plugins/webmaster-tools.php:220
+#: webmaster-tools.php:27 webmaster-tools.php:220
 msgid "Webmaster Tools"
 msgstr "ウェブマスターツール"
 
-#: mu-plugins/webmaster-tools.php:42
+#: webmaster-tools.php:42
 msgid "Here's how you optain and setup each search engines key's"
 msgstr "ここではどのようにoptainとセットアップです各検索エンジンキーの"
 
-#: mu-plugins/webmaster-tools.php:43 mu-plugins/webmaster-tools.php:224
-#: mu-plugins/webmaster-tools.php:233
+#: webmaster-tools.php:43 webmaster-tools.php:224 webmaster-tools.php:233
 msgid "Google Webmaster Tools"
 msgstr "Googleウェブマスターツール"
 
-#: mu-plugins/webmaster-tools.php:45
+#: webmaster-tools.php:45
 msgid "Log in to "
 msgstr "にログインします。"
 
-#: mu-plugins/webmaster-tools.php:45
+#: webmaster-tools.php:45
 msgid "with your Google account."
 msgstr "Googleアカウントと。"
 
-#: mu-plugins/webmaster-tools.php:46
+#: webmaster-tools.php:46
 msgid "Enter your blog URL and click <code>Add Site</code>."
 msgstr "をクリックして入力してあなたのブログURLと<code>Add Site</code> 。"
 
-#: mu-plugins/webmaster-tools.php:47
+#: webmaster-tools.php:47
 msgid "You will be presented with several verification methods. Choose <code>Meta Tag</code>."
 msgstr "あなたは、いくつかの検証方法で表示されます。選択<code>Meta Tag</code> 。"
 
-#: mu-plugins/webmaster-tools.php:48 mu-plugins/webmaster-tools.php:61
+#: webmaster-tools.php:48 webmaster-tools.php:61
 msgid "Copy the meta tag, which looks something like"
 msgstr "のようなものに見えるメタタグをコピーし、"
 
-#: mu-plugins/webmaster-tools.php:50 mu-plugins/webmaster-tools.php:63
-#: mu-plugins/webmaster-tools.php:77
+#: webmaster-tools.php:50 webmaster-tools.php:63 webmaster-tools.php:77
 msgid "Leave the verification page open and go to your blog dashboard."
 msgstr "開く確認ページを残すと、ブログのダッシュボードに移動します。"
 
-#: mu-plugins/webmaster-tools.php:51 mu-plugins/webmaster-tools.php:64
-#: mu-plugins/webmaster-tools.php:78
+#: webmaster-tools.php:51 webmaster-tools.php:64 webmaster-tools.php:78
 msgid "Open the Tools Page and paste the code in the appropriate field."
 msgstr "ツールページを開いて、適切なフィールドにコードを貼り付けます。"
 
-#: mu-plugins/webmaster-tools.php:52 mu-plugins/webmaster-tools.php:65
-#: mu-plugins/webmaster-tools.php:79
+#: webmaster-tools.php:52 webmaster-tools.php:65 webmaster-tools.php:79
 msgid "Click on <code>Save Changes</code>."
 msgstr "クリックして<code>Save Changes</code> 。"
 
-#: mu-plugins/webmaster-tools.php:53
+#: webmaster-tools.php:53
 msgid "Go back to the verification page and click <code>Verify</code>."
 msgstr "をクリックして移動し、戻って確認ページを確認します<code>Verify</code>"
 
-#: mu-plugins/webmaster-tools.php:56
+#: webmaster-tools.php:56
 msgid "Yahoo Site Explorer"
 msgstr "ヤフーサイトエクスプローラー"
 
-#: mu-plugins/webmaster-tools.php:58 mu-plugins/webmaster-tools.php:72
+#: webmaster-tools.php:58 webmaster-tools.php:72
 msgid "Log in to"
 msgstr "にログインします。"
 
-#: mu-plugins/webmaster-tools.php:58
+#: webmaster-tools.php:58
 msgid "with your Yahoo account."
 msgstr "あなたのYahooのアカウントで。"
 
-#: mu-plugins/webmaster-tools.php:59
+#: webmaster-tools.php:59
 msgid "Enter your blog URL and click <code>Add My Site</code>."
 msgstr "をクリックして入力してあなたのブログURLと<code>Add My Site</code> 。"
 
-#: mu-plugins/webmaster-tools.php:60
+#: webmaster-tools.php:60
 msgid "You will be presented with several authentication methods. Choose <code>By adding a META tag to my home page.</code>."
 msgstr "あなたはいくつかの認証方法が表示されます。選択<code>By adding a META tag to my home page.</code>"
 
-#: mu-plugins/webmaster-tools.php:66
+#: webmaster-tools.php:66
 msgid "Go back to the verification page and click <code>Ready to Authenticate</code>."
 msgstr "クリックして移動し、戻って検証ページ認証<code>Ready to Authenticate</code>"
 
-#: mu-plugins/webmaster-tools.php:68
+#: webmaster-tools.php:68
 msgid "Note: It may take up to 24 hours for your site to be authenticated."
 msgstr "注：それはあなたのサイトに認証されるまでには24時間かかることがあります。"
 
-#: mu-plugins/webmaster-tools.php:70 mu-plugins/webmaster-tools.php:227
-#: mu-plugins/webmaster-tools.php:253
+#: webmaster-tools.php:70 webmaster-tools.php:227 webmaster-tools.php:253
 msgid "Bing Webmaster Center"
 msgstr "ビングウェブマスターセンター"
 
-#: mu-plugins/webmaster-tools.php:72
+#: webmaster-tools.php:72
 msgid "with your Live! account."
 msgstr "あなたのライブで！アカウント。"
 
-#: mu-plugins/webmaster-tools.php:73
+#: webmaster-tools.php:73
 msgid "Click <code>Add a Site</code>."
 msgstr "をクリックして<code>Add a Site</code>"
 
-#: mu-plugins/webmaster-tools.php:74
+#: webmaster-tools.php:74
 msgid "Enter your blog URL and click <code>Submit</code>."
 msgstr "をクリックして入力してあなたのブログのURLと<code>Submit</code> 。"
 
-#: mu-plugins/webmaster-tools.php:75
+#: webmaster-tools.php:75
 msgid "Copy the meta tag from the text area at the bottom. It looks something like"
 msgstr "下部のテキストエリアからメタタグをコピーします。それは次のように見える"
 
-#: mu-plugins/webmaster-tools.php:80
+#: webmaster-tools.php:80
 msgid "Go back to the verification page and click <code>Return to the Site list</code>."
 msgstr "をクリックして移動し、戻って検証ページに戻る<code>Return to the Site list</code>"
 
-#: mu-plugins/webmaster-tools.php:82
+#: webmaster-tools.php:82
 msgid "The Robots.txt File"
 msgstr "Robots.txtファイル"
 
-#: mu-plugins/webmaster-tools.php:83
+#: webmaster-tools.php:83
 msgid "The <strong>robots.txt</strong> file is a way to prevent cooperating web spiders and other web robots from accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code."
 msgstr "robots.txt <strong>ファイル</strong>は表示され、公表それ以外の場合、または一部のウェブサイトのすべてのアクセス方法を防ぐからWebロボットの協力他のWebスパイダーと。ロボットは頻繁に検索エンジンでのアーカイブのWebサイト、分類したり、ウェブマスター、ソースコードを校正するために使用されます。"
 
-#: mu-plugins/webmaster-tools.php:84
+#: webmaster-tools.php:84
 msgid "To Allow all robots"
 msgstr "すべてのロボットを許可する"
 
-#: mu-plugins/webmaster-tools.php:85
+#: webmaster-tools.php:85
 msgid "To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this"
 msgstr "サイト全体にアクセスするすべてのロボットを許可するには、単に空のファイル、またはこれを使用することがrobots.txtを残すことができます"
 
-#: mu-plugins/webmaster-tools.php:87
+#: webmaster-tools.php:87
 msgid ">To Ban all robots"
 msgstr "潘へ&gt;すべてのロボット"
 
-#: mu-plugins/webmaster-tools.php:89
+#: webmaster-tools.php:89
 msgid "To Ban all crawlers from four directories of a website"
 msgstr "ウェブサイトの4つのディレクトリからすべてのクローラを禁止するには"
 
-#: mu-plugins/webmaster-tools.php:221
+#: webmaster-tools.php:221
 msgid "Site Verification"
 msgstr "サイトの確認"
 
-#: mu-plugins/webmaster-tools.php:222
+#: webmaster-tools.php:222
 msgid "All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites."
 msgstr "すべての3つの主要検索エンジンはあなたの詳細情報や統計についてどのように参照してくださいあなたのサイトをクロールするウェブマスターツールを提供します。ためにほとんどの機能にアクセスするため、あなたのサイトを確認する必要があります。"
 
-#: mu-plugins/webmaster-tools.php:223
+#: webmaster-tools.php:223
 msgid "Enter your meta key \"content\" value to verify your blog with"
 msgstr "入力してくださいメタキー&quot;コンテンツ&quot;の値があなたのブログを確認する"
 
-#: mu-plugins/webmaster-tools.php:225 mu-plugins/webmaster-tools.php:243
+#: webmaster-tools.php:225 webmaster-tools.php:243
 msgid "Yahoo! Site Explorer"
 msgstr "ヤフーサイトエクスプローラー"
 
-#: mu-plugins/webmaster-tools.php:226
+#: webmaster-tools.php:226
 msgid "and"
 msgstr "と"
 
-#: mu-plugins/webmaster-tools.php:236 mu-plugins/webmaster-tools.php:246
-#: mu-plugins/webmaster-tools.php:256 mu-plugins/webmaster-tools.php:274
+#: webmaster-tools.php:236 webmaster-tools.php:246 webmaster-tools.php:256
+#: webmaster-tools.php:274
 msgid "Disabled"
 msgstr "バリアフリー"
 
-#: mu-plugins/sitewide-tags.php:40 mu-plugins/sitewide-tags.php:69
-#: mu-plugins/sitewide-tags.php:87 mu-plugins/webmaster-tools.php:236
-#: mu-plugins/webmaster-tools.php:246 mu-plugins/webmaster-tools.php:256
-#: mu-plugins/webmaster-tools.php:274
+#: sitewide-tags.php:40 sitewide-tags.php:69 sitewide-tags.php:87
+#: webmaster-tools.php:236 webmaster-tools.php:246 webmaster-tools.php:256
+#: webmaster-tools.php:274
 msgid "Enabled"
 msgstr "有効"
 
-#: mu-plugins/webmaster-tools.php:240 mu-plugins/webmaster-tools.php:250
-#: mu-plugins/webmaster-tools.php:260 mu-plugins/webmaster-tools.php:278
+#: webmaster-tools.php:240 webmaster-tools.php:250 webmaster-tools.php:260
+#: webmaster-tools.php:278
 msgid "Example"
 msgstr "例"
 
-#: mu-plugins/webmaster-tools.php:266
+#: webmaster-tools.php:266
 msgid "Google Analytics Tracking Script"
 msgstr "Google Analyticsのスクリプトをトラッキング"
 
-#: mu-plugins/webmaster-tools.php:267 mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:267 webmaster-tools.php:268
 msgid "Google Analytics"
 msgstr "Google Analyticsの"
 
-#: mu-plugins/webmaster-tools.php:267
+#: webmaster-tools.php:267
 msgid "is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you're more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites."
 msgstr "あなたのウェブサイトのトラフィックやマーケティングの有効性に豊かな洞察力を与えるのウェブ解析ソリューションです。 、柔軟性と簡単に使える強力な今、あなたは参照してください全く新しい方法でトラフィックのデータを分析してみましょう備えています。 Google Analyticsでは、あなたは、より良いターゲット広告を作成する準備は、マーケティング活動を強化し、より高い作成のウェブサイトを変換しています。"
 
-#: mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:268
 msgid "Enter your"
 msgstr "入力してください"
 
-#: mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:268
 msgid "Account ID"
 msgstr "アカウントID"
 
-#: mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:268
 msgid "for this site, to allow"
 msgstr "このサイトを許可するために"
 
-#: mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:268
 msgid "to track you page views."
 msgstr "ページビューを追跡する。"
 
-#: mu-plugins/webmaster-tools.php:271
+#: webmaster-tools.php:271
 msgid "Google Analytics Tracking ID"
 msgstr "GoogleのIDを追跡分析"
 
-#: mu-plugins/webmaster-tools.php:285
+#: webmaster-tools.php:285
 msgid "Robots.txt File"
 msgstr "Robots.txtファイル"
 
-#: mu-plugins/webmaster-tools.php:293
+#: webmaster-tools.php:293
 msgid "You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don't understand what your doing, most likly you don't need to do anything."
 msgstr "あなたは下の領域にrobots.txtファイルを編集することがあります。行で始まる<code>#</code>コメントとして扱われます。あなたはあなたのこと理解していない場合は、最もliklyあなたは何もする必要はありません。"
 
-#: mu-plugins/webmaster-tools.php:294
+#: webmaster-tools.php:294
 msgid "Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples."
 msgstr "robots.txtファイルを使用すると、特定のロボットを禁止することができるすべてのロボットを禁止する、または特定のページやサイトの領域へのロボットのアクセスをブロックします。あなたがわからない場合は何を入力、例は、このページの下部に見てください。"
 
-#: mu-plugins/webmaster-tools.php:295 mu-plugins/webmaster-tools.php:315
+#: webmaster-tools.php:295 webmaster-tools.php:315
 msgid "Privacy Settings"
 msgstr "プライバシーの設定"
 
-#: mu-plugins/webmaster-tools.php:295
+#: webmaster-tools.php:295
 msgid "page."
 msgstr "ページ。"
 
-#: mu-plugins/webmaster-tools.php:296
+#: webmaster-tools.php:296
 msgid "Modify Your Robots.txt file"
 msgstr "変更robots.txtファイル"
 
-#: mu-plugins/webmaster-tools.php:297
+#: webmaster-tools.php:297
 msgid "Your Current Robots.txt file"
 msgstr "あなたの現在のrobots.txtファイル"
 
-#: mu-plugins/webmaster-tools.php:303
+#: webmaster-tools.php:303
 msgid "reset robots.txt"
 msgstr "リセットのrobots.txt"
 
-#: mu-plugins/webmaster-tools.php:315
+#: webmaster-tools.php:315
 msgid "Privacy Settings are curently <strong>Blocking</strong> all search engines. Enable search engine browsing on the "
 msgstr "プライバシー設定は、エンジンをされる検索curently <strong>ブロック</strong>のすべての。有効にする検索エンジンを参照して"
 
-#: mu-plugins/webmaster-tools.php:315
+#: webmaster-tools.php:315
 msgid "page to be able to modify the robots.txt file."
 msgstr "ページがrobots.txtファイルを変更することができる。"

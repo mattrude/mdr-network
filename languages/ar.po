@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-03 20:49:08+0000\n"
+"PO-Revision-Date: 2010-12-03 21:00:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,818 +10,422 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: MDR Network Plugins\n"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:214
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:238
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:459
-msgid "<strong>Warning!</strong> Primary domains are currently disabled."
-msgstr ""
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:309
-msgid "Redirect administration pages to site's original domain (remote login disabled if this redirect is disabled)"
-msgstr ""
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:394
-msgid "Please edit your %swp-config.php and move the line <em>define( 'SUNRISE', 'on' );</em> above the last require_once() in that file."
-msgstr ""
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:312
-msgid "Disable primary domain check. Sites will not redirect to one domain name. May cause duplicate content issues."
-msgstr ""
-
-#: mu-plugins/contact_info.php:18
+#: contact_info.php:18
 msgid "Facebook URL"
 msgstr ""
 
-#: mu-plugins/typekit-fonts.php:59
+#: typekit-fonts.php:59
 msgid "offer a service that allows you to select from a range of hundreds of high quality fonts for your WordPress website. The fonts are applied using the font-face standard, so they are standards compliant, fully licensed and accessible. The fonts are served from a global network on redundant servers, so they shouldn't slow down your site. It's a subscription-based service, if you don't already have an account, you will need to register for one."
 msgstr ""
 
-#: mu-plugins/contact_info.php:19
+#: contact_info.php:19
 msgid "Google Talk"
 msgstr ""
 
-#: mu-plugins/contact_info.php:20
+#: contact_info.php:20
 msgid "Twitter ID"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:35
+#: sitewide-tags.php:35
 msgid "Global Tags"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:38
+#: sitewide-tags.php:38
 msgid "Tags Blog"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:51
+#: sitewide-tags.php:51
 msgid "You can create your post archive in a specific 'tags' blog of your choosing, or you can use the main blog of your site. Each has it's own pros and cons."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:53
+#: sitewide-tags.php:53
 msgid "<strong>Blogname</strong> of the blog your global tags and posts will live in. Blog will be created."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:54
+#: sitewide-tags.php:54
 msgid "Post to main blog"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:55
+#: sitewide-tags.php:55
 msgid "Create posts in your main blog. All posts will appear on the front page of your site. Remember to to add a post loop to home.php in the theme directory if it exists."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:59
+#: sitewide-tags.php:59
 msgid "Max Posts"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:63
+#: sitewide-tags.php:63
 msgid "The maximum number of posts stored in the tags blog."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:67
+#: sitewide-tags.php:67
 msgid "Include Pages"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:73
+#: sitewide-tags.php:73
 msgid "Privacy"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:75
+#: sitewide-tags.php:75
 msgid "Tags pages can be indexed by search engines."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:76
+#: sitewide-tags.php:76
 msgid "Tags pages will not be indexed by search engines."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:78
+#: sitewide-tags.php:78
 msgid "Will your tags pages be visible to Google and other search engines?"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:85
+#: sitewide-tags.php:85
 msgid "Non-Public Blogs"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:88
+#: sitewide-tags.php:88
 msgid "Include posts from blogs not indexed by search engines."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:92
+#: sitewide-tags.php:92
 msgid "Post Meta"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:96
+#: sitewide-tags.php:96
 msgid "If you want to copy custom fields with posts. One custom field per line."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:142
+#: sitewide-tags.php:142
 msgid "Global Posts"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:286
-msgid "If you use round robin DNS or another load balancing technique with more than one IP, enter each address, separating them by commas."
-msgstr "إذا كنت تستخدم نظام أسماء النطاقات جولة روبن أو آخر تحميل موازنة تقنية مع أكثر من الملكية الفكرية ، ودخول كل عنوان ، تفصل بينها بفواصل."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:285
-msgid "As a super admin on this network you can set the IP address users need to point their DNS A records at <em>or</em> the domain to point CNAME record at. If you don't know what the IP address is, ping this blog to get it."
-msgstr "باعتباره المشرف على هذه الشبكة فائقة يمكنك تعيين المستخدمين معالجة الملكية الفكرية بحاجة إلى نقطة نظام أسماء النطاقات الخاصة بهم في سجلات <em>أو</em> المجال لمدة عام بمبلغ قياسي في نقطة. إذا كنت لا تعرف ما هو عنوان بروتوكول الإنترنت ، بينغ هذا بلوق للحصول عليه."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:282
-msgid "Domain Mapping Configuration"
-msgstr "تعيين تكوين نطاق"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:233
-msgid "Del"
-msgstr "دل"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:228
-msgid "No"
-msgstr "لا"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:228
-msgid "Yes"
-msgstr "نعم"
-
-#: mu-plugins/typekit-fonts.php:30
+#: typekit-fonts.php:30
 msgid "Using Typekit - The Basics"
 msgstr "باستخدام Typekit -- أساسيات"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
-msgid "Delete"
-msgstr "حذف"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:231
-msgid "Edit"
-msgstr "عدل"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-msgid "Save"
-msgstr "حفظ"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:210
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
-msgid "Primary"
-msgstr "أساسي"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:209
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
-msgid "Domain"
-msgstr "نطاق"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:208
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-msgid "Site ID"
-msgstr "موقع معرف"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:198
-msgid "New Domain"
-msgstr "المجال الجديد"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:196
-msgid "Edit Domain"
-msgstr "تحرير المجال"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:187
-msgid "Search"
-msgstr "بحث"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:185
-msgid "Domain:"
-msgstr "المجال :"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:181
-msgid "Search Domains"
-msgstr "بحث مجالات"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:167
-msgid "Searching for %s"
-msgstr "البحث عن ٪ ق"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:163
-msgid "Domain Deleted"
-msgstr "نطاق المحذوفة"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:157
-msgid "Domain Updated"
-msgstr "حدثت في نطاق"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:154
-msgid "Domain Add"
-msgstr "أضف نطاق"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:144
-msgid "Domain not found"
-msgstr "لم يتم العثور على نطاق"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:135
-msgid "Domain Mapping: Domains"
-msgstr "مجال رسم الخرائط : مجالات"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:114
-msgid "Domain mapping database table created."
-msgstr "إنشاء قاعدة بيانات الجدول المجال رسم الخرائط."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:129
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:252
-msgid "<strong>Warning!</strong> This plugin will only work if WordPress is installed in the root directory of your webserver. It is currently installed in &#8217;%s&#8217;."
-msgstr "<strong>تحذير!</strong> هذا البرنامج المساعد سوف تعمل فقط إذا تثبيت وورد في الدليل الجذر لخادم الويب. مثبت حاليا في &#39;ق ٪&#39;."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:76
-msgid "Domain deleted."
-msgstr "حذف المجال."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:73
-msgid "New primary domain."
-msgstr "جديد الأساسي المجال."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:70
-msgid "New domain already exists."
-msgstr "جديد نطاق موجود مسبقا."
-
-#: mu-plugins/webmaster-tools.php:295
+#: webmaster-tools.php:295
 msgid "To Disable all search engines from browsing your site, see the"
 msgstr "لتعطيل كافة محركات البحث من تصفح الموقع الخاص بك ، راجع"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:45
-msgid "The domain mapping plugin only works if the site is installed in /. This is a limitation of how virtual servers work and is very difficult to work around."
-msgstr "البرنامج المساعد تعيين المجال لا تعمل إلا إذا تم تثبيت موقع في /. هذا هو الحد من عمل الخوادم الافتراضية وكيف من الصعب جدا لحل."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:34
-msgid "You must <a href=\"%1$s\">create a network</a> for it to work."
-msgstr "يجب <a href=\"%1$s\">إنشاء شبكة</a> من أجل أن تعمل."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:34
-msgid "Domain Mapping Disabled."
-msgstr "مجال رسم الخرائط معطل."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:67
-msgid "New domain added."
-msgstr "وأضاف جديدة المجال."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:287
-msgid "Server IP Address: "
-msgstr "خادم الملكية الفكرية العنوان :"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:291
-msgid "If you prefer the use of a CNAME record, you can set the domain here. This domain must be configured with an A record or ANAME pointing at an IP address. Visitors may experience problems if it is a CNAME of another domain."
-msgstr "إذا كنت تفضل استخدام لمدة عام بمبلغ قياسي ، يمكنك تعيين المجال هنا. يجب أن يتم تكوين هذا المجال مع سجل أو ANAME مشيرا في الوقت ذاته على عناوين بروتوكول الانترنت. يمكن للزوار واجهت مشاكل إذا كانت مدة عام بمبلغ من مجال آخر."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:292
-msgid "NOTE, this voids the use of any IP address set above"
-msgstr "ملاحظة ، هذه الفراغات استخدام أي معالجة الملكية الفكرية المبينة أعلاه"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:293
-msgid "Server CNAME domain: "
-msgstr "خادم مدة عام بمبلغ المجال :"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:295
-msgid "The information you enter here will be shown to your users so they can configure their DNS correctly. It is for informational purposes only"
-msgstr "وسيتم عرض المعلومات التي تدخلها هنا للمستخدمين حتى يتمكنوا من تكوين نظام أسماء النطاقات الخاصة بهم بشكل صحيح. هو لأغراض إعلامية فقط"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:297
-msgid "Domain Options"
-msgstr "نطاق خيارات"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:300
-msgid "Remote Login"
-msgstr "بعيد دخول"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:303
-msgid "Permanent redirect (better for your blogger's pagerank)"
-msgstr "إعادة توجيه دائم (أفضل عن الموقع الخاص بك مدون)"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:306
-msgid "User domain mapping page"
-msgstr "صفحة مستخدم مجال رسم الخرائط"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:357
-msgid "You must enter a domain"
-msgstr "يجب أن تدخل مجال"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:376
-msgid "Please copy sunrise.php to %s/wp-content/sunrise.php and ensure the SUNRISE definition is in %swp-config.php"
-msgstr "الرجاء sunrise.php نسخة ليالي ٪ / الفسفور الابيض بين المحتوى / sunrise.php وضمان تعريف الشروق في config.php ٪ ، swp"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:378
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:387
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:396
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:418
-msgid "This plugin has not been configured correctly yet."
-msgstr "لم يكن هذا البرنامج المساعد تكوينها بشكل صحيح حتى الآن."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:385
-msgid "Please uncomment the line <em>define( 'SUNRISE', 'on' );</em> or add it to your %swp-config.php"
-msgstr "الرجاء حرر السطر <em>تعريف (&#39;الشروق&#39; ، &#39;على&#39;) ؛</em> أو إضافتها إلى ٪ swp - config.php الخاص"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:412
-msgid "Domain Mapping"
-msgstr "مجال رسم الخرائط"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:416
-msgid "Please set the IP address or CNAME of your server in the <a href='wpmu-admin.php?page=dm_admin_page'>site admin page</a>."
-msgstr "يرجى تحديد عنوان بروتوكول الإنترنت أو مدة عام بمبلغ الملقم الخاص بك في <a href='wpmu-admin.php?page=dm_admin_page'>موقع صفحة المشرف</a> ."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:429
-msgid "Active domains on this blog"
-msgstr "أحدث المجالات على هذا بلوق"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:454
-msgid "Set Primary Domain"
-msgstr "تعيين المجال الأساسية"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:457
-msgid "* The primary domain cannot be deleted."
-msgstr "* لا يمكن أن المجال الأساسي حذفها."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:462
-msgid "Add new domain"
-msgstr "إضافة نطاق جديد"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:467
-msgid "Primary domain for this blog"
-msgstr "الأساسي المجال لهذا بلوق"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:473
-msgid "If you want to redirect a domain you will need to add a DNS \"CNAME\" record pointing to the following domain name for this server: <strong>%s</strong>"
-msgstr "إذا كنت ترغب في إعادة توجيه المجال سوف تحتاج لإضافة أسماء النطاقات &quot;مدة عام&quot; مشيرا الى تسجيل اسم المجال التالي لهذا الملقم : <strong>٪ ق</strong>"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:474
-msgid "Google have published <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">instructions</a> for creating CNAME records on various hosting platforms such as GoDaddy and others."
-msgstr "نشر صور و <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">تعليمات</a> لإنشاء سجلات مدة عام على مختلف المنصات مثل استضافة GoDaddy.com) وغيرها."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:476
-msgid "If your domain name includes a hostname like \"www\", \"blog\" or some other prefix before the actual domain name you will need to add a CNAME for that hostname in your DNS pointing at this blog URL."
-msgstr "إذا كان اسم النطاق الخاص بك يتضمن اسم المضيف مثل &quot;شبكة الاتصالات العالمية&quot; ، &quot;بلوق&quot; أو غيرها من بعض بادئة قبل اسم المجال الفعلي سوف تحتاج لإضافة مدة عام لهذا المضيف في نظام أسماء النطاقات الخاص مشيرا في هذا العنوان بلوق."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:479
-msgid "If you want to redirect a domain you will need to add DNS \"A\" records pointing at the IP addresses of this server: <strong>%s</strong>"
-msgstr "إذا كنت ترغب في إعادة توجيه النطاق الذي سوف تحتاج إلى إضافة أسماء النطاقات &quot;ألف&quot; مشيرا في سجلات عناوين بروتوكول الإنترنت من هذا الخادم : <strong>٪ ق</strong>"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:481
-msgid "If you want to redirect a domain you will need to add a DNS \"A\" record pointing at the IP address of this server: <strong>%s</strong>"
-msgstr "إذا كنت ترغب في إعادة توجيه المجال سوف تحتاج لإضافة أسماء النطاقات &quot;ألف&quot; مشيرا سجل في الملكية الفكرية للتصدي لهذا الخادم : <strong>٪ ق</strong>"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:712
-msgid "Incorrect or out of date login key"
-msgstr "غير صحيحة أو من تاريخ دخول المفتاح"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:715
-msgid "Unknown login key"
-msgstr "غير معروف مفتاح الدخول"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:725
-msgid "Unknown logout key"
-msgstr "غير معروف خروج مفتاح"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:758
-msgid "Mapping"
-msgstr "رسم الخرائط"
-
-#: plugins/safecss/safecss.php:352
-msgid "Welcome to Custom CSS!"
-msgstr "مرحبا بكم في المغلق مخصص!"
-
-#: plugins/safecss/safecss.php:354
-msgid "If you are familiar with CSS or you have a stylesheet ready to paste, you may delete these comments and get started."
-msgstr "إذا كنت على دراية المغلق أو لديك ورقة أنماط جاهزة للصق ، قد قمت بحذف هذه التعليقات وتبدأ."
-
-#: plugins/safecss/safecss.php:356
-msgid "CSS (Cascading Style Sheets) is a kind of code that tells the browser how to render a web page. Here's an example:"
-msgstr "المغلق (صفحات الطرز المتراصة) هو نوع من التعليمات البرمجية التي تخبر المتصفح كيف لجعل صفحة ويب. وإليك مثال :"
-
-#: plugins/safecss/safecss.php:360
-msgid "That line basically means \"give images a red border one pixel thick.\""
-msgstr "هذا الخط يعني &quot;اعطاء صور حدود حمراء واحدة سميكة بكسل.&quot;"
-
-#: plugins/safecss/safecss.php:362
-msgid "CSS is not very hard to learn. If you already know a little HTML it will be fun to move things around on the web page by changing your stylesheet. There are many free references to help you get started. You can find helpful links, starter stylesheets and knowledgable people in the forum"
-msgstr "المغلق وليس من الصعب جدا على التعلم. إذا كنت تعرف بالفعل أتش تي أم أل قليل سيكون متعة لدفع الامور نحو في صفحة الويب من خلال تغيير الأنماط الخاصة بك. هناك إشارات كثيرة لالحرة مساعدتك على البدء. يمكنك العثور على وصلات مفيدة ، ومعدات الشكل بداية الناس الاطلاع في المنتدى"
-
-#: plugins/safecss/safecss.php:365
-msgid "We hope you enjoy developing your custom CSS. Here are a few things to keep in mind"
-msgstr "نأمل أن تستمتع النامية المغلق المخصص الخاص بك. وهنا بضعة أشياء لنضع في اعتبارنا"
-
-#: plugins/safecss/safecss.php:367
-msgid "You can not edit the stylesheets of your theme. Your stylesheet will be loaded after the theme stylesheets, which means that your rules can take precedence and override the theme CSS rules. The Sandbox theme is recommended for those who would prefer to start from scratch."
-msgstr "لا يمكن تحرير معدات الشكل من الموضوع الخاص بك. سيتم تحميل أنماط الخاص بك بعد موضوع معدات الشكل ، مما يعني أن النظام الخاص بك يمكن أن تكون لها الأسبقية وتجاوز موضوع المغلق القواعد. وأوصى الصندوق الرمل الموضوع بالنسبة لأولئك الذين يفضلون أن نبدأ من الصفر."
-
-#: plugins/safecss/safecss.php:369
-msgid "CSS comments will be stripped from your stylesheet."
-msgstr "وسيتم تجريد التعليقات المغلق من أنماط الخاص."
-
-#: plugins/safecss/safecss.php:371
-msgid "This is a comment. Comments begin with /* and end with */"
-msgstr "هذا هو التعليق. تعليقات تبدأ / * وتنتهي * /"
-
-#: plugins/safecss/safecss.php:374
-msgid ""
-"Things we strip out include:\n"
-" * HTML code\n"
-" * @import rules\n"
-" * expressions\n"
-" * invalid and unsafe code\n"
-" * URLs not using the http: protocol"
-msgstr "الأشياء التي تستبعد منه ما يلي : * الكود * @ قواعد استيراد * * التعبيرات غير صالحة وغير آمنة * رمز عناوين لا تستخدم http:protocol"
-
-#: plugins/safecss/safecss.php:381
-msgid ""
-"Things we encourage include:\n"
-" * @media blocks!\n"
-" * sharing your CSS!\n"
-" * testing in several browsers!\n"
-" * helping others in the forum!"
-msgstr "أشياء نشجع ما يلي : * @ وسائل الاعلام لبنات! * تقاسم المغلق الخاص! * إجراء تجارب على عدة متصفحات! * مساعدة الآخرين في المنتدى!"
-
-#: plugins/safecss/safecss.php:476
-msgid "Preview: changes must be saved or they will be lost"
-msgstr "معاينة : يجب حفظ التغييرات أو أنها سوف تضيع"
-
-#: plugins/safecss/safecss.php:502
-msgid "Edit CSS"
-msgstr "تحرير المغلق"
-
-#: plugins/safecss/safecss.php:635
-msgid "Stylesheet saved."
-msgstr "حفظ الأنماط."
-
-#: plugins/safecss/safecss.php:646
-msgid "CSS Stylesheet Editor"
-msgstr "المغلق محرر الأنماط"
-
-#: plugins/safecss/safecss.php:651
-msgid "For help with this plugin, please see WordPress.com help page <a href=\"http://support.wordpress.com/editing-css/\">CSS documentation</a> or you may ask a question in the <a href=\"http://wordpress.org/support/forum/themes-and-templates\">Themes and Templates</a> forum."
-msgstr "للمساعدة في هذا البرنامج المساعد ، الرجاء راجع صفحة المساعدة WordPress.com <a href=\"http://support.wordpress.com/editing-css/\">المغلق وثائق</a> أو قد طرح سؤال في <a href=\"http://wordpress.org/support/forum/themes-and-templates\">المواضيع وقوالب</a> المنتدى."
-
-#: plugins/safecss/safecss.php:652
-msgid "For help with CSS it&rsquo;s self, try <a href=\"http://www.w3schools.com/css/default.asp\">W3Schools</a>, <a href=\"http://alistapart.com/\">A List Apart</a>."
-msgstr "للحصول على مساعدة المغلق هو النفس ، ومحاولة <a href=\"http://www.w3schools.com/css/default.asp\">W3Schools</a> ، <a href=\"http://alistapart.com/\">وهناك قائمة وبصرف النظر</a> ."
-
-#: plugins/safecss/safecss.php:654
-msgid "Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?"
-msgstr "هل تريد إجراء تغييرات على أنماط موضوع الحالي الخاص بك ، أو أنك تريد أن تبدأ من الصفر؟"
-
-#: plugins/safecss/safecss.php:655
-msgid "Add this to the %s theme's CSS stylesheet (<a href=\"%s\">view original stylesheet</a>)"
-msgstr "هذا إضافة إلى ٪ ليالي لموضوع المغلق أنماط ( <a href=\"%s\">عرض الأنماط الأصلية</a> )"
-
-#: plugins/safecss/safecss.php:656
-msgid "Start from scratch and just use this "
-msgstr "نبدأ من الصفر ، وهذا فقط استخدام"
-
-#: plugins/safecss/safecss.php:659
-msgid "If you change the width of your main content column, make sure your media files fit. Enter the maximum width for media files in your new CSS below."
-msgstr "إذا كنت تغيير عرض العمود المحتوى الرئيسي ، تأكد من ملفات الوسائط مناسبا. أدخل أقصى عرض لملفات الوسائط في المغلق الجديد الخاص بك أدناه."
-
-#: plugins/safecss/safecss.php:660
-msgid "Limit width to"
-msgstr "العرض إلى حد"
-
-#: plugins/safecss/safecss.php:661
-msgid "pixels for videos, full size images, and other shortcodes. (<a href=\"%s\">more info</a>)"
-msgstr "بكسل لأشرطة الفيديو ، والصور بالحجم الكامل ، وshortcodes أخرى. ( <a href=\"%s\">مزيد من المعلومات</a> )"
-
-#: plugins/safecss/safecss.php:666
-msgid "Preview"
-msgstr "معاينة"
-
-#: plugins/safecss/safecss.php:668
-msgid "Save Stylesheet &raquo;"
-msgstr "حفظ الأنماط »"
-
-#: plugins/safecss/safecss.php:688
-msgid "CSS Revisions"
-msgstr "المغلق مراجعات"
-
-#: mu-plugins/category-excluder.php:20 mu-plugins/category-excluder.php:26
-#: mu-plugins/category-excluder.php:93
+#: category-excluder.php:20 category-excluder.php:26 category-excluder.php:93
 msgid "Category Excluder"
 msgstr "استبعاد فئة"
 
-#: mu-plugins/category-excluder.php:26
+#: category-excluder.php:26
 msgid "On this screen you may disable any category from displaying on your main page, feeds, and/or archives. If a post is in more then one category, it will be excluded if it&rsquo;s in any exclued category."
 msgstr "على هذه الشاشة قد تعطيل أي فئة من عرض على الصفحة الرئيسية الخاصة بك ، ويغذي ، و / أو المحفوظات إذا وظيفة في أكثر من فئة واحدة ، سيتم استبعاده اذا كان في أي فئة exclued."
 
-#: mu-plugins/category-excluder.php:50
+#: category-excluder.php:50
 msgid "Excludes successfully updated"
 msgstr "يستبعد تحديث بنجاح"
 
-#: mu-plugins/category-excluder.php:95
+#: category-excluder.php:95
 msgid "This page will allow you to exclude or disable individual categories from displaying on the main page, in your feed, and/or in your archives."
 msgstr "وسوف تسمح لك هذه الصفحة إلى استبعاد أو فئات معينة من تعطيل عرض على الصفحة الرئيسية ، في خلاصتك ، و / أو في المحفوظات الخاصة بك."
 
-#: mu-plugins/category-excluder.php:100
+#: category-excluder.php:100
 msgid "Category"
 msgstr "فئة"
 
-#: mu-plugins/category-excluder.php:101
+#: category-excluder.php:101
 msgid "Exclude from Main Page?"
 msgstr "استبعاد من الصفحة الرئيسية؟"
 
-#: mu-plugins/category-excluder.php:102
+#: category-excluder.php:102
 msgid "Exclude from Feeds?"
 msgstr "استبعاد من الخلاصات؟"
 
-#: mu-plugins/category-excluder.php:103
+#: category-excluder.php:103
 msgid "Exclude from Archives?"
 msgstr "استبعاد من المحفوظات؟"
 
-#: mu-plugins/category-excluder.php:124
+#: category-excluder.php:124
 msgid "Note: If a post is in more the one category, it will be excluded if it matches <strong>any</strong> of the excluded categories."
 msgstr "ملاحظة : إذا كانت وظيفة في فئة واحدة أكثر من إخراجها ، وسوف إذا كان يطابق <strong>أي</strong> من الفئات المستبعدة."
 
-#: mu-plugins/category-excluder.php:126 mu-plugins/webmaster-tools.php:320
+#: category-excluder.php:126 webmaster-tools.php:320
 msgid "Save Changes"
 msgstr "حفظ التغييرات"
 
-#: mu-plugins/typekit-fonts.php:19
+#: typekit-fonts.php:19
 msgid "Fonts"
 msgstr "حرة"
 
-#: mu-plugins/typekit-fonts.php:29
+#: typekit-fonts.php:29
 msgid "Typekit&rsquo;s fonts isn&rsquo;t the easist thing to setup. It will require that you know something about the way your page is displayed to the public. See the following resources for a overview of what your trying to do."
 msgstr "الخطوط Typekit ليست الشيء easist إلى الإعداد. وسيتطلب ذلك أن تعرف شيئا عن الطريقة التي يتم عرض صفحة للجمهور. راجع المصادر التالية لمحة عامة عن ما تحاول أن تفعله بك."
 
-#: mu-plugins/typekit-fonts.php:31
+#: typekit-fonts.php:31
 msgid "Using Typekit with WordPress"
 msgstr "باستخدام Typekit مع وورد"
 
-#: mu-plugins/typekit-fonts.php:32
+#: typekit-fonts.php:32
 msgid "Finding and Using Selectors"
 msgstr "الحقائق واستخدام المختارون"
 
-#: mu-plugins/typekit-fonts.php:46 mu-plugins/webmaster-tools.php:189
-#: mu-plugins/webmaster-tools.php:199
+#: typekit-fonts.php:46 webmaster-tools.php:189 webmaster-tools.php:199
 msgid "You cannot edit this screen."
 msgstr "لا يمكنك تحرير هذه الشاشة."
 
-#: mu-plugins/typekit-fonts.php:58
+#: typekit-fonts.php:58
 msgid "Typekit Fonts"
 msgstr "Typekit الخطوط"
 
-#: mu-plugins/typekit-fonts.php:59
+#: typekit-fonts.php:59
 msgid "Typekit"
 msgstr "Typekit"
 
-#: mu-plugins/typekit-fonts.php:63
+#: typekit-fonts.php:63
 msgid "Your Typekit ID"
 msgstr "اسم المستخدم الخاص بك Typekit"
 
-#: mu-plugins/typekit-fonts.php:64
+#: typekit-fonts.php:64
 msgid "You can find your Typekit ID on typekit.com under Kit Editor -> Embed Code."
 msgstr "يمكنك العثور على اسم المستخدم الخاص Typekit typekit.com تحت محرر كيت --&gt; تضمين قانون."
 
-#: mu-plugins/typekit-fonts.php:67
+#: typekit-fonts.php:67
 msgid "Update ID"
 msgstr "تحديث معرف"
 
-#: mu-plugins/typekit-fonts.php:73
+#: typekit-fonts.php:73
 msgid "Sign up for Typekit"
 msgstr "قم بالتسجيل في Typekit"
 
-#: mu-plugins/typekit-fonts.php:74
+#: typekit-fonts.php:74
 msgid "If you don&#8217;t have a Typekit ID yet you can sign up on their site for free and enable it on your site with just a few clicks."
 msgstr "إذا لم يكن لديك هوية Typekit حتى الآن يمكنك الاشتراك في الموقع مجانا ، وتمكينه على موقع الويب الخاص بك مع نقرات قليلة فقط."
 
-#: mu-plugins/typekit-fonts.php:76
+#: typekit-fonts.php:76
 msgid "Sign up in seconds"
 msgstr "قم بالتسجيل في ثوان"
 
-#: mu-plugins/webmaster-tools.php:27 mu-plugins/webmaster-tools.php:220
+#: webmaster-tools.php:27 webmaster-tools.php:220
 msgid "Webmaster Tools"
 msgstr "أدوات مشرفي المواقع"
 
-#: mu-plugins/webmaster-tools.php:42
+#: webmaster-tools.php:42
 msgid "Here's how you optain and setup each search engines key's"
 msgstr "هنا كيف أنت optain والإعداد على كل مفتاح لمحركات البحث"
 
-#: mu-plugins/webmaster-tools.php:43 mu-plugins/webmaster-tools.php:224
-#: mu-plugins/webmaster-tools.php:233
+#: webmaster-tools.php:43 webmaster-tools.php:224 webmaster-tools.php:233
 msgid "Google Webmaster Tools"
 msgstr "أدوات مشرفي المواقع"
 
-#: mu-plugins/webmaster-tools.php:45
+#: webmaster-tools.php:45
 msgid "Log in to "
 msgstr "تسجيل الدخول إلى"
 
-#: mu-plugins/webmaster-tools.php:45
+#: webmaster-tools.php:45
 msgid "with your Google account."
 msgstr "مع حسابك جوجل."
 
-#: mu-plugins/webmaster-tools.php:46
+#: webmaster-tools.php:46
 msgid "Enter your blog URL and click <code>Add Site</code>."
 msgstr "أدخل عنوان بلوق الخاص بك وانقر فوق <code>Add Site</code> ."
 
-#: mu-plugins/webmaster-tools.php:47
+#: webmaster-tools.php:47
 msgid "You will be presented with several verification methods. Choose <code>Meta Tag</code>."
 msgstr "وسيقدم أنت مع عدة طرق للتحقق. اختيار <code>Meta Tag</code> ."
 
-#: mu-plugins/webmaster-tools.php:48 mu-plugins/webmaster-tools.php:61
+#: webmaster-tools.php:48 webmaster-tools.php:61
 msgid "Copy the meta tag, which looks something like"
 msgstr "نسخ علامة التعريف ، الذي يبدو شيء من هذا القبيل"
 
-#: mu-plugins/webmaster-tools.php:50 mu-plugins/webmaster-tools.php:63
-#: mu-plugins/webmaster-tools.php:77
+#: webmaster-tools.php:50 webmaster-tools.php:63 webmaster-tools.php:77
 msgid "Leave the verification page open and go to your blog dashboard."
 msgstr "اترك الصفحة مفتوحة والتحقق من الذهاب الى لوحة القيادة الخاصة بك بلوق."
 
-#: mu-plugins/webmaster-tools.php:51 mu-plugins/webmaster-tools.php:64
-#: mu-plugins/webmaster-tools.php:78
+#: webmaster-tools.php:51 webmaster-tools.php:64 webmaster-tools.php:78
 msgid "Open the Tools Page and paste the code in the appropriate field."
 msgstr "فتح صفحة الأدوات ولصق رمز في الحقل المناسب."
 
-#: mu-plugins/webmaster-tools.php:52 mu-plugins/webmaster-tools.php:65
-#: mu-plugins/webmaster-tools.php:79
+#: webmaster-tools.php:52 webmaster-tools.php:65 webmaster-tools.php:79
 msgid "Click on <code>Save Changes</code>."
 msgstr "انقر على <code>Save Changes</code> ."
 
-#: mu-plugins/webmaster-tools.php:53
+#: webmaster-tools.php:53
 msgid "Go back to the verification page and click <code>Verify</code>."
 msgstr "العودة الى صفحة التحقق وانقر فوق <code>Verify</code> ."
 
-#: mu-plugins/webmaster-tools.php:56
+#: webmaster-tools.php:56
 msgid "Yahoo Site Explorer"
 msgstr "موقع ياهو إكسبلورر"
 
-#: mu-plugins/webmaster-tools.php:58 mu-plugins/webmaster-tools.php:72
+#: webmaster-tools.php:58 webmaster-tools.php:72
 msgid "Log in to"
 msgstr "تسجيل الدخول إلى"
 
-#: mu-plugins/webmaster-tools.php:58
+#: webmaster-tools.php:58
 msgid "with your Yahoo account."
 msgstr "مع حساب ياهو الخاص بك."
 
-#: mu-plugins/webmaster-tools.php:59
+#: webmaster-tools.php:59
 msgid "Enter your blog URL and click <code>Add My Site</code>."
 msgstr "أدخل عنوان بلوق الخاص بك وانقر فوق <code>Add My Site</code> ."
 
-#: mu-plugins/webmaster-tools.php:60
+#: webmaster-tools.php:60
 msgid "You will be presented with several authentication methods. Choose <code>By adding a META tag to my home page.</code>."
 msgstr "وسيقدم أنت مع عدة أساليب المصادقة. اختيار <code>By adding a META tag to my home page.</code> ."
 
-#: mu-plugins/webmaster-tools.php:66
+#: webmaster-tools.php:66
 msgid "Go back to the verification page and click <code>Ready to Authenticate</code>."
 msgstr "العودة الى صفحة التحقق وانقر <code>Ready to Authenticate</code> ."
 
-#: mu-plugins/webmaster-tools.php:68
+#: webmaster-tools.php:68
 msgid "Note: It may take up to 24 hours for your site to be authenticated."
 msgstr "ملاحظة : قد يستغرق ما يصل الى 24 ساعة لموقعك أن تتم المصادقة."
 
-#: mu-plugins/webmaster-tools.php:70 mu-plugins/webmaster-tools.php:227
-#: mu-plugins/webmaster-tools.php:253
+#: webmaster-tools.php:70 webmaster-tools.php:227 webmaster-tools.php:253
 msgid "Bing Webmaster Center"
 msgstr "بنج مشرفي المركز"
 
-#: mu-plugins/webmaster-tools.php:72
+#: webmaster-tools.php:72
 msgid "with your Live! account."
 msgstr "مع لايف الخاص بك! الحساب."
 
-#: mu-plugins/webmaster-tools.php:73
+#: webmaster-tools.php:73
 msgid "Click <code>Add a Site</code>."
 msgstr "انقر فوق <code>Add a Site</code> ."
 
-#: mu-plugins/webmaster-tools.php:74
+#: webmaster-tools.php:74
 msgid "Enter your blog URL and click <code>Submit</code>."
 msgstr "أدخل عنوان بلوق الخاص بك وانقر فوق <code>Submit</code> ."
 
-#: mu-plugins/webmaster-tools.php:75
+#: webmaster-tools.php:75
 msgid "Copy the meta tag from the text area at the bottom. It looks something like"
 msgstr "نسخ علامة التعريف من ناحية النص في أسفل. يبدو شيء من هذا القبيل"
 
-#: mu-plugins/webmaster-tools.php:80
+#: webmaster-tools.php:80
 msgid "Go back to the verification page and click <code>Return to the Site list</code>."
 msgstr "العودة الى صفحة التحقق وانقر فوق <code>Return to the Site list</code> ."
 
-#: mu-plugins/webmaster-tools.php:82
+#: webmaster-tools.php:82
 msgid "The Robots.txt File"
 msgstr "ملف Robots.txt"
 
-#: mu-plugins/webmaster-tools.php:83
+#: webmaster-tools.php:83
 msgid "The <strong>robots.txt</strong> file is a way to prevent cooperating web spiders and other web robots from accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code."
 msgstr "الملف <strong>robots.txt</strong> هو وسيلة لمنع التعاون العناكب الويب والروبوتات الويب الأخرى من الوصول إلى كل أو جزء من الموقع الذي هو خلاف شخصي عامة. وغالبا ما تستخدم الروبوتات من قبل محركات البحث لتصنيف المواقع على شبكة الإنترنت والأرشيف ، أو من قبل أصحاب المواقع لتدقيق شفرة المصدر."
 
-#: mu-plugins/webmaster-tools.php:84
+#: webmaster-tools.php:84
 msgid "To Allow all robots"
 msgstr "للسماح لجميع الروبوتات"
 
-#: mu-plugins/webmaster-tools.php:85
+#: webmaster-tools.php:85
 msgid "To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this"
 msgstr "السماح لأي إنسان الوصول إلى موقع الويب الخاص بك كامل ، يمكنك ببساطة ترك ملف robots.txt فارغ ، أو هل يمكن استخدام هذا"
 
-#: mu-plugins/webmaster-tools.php:87
+#: webmaster-tools.php:87
 msgid ">To Ban all robots"
 msgstr "&gt; لحظر جميع الروبوتات"
 
-#: mu-plugins/webmaster-tools.php:89
+#: webmaster-tools.php:89
 msgid "To Ban all crawlers from four directories of a website"
 msgstr "لحظر جميع الزواحف من أربعة الدلائل من موقع على شبكة الانترنت"
 
-#: mu-plugins/webmaster-tools.php:221
+#: webmaster-tools.php:221
 msgid "Site Verification"
 msgstr "موقع للتحقق"
 
-#: mu-plugins/webmaster-tools.php:222
+#: webmaster-tools.php:222
 msgid "All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites."
 msgstr "جميع محركات البحث الرئيسية الثلاثة توفر أدوات مشرفي المواقع التي تعطيك معلومات وإحصاءات مفصلة عن الكيفية التي نرى والزحف موقع الويب الخاص بك. من أجل الوصول إلى معظم من الميزات ، سيكون لديك للتحقق من المواقع الخاصة بك."
 
-#: mu-plugins/webmaster-tools.php:223
+#: webmaster-tools.php:223
 msgid "Enter your meta key \"content\" value to verify your blog with"
 msgstr "مفتاح الدخول الخاص ميتا &quot;محتوى&quot; قيمة للتحقق من بلوق الخاص بك مع"
 
-#: mu-plugins/webmaster-tools.php:225 mu-plugins/webmaster-tools.php:243
+#: webmaster-tools.php:225 webmaster-tools.php:243
 msgid "Yahoo! Site Explorer"
 msgstr "ياهو! مستكشف الموقع"
 
-#: mu-plugins/webmaster-tools.php:226
+#: webmaster-tools.php:226
 msgid "and"
 msgstr "و"
 
-#: mu-plugins/webmaster-tools.php:236 mu-plugins/webmaster-tools.php:246
-#: mu-plugins/webmaster-tools.php:256 mu-plugins/webmaster-tools.php:274
+#: webmaster-tools.php:236 webmaster-tools.php:246 webmaster-tools.php:256
+#: webmaster-tools.php:274
 msgid "Disabled"
 msgstr "تعطيل"
 
-#: mu-plugins/sitewide-tags.php:40 mu-plugins/sitewide-tags.php:69
-#: mu-plugins/sitewide-tags.php:87 mu-plugins/webmaster-tools.php:236
-#: mu-plugins/webmaster-tools.php:246 mu-plugins/webmaster-tools.php:256
-#: mu-plugins/webmaster-tools.php:274
+#: sitewide-tags.php:40 sitewide-tags.php:69 sitewide-tags.php:87
+#: webmaster-tools.php:236 webmaster-tools.php:246 webmaster-tools.php:256
+#: webmaster-tools.php:274
 msgid "Enabled"
 msgstr "مكن"
 
-#: mu-plugins/webmaster-tools.php:240 mu-plugins/webmaster-tools.php:250
-#: mu-plugins/webmaster-tools.php:260 mu-plugins/webmaster-tools.php:278
+#: webmaster-tools.php:240 webmaster-tools.php:250 webmaster-tools.php:260
+#: webmaster-tools.php:278
 msgid "Example"
 msgstr "مثال"
 
-#: mu-plugins/webmaster-tools.php:266
+#: webmaster-tools.php:266
 msgid "Google Analytics Tracking Script"
 msgstr "جوجل تحليلات تتبع البرنامج النصي"
 
-#: mu-plugins/webmaster-tools.php:267 mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:267 webmaster-tools.php:268
 msgid "Google Analytics"
 msgstr "جوجل تحليلات"
 
-#: mu-plugins/webmaster-tools.php:267
+#: webmaster-tools.php:267
 msgid "is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you're more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites."
 msgstr "هو حل تحليلات الويب التي تمنحك الأفكار الغنية في الحركة على موقعك وفعالية التسويق. قوية ومرنة وسهلة الاستخدام ميزات دعونا الآن تشاهد وتحليل بيانات حركة المرور الخاصة بك بطريقة جديدة تماما. مع جوجل التحليلات ، وكنت أكثر استعدادا لكتابة أفضل الإعلانات المستهدفة ، وتعزيز مبادرات التسويق الخاصة بك ، وخلق تحويل أعلى المواقع."
 
-#: mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:268
 msgid "Enter your"
 msgstr "أدخل"
 
-#: mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:268
 msgid "Account ID"
 msgstr "معرف الحساب"
 
-#: mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:268
 msgid "for this site, to allow"
 msgstr "لهذا الموقع ، للسماح"
 
-#: mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:268
 msgid "to track you page views."
 msgstr "لتتبع لكم صفحة وجهات النظر."
 
-#: mu-plugins/webmaster-tools.php:271
+#: webmaster-tools.php:271
 msgid "Google Analytics Tracking ID"
 msgstr "جوجل تحليلات تتبع معرف"
 
-#: mu-plugins/webmaster-tools.php:285
+#: webmaster-tools.php:285
 msgid "Robots.txt File"
 msgstr "ملف robots.txt"
 
-#: mu-plugins/webmaster-tools.php:293
+#: webmaster-tools.php:293
 msgid "You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don't understand what your doing, most likly you don't need to do anything."
 msgstr "يمكنك تحرير ملف robots.txt الخاص بك في المكان المخصص أدناه. الأسطر التي تبدأ ب <code>#</code> تعامل على أنها التعليقات. إذا كنت لا أفهم ما الخاص به ، ومعظم likly لا تحتاج إلى القيام بأي شيء."
 
-#: mu-plugins/webmaster-tools.php:294
+#: webmaster-tools.php:294
 msgid "Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples."
 msgstr "استخدام ملف robots.txt الخاص بك ، يمكنك حظر الروبوتات محددة ، ومنع كل الروبوتات ، أو تعيق وصول الروبوت إلى صفحات معينة أو مناطق من موقعك. إذا لم تكن متأكدا من نوع ما ل، أن ننظر في أسفل هذه الصفحة للحصول على أمثلة."
 
-#: mu-plugins/webmaster-tools.php:295 mu-plugins/webmaster-tools.php:315
+#: webmaster-tools.php:295 webmaster-tools.php:315
 msgid "Privacy Settings"
 msgstr "إعدادات الخصوصية"
 
-#: mu-plugins/webmaster-tools.php:295
+#: webmaster-tools.php:295
 msgid "page."
 msgstr "الصفحة."
 
-#: mu-plugins/webmaster-tools.php:296
+#: webmaster-tools.php:296
 msgid "Modify Your Robots.txt file"
 msgstr "تعديل ملف robots.txt"
 
-#: mu-plugins/webmaster-tools.php:297
+#: webmaster-tools.php:297
 msgid "Your Current Robots.txt file"
 msgstr "ملف Robots.txt الحالي"
 
-#: mu-plugins/webmaster-tools.php:303
+#: webmaster-tools.php:303
 msgid "reset robots.txt"
 msgstr "إعادة robots.txt"
 
-#: mu-plugins/webmaster-tools.php:315
+#: webmaster-tools.php:315
 msgid "Privacy Settings are curently <strong>Blocking</strong> all search engines. Enable search engine browsing on the "
 msgstr "إعدادات الخصوصية curently يتم <strong>حظر</strong> جميع محركات البحث. تمكين محرك البحث التصفح على"
 
-#: mu-plugins/webmaster-tools.php:315
+#: webmaster-tools.php:315
 msgid "page to be able to modify the robots.txt file."
 msgstr "الصفحة لتكون قادرة على تعديل الملف robots.txt."

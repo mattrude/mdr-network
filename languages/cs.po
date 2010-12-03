@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-03 20:49:10+0000\n"
+"PO-Revision-Date: 2010-12-03 21:00:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,818 +10,422 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: MDR Network Plugins\n"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:214
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:238
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:459
-msgid "<strong>Warning!</strong> Primary domains are currently disabled."
-msgstr ""
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:309
-msgid "Redirect administration pages to site's original domain (remote login disabled if this redirect is disabled)"
-msgstr ""
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:394
-msgid "Please edit your %swp-config.php and move the line <em>define( 'SUNRISE', 'on' );</em> above the last require_once() in that file."
-msgstr ""
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:312
-msgid "Disable primary domain check. Sites will not redirect to one domain name. May cause duplicate content issues."
-msgstr ""
-
-#: mu-plugins/contact_info.php:18
+#: contact_info.php:18
 msgid "Facebook URL"
 msgstr ""
 
-#: mu-plugins/typekit-fonts.php:59
+#: typekit-fonts.php:59
 msgid "offer a service that allows you to select from a range of hundreds of high quality fonts for your WordPress website. The fonts are applied using the font-face standard, so they are standards compliant, fully licensed and accessible. The fonts are served from a global network on redundant servers, so they shouldn't slow down your site. It's a subscription-based service, if you don't already have an account, you will need to register for one."
 msgstr ""
 
-#: mu-plugins/contact_info.php:19
+#: contact_info.php:19
 msgid "Google Talk"
 msgstr ""
 
-#: mu-plugins/contact_info.php:20
+#: contact_info.php:20
 msgid "Twitter ID"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:35
+#: sitewide-tags.php:35
 msgid "Global Tags"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:38
+#: sitewide-tags.php:38
 msgid "Tags Blog"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:51
+#: sitewide-tags.php:51
 msgid "You can create your post archive in a specific 'tags' blog of your choosing, or you can use the main blog of your site. Each has it's own pros and cons."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:53
+#: sitewide-tags.php:53
 msgid "<strong>Blogname</strong> of the blog your global tags and posts will live in. Blog will be created."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:54
+#: sitewide-tags.php:54
 msgid "Post to main blog"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:55
+#: sitewide-tags.php:55
 msgid "Create posts in your main blog. All posts will appear on the front page of your site. Remember to to add a post loop to home.php in the theme directory if it exists."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:59
+#: sitewide-tags.php:59
 msgid "Max Posts"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:63
+#: sitewide-tags.php:63
 msgid "The maximum number of posts stored in the tags blog."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:67
+#: sitewide-tags.php:67
 msgid "Include Pages"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:73
+#: sitewide-tags.php:73
 msgid "Privacy"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:75
+#: sitewide-tags.php:75
 msgid "Tags pages can be indexed by search engines."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:76
+#: sitewide-tags.php:76
 msgid "Tags pages will not be indexed by search engines."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:78
+#: sitewide-tags.php:78
 msgid "Will your tags pages be visible to Google and other search engines?"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:85
+#: sitewide-tags.php:85
 msgid "Non-Public Blogs"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:88
+#: sitewide-tags.php:88
 msgid "Include posts from blogs not indexed by search engines."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:92
+#: sitewide-tags.php:92
 msgid "Post Meta"
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:96
+#: sitewide-tags.php:96
 msgid "If you want to copy custom fields with posts. One custom field per line."
 msgstr ""
 
-#: mu-plugins/sitewide-tags.php:142
+#: sitewide-tags.php:142
 msgid "Global Posts"
 msgstr ""
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:286
-msgid "If you use round robin DNS or another load balancing technique with more than one IP, enter each address, separating them by commas."
-msgstr "Používáte-li DNS round robin, nebo jiný load balancing techniku s více než jedním IP, zadejte každou adresu, oddělovat je čárkami."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:285
-msgid "As a super admin on this network you can set the IP address users need to point their DNS A records at <em>or</em> the domain to point CNAME record at. If you don't know what the IP address is, ping this blog to get it."
-msgstr "Jako super admin v této síti můžete nastavit IP adresu, uživatelé potřebují, aby vedl jejich DNS záznamy u <em>domény, nebo</em> do bodu CNAME záznamu na. Pokud nevíte, co je IP adresa, ping tento blog, aby si to."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:282
-msgid "Domain Mapping Configuration"
-msgstr "Mapování domény Konfigurace"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:233
-msgid "Del"
-msgstr "Del"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:228
-msgid "No"
-msgstr "Ne"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:228
-msgid "Yes"
-msgstr "Ano"
-
-#: mu-plugins/typekit-fonts.php:30
+#: typekit-fonts.php:30
 msgid "Using Typekit - The Basics"
 msgstr "Použití Typekit - Základy"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
-msgid "Delete"
-msgstr "Vymazat"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:231
-msgid "Edit"
-msgstr "Upravit"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:217
-msgid "Save"
-msgstr "Uložit"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:210
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
-msgid "Primary"
-msgstr "Primární"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:209
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:430
-msgid "Domain"
-msgstr "Doména"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:208
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:225
-msgid "Site ID"
-msgstr "Místě ID"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:198
-msgid "New Domain"
-msgstr "Nové domény"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:196
-msgid "Edit Domain"
-msgstr "Upravit domény"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:187
-msgid "Search"
-msgstr "Hledání"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:185
-msgid "Domain:"
-msgstr "Doména:"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:181
-msgid "Search Domains"
-msgstr "Hledat domény"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:167
-msgid "Searching for %s"
-msgstr "Vyhledávání%s"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:163
-msgid "Domain Deleted"
-msgstr "Doména vypouští"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:157
-msgid "Domain Updated"
-msgstr "Doména Aktualizováno"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:154
-msgid "Domain Add"
-msgstr "Přidat domény"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:144
-msgid "Domain not found"
-msgstr "Doména nebyla nalezena"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:135
-msgid "Domain Mapping: Domains"
-msgstr "Mapování domény: Domény"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:114
-msgid "Domain mapping database table created."
-msgstr "Mapování domény databázové tabulky vytvořené."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:129
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:252
-msgid "<strong>Warning!</strong> This plugin will only work if WordPress is installed in the root directory of your webserver. It is currently installed in &#8217;%s&#8217;."
-msgstr "<strong>Upozornění!</strong> Tento plugin bude fungovat pouze pokud WordPress je instalována v kořenovém adresáři vašeho webového serveru. V současné době je nainstalován v &#39;%s&#39;."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:76
-msgid "Domain deleted."
-msgstr "Doména smazán."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:73
-msgid "New primary domain."
-msgstr "Nové hlavní doménou."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:70
-msgid "New domain already exists."
-msgstr "Nová doména již existuje."
-
-#: mu-plugins/webmaster-tools.php:295
+#: webmaster-tools.php:295
 msgid "To Disable all search engines from browsing your site, see the"
 msgstr "Až k Oslabit všech vyhledávačů z prohlížení vašich stránek, viz"
 
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:45
-msgid "The domain mapping plugin only works if the site is installed in /. This is a limitation of how virtual servers work and is very difficult to work around."
-msgstr "Mapování domény plugin funguje pouze v případě, že web je instalován /. Jedná se o omezení toho, jak virtuálních serverů práci a je velmi obtížné obejít."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:34
-msgid "You must <a href=\"%1$s\">create a network</a> for it to work."
-msgstr "Musíte <a href=\"%1$s\">vytvořit síť</a> , aby mohla fungovat."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:34
-msgid "Domain Mapping Disabled."
-msgstr "Mapování domény tělesně."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:67
-msgid "New domain added."
-msgstr "Nová doména přidána."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:287
-msgid "Server IP Address: "
-msgstr "Server IP Address:"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:291
-msgid "If you prefer the use of a CNAME record, you can set the domain here. This domain must be configured with an A record or ANAME pointing at an IP address. Visitors may experience problems if it is a CNAME of another domain."
-msgstr "Pokud dáváte přednost použití záznamu CNAME, můžete nastavit doménu zde. Tato doména musí být konfigurován se záznam nebo ANAME směřovaly na adresu IP. Návštěvníci mohou vyskytnout problémy, pokud se jedná o CNAME jiné domény."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:292
-msgid "NOTE, this voids the use of any IP address set above"
-msgstr "Poznámka, toto zruší použití jakékoli IP adresy uvedené výše"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:293
-msgid "Server CNAME domain: "
-msgstr "Server CNAME domény:"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:295
-msgid "The information you enter here will be shown to your users so they can configure their DNS correctly. It is for informational purposes only"
-msgstr "Informace zde zadáte, se zobrazí na vašem uživatelům, aby mohli nakonfigurovat DNS správně. Je to pouze pro informační účely"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:297
-msgid "Domain Options"
-msgstr "Doména Možnosti"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:300
-msgid "Remote Login"
-msgstr "Vzdálené přihlášení"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:303
-msgid "Permanent redirect (better for your blogger's pagerank)"
-msgstr "Trvalé přesměrování (lepší pro vaše Blogger pagerank)"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:306
-msgid "User domain mapping page"
-msgstr "Uživatel mapování domény stránku"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:357
-msgid "You must enter a domain"
-msgstr "Musíte zadat doménu"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:376
-msgid "Please copy sunrise.php to %s/wp-content/sunrise.php and ensure the SUNRISE definition is in %swp-config.php"
-msgstr "Prosím, zkopírujte sunrise.php na%s / wp-content / sunrise.php a zajistit SUNRISE definice je v%sWP-config.php"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:378
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:387
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:396
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:418
-msgid "This plugin has not been configured correctly yet."
-msgstr "Tento plugin nebyl nastaven správně, a přesto."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:385
-msgid "Please uncomment the line <em>define( 'SUNRISE', 'on' );</em> or add it to your %swp-config.php"
-msgstr "Prosím, odkomentujte řádek <em>define (&#39;SUNRISE&#39;, &#39;o&#39;),</em> nebo ji přidat do svého%sWP-config.php"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:412
-msgid "Domain Mapping"
-msgstr "Mapování domény"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:416
-msgid "Please set the IP address or CNAME of your server in the <a href='wpmu-admin.php?page=dm_admin_page'>site admin page</a>."
-msgstr "Prosím nastavte IP adresu, nebo CNAME vašeho serveru v <a href='wpmu-admin.php?page=dm_admin_page'>admin stránce</a> ."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:429
-msgid "Active domains on this blog"
-msgstr "Aktivní domény na tomto blogu"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:454
-msgid "Set Primary Domain"
-msgstr "Set primární doméně"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:457
-msgid "* The primary domain cannot be deleted."
-msgstr "* Primární domény nelze odstranit."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:462
-msgid "Add new domain"
-msgstr "Přidat novou doménu"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:467
-msgid "Primary domain for this blog"
-msgstr "Primární doménu pro tento blog"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:473
-msgid "If you want to redirect a domain you will need to add a DNS \"CNAME\" record pointing to the following domain name for this server: <strong>%s</strong>"
-msgstr "Pokud chcete přesměrovat doménu budete muset přidat DNS &quot;CNAME&quot; záznam ukazující na následující doménové jméno pro tento <strong>server:%s</strong>"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:474
-msgid "Google have published <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">instructions</a> for creating CNAME records on various hosting platforms such as GoDaddy and others."
-msgstr "Google zveřejnili <a href=\"http://www.google.com/support/blogger/bin/answer.py?hl=en&answer=58317\" target=\"_blank\">návod</a> k vytvoření CNAME záznamů na různých platformách, jako je hosting GoDaddy a další."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:476
-msgid "If your domain name includes a hostname like \"www\", \"blog\" or some other prefix before the actual domain name you will need to add a CNAME for that hostname in your DNS pointing at this blog URL."
-msgstr "Pokud je váš název domény obsahuje hostname jako &quot;www&quot;, &quot;blog&quot;, nebo nějaké jiné prefix před vlastní název domény, budete muset přidat CNAME pro tento hostname v DNS směřovaly na tomto blogu URL."
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:479
-msgid "If you want to redirect a domain you will need to add DNS \"A\" records pointing at the IP addresses of this server: <strong>%s</strong>"
-msgstr "Pokud chcete přesměrovat doménu budete muset přidat DNS &quot;A&quot; záznamy ukazuje na IP adresu tohoto <strong>serveru:%s</strong>"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:481
-msgid "If you want to redirect a domain you will need to add a DNS \"A\" record pointing at the IP address of this server: <strong>%s</strong>"
-msgstr "Pokud chcete přesměrovat doménu budete muset přidat DNS &quot;A&quot; záznam ukazuje na IP adresu tohoto <strong>serveru:%s</strong>"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:712
-msgid "Incorrect or out of date login key"
-msgstr "Nesprávné nebo zastaralé přihlášení klíč"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:715
-msgid "Unknown login key"
-msgstr "Neznámý přihlášení klíč"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:725
-msgid "Unknown logout key"
-msgstr "Neznámý odhlásit klíč"
-
-#: plugins/wordpress-mu-domain-mapping/domain_mapping.php:758
-msgid "Mapping"
-msgstr "Mapování"
-
-#: plugins/safecss/safecss.php:352
-msgid "Welcome to Custom CSS!"
-msgstr "Vítejte na Vlastní CSS!"
-
-#: plugins/safecss/safecss.php:354
-msgid "If you are familiar with CSS or you have a stylesheet ready to paste, you may delete these comments and get started."
-msgstr "Pokud jste obeznámeni s CSS, nebo máte stylů připraveni vložit, můžete smazat tyto připomínky a začít."
-
-#: plugins/safecss/safecss.php:356
-msgid "CSS (Cascading Style Sheets) is a kind of code that tells the browser how to render a web page. Here's an example:"
-msgstr "CSS (Cascading Style Sheets) je druh kódu, který říká prohlížeči, jak k tomu, aby webové stránky. Zde je příklad:"
-
-#: plugins/safecss/safecss.php:360
-msgid "That line basically means \"give images a red border one pixel thick.\""
-msgstr "Tento řádek v podstatě znamená &quot;dát obrázky červeným okrajem jeden pixel tlustý.&quot;"
-
-#: plugins/safecss/safecss.php:362
-msgid "CSS is not very hard to learn. If you already know a little HTML it will be fun to move things around on the web page by changing your stylesheet. There are many free references to help you get started. You can find helpful links, starter stylesheets and knowledgable people in the forum"
-msgstr "CSS není těžké se naučit. Pokud již víte, trochu HTML to bude legrace pohybovat věci kolem na webové stránky tím, že změníte styl. Existuje mnoho volného odkazů, které vám pomohou začít. Najdete užitečné odkazy, startér styly a znalostmi lidí na fóru"
-
-#: plugins/safecss/safecss.php:365
-msgid "We hope you enjoy developing your custom CSS. Here are a few things to keep in mind"
-msgstr "Doufáme, že vás těšit pěstovat svůj vlastní CSS. Zde je několik věcí, které mějte na paměti,"
-
-#: plugins/safecss/safecss.php:367
-msgid "You can not edit the stylesheets of your theme. Your stylesheet will be loaded after the theme stylesheets, which means that your rules can take precedence and override the theme CSS rules. The Sandbox theme is recommended for those who would prefer to start from scratch."
-msgstr "Nemůžete upravovat styly svého tématu. Váš styl bude načten po tématu styly, což znamená, že vaše pravidla mohou mít přednost a přepíše téma CSS pravidel. Téma Sandbox je určen pro ty, kteří by raději začít od nuly."
-
-#: plugins/safecss/safecss.php:369
-msgid "CSS comments will be stripped from your stylesheet."
-msgstr "CSS komentáře budou odstraněny z vašeho stylu."
-
-#: plugins/safecss/safecss.php:371
-msgid "This is a comment. Comments begin with /* and end with */"
-msgstr "Toto je komentář. Komentáře začínají / * a končí * /"
-
-#: plugins/safecss/safecss.php:374
-msgid ""
-"Things we strip out include:\n"
-" * HTML code\n"
-" * @import rules\n"
-" * expressions\n"
-" * invalid and unsafe code\n"
-" * URLs not using the http: protocol"
-msgstr "Věci jsme strip z zahrnují: * HTML kód * @ import pravidla * výrazů * neplatný a nebezpečný kód * URL nepoužívají http:protocol"
-
-#: plugins/safecss/safecss.php:381
-msgid ""
-"Things we encourage include:\n"
-" * @media blocks!\n"
-" * sharing your CSS!\n"
-" * testing in several browsers!\n"
-" * helping others in the forum!"
-msgstr "Věci Budeme rádi, patří: * @ media bloky! * Sdílení vašich CSS! * Testování ve více prohlížečích! * Pomáhat druhým na fóru!"
-
-#: plugins/safecss/safecss.php:476
-msgid "Preview: changes must be saved or they will be lost"
-msgstr "Preview: změny musí být uloženy, nebo budou ztraceny"
-
-#: plugins/safecss/safecss.php:502
-msgid "Edit CSS"
-msgstr "Upravit CSS"
-
-#: plugins/safecss/safecss.php:635
-msgid "Stylesheet saved."
-msgstr "Stylesheet zachránil."
-
-#: plugins/safecss/safecss.php:646
-msgid "CSS Stylesheet Editor"
-msgstr "CSS Editor"
-
-#: plugins/safecss/safecss.php:651
-msgid "For help with this plugin, please see WordPress.com help page <a href=\"http://support.wordpress.com/editing-css/\">CSS documentation</a> or you may ask a question in the <a href=\"http://wordpress.org/support/forum/themes-and-templates\">Themes and Templates</a> forum."
-msgstr "Za pomoc s tímto plugin naleznete WordPress.com nápověda <a href=\"http://support.wordpress.com/editing-css/\">CSS dokumentace</a> nebo si může položit otázku v <a href=\"http://wordpress.org/support/forum/themes-and-templates\">Motivy a šablony</a> forum."
-
-#: plugins/safecss/safecss.php:652
-msgid "For help with CSS it&rsquo;s self, try <a href=\"http://www.w3schools.com/css/default.asp\">W3Schools</a>, <a href=\"http://alistapart.com/\">A List Apart</a>."
-msgstr "Pro pomoc s CSS je to samo, zkuste <a href=\"http://www.w3schools.com/css/default.asp\">W3Schools</a> , <a href=\"http://alistapart.com/\">A List Apart</a> ."
-
-#: plugins/safecss/safecss.php:654
-msgid "Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?"
-msgstr "Přejete si provést změny v aktuálním tématem je stylesheet, nebo chcete začít od nuly?"
-
-#: plugins/safecss/safecss.php:655
-msgid "Add this to the %s theme's CSS stylesheet (<a href=\"%s\">view original stylesheet</a>)"
-msgstr "Přidejte si to do%s tématem to CSS stylů ( <a href=\"%s\">cílem originální stylesheet</a> )"
-
-#: plugins/safecss/safecss.php:656
-msgid "Start from scratch and just use this "
-msgstr "Start od nuly a jen využívání této"
-
-#: plugins/safecss/safecss.php:659
-msgid "If you change the width of your main content column, make sure your media files fit. Enter the maximum width for media files in your new CSS below."
-msgstr "Pokud změníte šířku hlavní obsah sloupce, ujistěte se, že mediální soubory fit. Zadejte maximální šířka pro mediální soubory v novém CSS níže."
-
-#: plugins/safecss/safecss.php:660
-msgid "Limit width to"
-msgstr "Limit šířky"
-
-#: plugins/safecss/safecss.php:661
-msgid "pixels for videos, full size images, and other shortcodes. (<a href=\"%s\">more info</a>)"
-msgstr "pixelů pro video, v plné velikosti obrázků a další shortcodes. ( <a href=\"%s\">více info</a> )"
-
-#: plugins/safecss/safecss.php:666
-msgid "Preview"
-msgstr "Preview"
-
-#: plugins/safecss/safecss.php:668
-msgid "Save Stylesheet &raquo;"
-msgstr "Uložit Stylesheet »"
-
-#: plugins/safecss/safecss.php:688
-msgid "CSS Revisions"
-msgstr "CSS Revize"
-
-#: mu-plugins/category-excluder.php:20 mu-plugins/category-excluder.php:26
-#: mu-plugins/category-excluder.php:93
+#: category-excluder.php:20 category-excluder.php:26 category-excluder.php:93
 msgid "Category Excluder"
 msgstr "Kategorie Excluder"
 
-#: mu-plugins/category-excluder.php:26
+#: category-excluder.php:26
 msgid "On this screen you may disable any category from displaying on your main page, feeds, and/or archives. If a post is in more then one category, it will be excluded if it&rsquo;s in any exclued category."
 msgstr "Na této obrazovce můžete zakázat jakékoliv kategorie zobrazovat na hlavní stránce, kanály, a / nebo archivy. Je-li místo, je ve více než jedné kategorie, bude vyloučen, pokud je to v každém exclued kategorii."
 
-#: mu-plugins/category-excluder.php:50
+#: category-excluder.php:50
 msgid "Excludes successfully updated"
 msgstr "Nezahrnuje úspěšně aktualizovány"
 
-#: mu-plugins/category-excluder.php:95
+#: category-excluder.php:95
 msgid "This page will allow you to exclude or disable individual categories from displaying on the main page, in your feed, and/or in your archives."
 msgstr "Tato stránka vám umožní vyloučit nebo zakázat jednotlivé kategorie od zobrazení na hlavní stránce, v krmivech a / nebo ve svém archivu."
 
-#: mu-plugins/category-excluder.php:100
+#: category-excluder.php:100
 msgid "Category"
 msgstr "Kategorie"
 
-#: mu-plugins/category-excluder.php:101
+#: category-excluder.php:101
 msgid "Exclude from Main Page?"
 msgstr "Vyloučit z Hlavní stránka?"
 
-#: mu-plugins/category-excluder.php:102
+#: category-excluder.php:102
 msgid "Exclude from Feeds?"
 msgstr "Vyloučit z kategorie?"
 
-#: mu-plugins/category-excluder.php:103
+#: category-excluder.php:103
 msgid "Exclude from Archives?"
 msgstr "Vyjmout z archivu?"
 
-#: mu-plugins/category-excluder.php:124
+#: category-excluder.php:124
 msgid "Note: If a post is in more the one category, it will be excluded if it matches <strong>any</strong> of the excluded categories."
 msgstr "Poznámka: Je-li místo, je ve více jednu kategorii, bude vyloučen, pokud se shoduje s <strong>některou</strong> z vyloučených skupin."
 
-#: mu-plugins/category-excluder.php:126 mu-plugins/webmaster-tools.php:320
+#: category-excluder.php:126 webmaster-tools.php:320
 msgid "Save Changes"
 msgstr "Uložit změny"
 
-#: mu-plugins/typekit-fonts.php:19
+#: typekit-fonts.php:19
 msgid "Fonts"
 msgstr "Fonty"
 
-#: mu-plugins/typekit-fonts.php:29
+#: typekit-fonts.php:29
 msgid "Typekit&rsquo;s fonts isn&rsquo;t the easist thing to setup. It will require that you know something about the way your page is displayed to the public. See the following resources for a overview of what your trying to do."
 msgstr "Typekit písem není easist věc nastavení. To bude vyžadovat, že víte něco o tom, jak vaše stránka se zobrazí na veřejnosti. Viz následující zdroje pro přehled o tom, co vaše snaží dělat."
 
-#: mu-plugins/typekit-fonts.php:31
+#: typekit-fonts.php:31
 msgid "Using Typekit with WordPress"
 msgstr "Použití Typekit s WordPress"
 
-#: mu-plugins/typekit-fonts.php:32
+#: typekit-fonts.php:32
 msgid "Finding and Using Selectors"
 msgstr "Vyhledání a použití pro výběr"
 
-#: mu-plugins/typekit-fonts.php:46 mu-plugins/webmaster-tools.php:189
-#: mu-plugins/webmaster-tools.php:199
+#: typekit-fonts.php:46 webmaster-tools.php:189 webmaster-tools.php:199
 msgid "You cannot edit this screen."
 msgstr "Nemůžete upravovat tuto obrazovku."
 
-#: mu-plugins/typekit-fonts.php:58
+#: typekit-fonts.php:58
 msgid "Typekit Fonts"
 msgstr "Typekit Písma"
 
-#: mu-plugins/typekit-fonts.php:59
+#: typekit-fonts.php:59
 msgid "Typekit"
 msgstr "Typekit"
 
-#: mu-plugins/typekit-fonts.php:63
+#: typekit-fonts.php:63
 msgid "Your Typekit ID"
 msgstr "Vaše Typekit ID"
 
-#: mu-plugins/typekit-fonts.php:64
+#: typekit-fonts.php:64
 msgid "You can find your Typekit ID on typekit.com under Kit Editor -> Embed Code."
 msgstr "Můžete si najít Typekit ID na typekit.com pod Kit Editor -&gt; kód pro vložení."
 
-#: mu-plugins/typekit-fonts.php:67
+#: typekit-fonts.php:67
 msgid "Update ID"
 msgstr "Update ID"
 
-#: mu-plugins/typekit-fonts.php:73
+#: typekit-fonts.php:73
 msgid "Sign up for Typekit"
 msgstr "Přihlásit se na Typekit"
 
-#: mu-plugins/typekit-fonts.php:74
+#: typekit-fonts.php:74
 msgid "If you don&#8217;t have a Typekit ID yet you can sign up on their site for free and enable it on your site with just a few clicks."
 msgstr "Pokud nemáte Typekit ID přesto se můžete zaregistrovat na jejich stránkách zdarma a umožní na vašich stránkách s několika málo kliknutí."
 
-#: mu-plugins/typekit-fonts.php:76
+#: typekit-fonts.php:76
 msgid "Sign up in seconds"
 msgstr "Zaregistrujte se během několika sekund"
 
-#: mu-plugins/webmaster-tools.php:27 mu-plugins/webmaster-tools.php:220
+#: webmaster-tools.php:27 webmaster-tools.php:220
 msgid "Webmaster Tools"
 msgstr "Webmaster Tools"
 
-#: mu-plugins/webmaster-tools.php:42
+#: webmaster-tools.php:42
 msgid "Here's how you optain and setup each search engines key's"
 msgstr "Zde je návod, jak si optain a nastavení jednotlivých vyhledávačů klíče"
 
-#: mu-plugins/webmaster-tools.php:43 mu-plugins/webmaster-tools.php:224
-#: mu-plugins/webmaster-tools.php:233
+#: webmaster-tools.php:43 webmaster-tools.php:224 webmaster-tools.php:233
 msgid "Google Webmaster Tools"
 msgstr "Google Webmaster Tools"
 
-#: mu-plugins/webmaster-tools.php:45
+#: webmaster-tools.php:45
 msgid "Log in to "
 msgstr "Přihlaste se do"
 
-#: mu-plugins/webmaster-tools.php:45
+#: webmaster-tools.php:45
 msgid "with your Google account."
 msgstr "s vaším účtem Google."
 
-#: mu-plugins/webmaster-tools.php:46
+#: webmaster-tools.php:46
 msgid "Enter your blog URL and click <code>Add Site</code>."
 msgstr "Zadejte svůj blog URL a klepněte na tlačítko <code>Add Site</code> ."
 
-#: mu-plugins/webmaster-tools.php:47
+#: webmaster-tools.php:47
 msgid "You will be presented with several verification methods. Choose <code>Meta Tag</code>."
 msgstr "Ty budou představeny s několika metody ověřování. Vyberte <code>Meta Tag</code> ."
 
-#: mu-plugins/webmaster-tools.php:48 mu-plugins/webmaster-tools.php:61
+#: webmaster-tools.php:48 webmaster-tools.php:61
 msgid "Copy the meta tag, which looks something like"
 msgstr "Zkopírujte meta tag, který vypadá podobně jako"
 
-#: mu-plugins/webmaster-tools.php:50 mu-plugins/webmaster-tools.php:63
-#: mu-plugins/webmaster-tools.php:77
+#: webmaster-tools.php:50 webmaster-tools.php:63 webmaster-tools.php:77
 msgid "Leave the verification page open and go to your blog dashboard."
 msgstr "Opustit ověření otevřené stránce a jít do svého blogu palubní desku."
 
-#: mu-plugins/webmaster-tools.php:51 mu-plugins/webmaster-tools.php:64
-#: mu-plugins/webmaster-tools.php:78
+#: webmaster-tools.php:51 webmaster-tools.php:64 webmaster-tools.php:78
 msgid "Open the Tools Page and paste the code in the appropriate field."
 msgstr "Open Tools Page a vložte kód do příslušného pole."
 
-#: mu-plugins/webmaster-tools.php:52 mu-plugins/webmaster-tools.php:65
-#: mu-plugins/webmaster-tools.php:79
+#: webmaster-tools.php:52 webmaster-tools.php:65 webmaster-tools.php:79
 msgid "Click on <code>Save Changes</code>."
 msgstr "Klikněte na <code>Save Changes</code> ."
 
-#: mu-plugins/webmaster-tools.php:53
+#: webmaster-tools.php:53
 msgid "Go back to the verification page and click <code>Verify</code>."
 msgstr "Vraťte se na ověření stránky a klikněte na tlačítko <code>Verify</code> ."
 
-#: mu-plugins/webmaster-tools.php:56
+#: webmaster-tools.php:56
 msgid "Yahoo Site Explorer"
 msgstr "Yahoo stránek Explorer"
 
-#: mu-plugins/webmaster-tools.php:58 mu-plugins/webmaster-tools.php:72
+#: webmaster-tools.php:58 webmaster-tools.php:72
 msgid "Log in to"
 msgstr "Přihlaste se do"
 
-#: mu-plugins/webmaster-tools.php:58
+#: webmaster-tools.php:58
 msgid "with your Yahoo account."
 msgstr "s vaším účtem Yahoo."
 
-#: mu-plugins/webmaster-tools.php:59
+#: webmaster-tools.php:59
 msgid "Enter your blog URL and click <code>Add My Site</code>."
 msgstr "Zadejte svůj blog URL a klikněte na tlačítko <code>Add My Site</code> ."
 
-#: mu-plugins/webmaster-tools.php:60
+#: webmaster-tools.php:60
 msgid "You will be presented with several authentication methods. Choose <code>By adding a META tag to my home page.</code>."
 msgstr "Ty budou představeny s několika metod ověřování. Vyberte <code>By adding a META tag to my home page.</code> ."
 
-#: mu-plugins/webmaster-tools.php:66
+#: webmaster-tools.php:66
 msgid "Go back to the verification page and click <code>Ready to Authenticate</code>."
 msgstr "Vraťte se na ověření stránky a klikněte na tlačítko <code>Ready to Authenticate</code> ."
 
-#: mu-plugins/webmaster-tools.php:68
+#: webmaster-tools.php:68
 msgid "Note: It may take up to 24 hours for your site to be authenticated."
 msgstr "Poznámka: To může trvat až 24 hodin pro vaše webové stránky musí být ověřeny."
 
-#: mu-plugins/webmaster-tools.php:70 mu-plugins/webmaster-tools.php:227
-#: mu-plugins/webmaster-tools.php:253
+#: webmaster-tools.php:70 webmaster-tools.php:227 webmaster-tools.php:253
 msgid "Bing Webmaster Center"
 msgstr "Bing webmastery centrum"
 
-#: mu-plugins/webmaster-tools.php:72
+#: webmaster-tools.php:72
 msgid "with your Live! account."
 msgstr "se svým Live! účet."
 
-#: mu-plugins/webmaster-tools.php:73
+#: webmaster-tools.php:73
 msgid "Click <code>Add a Site</code>."
 msgstr "Klepněte na tlačítko <code>Add a Site</code> ."
 
-#: mu-plugins/webmaster-tools.php:74
+#: webmaster-tools.php:74
 msgid "Enter your blog URL and click <code>Submit</code>."
 msgstr "Zadejte svůj blog URL a klikněte na tlačítko <code>Submit</code> ."
 
-#: mu-plugins/webmaster-tools.php:75
+#: webmaster-tools.php:75
 msgid "Copy the meta tag from the text area at the bottom. It looks something like"
 msgstr "Zkopírujte značku metadat z textové oblasti v dolní části. Vypadá to něco jako"
 
-#: mu-plugins/webmaster-tools.php:80
+#: webmaster-tools.php:80
 msgid "Go back to the verification page and click <code>Return to the Site list</code>."
 msgstr "Vraťte se na ověření stránky a klikněte na tlačítko <code>Return to the Site list</code> ."
 
-#: mu-plugins/webmaster-tools.php:82
+#: webmaster-tools.php:82
 msgid "The Robots.txt File"
 msgstr "Souboru robots.txt"
 
-#: mu-plugins/webmaster-tools.php:83
+#: webmaster-tools.php:83
 msgid "The <strong>robots.txt</strong> file is a way to prevent cooperating web spiders and other web robots from accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code."
 msgstr "Soubor <strong>robots.txt</strong> je způsob, jak zabránit spolupracujících robotů a dalších internetových robotů z přístupu všech nebo části webové stránky, které je jinak veřejně zobrazitelné. Roboti jsou často používány vyhledávači do kategorií a stránky archivu web, nebo webmasteři na korektury zdrojového kódu."
 
-#: mu-plugins/webmaster-tools.php:84
+#: webmaster-tools.php:84
 msgid "To Allow all robots"
 msgstr "Umožnit všem roboty"
 
-#: mu-plugins/webmaster-tools.php:85
+#: webmaster-tools.php:85
 msgid "To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this"
 msgstr "Chcete-li povolit všem robot přístup celého webu, můžete jednoduše opustit soubor robots.txt prázdné, nebo můžete použít tuto"
 
-#: mu-plugins/webmaster-tools.php:87
+#: webmaster-tools.php:87
 msgid ">To Ban all robots"
 msgstr "&gt; Zakázat všechny roboty"
 
-#: mu-plugins/webmaster-tools.php:89
+#: webmaster-tools.php:89
 msgid "To Ban all crawlers from four directories of a website"
 msgstr "Chcete-Ban všechny prohledávače ze čtyř adresáře webové stránky"
 
-#: mu-plugins/webmaster-tools.php:221
+#: webmaster-tools.php:221
 msgid "Site Verification"
 msgstr "Ověřování stránek"
 
-#: mu-plugins/webmaster-tools.php:222
+#: webmaster-tools.php:222
 msgid "All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites."
 msgstr "Všechny tři hlavní vyhledávačů stanovit webmaster nástrojů, které vám podrobné informace a statistiky o tom, jak vidí a procházet webové stránky. Pro přístup k většině funkcí, budete muset ověřit, zda vaše stránky."
 
-#: mu-plugins/webmaster-tools.php:223
+#: webmaster-tools.php:223
 msgid "Enter your meta key \"content\" value to verify your blog with"
 msgstr "Zadejte své meta klíč &quot;obsahové&quot; hodnota k ověření vaší blog s"
 
-#: mu-plugins/webmaster-tools.php:225 mu-plugins/webmaster-tools.php:243
+#: webmaster-tools.php:225 webmaster-tools.php:243
 msgid "Yahoo! Site Explorer"
 msgstr "Yahoo! Stránek Explorer"
 
-#: mu-plugins/webmaster-tools.php:226
+#: webmaster-tools.php:226
 msgid "and"
 msgstr "a"
 
-#: mu-plugins/webmaster-tools.php:236 mu-plugins/webmaster-tools.php:246
-#: mu-plugins/webmaster-tools.php:256 mu-plugins/webmaster-tools.php:274
+#: webmaster-tools.php:236 webmaster-tools.php:246 webmaster-tools.php:256
+#: webmaster-tools.php:274
 msgid "Disabled"
 msgstr "Zdravotně postižené"
 
-#: mu-plugins/sitewide-tags.php:40 mu-plugins/sitewide-tags.php:69
-#: mu-plugins/sitewide-tags.php:87 mu-plugins/webmaster-tools.php:236
-#: mu-plugins/webmaster-tools.php:246 mu-plugins/webmaster-tools.php:256
-#: mu-plugins/webmaster-tools.php:274
+#: sitewide-tags.php:40 sitewide-tags.php:69 sitewide-tags.php:87
+#: webmaster-tools.php:236 webmaster-tools.php:246 webmaster-tools.php:256
+#: webmaster-tools.php:274
 msgid "Enabled"
 msgstr "Povoleno"
 
-#: mu-plugins/webmaster-tools.php:240 mu-plugins/webmaster-tools.php:250
-#: mu-plugins/webmaster-tools.php:260 mu-plugins/webmaster-tools.php:278
+#: webmaster-tools.php:240 webmaster-tools.php:250 webmaster-tools.php:260
+#: webmaster-tools.php:278
 msgid "Example"
 msgstr "Příklad"
 
-#: mu-plugins/webmaster-tools.php:266
+#: webmaster-tools.php:266
 msgid "Google Analytics Tracking Script"
 msgstr "Google Analytics Tracking Script"
 
-#: mu-plugins/webmaster-tools.php:267 mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:267 webmaster-tools.php:268
 msgid "Google Analytics"
 msgstr "Google Analytics"
 
-#: mu-plugins/webmaster-tools.php:267
+#: webmaster-tools.php:267
 msgid "is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you're more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites."
 msgstr "je řešení analýzy webových stránek, které vám bohatý přehled návštěvnosti svých stránek a marketing účinnost. Výkonný, flexibilní a bezstarostný-až k-použití funkce nyní umožňují zobrazit a analyzovat vaše údaje o provozu ve zcela novým způsobem. Díky Google Analytics, budete lépe připravená napsat lépe-cílené reklamy, posílit své marketingové aktivity a vytvářet vyšší konverzi webových stránek."
 
-#: mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:268
 msgid "Enter your"
 msgstr "Zadejte svůj"
 
-#: mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:268
 msgid "Account ID"
 msgstr "Account ID"
 
-#: mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:268
 msgid "for this site, to allow"
 msgstr "na této stránce, aby"
 
-#: mu-plugins/webmaster-tools.php:268
+#: webmaster-tools.php:268
 msgid "to track you page views."
 msgstr "sledovat vám zobrazení stránky."
 
-#: mu-plugins/webmaster-tools.php:271
+#: webmaster-tools.php:271
 msgid "Google Analytics Tracking ID"
 msgstr "Google Analytics Tracking ID"
 
-#: mu-plugins/webmaster-tools.php:285
+#: webmaster-tools.php:285
 msgid "Robots.txt File"
 msgstr "Souboru robots.txt"
 
-#: mu-plugins/webmaster-tools.php:293
+#: webmaster-tools.php:293
 msgid "You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don't understand what your doing, most likly you don't need to do anything."
 msgstr "Můžete upravovat své soubor robots.txt v prostoru pod. Řádky začínající <code>#</code> jsou považovány za komentáře. Nemáte-li porozumět tomu, co děláte, většina likly nemusíte nic dělat."
 
-#: mu-plugins/webmaster-tools.php:294
+#: webmaster-tools.php:294
 msgid "Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples."
 msgstr "Použití svůj soubor robots.txt, můžete zakázat konkrétní roboty, zákaz všech robotů, nebo blokovat robot přístup na konkrétní stránky nebo oblasti vašeho webu. Pokud si nejste jisti, co psát, podívejte se na spodní části této stránky pro příklady."
 
-#: mu-plugins/webmaster-tools.php:295 mu-plugins/webmaster-tools.php:315
+#: webmaster-tools.php:295 webmaster-tools.php:315
 msgid "Privacy Settings"
 msgstr "Nastavení ochrany osobních údajů"
 
-#: mu-plugins/webmaster-tools.php:295
+#: webmaster-tools.php:295
 msgid "page."
 msgstr "stránky."
 
-#: mu-plugins/webmaster-tools.php:296
+#: webmaster-tools.php:296
 msgid "Modify Your Robots.txt file"
 msgstr "Upravte soubor robots.txt"
 
-#: mu-plugins/webmaster-tools.php:297
+#: webmaster-tools.php:297
 msgid "Your Current Robots.txt file"
 msgstr "Aktuálním souboru robots.txt"
 
-#: mu-plugins/webmaster-tools.php:303
+#: webmaster-tools.php:303
 msgid "reset robots.txt"
 msgstr "reset robots.txt"
 
-#: mu-plugins/webmaster-tools.php:315
+#: webmaster-tools.php:315
 msgid "Privacy Settings are curently <strong>Blocking</strong> all search engines. Enable search engine browsing on the "
 msgstr "Nastavení ochrany osobních údajů jsou curently <strong>blokování</strong> všech vyhledávačů. Povolit vyhledávač procházení"
 
-#: mu-plugins/webmaster-tools.php:315
+#: webmaster-tools.php:315
 msgid "page to be able to modify the robots.txt file."
 msgstr "stránky měly mít možnost upravit soubor robots.txt."
