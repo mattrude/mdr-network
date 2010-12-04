@@ -36,6 +36,8 @@ function feedburner_head_config() {
 	echo '<p>' . __('First go to <a href="http://feedburner.com/" target="_blank" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs.', FEEDBURNER_TEXTDOMAIN) . '</p>';
 
 	echo '<p>' . __('Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post.', FEEDBURNER_TEXTDOMAIN) . '</p>';
+
+	echo '<p>' . __('You may disable the Feedburner redircted by removing BOTH URLs.', FEEDBURNER_TEXTDOMAIN) . '</p>';
 }
 
 function feedburner_url_conf() {
