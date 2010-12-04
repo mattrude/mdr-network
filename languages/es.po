@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 03:52:41+0000\n"
+"PO-Revision-Date: 2010-12-04 06:15:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,207 +12,207 @@ msgstr ""
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:223
 msgid "Local User Creation Enabled"
-msgstr ""
+msgstr "Creación de usuarios locales habilitados"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:228
 msgid "Using the following fields below to search out LDAP users and add them into the blog."
-msgstr ""
+msgstr "Utilizando a continuación los siguientes campos para buscar a los usuarios de LDAP y agregarlos en el blog."
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:15
 #: ldap/lib/wpmu_ldap_adduser.functions.php:16
 msgid "LDAP Add User"
-msgstr ""
+msgstr "LDAP para agregar usuarios"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:230
 msgid "If the user does not exist in the LDAP Directory, you will have the option to create a local account for them."
-msgstr ""
+msgstr "Si el usuario no existe en el directorio LDAP, tendrá la opción de crear una cuenta local para ellos."
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:259
 msgid "Using the below fields, you can bulk add LDAP users.  Separate multiple users by a new line.  Local user creation is not available in bulk.  The auto create blog for new users function will be disabled for bulk adds."
-msgstr ""
+msgstr "Para ello, sigue los campos, puede agregar mayor parte usuarios de LDAP. Separa múltiples usuarios de una nueva línea. la creación de usuarios locales no están disponibles en grandes cantidades. El auto de crear un blog para la función de los nuevos usuarios se desactivará para productos a granel, añade."
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:40
 msgid "Options saved !"
-msgstr ""
+msgstr "Opciones salvado!"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:69
 msgid "User %s not found in LDAP Directory!"
-msgstr ""
+msgstr "El usuario%s no encontrado en el directorio LDAP!"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:31
 msgid "User %s deleted!"
-msgstr ""
+msgstr "El usuario%s eliminado!"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:183
 msgid "<p>Missing username and email.</p>"
-msgstr ""
+msgstr "<p> Falta nombre de usuario y correo electrónico. </p>"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:92
 #: ldap/lib/wpmu_ldap_adduser.functions.php:185
 msgid "<p>Missing username.</p>"
-msgstr ""
+msgstr "<p> nombre de usuario que falta. </p>"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:75
 msgid "Error!"
-msgstr ""
+msgstr "¡Error!"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:72
 msgid "Error adding user %s!"
-msgstr ""
+msgstr "Error al agregar el usuario%s!"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:37
 #: ldap/lib/wpmu_ldap_adduser.functions.php:66
 msgid "User %s exists!"
-msgstr ""
+msgstr "El usuario%s existe!"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:34
 msgid "User %s added!"
-msgstr ""
+msgstr "El usuario%s añadido!"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:187
 msgid "<p>Missing email.</p>"
-msgstr ""
+msgstr "<p> Falta de correo electrónico. </p>"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:194
 msgid "<p>Duplicated username or email address.</p>"
-msgstr ""
+msgstr "<p> nombre de usuario duplicados o dirección de correo electrónico. </p>"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:207
 msgid "<p>Access denied.</p>"
-msgstr ""
+msgstr "<p> Acceso denegado. </p>"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:15
 #: ldap/lib/wpmu_ldap_adduser.functions.php:16
 #: ldap/lib/wpmu_ldap_adduser.functions.php:218
 #: ldap/lib/wpmu_ldap_adduser.functions.php:248
 msgid "Add User"
-msgstr ""
+msgstr "Agregar usuario"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:239
 msgid "Username:"
-msgstr ""
+msgstr "Nombre de usuario:"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:243
 #: ldap/lib/wpmu_ldap_adduser.functions.php:269
 msgid "Role:"
-msgstr ""
+msgstr "Papel:"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:258
 #: ldap/lib/wpmu_ldap_adduser.functions.php:274
 msgid "Add Bulk Users"
-msgstr ""
+msgstr "Agregar usuarios a granel"
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:265
 msgid "Usernames:"
-msgstr ""
+msgstr "Nombres de usuario:"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:56
 msgid "Ldap Authentication Options"
-msgstr ""
+msgstr "Opciones de autenticación LDAP"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:495
 msgid "Update Display Name"
-msgstr ""
+msgstr "Actualización de nombre para mostrar"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:503
 msgid "Update Meta"
-msgstr ""
+msgstr "Actualización de Meta"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:699
 msgid "<strong>ERROR</strong>: "
-msgstr ""
+msgstr "<strong>ERROR:</strong>"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:751
 msgid "New user registration on your blog %s:"
-msgstr ""
+msgstr "Registro de nuevo usuario en el%s blog:"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:752
 #: ldap/lib/wpmu_ldap_admin.functions.php:759
 #: ldap/lib/wpmu_ldap_admin.functions.php:768
 msgid "Username: %s"
-msgstr ""
+msgstr "Nombre de usuario:%s"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:753
 msgid "E-mail: %s"
-msgstr ""
+msgstr "E-mail:%s"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:769
 msgid "Password: %s"
-msgstr ""
+msgstr "Contraseña:%s"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:784
 msgid "[%s] %s"
-msgstr ""
+msgstr "[%s]%s"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:825
 msgid "LDAP Options"
-msgstr ""
+msgstr "Opciones de LDAP"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:829
 msgid "Account Authentication Type"
-msgstr ""
+msgstr "Tipo de cuenta de autenticación"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:833
 #: ldap/lib/wpmu_ldap_admin.functions.php:842
 msgid "LDAP"
-msgstr ""
+msgstr "LDAP"
 
 #: ldap/lib/wpmu_ldap_admin.functions.php:834
 #: ldap/lib/wpmu_ldap_admin.functions.php:844
 msgid "Local"
-msgstr ""
+msgstr "Local"
 
 #: ldap/lib/wpmu_ldap.functions.php:24
 msgid "<strong>ERROR</strong>: <strong>%s</strong> does not have an email address associated with the ldap record.  All wordpress accounts must have a unique email address."
-msgstr ""
+msgstr "<strong>ERROR:%s</strong> no tiene una dirección de correo electrónico asociada con el registro de LDAP. Todas las cuentas de wordpress debe tener una dirección de correo electrónico única."
 
 #: ldap/lib/wpmu_ldap.functions.php:28
 msgid "<strong>ERROR</strong>: <strong>%s</strong> (%s) is already associated with another account.  All accounts (including the admin account) must have an unique email address."
-msgstr ""
+msgstr "<strong>ERROR:%s</strong> (%s) ya está asociada a otra cuenta. Todas las cuentas (incluyendo la cuenta de administrador) debe tener una dirección de correo electrónico única."
 
 #: ldap/lib/wpmu_ldap.functions.php:36
 msgid "<strong>ERROR</strong>: Account creation from LDAP failed."
-msgstr ""
+msgstr "<strong>ERROR:</strong> La creación de cuentas de LDAP no."
 
 #: ldap/lib/wpmu_ldap.functions.php:81
 msgid "<strong>ERROR</strong>: Blog creation from LDAP failed."
-msgstr ""
+msgstr "<strong>ERROR:</strong> la creación de blog de LDAP no."
 
 #: ldap/lib/wpmu_ldap.functions.php:99
 msgid "<strong>ERROR</strong>: Wrong username / password combination. LDAP Access Denied."
-msgstr ""
+msgstr "<strong>ERROR:</strong> nombre de usuario incorrecto y una contraseña. Acceso denegado LDAP."
 
 #: ldap/lib/wpmu_ldap.functions.php:118
 msgid "<strong>ERROR</strong>: Wrong username / password combination."
-msgstr ""
+msgstr "<strong>ERROR:</strong> nombre de usuario incorrecto y una contraseña."
 
 #: ldap/lib/wpmu_ldap.functions.php:124
 msgid "<strong>ERROR</strong>: Access denied - user not found in security access group(s)."
-msgstr ""
+msgstr "<strong>ERROR:</strong> Acceso denegado - el usuario no se encuentra en el acceso a grupo de seguridad (s)."
 
 #: ldap/lib/wpmu_ldap.functions.php:129
 msgid "<strong>ERROR</strong>: Access denied - user found in security deny group(s)."
-msgstr ""
+msgstr "<strong>ERROR:</strong> Acceso denegado - el usuario se encuentra en la seguridad niegan grupo (s)."
 
 #: ldap/lib/wpmu_ldap.functions.php:135 ldap/lib/wpmu_ldap.functions.php:181
 msgid "<strong>ERROR</strong>: Unknown error in LDAP Authentication."
-msgstr ""
+msgstr "<strong>ERROR:</strong> Error desconocido en la autenticación LDAP."
 
 #: ldap/lib/wpmu_ldap.functions.php:172
 msgid "<strong>ERROR</strong>: A blogging account does not exist - contact your administrator."
-msgstr ""
+msgstr "<strong>ERROR:</strong> Una cuenta de los blogs no existe - en contacto con su administrador."
 
 #: ldap/lib/wpmu_ldap.functions.php:188
 msgid "<strong>ERROR</strong>: Error updating user meta information."
-msgstr ""
+msgstr "<strong>ERROR:</strong> Error al actualizar la información del usuario meta."
 
 #: ldap/lib/wpmu_ldap.functions.php:345
 msgid "<strong>ERROR</strong>: Wrong username / password combination. Local Access Denied."
-msgstr ""
+msgstr "<strong>ERROR:</strong> nombre de usuario incorrecto y una contraseña. Local Access Denied."
 
 #: ldap/lib/wpmu_ldap.functions.php:368
 msgid "Single Sign-On as user <em>%s</em> failed. Please login using the form below."
-msgstr ""
+msgstr "Single Sign-On como <em>usuario%s ha</em> fallado. Por favor ingresa a través del siguiente formulario."
 
 #: feedburner.php:40
 msgid "You may disable the Feedburner redircted by removing BOTH URLs."
