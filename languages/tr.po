@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 00:02:38+0000\n"
+"PO-Revision-Date: 2010-12-04 00:30:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,91 +12,91 @@ msgstr ""
 
 #: contact_info.php:18
 msgid "Facebook URL"
-msgstr ""
+msgstr "Facebook URL"
 
 #: typekit-fonts.php:59
 msgid "offer a service that allows you to select from a range of hundreds of high quality fonts for your WordPress website. The fonts are applied using the font-face standard, so they are standards compliant, fully licensed and accessible. The fonts are served from a global network on redundant servers, so they shouldn't slow down your site. It's a subscription-based service, if you don't already have an account, you will need to register for one."
-msgstr ""
+msgstr "bunu WordPress siteniz için yüksek kalitede yazı yüzlerce bir dizi seçim olanak sağlayan bir hizmet sunuyoruz. Yazı font-face standart kullanılarak uygulanır, bu nedenle standartlara uyumlu, tam ehliyetli ve erişilebilir. Yazı yedekli sunucuları üzerinde küresel bir ağ servis ediliyor, bu nedenle sitenizi yavaşlatmak gerekir. O zaten bir hesabınız yoksa, bunun için kayıt olmanız gerekecektir, abonelik tabanlı bir hizmetidir."
 
 #: contact_info.php:19
 msgid "Google Talk"
-msgstr ""
+msgstr "Google Talk"
 
 #: contact_info.php:20
 msgid "Twitter ID"
-msgstr ""
+msgstr "Twitter Kimliği"
 
 #: sitewide-tags.php:35
 msgid "Global Tags"
-msgstr ""
+msgstr "Küresel Etiketler"
 
 #: sitewide-tags.php:38
 msgid "Tags Blog"
-msgstr ""
+msgstr "Tags Blog"
 
 #: sitewide-tags.php:51
 msgid "You can create your post archive in a specific 'tags' blog of your choosing, or you can use the main blog of your site. Each has it's own pros and cons."
-msgstr ""
+msgstr "Eğer seçtiğiniz belirli bir &#39;etiket&#39; blog ve mesajlarınızın arşiv oluşturabilir, veya sitenizin ana blog kullanabilirsiniz. Her kendi artıları ve eksileri kullanılmaktadır."
 
 #: sitewide-tags.php:53
 msgid "<strong>Blogname</strong> of the blog your global tags and posts will live in. Blog will be created."
-msgstr ""
+msgstr "<strong>Blogadi</strong> blogun global etiketleri ve mesaj oluşturulur olacak blog Yaşadığınız."
 
 #: sitewide-tags.php:54
 msgid "Post to main blog"
-msgstr ""
+msgstr "Post ana blog için"
 
 #: sitewide-tags.php:55
 msgid "Create posts in your main blog. All posts will appear on the front page of your site. Remember to to add a post loop to home.php in the theme directory if it exists."
-msgstr ""
+msgstr "ana blog içinde mesaj oluşturun. Bütün mesajları sitenizin ön sayfasında görünecektir. Varsa tema dizininde home.php için bir yazı döngü eklemek unutmayın."
 
 #: sitewide-tags.php:59
 msgid "Max Posts"
-msgstr ""
+msgstr "Max Mesajlar"
 
 #: sitewide-tags.php:63
 msgid "The maximum number of posts stored in the tags blog."
-msgstr ""
+msgstr "etiketleri saklanan mesajların en fazla sayıda blog."
 
 #: sitewide-tags.php:67
 msgid "Include Pages"
-msgstr ""
+msgstr "Içeren sayfalar"
 
 #: sitewide-tags.php:73
 msgid "Privacy"
-msgstr ""
+msgstr "Gizlilik"
 
 #: sitewide-tags.php:75
 msgid "Tags pages can be indexed by search engines."
-msgstr ""
+msgstr "Etiket sayfalarının arama motorları tarafından dizine olabilir."
 
 #: sitewide-tags.php:76
 msgid "Tags pages will not be indexed by search engines."
-msgstr ""
+msgstr "Etiket sayfalarının arama motorları tarafından dizine olmayacaktır."
 
 #: sitewide-tags.php:78
 msgid "Will your tags pages be visible to Google and other search engines?"
-msgstr ""
+msgstr "Olacak etiketlerinizi sayfaları Google ve diğer arama motorları tarafından görülebilir?"
 
 #: sitewide-tags.php:85
 msgid "Non-Public Blogs"
-msgstr ""
+msgstr "Non-Kamu Bloglar"
 
 #: sitewide-tags.php:88
 msgid "Include posts from blogs not indexed by search engines."
-msgstr ""
+msgstr "bloglar Dahil mesaj değil arama motorları tarafından dizine."
 
 #: sitewide-tags.php:92
 msgid "Post Meta"
-msgstr ""
+msgstr "Post Meta"
 
 #: sitewide-tags.php:96
 msgid "If you want to copy custom fields with posts. One custom field per line."
-msgstr ""
+msgstr "Eğer mesaj ile özel alanlar kopyalamak isterseniz. Satır başına bir özel bir alan."
 
 #: sitewide-tags.php:142
 msgid "Global Posts"
-msgstr ""
+msgstr "Küresel Mesajlar"
 
 #: typekit-fonts.php:30
 msgid "Using Typekit - The Basics"
