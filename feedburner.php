@@ -47,7 +47,7 @@ function feedburner_url_conf() {
 function feedburner_comment_url_conf() {
 	$options = get_option('site_feedburner');
 	if (!isset($options['feedburner_comment_url'])) $options['feedburner_comment_url'] = null;
-	echo "<input id='feedburner_comment_url' name='feedburner_comment_url' type='text' maxlength='200' size='60px' value='" . $options['feedburner_comment_url'] . "' />";
+	echo "<input id='feedburner_comment_url' name='feedburner_comment_url' type='text' maxlength='200' size='60px' value='" . get_option('feedburner_comment_url') . "' />";
 }
 
 function feedburner_append_cats_conf() {
