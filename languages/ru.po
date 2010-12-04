@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 03:40:23+0000\n"
+"PO-Revision-Date: 2010-12-04 03:52:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,7 +10,11 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: MDR Network Plugins\n"
 
-#: ldap/lib/wpmu_ldap_adduser.functions.php:226
+#: ldap/lib/wpmu_ldap_adduser.functions.php:223
+msgid "Local User Creation Enabled"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:228
 msgid "Using the following fields below to search out LDAP users and add them into the blog."
 msgstr ""
 
@@ -19,11 +23,11 @@ msgstr ""
 msgid "LDAP Add User"
 msgstr ""
 
-#: ldap/lib/wpmu_ldap_adduser.functions.php:228
+#: ldap/lib/wpmu_ldap_adduser.functions.php:230
 msgid "If the user does not exist in the LDAP Directory, you will have the option to create a local account for them."
 msgstr ""
 
-#: ldap/lib/wpmu_ldap_adduser.functions.php:257
+#: ldap/lib/wpmu_ldap_adduser.functions.php:259
 msgid "Using the below fields, you can bulk add LDAP users.  Separate multiple users by a new line.  Local user creation is not available in bulk.  The auto create blog for new users function will be disabled for bulk adds."
 msgstr ""
 
@@ -80,25 +84,25 @@ msgstr ""
 #: ldap/lib/wpmu_ldap_adduser.functions.php:15
 #: ldap/lib/wpmu_ldap_adduser.functions.php:16
 #: ldap/lib/wpmu_ldap_adduser.functions.php:218
-#: ldap/lib/wpmu_ldap_adduser.functions.php:246
+#: ldap/lib/wpmu_ldap_adduser.functions.php:248
 msgid "Add User"
 msgstr ""
 
-#: ldap/lib/wpmu_ldap_adduser.functions.php:237
+#: ldap/lib/wpmu_ldap_adduser.functions.php:239
 msgid "Username:"
 msgstr ""
 
-#: ldap/lib/wpmu_ldap_adduser.functions.php:241
-#: ldap/lib/wpmu_ldap_adduser.functions.php:267
+#: ldap/lib/wpmu_ldap_adduser.functions.php:243
+#: ldap/lib/wpmu_ldap_adduser.functions.php:269
 msgid "Role:"
 msgstr ""
 
-#: ldap/lib/wpmu_ldap_adduser.functions.php:256
-#: ldap/lib/wpmu_ldap_adduser.functions.php:272
+#: ldap/lib/wpmu_ldap_adduser.functions.php:258
+#: ldap/lib/wpmu_ldap_adduser.functions.php:274
 msgid "Add Bulk Users"
 msgstr ""
 
-#: ldap/lib/wpmu_ldap_adduser.functions.php:263
+#: ldap/lib/wpmu_ldap_adduser.functions.php:265
 msgid "Usernames:"
 msgstr ""
 
