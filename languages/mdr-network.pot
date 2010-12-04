@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdr-network 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-03 20:19-0600\n"
+"POT-Creation-Date: 2010-12-03 20:39-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,6 +120,10 @@ msgid ""
 "Once you enter URLs your feeds will be redirected automatically and you do "
 "not need to take any further action. Note that your feeds may not appear to "
 "redirect to Feedburner until you add a new post."
+msgstr ""
+
+#: feedburner.php:40
+msgid "You may disable the Feedburner redircted by removing BOTH URLs."
 msgstr ""
 
 #: sitewide-tags.php:35
