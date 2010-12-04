@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 00:02:24+0000\n"
+"PO-Revision-Date: 2010-12-04 02:19:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -145,6 +145,42 @@ msgstr "Bemærk: Hvis en post er i mere en kategori, vil det være udelukket, hv
 #: category-excluder.php:126 webmaster-tools.php:320
 msgid "Save Changes"
 msgstr "Gem ændringer"
+
+#: feedburner.php:20
+msgid "Feedburner Service"
+msgstr "Feedburner Service"
+
+#: feedburner.php:21
+msgid "Feedburner URL"
+msgstr "Feedburner URL"
+
+#: feedburner.php:22
+msgid "Feedburner Comment URL"
+msgstr "Feedburner Kommentar URL"
+
+#: feedburner.php:23
+msgid "Append category/tag to URL"
+msgstr "Tilføj kategori / tag til URL"
+
+#: feedburner.php:24
+msgid "Do not redirect category or tag feeds"
+msgstr "Må ikke omdirigere kategori eller tag feeds"
+
+#: feedburner.php:25
+msgid "Do not redirect search result feeds"
+msgstr "Må ikke omdirigere søgeresultatet feeds"
+
+#: feedburner.php:34
+msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
+msgstr "<strong>Feedburner</strong> er en gratis feed ledelse service, der giver brugerdefinerede <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds og styringsværktøjer, såsom trafik analyse og en valgfri reklame system."
+
+#: feedburner.php:36
+msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
+msgstr "Først gå til <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> og brænde din feed. Indtast URL&#39;en Feedburner oprettet til dig. Du kan eventuelt omdirigere dine kommentarer feed efter samme procedure. Du kan deaktivere omdirigering, den deaktivere plugin eller slette webadresser."
+
+#: feedburner.php:38
+msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
+msgstr "Når du indtaster webadresser dine feeds vil blive omdirigeret automatisk, og du behøver ikke at foretage sig yderligere. Bemærk, at dine feeds kan tilsyneladende ikke omdirigere til Feedburner, indtil du tilføje et nyt indlæg."
 
 #: typekit-fonts.php:19
 msgid "Fonts"

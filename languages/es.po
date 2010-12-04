@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 00:02:26+0000\n"
+"PO-Revision-Date: 2010-12-04 02:19:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -145,6 +145,42 @@ msgstr "Nota: Si un puesto está en la categoría más una, será excluido si co
 #: category-excluder.php:126 webmaster-tools.php:320
 msgid "Save Changes"
 msgstr "Guardar cambios"
+
+#: feedburner.php:20
+msgid "Feedburner Service"
+msgstr "Servicio Feedburner"
+
+#: feedburner.php:21
+msgid "Feedburner URL"
+msgstr "URL de Feedburner"
+
+#: feedburner.php:22
+msgid "Feedburner Comment URL"
+msgstr "Feedburner URL Comentario"
+
+#: feedburner.php:23
+msgid "Append category/tag to URL"
+msgstr "Anexar la categoría / etiqueta a URL"
+
+#: feedburner.php:24
+msgid "Do not redirect category or tag feeds"
+msgstr "No redirigir categoría o etiqueta de feeds"
+
+#: feedburner.php:25
+msgid "Do not redirect search result feeds"
+msgstr "No Resultados de la búsqueda redirigir feeds"
+
+#: feedburner.php:34
+msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
+msgstr "<strong>Feedburner</strong> es un servicio gratuito de administración de alimentación, proporcionando personalizado <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds y herramientas de gestión como el análisis de tráfico y un sistema de publicidad opcional."
+
+#: feedburner.php:36
+msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
+msgstr "Primero vaya a <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> y quemar tu fuente. Introduzca la dirección de Feedburner creado para usted. Si lo desea, puede redirigir su comentarios de alimentación utilizando el mismo procedimiento. Para deshabilitar la redirección, deshabilitar el plugin o borrar las direcciones URL."
+
+#: feedburner.php:38
+msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
+msgstr "Una vez que introduzca las URL de tus feeds será redirigido automáticamente y no necesitan tomar ninguna acción. Tenga en cuenta que sus fuentes no puede aparecer para redirigir a Feedburner hasta que añada una nueva entrada."
 
 #: typekit-fonts.php:19
 msgid "Fonts"

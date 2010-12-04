@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 00:30:46+0000\n"
+"PO-Revision-Date: 2010-12-04 02:20:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -145,6 +145,42 @@ msgstr "bir maç kategori, o eğer olacaktır hariç <strong>herhangi bir</stron
 #: category-excluder.php:126 webmaster-tools.php:320
 msgid "Save Changes"
 msgstr "Değişiklikleri Kaydet"
+
+#: feedburner.php:20
+msgid "Feedburner Service"
+msgstr "Feedburner Servisi"
+
+#: feedburner.php:21
+msgid "Feedburner URL"
+msgstr "Feedburner URL"
+
+#: feedburner.php:22
+msgid "Feedburner Comment URL"
+msgstr "Feedburner Yorum URL"
+
+#: feedburner.php:23
+msgid "Append category/tag to URL"
+msgstr "URL ekleme kategori / tag"
+
+#: feedburner.php:24
+msgid "Do not redirect category or tag feeds"
+msgstr "yönlendirme kategori veya etiket Don&#39;t beslemeleri"
+
+#: feedburner.php:25
+msgid "Do not redirect search result feeds"
+msgstr "yönlendirme arama sonucu Don&#39;t beslemeleri"
+
+#: feedburner.php:34
+msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
+msgstr "<strong>Feedburner</strong> özel ücretsiz bir içerik yönetim servisi, <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> beslemeleri sistem ve yönetim isteğe reklam araçları gibi trafik analiz ve bir."
+
+#: feedburner.php:36
+msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
+msgstr "İlk gitmek <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> ve yem yanık senin. URL Feedburner girin sizin için yarattı. Isterseniz Yorumlarınızı aynı prosedürü kullanarak yem yönlendirebilir. devre dışı yönlendirme için, sakatlar tapa ya da silmek URLs."
+
+#: feedburner.php:38
+msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
+msgstr "Siz beslemeleri URL&#39;lerini girin otomatik olarak yönlendirileceksiniz ve herhangi başka bir önlem almaları gerekmez. ki yeni yazı eklemek kadar Feedburner yönlendirmek için görünmeyebilir beslemeleri unutmayın."
 
 #: typekit-fonts.php:19
 msgid "Fonts"

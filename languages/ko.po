@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 02:13:48+0000\n"
+"PO-Revision-Date: 2010-12-04 02:19:59+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -145,6 +145,42 @@ msgstr "하나와 일치하는 범주, 이건 경우가 될거 <strong>제외이
 #: category-excluder.php:126 webmaster-tools.php:320
 msgid "Save Changes"
 msgstr "변경 사항 저장"
+
+#: feedburner.php:20
+msgid "Feedburner Service"
+msgstr "피드 버너 서비스"
+
+#: feedburner.php:21
+msgid "Feedburner URL"
+msgstr "피드 버너 URL을"
+
+#: feedburner.php:22
+msgid "Feedburner Comment URL"
+msgstr "피드 버너 코멘트 URL을"
+
+#: feedburner.php:23
+msgid "Append category/tag to URL"
+msgstr "URL로 추가 분류 / 태그"
+
+#: feedburner.php:24
+msgid "Do not redirect category or tag feeds"
+msgstr "리디렉션 카테고리 또는 태그를하지 마십시오 피드"
+
+#: feedburner.php:25
+msgid "Do not redirect search result feeds"
+msgstr "리디렉션 검색 결과를하지 마십시오 피드"
+
+#: feedburner.php:34
+msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
+msgstr "<strong>피드 버너 사용자</strong> 정의는 무료로 피드 관리 서비스를 제공하고, <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS를</a> 피드 시스템 및 관리 옵션 광고 도구와 같은 트래픽 분석 및."
+
+#: feedburner.php:36
+msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
+msgstr "처음에 가서 <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> 및 피드를 구울 네. 피드 버너의 URL을 입력합니다 당신을 위해 만들었습니다. 당신은 선택적으로 귀하의 의견은 동일한 절차를 사용하여 피드를 리디렉션 수 있습니다. 리디렉션을 해제하려면 해제 플러그인 또는 URL을 지울."
+
+#: feedburner.php:38
+msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
+msgstr "일단 당신이 당신의 피드 URL을 입력할가 자동으로 리디렉션됩니다 그리고 당신은 더 이상 조치를 취할 필요가 없습니다. 당신은 당신이 새로운 게시물을 추가할 때까지 피드 버너로 리디렉션하도록 나타나지 않을 수도 있습니다 피드 있습니다."
 
 #: typekit-fonts.php:19
 msgid "Fonts"

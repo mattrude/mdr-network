@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 02:13:45+0000\n"
+"PO-Revision-Date: 2010-12-04 02:19:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -145,6 +145,42 @@ msgstr "Nota: se un post è in più alla categoria uno, esso verrà escluso se c
 #: category-excluder.php:126 webmaster-tools.php:320
 msgid "Save Changes"
 msgstr "Salva le modifiche"
+
+#: feedburner.php:20
+msgid "Feedburner Service"
+msgstr "Servizio di Feedburner"
+
+#: feedburner.php:21
+msgid "Feedburner URL"
+msgstr "Feedburner URL"
+
+#: feedburner.php:22
+msgid "Feedburner Comment URL"
+msgstr "Feedburner URL commento"
+
+#: feedburner.php:23
+msgid "Append category/tag to URL"
+msgstr "Append categoria / tag URL"
+
+#: feedburner.php:24
+msgid "Do not redirect category or tag feeds"
+msgstr "Non reindirizzare categoria o tag feeds"
+
+#: feedburner.php:25
+msgid "Do not redirect search result feeds"
+msgstr "Non risultato reindirizzare i feed di ricerca"
+
+#: feedburner.php:34
+msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
+msgstr "<strong>Feedburner</strong> è un servizio gratuito di gestione della alimentazione, fornendo personalizzati <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">feed</a> RSS e gli strumenti di gestione come l&#39;analisi del traffico e un sistema opzionale pubblicitario."
+
+#: feedburner.php:36
+msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
+msgstr "Prima di andare <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> e masterizzare i vostri feed. Inserire l&#39;URL di Feedburner creato per voi. Si può opzionalmente reindirizzare il feed dei commenti utilizzando la stessa procedura. Per disattivare il reindirizzamento, disattivare il plug-in o cancellare la URL."
+
+#: feedburner.php:38
+msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
+msgstr "Dopo aver inserito il tuo feed URL verrà reindirizzato automaticamente e non c&#39;è bisogno di adottare ulteriori azioni. Nota che il tuo feed non si può visualizzare il reindirizzamento a Feedburner finché non si aggiunge un nuovo post."
 
 #: typekit-fonts.php:19
 msgid "Fonts"

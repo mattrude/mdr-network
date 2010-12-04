@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdr-network 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-03 18:43-0600\n"
+"POT-Creation-Date: 2010-12-03 20:19-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,6 +73,53 @@ msgstr ""
 
 #: contact_info.php:20
 msgid "Twitter ID"
+msgstr ""
+
+#: feedburner.php:20
+msgid "Feedburner Service"
+msgstr ""
+
+#: feedburner.php:21
+msgid "Feedburner URL"
+msgstr ""
+
+#: feedburner.php:22
+msgid "Feedburner Comment URL"
+msgstr ""
+
+#: feedburner.php:23
+msgid "Append category/tag to URL"
+msgstr ""
+
+#: feedburner.php:24
+msgid "Do not redirect category or tag feeds"
+msgstr ""
+
+#: feedburner.php:25
+msgid "Do not redirect search result feeds"
+msgstr ""
+
+#: feedburner.php:34
+msgid ""
+"<strong>Feedburner</strong> is a free feed management service, providing "
+"custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</"
+"a> feeds and management tools such as traffic analysis and an optional "
+"advertising system."
+msgstr ""
+
+#: feedburner.php:36
+msgid ""
+"First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner."
+"com</a> and burn your feed. Enter the URL Feedburner created for you. You "
+"may optionally redirect your comments feed using the same procedure. To "
+"disable redirection, disable the plugin or erase the URLs."
+msgstr ""
+
+#: feedburner.php:38
+msgid ""
+"Once you enter URLs your feeds will be redirected automatically and you do "
+"not need to take any further action. Note that your feeds may not appear to "
+"redirect to Feedburner until you add a new post."
 msgstr ""
 
 #: sitewide-tags.php:35

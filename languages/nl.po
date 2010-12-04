@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 00:02:33+0000\n"
+"PO-Revision-Date: 2010-12-04 02:20:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -145,6 +145,42 @@ msgstr "Opmerking: Als een post in de ene categorie meer, zal zij worden uitgesl
 #: category-excluder.php:126 webmaster-tools.php:320
 msgid "Save Changes"
 msgstr "Wijzigingen opslaan"
+
+#: feedburner.php:20
+msgid "Feedburner Service"
+msgstr "Service Feedburner"
+
+#: feedburner.php:21
+msgid "Feedburner URL"
+msgstr "URL Feedburner"
+
+#: feedburner.php:22
+msgid "Feedburner Comment URL"
+msgstr "Reactie Feedburner URL"
+
+#: feedburner.php:23
+msgid "Append category/tag to URL"
+msgstr "Voeg categorie / tag naar URL"
+
+#: feedburner.php:24
+msgid "Do not redirect category or tag feeds"
+msgstr "Geen redirect categorie of tag-feeds"
+
+#: feedburner.php:25
+msgid "Do not redirect search result feeds"
+msgstr "Niet redirect zoekresultaat feeds"
+
+#: feedburner.php:34
+msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
+msgstr "<strong>Feedburner</strong> is een gratis service management-feed, die aangepaste <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> -feeds en management tools zoals verkeer analyse en een extra reclame-systeem."
+
+#: feedburner.php:36
+msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
+msgstr "Ga eerst naar <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> en branden uw feed. Voer de URL Feedburner voor u gemaakt. U kan eventueel uw commentaar feed omleiden volgens dezelfde procedure. Omleiding uit te schakelen, schakelt u de plug-in of de URL&#39;s te wissen."
+
+#: feedburner.php:38
+msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
+msgstr "Zodra u uw feeds URL&#39;s worden automatisch doorgestuurd en u hoeft geen verdere actie te ondernemen. Merk op dat uw feeds kunnen niet lijken te leiden naar Feedburner totdat je een nieuw bericht."
 
 #: typekit-fonts.php:19
 msgid "Fonts"

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 00:02:41+0000\n"
+"PO-Revision-Date: 2010-12-04 02:20:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -145,6 +145,42 @@ msgstr "注：如果一個職位是在更多的一類，它會被排除在外，
 #: category-excluder.php:126 webmaster-tools.php:320
 msgid "Save Changes"
 msgstr "保存更改"
+
+#: feedburner.php:20
+msgid "Feedburner Service"
+msgstr "Feedburner的服務"
+
+#: feedburner.php:21
+msgid "Feedburner URL"
+msgstr "Feedburner的網址"
+
+#: feedburner.php:22
+msgid "Feedburner Comment URL"
+msgstr "Feedburner的評論的網址"
+
+#: feedburner.php:23
+msgid "Append category/tag to URL"
+msgstr "追加分類 /標記網址"
+
+#: feedburner.php:24
+msgid "Do not redirect category or tag feeds"
+msgstr "不要重定向分類或標籤飼料"
+
+#: feedburner.php:25
+msgid "Do not redirect search result feeds"
+msgstr "不要重定向搜索結果供稿"
+
+#: feedburner.php:34
+msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
+msgstr "<strong>Feedburner</strong>是一個免費的飼料管理服務，提供定制<a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">的RSS</a>提要，管理工具，如流量分析和可選的廣告系統。"
+
+#: feedburner.php:36
+msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
+msgstr "先去<a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a>和燃燒你的飼料。輸入網址 Feedburner的為您建立。你可以選擇你的意見重定向飼料使用相同的程序。要禁用重定向，禁用或刪除該插件的網址。"
+
+#: feedburner.php:38
+msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
+msgstr "一旦你輸入網址您的資訊將被重定向自動執行，您不需要採取任何進一步行動。請注意您的供稿可能不會出現重定向到Feedburner的，直到你添加一個新的職位。"
 
 #: typekit-fonts.php:19
 msgid "Fonts"
