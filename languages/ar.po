@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 02:39:53+0000\n"
+"PO-Revision-Date: 2010-12-04 03:29:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,97 +10,281 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: MDR Network Plugins\n"
 
+#: ldap/lib/wpmu_ldap_adduser.functions.php:40
+msgid "Options saved !"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:69
+msgid "User %s not found in LDAP Directory!"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:31
+msgid "User %s deleted!"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:183
+msgid "<p>Missing username and email.</p>"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:92
+#: ldap/lib/wpmu_ldap_adduser.functions.php:185
+msgid "<p>Missing username.</p>"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:75
+msgid "Error!"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:72
+msgid "Error adding user %s!"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:37
+#: ldap/lib/wpmu_ldap_adduser.functions.php:66
+msgid "User %s exists!"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:34
+msgid "User %s added!"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:187
+msgid "<p>Missing email.</p>"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:194
+msgid "<p>Duplicated username or email address.</p>"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:207
+msgid "<p>Access denied.</p>"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:218
+#: ldap/lib/wpmu_ldap_adduser.functions.php:246
+msgid "Add User"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:237
+msgid "Username:"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:241
+#: ldap/lib/wpmu_ldap_adduser.functions.php:267
+msgid "Role:"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:256
+msgid "Add Bulk Users"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:263
+msgid "Usernames:"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_adduser.functions.php:272
+msgid "Add User Bulk"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:56
+msgid "Ldap Authentication Options"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:495
+msgid "Update Display Name"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:503
+msgid "Update Meta"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:699
+msgid "<strong>ERROR</strong>: "
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:751
+msgid "New user registration on your blog %s:"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:752
+#: ldap/lib/wpmu_ldap_admin.functions.php:759
+#: ldap/lib/wpmu_ldap_admin.functions.php:768
+msgid "Username: %s"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:753
+msgid "E-mail: %s"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:769
+msgid "Password: %s"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:784
+msgid "[%s] %s"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:825
+msgid "LDAP Options"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:829
+msgid "Account Authentication Type"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:833
+#: ldap/lib/wpmu_ldap_admin.functions.php:842
+msgid "LDAP"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap_admin.functions.php:834
+#: ldap/lib/wpmu_ldap_admin.functions.php:844
+msgid "Local"
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:24
+msgid "<strong>ERROR</strong>: <strong>%s</strong> does not have an email address associated with the ldap record.  All wordpress accounts must have a unique email address."
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:28
+msgid "<strong>ERROR</strong>: <strong>%s</strong> (%s) is already associated with another account.  All accounts (including the admin account) must have an unique email address."
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:36
+msgid "<strong>ERROR</strong>: Account creation from LDAP failed."
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:81
+msgid "<strong>ERROR</strong>: Blog creation from LDAP failed."
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:99
+msgid "<strong>ERROR</strong>: Wrong username / password combination. LDAP Access Denied."
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:118
+msgid "<strong>ERROR</strong>: Wrong username / password combination."
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:124
+msgid "<strong>ERROR</strong>: Access denied - user not found in security access group(s)."
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:129
+msgid "<strong>ERROR</strong>: Access denied - user found in security deny group(s)."
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:135 ldap/lib/wpmu_ldap.functions.php:181
+msgid "<strong>ERROR</strong>: Unknown error in LDAP Authentication."
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:172
+msgid "<strong>ERROR</strong>: A blogging account does not exist - contact your administrator."
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:188
+msgid "<strong>ERROR</strong>: Error updating user meta information."
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:345
+msgid "<strong>ERROR</strong>: Wrong username / password combination. Local Access Denied."
+msgstr ""
+
+#: ldap/lib/wpmu_ldap.functions.php:368
+msgid "Single Sign-On as user <em>%s</em> failed. Please login using the form below."
+msgstr ""
+
 #: feedburner.php:40
 msgid "You may disable the Feedburner redircted by removing BOTH URLs."
-msgstr ""
+msgstr "يمكنك تعطيل فيدبورنر redircted عن طريق إزالة كلا عناوين المواقع."
 
 #: contact_info.php:18
 msgid "Facebook URL"
-msgstr ""
+msgstr "عنوان بوك"
 
 #: typekit-fonts.php:59
 msgid "offer a service that allows you to select from a range of hundreds of high quality fonts for your WordPress website. The fonts are applied using the font-face standard, so they are standards compliant, fully licensed and accessible. The fonts are served from a global network on redundant servers, so they shouldn't slow down your site. It's a subscription-based service, if you don't already have an account, you will need to register for one."
-msgstr ""
+msgstr "تقديم الخدمة التي تسمح لك لاختيار من مجموعة من مئات من الخطوط ذات جودة عالية لموقع الويب الخاص بك وورد. الخطوط تطبق باستخدام معيار الخط وجه ، بحيث تكون متوافقة مع المعايير ، مرخص بالكامل ويمكن الوصول إليها. يتم تقديم الخطوط من شبكة عالمية على ملقمات زائدة عن الحاجة ، لذلك لا ينبغي أن تبطئ موقعك. انها خدمة تعتمد على الاشتراك ، إذا لم يكن لديك حساب بالفعل ، ستحتاج الى سجل واحد."
 
 #: contact_info.php:19
 msgid "Google Talk"
-msgstr ""
+msgstr "مجموعات نقاش"
 
 #: contact_info.php:20
 msgid "Twitter ID"
-msgstr ""
+msgstr "التغريد الهوية"
 
 #: sitewide-tags.php:35
 msgid "Global Tags"
-msgstr ""
+msgstr "العلامات العالمية"
 
 #: sitewide-tags.php:38
 msgid "Tags Blog"
-msgstr ""
+msgstr "به مدونة"
 
 #: sitewide-tags.php:51
 msgid "You can create your post archive in a specific 'tags' blog of your choosing, or you can use the main blog of your site. Each has it's own pros and cons."
-msgstr ""
+msgstr "يمكنك إنشاء الأرشيف الخاص في آخر بلوق &#39;به&#39; محدد من اختيارك ، أو يمكنك استخدام بلوق الرئيسية لموقعك. كل وانها الايجابيات والسلبيات الخاصة."
 
 #: sitewide-tags.php:53
 msgid "<strong>Blogname</strong> of the blog your global tags and posts will live in. Blog will be created."
-msgstr ""
+msgstr "بلوق الخاص به عالميا ، وسوف المشاركات التي يعيشون فيها. <strong>Blogname</strong> من إنشاء المدونة وسوف."
 
 #: sitewide-tags.php:54
 msgid "Post to main blog"
-msgstr ""
+msgstr "آخر لبلوق الرئيسية"
 
 #: sitewide-tags.php:55
 msgid "Create posts in your main blog. All posts will appear on the front page of your site. Remember to to add a post loop to home.php in the theme directory if it exists."
-msgstr ""
+msgstr "إنشاء وظائف في بلوق الخاص بك الرئيسية. وجميع المشاركات التي تظهر على الصفحة الأولى من موقعك. لنتذكر أن تضيف حلقة إلى آخر home.php في الدليل موضوع إذا كان موجودا."
 
 #: sitewide-tags.php:59
 msgid "Max Posts"
-msgstr ""
+msgstr "ماكس المشاركات"
 
 #: sitewide-tags.php:63
 msgid "The maximum number of posts stored in the tags blog."
-msgstr ""
+msgstr "الحد الأقصى لعدد المشاركات المخزنة في به بلوق."
 
 #: sitewide-tags.php:67
 msgid "Include Pages"
-msgstr ""
+msgstr "تتضمن الصفحات"
 
 #: sitewide-tags.php:73
 msgid "Privacy"
-msgstr ""
+msgstr "الخصوصية"
 
 #: sitewide-tags.php:75
 msgid "Tags pages can be indexed by search engines."
-msgstr ""
+msgstr "يمكن فهرسة صفحات العلامات عن طريق محركات البحث."
 
 #: sitewide-tags.php:76
 msgid "Tags pages will not be indexed by search engines."
-msgstr ""
+msgstr "لن تتم فهرسة صفحات العلامات عن طريق محركات البحث."
 
 #: sitewide-tags.php:78
 msgid "Will your tags pages be visible to Google and other search engines?"
-msgstr ""
+msgstr "سوف الخاص به صفحات تكون مرئية لجوجل ومحركات البحث الأخرى؟"
 
 #: sitewide-tags.php:85
 msgid "Non-Public Blogs"
-msgstr ""
+msgstr "غير العام مدونات"
 
 #: sitewide-tags.php:88
 msgid "Include posts from blogs not indexed by search engines."
-msgstr ""
+msgstr "تشمل الوظائف من بلوق فهرستها ليس عن طريق محركات البحث."
 
 #: sitewide-tags.php:92
 msgid "Post Meta"
-msgstr ""
+msgstr "آخر ميتا"
 
 #: sitewide-tags.php:96
 msgid "If you want to copy custom fields with posts. One custom field per line."
-msgstr ""
+msgstr "إذا كنت تريد نسخة حقول مخصصة مع وظيفة. حقل واحد مخصص لكل سطر."
 
 #: sitewide-tags.php:142
 msgid "Global Posts"
-msgstr ""
+msgstr "المشاركات العالمية"
 
 #: typekit-fonts.php:30
 msgid "Using Typekit - The Basics"
