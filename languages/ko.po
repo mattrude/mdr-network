@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 00:49:33+0000\n"
+"PO-Revision-Date: 2010-12-04 02:13:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,91 +12,91 @@ msgstr ""
 
 #: contact_info.php:18
 msgid "Facebook URL"
-msgstr ""
+msgstr "페이 스북 URL을"
 
 #: typekit-fonts.php:59
 msgid "offer a service that allows you to select from a range of hundreds of high quality fonts for your WordPress website. The fonts are applied using the font-face standard, so they are standards compliant, fully licensed and accessible. The fonts are served from a global network on redundant servers, so they shouldn't slow down your site. It's a subscription-based service, if you don't already have an account, you will need to register for one."
-msgstr ""
+msgstr "귀하의 워드 프레스의 웹사이트를위한 고품질의 글꼴 수백명의 범위에서 선택할 수있는 서비스를 제공합니다. 글꼴은 글꼴 얼굴 표준을 사용하여 적용되는, 그래서 그들은 표준 준수, 완전 라이센스 및 액세스할 수 있습니다. 글꼴이 중복 서버에서 글로벌 네트워크에서 제공되는, 그래서 그들은 귀하의 사이트를 늦춰 안됩니다. 그것은 당신이 이미 계정이 없다면, 당신은 하나에 등록해야합니다, 가입 기반 서비스입니다."
 
 #: contact_info.php:19
 msgid "Google Talk"
-msgstr ""
+msgstr "Google 토크"
 
 #: contact_info.php:20
 msgid "Twitter ID"
-msgstr ""
+msgstr "트위터 아이디"
 
 #: sitewide-tags.php:35
 msgid "Global Tags"
-msgstr ""
+msgstr "글로벌 태그"
 
 #: sitewide-tags.php:38
 msgid "Tags Blog"
-msgstr ""
+msgstr "태그 블로그"
 
 #: sitewide-tags.php:51
 msgid "You can create your post archive in a specific 'tags' blog of your choosing, or you can use the main blog of your site. Each has it's own pros and cons."
-msgstr ""
+msgstr "당신은 선택의 특정 &#39;태그&#39;의 블로그에 게시물 아카이브를 만들 수 있습니다, 또는 귀하의 사이트의 주요 블로그를 사용할 수 있습니다. 각각은 자신의 장단점이야있다."
 
 #: sitewide-tags.php:53
 msgid "<strong>Blogname</strong> of the blog your global tags and posts will live in. Blog will be created."
-msgstr ""
+msgstr "<strong>Blogname</strong> 블로그의 글로벌 태그 및 게시물이 생성됩니다 것입니다 블로그가 사는."
 
 #: sitewide-tags.php:54
 msgid "Post to main blog"
-msgstr ""
+msgstr "게시 메인 블로그"
 
 #: sitewide-tags.php:55
 msgid "Create posts in your main blog. All posts will appear on the front page of your site. Remember to to add a post loop to home.php in the theme directory if it exists."
-msgstr ""
+msgstr "기본 블로그에 게시물을 만드십시오. 모든 게시물은 사이트의 첫 페이지에 나타납니다. 그것이 존재하는 경우에는 테마 디렉터리에 home.php에 게시물 루프를 추가하는 것을 잊지 마십시오."
 
 #: sitewide-tags.php:59
 msgid "Max Posts"
-msgstr ""
+msgstr "맥스 게시물"
 
 #: sitewide-tags.php:63
 msgid "The maximum number of posts stored in the tags blog."
-msgstr ""
+msgstr "태그에 저장되어있는 게시물의 최대 개수는 블로그."
 
 #: sitewide-tags.php:67
 msgid "Include Pages"
-msgstr ""
+msgstr "포함된 페이지"
 
 #: sitewide-tags.php:73
 msgid "Privacy"
-msgstr ""
+msgstr "개인 정보 보호 정책"
 
 #: sitewide-tags.php:75
 msgid "Tags pages can be indexed by search engines."
-msgstr ""
+msgstr "태그 페이지가 검색 엔진에 의해 색인을 생성하실 수 있습니다."
 
 #: sitewide-tags.php:76
 msgid "Tags pages will not be indexed by search engines."
-msgstr ""
+msgstr "태그 페이지가 검색 엔진에 의해 색인이 생성되지 않습니다."
 
 #: sitewide-tags.php:78
 msgid "Will your tags pages be visible to Google and other search engines?"
-msgstr ""
+msgstr "귀하의 태그 페이지가 구글과 다른 검색 엔진 볼 수 있습니까?"
 
 #: sitewide-tags.php:85
 msgid "Non-Public Blogs"
-msgstr ""
+msgstr "비공개 블로그"
 
 #: sitewide-tags.php:88
 msgid "Include posts from blogs not indexed by search engines."
-msgstr ""
+msgstr "블로그 게시물을 포함하지 않은 검색 엔진에 의해 색인이 생성."
 
 #: sitewide-tags.php:92
 msgid "Post Meta"
-msgstr ""
+msgstr "게시물 메타"
 
 #: sitewide-tags.php:96
 msgid "If you want to copy custom fields with posts. One custom field per line."
-msgstr ""
+msgstr "당신은 게시물과 사용자 정의 필드를 복사하십시오. 한 줄에 하나의 사용자 정의 필드."
 
 #: sitewide-tags.php:142
 msgid "Global Posts"
-msgstr ""
+msgstr "글로벌 게시물"
 
 #: typekit-fonts.php:30
 msgid "Using Typekit - The Basics"

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 00:02:31+0000\n"
+"PO-Revision-Date: 2010-12-04 02:13:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,91 +12,91 @@ msgstr ""
 
 #: contact_info.php:18
 msgid "Facebook URL"
-msgstr ""
+msgstr "Facebookに登録のURL"
 
 #: typekit-fonts.php:59
 msgid "offer a service that allows you to select from a range of hundreds of high quality fonts for your WordPress website. The fonts are applied using the font-face standard, so they are standards compliant, fully licensed and accessible. The fonts are served from a global network on redundant servers, so they shouldn't slow down your site. It's a subscription-based service, if you don't already have an account, you will need to register for one."
-msgstr ""
+msgstr "あなたのワードプレスのウェブサイトのための高品質なフォントの数百の範囲から選択できるようにするサービスを提供しています。フォントはfont - faceを標準を使用して適用されているので、標準に準拠して、完全にライセンスを取得しアクセスすることができます。フォントは、冗長サーバー上のグローバルネットワークから提供されているので、あなたのサイトが遅くなることがあります。それはあなたが既にアカウントをお持ちでない場合は、いずれかの登録する必要があります、サブスクリプションベースのサービスです。"
 
 #: contact_info.php:19
 msgid "Google Talk"
-msgstr ""
+msgstr "Googleトーク"
 
 #: contact_info.php:20
 msgid "Twitter ID"
-msgstr ""
+msgstr "TwitterのID"
 
 #: sitewide-tags.php:35
 msgid "Global Tags"
-msgstr ""
+msgstr "グローバルタグ"
 
 #: sitewide-tags.php:38
 msgid "Tags Blog"
-msgstr ""
+msgstr "タグブログ"
 
 #: sitewide-tags.php:51
 msgid "You can create your post archive in a specific 'tags' blog of your choosing, or you can use the main blog of your site. Each has it's own pros and cons."
-msgstr ""
+msgstr "あなたが選択した特定の&#39;タグのブログにご投稿のアーカイブを作成するか、またはあなたのサイトのメインのブログを使用することができます。それぞれがそれ自身の長所と短所を見るている。"
 
 #: sitewide-tags.php:53
 msgid "<strong>Blogname</strong> of the blog your global tags and posts will live in. Blog will be created."
-msgstr ""
+msgstr "<strong>ブログ名</strong>ブログのグローバルなタグとの記事が作成されますが、ブログが住んで。"
 
 #: sitewide-tags.php:54
 msgid "Post to main blog"
-msgstr ""
+msgstr "投稿メインのブログに"
 
 #: sitewide-tags.php:55
 msgid "Create posts in your main blog. All posts will appear on the front page of your site. Remember to to add a post loop to home.php in the theme directory if it exists."
-msgstr ""
+msgstr "メインのブログの投稿を作成します。すべての記事をあなたのサイトのフロントページに表示されます。が存在する場合は、テーマディレクトリにhome.phpに投稿ループを追加することを忘れないでください。"
 
 #: sitewide-tags.php:59
 msgid "Max Posts"
-msgstr ""
+msgstr "最大投稿"
 
 #: sitewide-tags.php:63
 msgid "The maximum number of posts stored in the tags blog."
-msgstr ""
+msgstr "タグに格納されている記事の最大数は、ブログ。"
 
 #: sitewide-tags.php:67
 msgid "Include Pages"
-msgstr ""
+msgstr "を含むページ"
 
 #: sitewide-tags.php:73
 msgid "Privacy"
-msgstr ""
+msgstr "プライバシー"
 
 #: sitewide-tags.php:75
 msgid "Tags pages can be indexed by search engines."
-msgstr ""
+msgstr "タグページは検索エンジンでインデックスを付けることができます。"
 
 #: sitewide-tags.php:76
 msgid "Tags pages will not be indexed by search engines."
-msgstr ""
+msgstr "タグページは検索エンジンでインデックスに登録されません。"
 
 #: sitewide-tags.php:78
 msgid "Will your tags pages be visible to Google and other search engines?"
-msgstr ""
+msgstr "、あなたのタグページがGoogleや他の検索エンジンに表示される？"
 
 #: sitewide-tags.php:85
 msgid "Non-Public Blogs"
-msgstr ""
+msgstr "非パブリックブログ"
 
 #: sitewide-tags.php:88
 msgid "Include posts from blogs not indexed by search engines."
-msgstr ""
+msgstr "ブログからのインクルード投稿がない検索エンジンのインデックス。"
 
 #: sitewide-tags.php:92
 msgid "Post Meta"
-msgstr ""
+msgstr "投稿メタ"
 
 #: sitewide-tags.php:96
 msgid "If you want to copy custom fields with posts. One custom field per line."
-msgstr ""
+msgstr "あなたの投稿でカスタムフィールドをコピーする場合。 1行につき1つのカスタムフィールドです。"
 
 #: sitewide-tags.php:142
 msgid "Global Posts"
-msgstr ""
+msgstr "グローバル投稿"
 
 #: typekit-fonts.php:30
 msgid "Using Typekit - The Basics"

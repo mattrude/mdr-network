@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 00:02:37+0000\n"
+"PO-Revision-Date: 2010-12-04 02:13:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,91 +12,91 @@ msgstr ""
 
 #: contact_info.php:18
 msgid "Facebook URL"
-msgstr ""
+msgstr "Facebook URL"
 
 #: typekit-fonts.php:59
 msgid "offer a service that allows you to select from a range of hundreds of high quality fonts for your WordPress website. The fonts are applied using the font-face standard, so they are standards compliant, fully licensed and accessible. The fonts are served from a global network on redundant servers, so they shouldn't slow down your site. It's a subscription-based service, if you don't already have an account, you will need to register for one."
-msgstr ""
+msgstr "предлагаем сервис, который позволяет вам выбрать из целого ряда сотни высококачественных шрифтов для вашего сайта WordPress. Шрифтов применяются с использованием шрифта лицо стандартные, так что они соответствуют стандартам, полностью лицензированы и доступными. Шрифты подаются с глобальной сети по избыточных серверов, поэтому они не должны замедлить работу Вашего сайта. Это подписке на услугу, если вы еще не имеете учетной записи, вам необходимо зарегистрироваться на один."
 
 #: contact_info.php:19
 msgid "Google Talk"
-msgstr ""
+msgstr "Google Talk"
 
 #: contact_info.php:20
 msgid "Twitter ID"
-msgstr ""
+msgstr "Twitter ID"
 
 #: sitewide-tags.php:35
 msgid "Global Tags"
-msgstr ""
+msgstr "Глобальный Теги"
 
 #: sitewide-tags.php:38
 msgid "Tags Blog"
-msgstr ""
+msgstr "Тэги блог"
 
 #: sitewide-tags.php:51
 msgid "You can create your post archive in a specific 'tags' blog of your choosing, or you can use the main blog of your site. Each has it's own pros and cons."
-msgstr ""
+msgstr "Вы можете создать свой пост архива в блоге конкретных тегов &quot;по вашему выбору, или вы можете использовать основной блог своего сайта. Каждый имеет свои собственные плюсы и минусы."
 
 #: sitewide-tags.php:53
 msgid "<strong>Blogname</strong> of the blog your global tags and posts will live in. Blog will be created."
-msgstr ""
+msgstr "<strong>Блога</strong> в блог вашей глобальной метки и сообщения будут живем Блог будет создан."
 
 #: sitewide-tags.php:54
 msgid "Post to main blog"
-msgstr ""
+msgstr "Написать в основной блог"
 
 #: sitewide-tags.php:55
 msgid "Create posts in your main blog. All posts will appear on the front page of your site. Remember to to add a post loop to home.php in the theme directory if it exists."
-msgstr ""
+msgstr "Создание сообщений в ваш основной блог. Все сообщения будут отображаться на главной странице вашего сайта. Не забудьте добавить сообщение цикл home.php в каталоге темы, если он существует."
 
 #: sitewide-tags.php:59
 msgid "Max Posts"
-msgstr ""
+msgstr "Макс сообщения"
 
 #: sitewide-tags.php:63
 msgid "The maximum number of posts stored in the tags blog."
-msgstr ""
+msgstr "Максимальное количество сообщений, хранящихся в тегах блога."
 
 #: sitewide-tags.php:67
 msgid "Include Pages"
-msgstr ""
+msgstr "Включить страницы"
 
 #: sitewide-tags.php:73
 msgid "Privacy"
-msgstr ""
+msgstr "Конфиденциальность"
 
 #: sitewide-tags.php:75
 msgid "Tags pages can be indexed by search engines."
-msgstr ""
+msgstr "Теги страницы могут быть проиндексированы поисковыми системами."
 
 #: sitewide-tags.php:76
 msgid "Tags pages will not be indexed by search engines."
-msgstr ""
+msgstr "Теги страницы не будут индексироваться поисковыми системами."
 
 #: sitewide-tags.php:78
 msgid "Will your tags pages be visible to Google and other search engines?"
-msgstr ""
+msgstr "Будут ли ваши метки страниц видны Google и других поисковых системах?"
 
 #: sitewide-tags.php:85
 msgid "Non-Public Blogs"
-msgstr ""
+msgstr "Номера для общественного Блоги"
 
 #: sitewide-tags.php:88
 msgid "Include posts from blogs not indexed by search engines."
-msgstr ""
+msgstr "Включать сообщения из блогов не индексируются поисковыми системами."
 
 #: sitewide-tags.php:92
 msgid "Post Meta"
-msgstr ""
+msgstr "Сообщение Мета"
 
 #: sitewide-tags.php:96
 msgid "If you want to copy custom fields with posts. One custom field per line."
-msgstr ""
+msgstr "Если вы хотите скопировать пользовательские поля с должности. Один пользовательские поля в каждой строке."
 
 #: sitewide-tags.php:142
 msgid "Global Posts"
-msgstr ""
+msgstr "Глобальный сообщения"
 
 #: typekit-fonts.php:30
 msgid "Using Typekit - The Basics"

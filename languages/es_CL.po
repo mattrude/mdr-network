@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 00:02:28+0000\n"
+"PO-Revision-Date: 2010-12-04 02:13:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,91 +12,91 @@ msgstr ""
 
 #: contact_info.php:18
 msgid "Facebook URL"
-msgstr ""
+msgstr "URL de Facebook"
 
 #: typekit-fonts.php:59
 msgid "offer a service that allows you to select from a range of hundreds of high quality fonts for your WordPress website. The fonts are applied using the font-face standard, so they are standards compliant, fully licensed and accessible. The fonts are served from a global network on redundant servers, so they shouldn't slow down your site. It's a subscription-based service, if you don't already have an account, you will need to register for one."
-msgstr ""
+msgstr "ofrecer un servicio que le permite seleccionar entre una gama de cientos de fuentes de alta calidad para su sitio web WordPress. Las fuentes se aplican según la norma font-face, por lo que son compatibles con los estándares, con licencia completa y accesible. Las fuentes se sirve de una red mundial de servidores redundantes, por lo que no debe reducir la velocidad de su sitio. Es un servicio basado en suscripción, si aún no tiene una cuenta, usted tendrá que registrarse para uno."
 
 #: contact_info.php:19
 msgid "Google Talk"
-msgstr ""
+msgstr "Google Talk"
 
 #: contact_info.php:20
 msgid "Twitter ID"
-msgstr ""
+msgstr "Twitter ID"
 
 #: sitewide-tags.php:35
 msgid "Global Tags"
-msgstr ""
+msgstr "Mundial de Etiquetas"
 
 #: sitewide-tags.php:38
 msgid "Tags Blog"
-msgstr ""
+msgstr "Etiquetas de blog"
 
 #: sitewide-tags.php:51
 msgid "You can create your post archive in a specific 'tags' blog of your choosing, or you can use the main blog of your site. Each has it's own pros and cons."
-msgstr ""
+msgstr "Usted puede crear su archivo de correos en un blog específico &quot;etiquetas&quot; de su elección, o puede utilizar el blog principal de su sitio. Cada uno tiene sus pros y sus contras."
 
 #: sitewide-tags.php:53
 msgid "<strong>Blogname</strong> of the blog your global tags and posts will live in. Blog will be created."
-msgstr ""
+msgstr "<strong>Nombre del blog</strong> del blog tus etiquetas global y puestos vivimos blog se ha creado."
 
 #: sitewide-tags.php:54
 msgid "Post to main blog"
-msgstr ""
+msgstr "Publicar en blog principal"
 
 #: sitewide-tags.php:55
 msgid "Create posts in your main blog. All posts will appear on the front page of your site. Remember to to add a post loop to home.php in the theme directory if it exists."
-msgstr ""
+msgstr "Crear puestos de trabajo en su blog principal. Todos los mensajes van a aparecer en la portada de su sitio. Recuerde que debe añadir un bucle de mensaje para home.php en el directorio del tema si es que existe."
 
 #: sitewide-tags.php:59
 msgid "Max Posts"
-msgstr ""
+msgstr "Número máximo de Mensajes"
 
 #: sitewide-tags.php:63
 msgid "The maximum number of posts stored in the tags blog."
-msgstr ""
+msgstr "El número máximo de mensajes almacenados en las etiquetas blog."
 
 #: sitewide-tags.php:67
 msgid "Include Pages"
-msgstr ""
+msgstr "Incluir páginas"
 
 #: sitewide-tags.php:73
 msgid "Privacy"
-msgstr ""
+msgstr "Privacidad"
 
 #: sitewide-tags.php:75
 msgid "Tags pages can be indexed by search engines."
-msgstr ""
+msgstr "Etiquetas páginas pueden ser indexadas por los motores de búsqueda."
 
 #: sitewide-tags.php:76
 msgid "Tags pages will not be indexed by search engines."
-msgstr ""
+msgstr "Etiquetas páginas no será indexado por los motores de búsqueda."
 
 #: sitewide-tags.php:78
 msgid "Will your tags pages be visible to Google and other search engines?"
-msgstr ""
+msgstr "¿Sus páginas serán visibles las etiquetas de Google y otros motores de búsqueda?"
 
 #: sitewide-tags.php:85
 msgid "Non-Public Blogs"
-msgstr ""
+msgstr "Blogs No Pública"
 
 #: sitewide-tags.php:88
 msgid "Include posts from blogs not indexed by search engines."
-msgstr ""
+msgstr "Incluir los mensajes de los blogs no indexadas por los motores de búsqueda."
 
 #: sitewide-tags.php:92
 msgid "Post Meta"
-msgstr ""
+msgstr "Mensaje Meta"
 
 #: sitewide-tags.php:96
 msgid "If you want to copy custom fields with posts. One custom field per line."
-msgstr ""
+msgstr "Si desea copiar los campos personalizados con mensajes. Un campo personalizado en cada línea."
 
 #: sitewide-tags.php:142
 msgid "Global Posts"
-msgstr ""
+msgstr "Mundial de Mensajes"
 
 #: typekit-fonts.php:30
 msgid "Using Typekit - The Basics"
