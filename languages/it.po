@@ -2,13 +2,358 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 03:52:45+0000\n"
+"PO-Revision-Date: 2010-12-07 06:14:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: MDR Network Plugins\n"
+
+#: multi-network.php:724
+msgid "Assign sites to this network"
+msgstr ""
+
+#: multi-network.php:618
+msgid "Sites"
+msgstr ""
+
+#: multi-network.php:617 multi-network.php:786 multi-network.php:1202
+msgid "Path"
+msgstr ""
+
+#: multi-network.php:727
+msgid "Delete this network"
+msgstr ""
+
+#: multi-network.php:32
+msgid "Admin user ID - deprecated"
+msgstr ""
+
+#: multi-network.php:31
+msgid "Network admin email"
+msgstr ""
+
+#: multi-network.php:33
+msgid "OLD List of allowed themes - deprecated"
+msgstr ""
+
+#: multi-network.php:34
+msgid "List of allowed themes"
+msgstr ""
+
+#: multi-network.php:35
+msgid "Banned email domains"
+msgstr ""
+
+#: multi-network.php:36
+msgid "Content of first post on a new blog"
+msgstr ""
+
+#: multi-network.php:37
+msgid "Permitted email domains"
+msgstr ""
+
+#: multi-network.php:38
+msgid "List of network admin usernames"
+msgstr ""
+
+#: multi-network.php:39
+msgid "Content of welcome email"
+msgstr ""
+
+#: multi-network.php:179 multi-network.php:1145
+msgid "New Network Created"
+msgstr ""
+
+#: multi-network.php:190
+msgid "Network already exists."
+msgstr ""
+
+#: multi-network.php:261 multi-network.php:266 multi-network.php:351
+#: multi-network.php:408 multi-network.php:420
+msgid "Network does not exist."
+msgstr ""
+
+#: multi-network.php:290
+msgid "Network could not be updated."
+msgstr ""
+
+#: multi-network.php:358
+msgid "Cannot delete network with sites."
+msgstr ""
+
+#: multi-network.php:393
+msgid "Site does not exist."
+msgstr ""
+
+#: multi-network.php:449
+msgid "Site could not be moved."
+msgstr ""
+
+#: multi-network.php:480
+msgid "Move"
+msgstr ""
+
+#: multi-network.php:484 multi-network.php:632 multi-network.php:889
+#: multi-network.php:998 multi-network.php:1197 multi-network.php:1257
+#: multi-network.php:1329
+msgid "Networks"
+msgstr ""
+
+#: multi-network.php:492
+msgid "<p>You do not have permission to access this page.</p>"
+msgstr ""
+
+#: multi-network.php:514
+msgid "Options saved."
+msgstr ""
+
+#: multi-network.php:518
+msgid "Network created."
+msgstr ""
+
+#: multi-network.php:522
+msgid "Network(s) deleted."
+msgstr ""
+
+#: multi-network.php:638
+msgid "Filter"
+msgstr ""
+
+#: multi-network.php:638
+msgid "Remove this filter"
+msgstr ""
+
+#: multi-network.php:638
+msgid "Remove"
+msgstr ""
+
+#: multi-network.php:724
+msgid "Assign Sites"
+msgstr ""
+
+#: multi-network.php:725
+msgid "Edit this network"
+msgstr ""
+
+#: multi-network.php:746
+msgid "Sites on this network"
+msgstr ""
+
+#: multi-network.php:764
+msgid "No networks found."
+msgstr ""
+
+#: multi-network.php:780
+msgid "Add Network"
+msgstr ""
+
+#: multi-network.php:781
+msgid "A site will be created at the root of the new network"
+msgstr ""
+
+#: multi-network.php:784
+msgid "Network Name"
+msgstr ""
+
+#: multi-network.php:784
+msgid "A friendly name for your new network"
+msgstr ""
+
+#: multi-network.php:785
+msgid "The domain for your new network"
+msgstr ""
+
+#: multi-network.php:786
+msgid "If you are unsure, put in /"
+msgstr ""
+
+#: multi-network.php:787
+msgid "Site Name"
+msgstr ""
+
+#: multi-network.php:787
+msgid "The name for the new network's site."
+msgstr ""
+
+#: multi-network.php:792
+msgid "Clone Network Options"
+msgstr ""
+
+#: multi-network.php:796
+msgid "Clone Network"
+msgstr ""
+
+#: multi-network.php:798
+msgid "Do Not Clone"
+msgstr ""
+
+#: multi-network.php:814
+msgid "Meta Value"
+msgstr ""
+
+#: multi-network.php:815
+msgid "Description"
+msgstr ""
+
+#: multi-network.php:833
+msgid "Create Network"
+msgstr ""
+
+#: multi-network.php:867
+msgid "You must select a blog to move."
+msgstr ""
+
+#: multi-network.php:873 multi-network.php:879
+msgid "Invalid blog id."
+msgstr ""
+
+#: multi-network.php:890
+msgid "Moving"
+msgstr ""
+
+#: multi-network.php:895
+msgid "From"
+msgstr ""
+
+#: multi-network.php:896
+msgid "To"
+msgstr ""
+
+#: multi-network.php:903
+msgid "Select a Network"
+msgstr ""
+
+#: multi-network.php:921 multi-network.php:1049
+msgid "Options"
+msgstr ""
+
+#: multi-network.php:929
+msgid "Move Site"
+msgstr ""
+
+#: multi-network.php:930 multi-network.php:1056 multi-network.php:1213
+#: multi-network.php:1274 multi-network.php:1380
+msgid "Cancel"
+msgstr ""
+
+#: multi-network.php:944
+msgid "No blogs selected."
+msgstr ""
+
+#: multi-network.php:951
+msgid "No blogs seleceted."
+msgstr ""
+
+#: multi-network.php:981 multi-network.php:1170 multi-network.php:1183
+#: multi-network.php:1239
+msgid "Invalid network id."
+msgstr ""
+
+#: multi-network.php:985
+msgid "Site table inaccessible."
+msgstr ""
+
+#: multi-network.php:992
+msgid "Invalid blog."
+msgstr ""
+
+#: multi-network.php:999
+msgid "Assign Sites to"
+msgstr ""
+
+#: multi-network.php:1001
+msgid "Select the blogs you want to assign to this network from the column at left, and click \"Update Assignments.\""
+msgstr ""
+
+#: multi-network.php:1007
+msgid "Available"
+msgstr ""
+
+#: multi-network.php:1009
+msgid "Assigned"
+msgstr ""
+
+#: multi-network.php:1055
+msgid "Update Assigments"
+msgstr ""
+
+#: multi-network.php:1198
+msgid "Edit Network"
+msgstr ""
+
+#: multi-network.php:1205
+msgid "Options:"
+msgstr ""
+
+#: multi-network.php:1212
+msgid "Update Network"
+msgstr ""
+
+#: multi-network.php:1258 multi-network.php:1274
+msgid "Delete Network"
+msgstr ""
+
+#: multi-network.php:1263 multi-network.php:1268
+msgid "There are blogs associated with this network. "
+msgstr ""
+
+#: multi-network.php:1263
+msgid "Deleting it will move them to the holding network."
+msgstr ""
+
+#: multi-network.php:1264 multi-network.php:1269
+msgid "If you still want to delete this network, check the following box"
+msgstr ""
+
+#: multi-network.php:1268
+msgid "Deleting it will delete those blogs as well."
+msgstr ""
+
+#: multi-network.php:1273
+msgid "Are you sure you want to delete this network?"
+msgstr ""
+
+#: multi-network.php:1298
+msgid "You have not selected any networks to delete."
+msgstr ""
+
+#: multi-network.php:1305
+msgid "You have selected an invalid network for deletion."
+msgstr ""
+
+#: multi-network.php:1320
+msgid "You have selected an invalid network or networks for deletion"
+msgstr ""
+
+#: multi-network.php:1330
+msgid "Delete Multiple Networks"
+msgstr ""
+
+#: multi-network.php:1338 multi-network.php:1351 multi-network.php:1368
+msgid "You have selected the following networks for deletion"
+msgstr ""
+
+#: multi-network.php:1344
+msgid "There are blogs associated with one or more of these networks.  Deleting them will move these blgos to the holding network."
+msgstr ""
+
+#: multi-network.php:1345 multi-network.php:1358
+msgid "If you still want to delete these networks, check the following box"
+msgstr ""
+
+#: multi-network.php:1357
+msgid "There are blogs associated with one or more of these networks.  Deleting them will delete those blogs as well."
+msgstr ""
+
+#: multi-network.php:1379
+msgid "Are you sure you want to delete these networks?"
+msgstr ""
+
+#: multi-network.php:1380
+msgid "Delete Networks"
+msgstr ""
 
 #: ldap/lib/wpmu_ldap_adduser.functions.php:223
 msgid "Local User Creation Enabled"
@@ -214,10 +559,6 @@ msgstr ""
 msgid "Single Sign-On as user <em>%s</em> failed. Please login using the form below."
 msgstr ""
 
-#: feedburner.php:40
-msgid "You may disable the Feedburner redircted by removing BOTH URLs."
-msgstr "È possibile disattivare l'Feedburner redircted eliminando entrambi gli URL."
-
 #: contact_info.php:18
 msgid "Facebook URL"
 msgstr "Facebook URL"
@@ -310,6 +651,26 @@ msgstr "Global Messaggi"
 msgid "Using Typekit - The Basics"
 msgstr "Utilizzando Typekit - Le basi"
 
+#: multi-network.php:653 multi-network.php:727 multi-network.php:774
+msgid "Delete"
+msgstr "Cancellare"
+
+#: multi-network.php:725
+msgid "Edit"
+msgstr "Modifica"
+
+#: multi-network.php:615 multi-network.php:785 multi-network.php:1201
+msgid "Domain"
+msgstr "Dominio"
+
+#: multi-network.php:616
+msgid "Site ID"
+msgstr "ID del sito"
+
+#: multi-network.php:559 multi-network.php:645
+msgid "Search Domains"
+msgstr "Domini di Ricerca"
+
 #: webmaster-tools.php:295
 msgid "To Disable all search engines from browsing your site, see the"
 msgstr "Per disattivare tutti i motori di ricerca di navigazione del tuo sito, vedere la"
@@ -353,42 +714,6 @@ msgstr "Nota: se un post è in più alla categoria uno, esso verrà escluso se c
 #: category-excluder.php:126 webmaster-tools.php:320
 msgid "Save Changes"
 msgstr "Salva le modifiche"
-
-#: feedburner.php:20
-msgid "Feedburner Service"
-msgstr "Servizio di Feedburner"
-
-#: feedburner.php:21
-msgid "Feedburner URL"
-msgstr "Feedburner URL"
-
-#: feedburner.php:22
-msgid "Feedburner Comment URL"
-msgstr "Feedburner URL commento"
-
-#: feedburner.php:23
-msgid "Append category/tag to URL"
-msgstr "Append categoria / tag URL"
-
-#: feedburner.php:24
-msgid "Do not redirect category or tag feeds"
-msgstr "Non reindirizzare categoria o tag feeds"
-
-#: feedburner.php:25
-msgid "Do not redirect search result feeds"
-msgstr "Non risultato reindirizzare i feed di ricerca"
-
-#: feedburner.php:34
-msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
-msgstr "<strong>Feedburner</strong> è un servizio gratuito di gestione della alimentazione, fornendo personalizzati <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">feed</a> RSS e gli strumenti di gestione come l&#39;analisi del traffico e un sistema opzionale pubblicitario."
-
-#: feedburner.php:36
-msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
-msgstr "Prima di andare <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> e masterizzare i vostri feed. Inserire l&#39;URL di Feedburner creato per voi. Si può opzionalmente reindirizzare il feed dei commenti utilizzando la stessa procedura. Per disattivare il reindirizzamento, disattivare il plug-in o cancellare la URL."
-
-#: feedburner.php:38
-msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
-msgstr "Dopo aver inserito il tuo feed URL verrà reindirizzato automaticamente e non c&#39;è bisogno di adottare ulteriori azioni. Nota che il tuo feed non si può visualizzare il reindirizzamento a Feedburner finché non si aggiunge un nuovo post."
 
 #: typekit-fonts.php:19
 msgid "Fonts"
