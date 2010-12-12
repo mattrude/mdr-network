@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-07 06:15:00+0000\n"
+"PO-Revision-Date: 2010-12-12 21:25:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,554 +10,9 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: MDR Network Plugins\n"
 
-#: multi-network.php:724
-msgid "Assign sites to this network"
-msgstr ""
-
-#: multi-network.php:618
-msgid "Sites"
-msgstr ""
-
-#: multi-network.php:617 multi-network.php:786 multi-network.php:1202
-msgid "Path"
-msgstr ""
-
-#: multi-network.php:727
-msgid "Delete this network"
-msgstr ""
-
-#: multi-network.php:32
-msgid "Admin user ID - deprecated"
-msgstr ""
-
-#: multi-network.php:31
-msgid "Network admin email"
-msgstr ""
-
-#: multi-network.php:33
-msgid "OLD List of allowed themes - deprecated"
-msgstr ""
-
-#: multi-network.php:34
-msgid "List of allowed themes"
-msgstr ""
-
-#: multi-network.php:35
-msgid "Banned email domains"
-msgstr ""
-
-#: multi-network.php:36
-msgid "Content of first post on a new blog"
-msgstr ""
-
-#: multi-network.php:37
-msgid "Permitted email domains"
-msgstr ""
-
-#: multi-network.php:38
-msgid "List of network admin usernames"
-msgstr ""
-
-#: multi-network.php:39
-msgid "Content of welcome email"
-msgstr ""
-
-#: multi-network.php:179 multi-network.php:1145
-msgid "New Network Created"
-msgstr ""
-
-#: multi-network.php:190
-msgid "Network already exists."
-msgstr ""
-
-#: multi-network.php:261 multi-network.php:266 multi-network.php:351
-#: multi-network.php:408 multi-network.php:420
-msgid "Network does not exist."
-msgstr ""
-
-#: multi-network.php:290
-msgid "Network could not be updated."
-msgstr ""
-
-#: multi-network.php:358
-msgid "Cannot delete network with sites."
-msgstr ""
-
-#: multi-network.php:393
-msgid "Site does not exist."
-msgstr ""
-
-#: multi-network.php:449
-msgid "Site could not be moved."
-msgstr ""
-
-#: multi-network.php:480
-msgid "Move"
-msgstr ""
-
-#: multi-network.php:484 multi-network.php:632 multi-network.php:889
-#: multi-network.php:998 multi-network.php:1197 multi-network.php:1257
-#: multi-network.php:1329
-msgid "Networks"
-msgstr ""
-
-#: multi-network.php:492
-msgid "<p>You do not have permission to access this page.</p>"
-msgstr ""
-
-#: multi-network.php:514
-msgid "Options saved."
-msgstr ""
-
-#: multi-network.php:518
-msgid "Network created."
-msgstr ""
-
-#: multi-network.php:522
-msgid "Network(s) deleted."
-msgstr ""
-
-#: multi-network.php:638
-msgid "Filter"
-msgstr ""
-
-#: multi-network.php:638
-msgid "Remove this filter"
-msgstr ""
-
-#: multi-network.php:638
-msgid "Remove"
-msgstr ""
-
-#: multi-network.php:724
-msgid "Assign Sites"
-msgstr ""
-
-#: multi-network.php:725
-msgid "Edit this network"
-msgstr ""
-
-#: multi-network.php:746
-msgid "Sites on this network"
-msgstr ""
-
-#: multi-network.php:764
-msgid "No networks found."
-msgstr ""
-
-#: multi-network.php:780
-msgid "Add Network"
-msgstr ""
-
-#: multi-network.php:781
-msgid "A site will be created at the root of the new network"
-msgstr ""
-
-#: multi-network.php:784
-msgid "Network Name"
-msgstr ""
-
-#: multi-network.php:784
-msgid "A friendly name for your new network"
-msgstr ""
-
-#: multi-network.php:785
-msgid "The domain for your new network"
-msgstr ""
-
-#: multi-network.php:786
-msgid "If you are unsure, put in /"
-msgstr ""
-
-#: multi-network.php:787
-msgid "Site Name"
-msgstr ""
-
-#: multi-network.php:787
-msgid "The name for the new network's site."
-msgstr ""
-
-#: multi-network.php:792
-msgid "Clone Network Options"
-msgstr ""
-
-#: multi-network.php:796
-msgid "Clone Network"
-msgstr ""
-
-#: multi-network.php:798
-msgid "Do Not Clone"
-msgstr ""
-
-#: multi-network.php:814
-msgid "Meta Value"
-msgstr ""
-
-#: multi-network.php:815
-msgid "Description"
-msgstr ""
-
-#: multi-network.php:833
-msgid "Create Network"
-msgstr ""
-
-#: multi-network.php:867
-msgid "You must select a blog to move."
-msgstr ""
-
-#: multi-network.php:873 multi-network.php:879
-msgid "Invalid blog id."
-msgstr ""
-
-#: multi-network.php:890
-msgid "Moving"
-msgstr ""
-
-#: multi-network.php:895
-msgid "From"
-msgstr ""
-
-#: multi-network.php:896
-msgid "To"
-msgstr ""
-
-#: multi-network.php:903
-msgid "Select a Network"
-msgstr ""
-
-#: multi-network.php:921 multi-network.php:1049
-msgid "Options"
-msgstr ""
-
-#: multi-network.php:929
-msgid "Move Site"
-msgstr ""
-
-#: multi-network.php:930 multi-network.php:1056 multi-network.php:1213
-#: multi-network.php:1274 multi-network.php:1380
-msgid "Cancel"
-msgstr ""
-
-#: multi-network.php:944
-msgid "No blogs selected."
-msgstr ""
-
-#: multi-network.php:951
-msgid "No blogs seleceted."
-msgstr ""
-
-#: multi-network.php:981 multi-network.php:1170 multi-network.php:1183
-#: multi-network.php:1239
-msgid "Invalid network id."
-msgstr ""
-
-#: multi-network.php:985
-msgid "Site table inaccessible."
-msgstr ""
-
-#: multi-network.php:992
-msgid "Invalid blog."
-msgstr ""
-
-#: multi-network.php:999
-msgid "Assign Sites to"
-msgstr ""
-
-#: multi-network.php:1001
-msgid "Select the blogs you want to assign to this network from the column at left, and click \"Update Assignments.\""
-msgstr ""
-
-#: multi-network.php:1007
-msgid "Available"
-msgstr ""
-
-#: multi-network.php:1009
-msgid "Assigned"
-msgstr ""
-
-#: multi-network.php:1055
-msgid "Update Assigments"
-msgstr ""
-
-#: multi-network.php:1198
-msgid "Edit Network"
-msgstr ""
-
-#: multi-network.php:1205
-msgid "Options:"
-msgstr ""
-
-#: multi-network.php:1212
-msgid "Update Network"
-msgstr ""
-
-#: multi-network.php:1258 multi-network.php:1274
-msgid "Delete Network"
-msgstr ""
-
-#: multi-network.php:1263 multi-network.php:1268
-msgid "There are blogs associated with this network. "
-msgstr ""
-
-#: multi-network.php:1263
-msgid "Deleting it will move them to the holding network."
-msgstr ""
-
-#: multi-network.php:1264 multi-network.php:1269
-msgid "If you still want to delete this network, check the following box"
-msgstr ""
-
-#: multi-network.php:1268
-msgid "Deleting it will delete those blogs as well."
-msgstr ""
-
-#: multi-network.php:1273
-msgid "Are you sure you want to delete this network?"
-msgstr ""
-
-#: multi-network.php:1298
-msgid "You have not selected any networks to delete."
-msgstr ""
-
-#: multi-network.php:1305
-msgid "You have selected an invalid network for deletion."
-msgstr ""
-
-#: multi-network.php:1320
-msgid "You have selected an invalid network or networks for deletion"
-msgstr ""
-
-#: multi-network.php:1330
-msgid "Delete Multiple Networks"
-msgstr ""
-
-#: multi-network.php:1338 multi-network.php:1351 multi-network.php:1368
-msgid "You have selected the following networks for deletion"
-msgstr ""
-
-#: multi-network.php:1344
-msgid "There are blogs associated with one or more of these networks.  Deleting them will move these blgos to the holding network."
-msgstr ""
-
-#: multi-network.php:1345 multi-network.php:1358
-msgid "If you still want to delete these networks, check the following box"
-msgstr ""
-
-#: multi-network.php:1357
-msgid "There are blogs associated with one or more of these networks.  Deleting them will delete those blogs as well."
-msgstr ""
-
-#: multi-network.php:1379
-msgid "Are you sure you want to delete these networks?"
-msgstr ""
-
-#: multi-network.php:1380
-msgid "Delete Networks"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:223
-msgid "Local User Creation Enabled"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:228
-msgid "Using the following fields below to search out LDAP users and add them into the blog."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:15
-#: ldap/lib/wpmu_ldap_adduser.functions.php:16
-msgid "LDAP Add User"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:230
-msgid "If the user does not exist in the LDAP Directory, you will have the option to create a local account for them."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:259
-msgid "Using the below fields, you can bulk add LDAP users.  Separate multiple users by a new line.  Local user creation is not available in bulk.  The auto create blog for new users function will be disabled for bulk adds."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:40
-msgid "Options saved !"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:69
-msgid "User %s not found in LDAP Directory!"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:31
-msgid "User %s deleted!"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:183
-msgid "<p>Missing username and email.</p>"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:92
-#: ldap/lib/wpmu_ldap_adduser.functions.php:185
-msgid "<p>Missing username.</p>"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:75
-msgid "Error!"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:72
-msgid "Error adding user %s!"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:37
-#: ldap/lib/wpmu_ldap_adduser.functions.php:66
-msgid "User %s exists!"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:34
-msgid "User %s added!"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:187
-msgid "<p>Missing email.</p>"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:194
-msgid "<p>Duplicated username or email address.</p>"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:207
-msgid "<p>Access denied.</p>"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:15
-#: ldap/lib/wpmu_ldap_adduser.functions.php:16
-#: ldap/lib/wpmu_ldap_adduser.functions.php:218
-#: ldap/lib/wpmu_ldap_adduser.functions.php:248
-msgid "Add User"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:239
-msgid "Username:"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:243
-#: ldap/lib/wpmu_ldap_adduser.functions.php:269
-msgid "Role:"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:258
-#: ldap/lib/wpmu_ldap_adduser.functions.php:274
-msgid "Add Bulk Users"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_adduser.functions.php:265
-msgid "Usernames:"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:56
-msgid "Ldap Authentication Options"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:495
-msgid "Update Display Name"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:503
-msgid "Update Meta"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:699
-msgid "<strong>ERROR</strong>: "
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:751
-msgid "New user registration on your blog %s:"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:752
-#: ldap/lib/wpmu_ldap_admin.functions.php:759
-#: ldap/lib/wpmu_ldap_admin.functions.php:768
-msgid "Username: %s"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:753
-msgid "E-mail: %s"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:769
-msgid "Password: %s"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:784
-msgid "[%s] %s"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:825
-msgid "LDAP Options"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:829
-msgid "Account Authentication Type"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:833
-#: ldap/lib/wpmu_ldap_admin.functions.php:842
-msgid "LDAP"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap_admin.functions.php:834
-#: ldap/lib/wpmu_ldap_admin.functions.php:844
-msgid "Local"
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:24
-msgid "<strong>ERROR</strong>: <strong>%s</strong> does not have an email address associated with the ldap record.  All wordpress accounts must have a unique email address."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:28
-msgid "<strong>ERROR</strong>: <strong>%s</strong> (%s) is already associated with another account.  All accounts (including the admin account) must have an unique email address."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:36
-msgid "<strong>ERROR</strong>: Account creation from LDAP failed."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:81
-msgid "<strong>ERROR</strong>: Blog creation from LDAP failed."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:99
-msgid "<strong>ERROR</strong>: Wrong username / password combination. LDAP Access Denied."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:118
-msgid "<strong>ERROR</strong>: Wrong username / password combination."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:124
-msgid "<strong>ERROR</strong>: Access denied - user not found in security access group(s)."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:129
-msgid "<strong>ERROR</strong>: Access denied - user found in security deny group(s)."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:135 ldap/lib/wpmu_ldap.functions.php:181
-msgid "<strong>ERROR</strong>: Unknown error in LDAP Authentication."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:172
-msgid "<strong>ERROR</strong>: A blogging account does not exist - contact your administrator."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:188
-msgid "<strong>ERROR</strong>: Error updating user meta information."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:345
-msgid "<strong>ERROR</strong>: Wrong username / password combination. Local Access Denied."
-msgstr ""
-
-#: ldap/lib/wpmu_ldap.functions.php:368
-msgid "Single Sign-On as user <em>%s</em> failed. Please login using the form below."
-msgstr ""
+#: feedburner.php:40
+msgid "You may disable the Feedburner redircted by removing BOTH URLs."
+msgstr "您可以禁用Feedburner的redircted通過刪除這兩個 URL。"
 
 #: contact_info.php:18
 msgid "Facebook URL"
@@ -651,26 +106,6 @@ msgstr "全球篇"
 msgid "Using Typekit - The Basics"
 msgstr "使用Typekit - 基礎知識"
 
-#: multi-network.php:653 multi-network.php:727 multi-network.php:774
-msgid "Delete"
-msgstr "刪除"
-
-#: multi-network.php:725
-msgid "Edit"
-msgstr "編輯"
-
-#: multi-network.php:615 multi-network.php:785 multi-network.php:1201
-msgid "Domain"
-msgstr "域名"
-
-#: multi-network.php:616
-msgid "Site ID"
-msgstr "站點 ID"
-
-#: multi-network.php:559 multi-network.php:645
-msgid "Search Domains"
-msgstr "搜索域名"
-
 #: webmaster-tools.php:295
 msgid "To Disable all search engines from browsing your site, see the"
 msgstr "禁用所有的搜索引擎，瀏覽自己的網站，看到"
@@ -714,6 +149,42 @@ msgstr "注：如果一個職位是在更多的一類，它會被排除在外，
 #: category-excluder.php:126 webmaster-tools.php:320
 msgid "Save Changes"
 msgstr "保存更改"
+
+#: feedburner.php:20
+msgid "Feedburner Service"
+msgstr "Feedburner的服務"
+
+#: feedburner.php:21
+msgid "Feedburner URL"
+msgstr "Feedburner的網址"
+
+#: feedburner.php:22
+msgid "Feedburner Comment URL"
+msgstr "Feedburner的評論的網址"
+
+#: feedburner.php:23
+msgid "Append category/tag to URL"
+msgstr "追加分類 /標記網址"
+
+#: feedburner.php:24
+msgid "Do not redirect category or tag feeds"
+msgstr "不要重定向分類或標籤飼料"
+
+#: feedburner.php:25
+msgid "Do not redirect search result feeds"
+msgstr "不要重定向搜索結果供稿"
+
+#: feedburner.php:34
+msgid "<strong>Feedburner</strong> is a free feed management service, providing custom <a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">RSS</a> feeds and management tools such as traffic analysis and an optional advertising system."
+msgstr "<strong>Feedburner</strong>是一個免費的飼料管理服務，提供定制<a href=\"http://en.wikipedia.org/wiki/RSS\" target=\"_blank\">的RSS</a>提要，管理工具，如流量分析和可選的廣告系統。"
+
+#: feedburner.php:36
+msgid "First go to <a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a> and burn your feed. Enter the URL Feedburner created for you. You may optionally redirect your comments feed using the same procedure. To disable redirection, disable the plugin or erase the URLs."
+msgstr "先去<a href=\"http://feedburner.com/\" target=\"_blank\" >Feedburner.com</a>和燃燒你的飼料。輸入網址 Feedburner的為您建立。你可以選擇你的意見重定向飼料使用相同的程序。要禁用重定向，禁用或刪除該插件的網址。"
+
+#: feedburner.php:38
+msgid "Once you enter URLs your feeds will be redirected automatically and you do not need to take any further action. Note that your feeds may not appear to redirect to Feedburner until you add a new post."
+msgstr "一旦你輸入網址您的資訊將被重定向自動執行，您不需要採取任何進一步行動。請注意您的供稿可能不會出現重定向到Feedburner的，直到你添加一個新的職位。"
 
 #: typekit-fonts.php:19
 msgid "Fonts"
