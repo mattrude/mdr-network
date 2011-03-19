@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdr-network 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-12 15:24-0600\n"
+"POT-Creation-Date: 2011-03-19 15:54-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -210,6 +210,30 @@ msgstr ""
 
 #: sitewide-tags.php:142
 msgid "Global Posts"
+msgstr ""
+
+#: subpages.php:216
+msgid "Title:"
+msgstr ""
+
+#: subpages.php:217
+msgid "Use Root:"
+msgstr ""
+
+#: subpages.php:218
+msgid "First level only:"
+msgstr ""
+
+#: subpages.php:219
+msgid "Add Parent Page:"
+msgstr ""
+
+#: subpages.php:220
+msgid "Parent Icon:"
+msgstr ""
+
+#: subpages.php:221
+msgid "Position:"
 msgstr ""
 
 #: typekit-fonts.php:19
