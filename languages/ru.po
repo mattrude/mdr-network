@@ -2,13 +2,33 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-03-19 20:54:56+0000\n"
+"PO-Revision-Date: 2011-03-28 05:14:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: MDR Network Plugins\n"
+
+#: webmaster-tools.php:288
+msgid "CDN Network URL"
+msgstr ""
+
+#: webmaster-tools.php:289
+msgid "is a system of computers containing copies of data, placed at various points in a network so as to maximize bandwidth for access to the data from clients throughout the network. A client accesses a copy of the data near to the client, as opposed to all clients accessing the same central server, so as to avoid bottlenecks near that server."
+msgstr ""
+
+#: webmaster-tools.php:289
+msgid "Content Delivery Network (CDN)"
+msgstr ""
+
+#: webmaster-tools.php:289
+msgid "A"
+msgstr ""
+
+#: webmaster-tools.php:292
+msgid "CDN Site URL"
+msgstr ""
 
 #: subpages.php:220
 msgid "Parent Icon:"
@@ -130,7 +150,7 @@ msgstr "Глобальный сообщения"
 msgid "Using Typekit - The Basics"
 msgstr "Использование Typekit - Основы"
 
-#: webmaster-tools.php:295
+#: webmaster-tools.php:314
 msgid "To Disable all search engines from browsing your site, see the"
 msgstr "Чтобы отключить во всех поисковых системах по страницам сайта, см."
 
@@ -170,7 +190,7 @@ msgstr "Исключить из архива?"
 msgid "Note: If a post is in more the one category, it will be excluded if it matches <strong>any</strong> of the excluded categories."
 msgstr "Примечание: Если должность более 1 категории, он будет исключен, если он соответствует <strong>любому</strong> из категории исключены."
 
-#: category-excluder.php:126 webmaster-tools.php:320
+#: category-excluder.php:126 webmaster-tools.php:336
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
@@ -226,7 +246,7 @@ msgstr "Использование Typekit с WordPress"
 msgid "Finding and Using Selectors"
 msgstr "Поиск и использование каталогов"
 
-#: typekit-fonts.php:46 webmaster-tools.php:189 webmaster-tools.php:199
+#: typekit-fonts.php:46 webmaster-tools.php:190 webmaster-tools.php:201
 msgid "You cannot edit this screen."
 msgstr "Вы не можете редактировать этот экран."
 
@@ -262,234 +282,234 @@ msgstr "Если у вас нет Typekit ID еще можно зарегист�
 msgid "Sign up in seconds"
 msgstr "Зарегистрируйтесь в секундах"
 
-#: webmaster-tools.php:27 webmaster-tools.php:220
+#: webmaster-tools.php:27 webmaster-tools.php:223
 msgid "Webmaster Tools"
 msgstr "Инструменты для веб-мастеров"
 
-#: webmaster-tools.php:42
+#: webmaster-tools.php:43
 msgid "Here's how you optain and setup each search engines key's"
 msgstr "Вот как вы optain и настройка каждого поисковых ключа"
 
-#: webmaster-tools.php:43 webmaster-tools.php:224 webmaster-tools.php:233
+#: webmaster-tools.php:44 webmaster-tools.php:227 webmaster-tools.php:236
 msgid "Google Webmaster Tools"
 msgstr "Инструменты Google для веб-мастеров"
 
-#: webmaster-tools.php:45
+#: webmaster-tools.php:46
 msgid "Log in to "
 msgstr "Войти в"
 
-#: webmaster-tools.php:45
+#: webmaster-tools.php:46
 msgid "with your Google account."
 msgstr "с вашим аккаунтом Google."
 
-#: webmaster-tools.php:46
+#: webmaster-tools.php:47
 msgid "Enter your blog URL and click <code>Add Site</code>."
 msgstr "Введите URL вашего блога и нажмите кнопку <code>Add Site</code> ."
 
-#: webmaster-tools.php:47
+#: webmaster-tools.php:48
 msgid "You will be presented with several verification methods. Choose <code>Meta Tag</code>."
 msgstr "Вам будет предложен несколько способов проверки. Выберите <code>Meta Tag</code> ."
 
-#: webmaster-tools.php:48 webmaster-tools.php:61
+#: webmaster-tools.php:49 webmaster-tools.php:62
 msgid "Copy the meta tag, which looks something like"
 msgstr "Скопируйте мета-тег, который выглядит, как"
 
-#: webmaster-tools.php:50 webmaster-tools.php:63 webmaster-tools.php:77
+#: webmaster-tools.php:51 webmaster-tools.php:64 webmaster-tools.php:78
 msgid "Leave the verification page open and go to your blog dashboard."
 msgstr "Написать страницу подтверждения открытым и перейдите в блог приборной панели."
 
-#: webmaster-tools.php:51 webmaster-tools.php:64 webmaster-tools.php:78
+#: webmaster-tools.php:52 webmaster-tools.php:65 webmaster-tools.php:79
 msgid "Open the Tools Page and paste the code in the appropriate field."
 msgstr "Откройте Инструменты страницы и вставить код в соответствующее поле."
 
-#: webmaster-tools.php:52 webmaster-tools.php:65 webmaster-tools.php:79
+#: webmaster-tools.php:53 webmaster-tools.php:66 webmaster-tools.php:80
 msgid "Click on <code>Save Changes</code>."
 msgstr "Нажмите на <code>Save Changes</code> ."
 
-#: webmaster-tools.php:53
+#: webmaster-tools.php:54
 msgid "Go back to the verification page and click <code>Verify</code>."
 msgstr "Вернуться на страницу проверки и нажмите кнопку <code>Verify</code> ."
 
-#: webmaster-tools.php:56
+#: webmaster-tools.php:57
 msgid "Yahoo Site Explorer"
 msgstr "Yahoo Site Explorer"
 
-#: webmaster-tools.php:58 webmaster-tools.php:72
+#: webmaster-tools.php:59 webmaster-tools.php:73
 msgid "Log in to"
 msgstr "Войти в"
 
-#: webmaster-tools.php:58
+#: webmaster-tools.php:59
 msgid "with your Yahoo account."
 msgstr "с учетной записью Yahoo."
 
-#: webmaster-tools.php:59
+#: webmaster-tools.php:60
 msgid "Enter your blog URL and click <code>Add My Site</code>."
 msgstr "Введите URL вашего блога и нажмите кнопку <code>Add My Site</code> ."
 
-#: webmaster-tools.php:60
+#: webmaster-tools.php:61
 msgid "You will be presented with several authentication methods. Choose <code>By adding a META tag to my home page.</code>."
 msgstr "Вам будет предложен несколько методов аутентификации. Выберите <code>By adding a META tag to my home page.</code> ."
 
-#: webmaster-tools.php:66
+#: webmaster-tools.php:67
 msgid "Go back to the verification page and click <code>Ready to Authenticate</code>."
 msgstr "Вернуться на страницу проверки и нажмите кнопку <code>Ready to Authenticate</code> ."
 
-#: webmaster-tools.php:68
+#: webmaster-tools.php:69
 msgid "Note: It may take up to 24 hours for your site to be authenticated."
 msgstr "Примечание: Это может занять до 24 часов для вашего сайта, чтобы пройти проверку."
 
-#: webmaster-tools.php:70 webmaster-tools.php:227 webmaster-tools.php:253
+#: webmaster-tools.php:71 webmaster-tools.php:230 webmaster-tools.php:256
 msgid "Bing Webmaster Center"
 msgstr "Бинг центр для веб-мастеров"
 
-#: webmaster-tools.php:72
+#: webmaster-tools.php:73
 msgid "with your Live! account."
 msgstr "с Live! счет."
 
-#: webmaster-tools.php:73
+#: webmaster-tools.php:74
 msgid "Click <code>Add a Site</code>."
 msgstr "Нажмите кнопку <code>Add a Site</code> ."
 
-#: webmaster-tools.php:74
+#: webmaster-tools.php:75
 msgid "Enter your blog URL and click <code>Submit</code>."
 msgstr "Введите URL вашего блога и нажмите кнопку <code>Submit</code> ."
 
-#: webmaster-tools.php:75
+#: webmaster-tools.php:76
 msgid "Copy the meta tag from the text area at the bottom. It looks something like"
 msgstr "Скопируйте мета теги из текста области на дне. Он выглядит примерно так"
 
-#: webmaster-tools.php:80
+#: webmaster-tools.php:81
 msgid "Go back to the verification page and click <code>Return to the Site list</code>."
 msgstr "Вернуться на страницу проверки и нажмите кнопку <code>Return to the Site list</code> ."
 
-#: webmaster-tools.php:82
+#: webmaster-tools.php:83
 msgid "The Robots.txt File"
 msgstr "Файл Robots.txt"
 
-#: webmaster-tools.php:83
+#: webmaster-tools.php:84
 msgid "The <strong>robots.txt</strong> file is a way to prevent cooperating web spiders and other web robots from accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code."
 msgstr "Файл <strong>robots.txt</strong> является способом предотвращения сотрудничает веб пауков и других роботов Сети доступ ко всем или части веб-сайт, который обычно доступен для всеобщего просмотра. Роботы часто используются поисковыми системами для классификации и архив веб сайтов или веб-мастера проверяют исходный код."
 
-#: webmaster-tools.php:84
+#: webmaster-tools.php:85
 msgid "To Allow all robots"
 msgstr "Чтобы разрешить все роботы"
 
-#: webmaster-tools.php:85
+#: webmaster-tools.php:86
 msgid "To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this"
 msgstr "Чтобы роботов для доступа или для всего сайта, вы можете просто оставить файл robots.txt пустой, или вы могли бы использовать этот"
 
-#: webmaster-tools.php:87
+#: webmaster-tools.php:88
 msgid ">To Ban all robots"
 msgstr "&gt; Чтобы запретить всем роботам"
 
-#: webmaster-tools.php:89
+#: webmaster-tools.php:90
 msgid "To Ban all crawlers from four directories of a website"
 msgstr "Запретить все сканеры от 4 каталогов веб-сайт"
 
-#: webmaster-tools.php:221
+#: webmaster-tools.php:224
 msgid "Site Verification"
 msgstr "Подтверждение сайта"
 
-#: webmaster-tools.php:222
+#: webmaster-tools.php:225
 msgid "All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites."
 msgstr "Все три основные поисковые системы обеспечивают инструменты для веб-мастеров, которые дают вам подробную информацию и статистические данные о том, как они видят и сканировать ваш сайт. Чтобы получить доступ к большинству функций, вы должны проверить свои сайты."
 
-#: webmaster-tools.php:223
+#: webmaster-tools.php:226
 msgid "Enter your meta key \"content\" value to verify your blog with"
 msgstr "Введите ключевые мета &quot;содержание&quot; сумму для проверки блога"
 
-#: webmaster-tools.php:225 webmaster-tools.php:243
+#: webmaster-tools.php:228 webmaster-tools.php:246
 msgid "Yahoo! Site Explorer"
 msgstr "Yahoo! Site Explorer"
 
-#: webmaster-tools.php:226
+#: webmaster-tools.php:229
 msgid "and"
 msgstr "и"
 
-#: webmaster-tools.php:236 webmaster-tools.php:246 webmaster-tools.php:256
-#: webmaster-tools.php:274
+#: webmaster-tools.php:239 webmaster-tools.php:249 webmaster-tools.php:259
+#: webmaster-tools.php:277 webmaster-tools.php:295
 msgid "Disabled"
 msgstr "Инвалид"
 
 #: sitewide-tags.php:40 sitewide-tags.php:69 sitewide-tags.php:87
-#: webmaster-tools.php:236 webmaster-tools.php:246 webmaster-tools.php:256
-#: webmaster-tools.php:274
+#: webmaster-tools.php:239 webmaster-tools.php:249 webmaster-tools.php:259
+#: webmaster-tools.php:277 webmaster-tools.php:297
 msgid "Enabled"
 msgstr "Включено"
 
-#: webmaster-tools.php:240 webmaster-tools.php:250 webmaster-tools.php:260
-#: webmaster-tools.php:278
+#: webmaster-tools.php:243 webmaster-tools.php:253 webmaster-tools.php:263
+#: webmaster-tools.php:281
 msgid "Example"
 msgstr "Пример"
 
-#: webmaster-tools.php:266
+#: webmaster-tools.php:269
 msgid "Google Analytics Tracking Script"
 msgstr "Google Analytics Сценарий отслеживания"
 
-#: webmaster-tools.php:267 webmaster-tools.php:268
+#: webmaster-tools.php:270 webmaster-tools.php:271
 msgid "Google Analytics"
 msgstr "Google Analytics"
 
-#: webmaster-tools.php:267
+#: webmaster-tools.php:270
 msgid "is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you're more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites."
 msgstr "это решение для веб-аналитики, который дает вам богатую почву на веб-сайт трафик и эффективность маркетинга. Мощная, гибкая и простая в использовании функции теперь вы видите, и анализировать данные о трафике в совершенно по-новому. С помощью Google Analytics, вы в большей степени готовы написать более целенаправленных объявлений, укрепления своих маркетинговых мероприятий и создания высших преобразования веб-сайтов."
 
-#: webmaster-tools.php:268
+#: webmaster-tools.php:271
 msgid "Enter your"
 msgstr "Введите"
 
-#: webmaster-tools.php:268
+#: webmaster-tools.php:271
 msgid "Account ID"
 msgstr "Account ID"
 
-#: webmaster-tools.php:268
+#: webmaster-tools.php:271
 msgid "for this site, to allow"
 msgstr "на этом сайте, чтобы позволить"
 
-#: webmaster-tools.php:268
+#: webmaster-tools.php:271
 msgid "to track you page views."
 msgstr "отслеживать вас просмотров страниц."
 
-#: webmaster-tools.php:271
+#: webmaster-tools.php:274
 msgid "Google Analytics Tracking ID"
 msgstr "Google Analytics Отслеживание ID"
 
-#: webmaster-tools.php:285
+#: webmaster-tools.php:304
 msgid "Robots.txt File"
 msgstr "Файл Robots.txt"
 
-#: webmaster-tools.php:293
+#: webmaster-tools.php:312
 msgid "You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don't understand what your doing, most likly you don't need to do anything."
 msgstr "Вы можете редактировать файл robots.txt, в пространстве ниже. Строки, начинающиеся с <code>#</code> , считаются комментариями. Если вы не понимаете, что ваше дело, большинство likly вам не нужно ничего делать."
 
-#: webmaster-tools.php:294
+#: webmaster-tools.php:313
 msgid "Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples."
 msgstr "Использование файла robots.txt можно запретить конкретных роботов и запрещать все роботы, или заблокировать роботу доступ к отдельным страницам или области вашего сайта. Если вы не уверены, что типа, смотрите внизу на этой странице примеров."
 
-#: webmaster-tools.php:295 webmaster-tools.php:315
+#: webmaster-tools.php:314 webmaster-tools.php:332
 msgid "Privacy Settings"
 msgstr "Параметры конфиденциальности"
 
-#: webmaster-tools.php:295
+#: webmaster-tools.php:314
 msgid "page."
 msgstr "страницы."
 
-#: webmaster-tools.php:296
+#: webmaster-tools.php:315
 msgid "Modify Your Robots.txt file"
 msgstr "Изменения в файл robots.txt"
 
-#: webmaster-tools.php:297
+#: webmaster-tools.php:316
 msgid "Your Current Robots.txt file"
 msgstr "Ваш текущий файл robots.txt"
 
-#: webmaster-tools.php:303
+#: webmaster-tools.php:320
 msgid "reset robots.txt"
 msgstr "сброс robots.txt"
 
-#: webmaster-tools.php:315
+#: webmaster-tools.php:332
 msgid "Privacy Settings are curently <strong>Blocking</strong> all search engines. Enable search engine browsing on the "
 msgstr "Параметры конфиденциальности являются curently <strong>Блокирование</strong> всех поисковых системах. Включить поисковой просмотра на"
 
-#: webmaster-tools.php:315
+#: webmaster-tools.php:332
 msgid "page to be able to modify the robots.txt file."
 msgstr "страницы, чтобы иметь возможность изменить файл robots.txt."

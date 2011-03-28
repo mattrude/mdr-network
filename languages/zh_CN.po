@@ -2,13 +2,33 @@
 # This file is distributed under the same license as the MDR Network Plugins package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-03-19 20:54:59+0000\n"
+"PO-Revision-Date: 2011-03-28 05:14:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: MDR Network Plugins\n"
+
+#: webmaster-tools.php:288
+msgid "CDN Network URL"
+msgstr ""
+
+#: webmaster-tools.php:289
+msgid "is a system of computers containing copies of data, placed at various points in a network so as to maximize bandwidth for access to the data from clients throughout the network. A client accesses a copy of the data near to the client, as opposed to all clients accessing the same central server, so as to avoid bottlenecks near that server."
+msgstr ""
+
+#: webmaster-tools.php:289
+msgid "Content Delivery Network (CDN)"
+msgstr ""
+
+#: webmaster-tools.php:289
+msgid "A"
+msgstr ""
+
+#: webmaster-tools.php:292
+msgid "CDN Site URL"
+msgstr ""
 
 #: subpages.php:220
 msgid "Parent Icon:"
@@ -130,7 +150,7 @@ msgstr "全球篇"
 msgid "Using Typekit - The Basics"
 msgstr "使用Typekit - 基础知识"
 
-#: webmaster-tools.php:295
+#: webmaster-tools.php:314
 msgid "To Disable all search engines from browsing your site, see the"
 msgstr "禁用从浏览您网站的所有搜索引擎，请参阅"
 
@@ -170,7 +190,7 @@ msgstr "排除档案？"
 msgid "Note: If a post is in more the one category, it will be excluded if it matches <strong>any</strong> of the excluded categories."
 msgstr "注：如果一个职位类别更多的一个，它会被排除在外，如果它符合<strong>任何</strong>类别的排除。"
 
-#: category-excluder.php:126 webmaster-tools.php:320
+#: category-excluder.php:126 webmaster-tools.php:336
 msgid "Save Changes"
 msgstr "保存更改"
 
@@ -226,7 +246,7 @@ msgstr "使用WordPress的Typekit"
 msgid "Finding and Using Selectors"
 msgstr "寻找和使用选择器"
 
-#: typekit-fonts.php:46 webmaster-tools.php:189 webmaster-tools.php:199
+#: typekit-fonts.php:46 webmaster-tools.php:190 webmaster-tools.php:201
 msgid "You cannot edit this screen."
 msgstr "您不能编辑这个画面。"
 
@@ -262,234 +282,234 @@ msgstr "如果你没有一个Typekit编号，就可以注册他们的免费网�
 msgid "Sign up in seconds"
 msgstr "在几秒钟注册"
 
-#: webmaster-tools.php:27 webmaster-tools.php:220
+#: webmaster-tools.php:27 webmaster-tools.php:223
 msgid "Webmaster Tools"
 msgstr "网站管理员工具"
 
-#: webmaster-tools.php:42
+#: webmaster-tools.php:43
 msgid "Here's how you optain and setup each search engines key's"
 msgstr "这里是你如何optain和设置每次搜索引擎关键的"
 
-#: webmaster-tools.php:43 webmaster-tools.php:224 webmaster-tools.php:233
+#: webmaster-tools.php:44 webmaster-tools.php:227 webmaster-tools.php:236
 msgid "Google Webmaster Tools"
 msgstr "谷歌网站管理员工具"
 
-#: webmaster-tools.php:45
+#: webmaster-tools.php:46
 msgid "Log in to "
 msgstr "登录到"
 
-#: webmaster-tools.php:45
+#: webmaster-tools.php:46
 msgid "with your Google account."
 msgstr "与您的谷歌帐户。"
 
-#: webmaster-tools.php:46
+#: webmaster-tools.php:47
 msgid "Enter your blog URL and click <code>Add Site</code>."
 msgstr "输入您的博客网址，然后点击<code>Add Site</code> 。"
 
-#: webmaster-tools.php:47
+#: webmaster-tools.php:48
 msgid "You will be presented with several verification methods. Choose <code>Meta Tag</code>."
 msgstr "你将看到一些验证方法。选择<code>Meta Tag</code> 。"
 
-#: webmaster-tools.php:48 webmaster-tools.php:61
+#: webmaster-tools.php:49 webmaster-tools.php:62
 msgid "Copy the meta tag, which looks something like"
 msgstr "复制的元标记，它看起来有点像"
 
-#: webmaster-tools.php:50 webmaster-tools.php:63 webmaster-tools.php:77
+#: webmaster-tools.php:51 webmaster-tools.php:64 webmaster-tools.php:78
 msgid "Leave the verification page open and go to your blog dashboard."
 msgstr "给验证页面打开并转到您的博客主页。"
 
-#: webmaster-tools.php:51 webmaster-tools.php:64 webmaster-tools.php:78
+#: webmaster-tools.php:52 webmaster-tools.php:65 webmaster-tools.php:79
 msgid "Open the Tools Page and paste the code in the appropriate field."
 msgstr "打开工具Page和粘贴在相应的字段的代码。"
 
-#: webmaster-tools.php:52 webmaster-tools.php:65 webmaster-tools.php:79
+#: webmaster-tools.php:53 webmaster-tools.php:66 webmaster-tools.php:80
 msgid "Click on <code>Save Changes</code>."
 msgstr "点击<code>Save Changes</code> 。"
 
-#: webmaster-tools.php:53
+#: webmaster-tools.php:54
 msgid "Go back to the verification page and click <code>Verify</code>."
 msgstr "返回到验证页面，然后点击<code>Verify</code> 。"
 
-#: webmaster-tools.php:56
+#: webmaster-tools.php:57
 msgid "Yahoo Site Explorer"
 msgstr "雅虎网站浏览器"
 
-#: webmaster-tools.php:58 webmaster-tools.php:72
+#: webmaster-tools.php:59 webmaster-tools.php:73
 msgid "Log in to"
 msgstr "登录到"
 
-#: webmaster-tools.php:58
+#: webmaster-tools.php:59
 msgid "with your Yahoo account."
 msgstr "与您的雅虎帐户。"
 
-#: webmaster-tools.php:59
+#: webmaster-tools.php:60
 msgid "Enter your blog URL and click <code>Add My Site</code>."
 msgstr "输入您的博客网址，然后点击<code>Add My Site</code> 。"
 
-#: webmaster-tools.php:60
+#: webmaster-tools.php:61
 msgid "You will be presented with several authentication methods. Choose <code>By adding a META tag to my home page.</code>."
 msgstr "你将看到一些身份验证方法。选择<code>By adding a META tag to my home page.</code> 。"
 
-#: webmaster-tools.php:66
+#: webmaster-tools.php:67
 msgid "Go back to the verification page and click <code>Ready to Authenticate</code>."
 msgstr "返回到验证页面，然后按一下<code>Ready to Authenticate</code> 。"
 
-#: webmaster-tools.php:68
+#: webmaster-tools.php:69
 msgid "Note: It may take up to 24 hours for your site to be authenticated."
 msgstr "注意：最多可能需要24小时为您的网站进行验证。"
 
-#: webmaster-tools.php:70 webmaster-tools.php:227 webmaster-tools.php:253
+#: webmaster-tools.php:71 webmaster-tools.php:230 webmaster-tools.php:256
 msgid "Bing Webmaster Center"
 msgstr "冰网管中心"
 
-#: webmaster-tools.php:72
+#: webmaster-tools.php:73
 msgid "with your Live! account."
 msgstr "与您的Live！帐户。"
 
-#: webmaster-tools.php:73
+#: webmaster-tools.php:74
 msgid "Click <code>Add a Site</code>."
 msgstr "点击<code>Add a Site</code> 。"
 
-#: webmaster-tools.php:74
+#: webmaster-tools.php:75
 msgid "Enter your blog URL and click <code>Submit</code>."
 msgstr "输入您的博客网址，然后点击<code>Submit</code> 。"
 
-#: webmaster-tools.php:75
+#: webmaster-tools.php:76
 msgid "Copy the meta tag from the text area at the bottom. It looks something like"
 msgstr "复制底部从文本区元标记。它看起来有点像"
 
-#: webmaster-tools.php:80
+#: webmaster-tools.php:81
 msgid "Go back to the verification page and click <code>Return to the Site list</code>."
 msgstr "返回到验证页面，然后点击<code>Return to the Site list</code> 。"
 
-#: webmaster-tools.php:82
+#: webmaster-tools.php:83
 msgid "The Robots.txt File"
 msgstr "robots.txt文件"
 
-#: webmaster-tools.php:83
+#: webmaster-tools.php:84
 msgid "The <strong>robots.txt</strong> file is a way to prevent cooperating web spiders and other web robots from accessing all or part of a website which is otherwise publicly viewable. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code."
 msgstr "<strong>robots.txt</strong>文件是一个方法，以防止其他合作网站，是公开可见的网蜘蛛及其他网络机器人访问全部或部分。机器人经常使用搜索引擎进行分类和归档的网站，网站管理员或校对的源代码。"
 
-#: webmaster-tools.php:84
+#: webmaster-tools.php:85
 msgid "To Allow all robots"
 msgstr "要允许所有的机器人"
 
-#: webmaster-tools.php:85
+#: webmaster-tools.php:86
 msgid "To allow any robot to access your entire site, you can simply leave the robots.txt file blank, or you could use this"
 msgstr "为了让机器人的任何访问您的整个网站，你可以简单地离开了robots.txt文件空白，或者你可以使用这个"
 
-#: webmaster-tools.php:87
+#: webmaster-tools.php:88
 msgid ">To Ban all robots"
 msgstr "&gt;禁止所有机器人"
 
-#: webmaster-tools.php:89
+#: webmaster-tools.php:90
 msgid "To Ban all crawlers from four directories of a website"
 msgstr "禁止从四个网站目录的所有爬虫"
 
-#: webmaster-tools.php:221
+#: webmaster-tools.php:224
 msgid "Site Verification"
 msgstr "网站验证"
 
-#: webmaster-tools.php:222
+#: webmaster-tools.php:225
 msgid "All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites."
 msgstr "所有这三个主要的搜索引擎提供网站管理员工具，让您的详细资料和统计数据有关他们如何看待和抓取您的网站。为了访问的大多数功能，您将需要验证您的网站。"
 
-#: webmaster-tools.php:223
+#: webmaster-tools.php:226
 msgid "Enter your meta key \"content\" value to verify your blog with"
 msgstr "输入您的Meta键“内容”值，以验证您的博客与"
 
-#: webmaster-tools.php:225 webmaster-tools.php:243
+#: webmaster-tools.php:228 webmaster-tools.php:246
 msgid "Yahoo! Site Explorer"
 msgstr "雅虎网站浏览器"
 
-#: webmaster-tools.php:226
+#: webmaster-tools.php:229
 msgid "and"
 msgstr "和"
 
-#: webmaster-tools.php:236 webmaster-tools.php:246 webmaster-tools.php:256
-#: webmaster-tools.php:274
+#: webmaster-tools.php:239 webmaster-tools.php:249 webmaster-tools.php:259
+#: webmaster-tools.php:277 webmaster-tools.php:295
 msgid "Disabled"
 msgstr "残疾人士"
 
 #: sitewide-tags.php:40 sitewide-tags.php:69 sitewide-tags.php:87
-#: webmaster-tools.php:236 webmaster-tools.php:246 webmaster-tools.php:256
-#: webmaster-tools.php:274
+#: webmaster-tools.php:239 webmaster-tools.php:249 webmaster-tools.php:259
+#: webmaster-tools.php:277 webmaster-tools.php:297
 msgid "Enabled"
 msgstr "启用"
 
-#: webmaster-tools.php:240 webmaster-tools.php:250 webmaster-tools.php:260
-#: webmaster-tools.php:278
+#: webmaster-tools.php:243 webmaster-tools.php:253 webmaster-tools.php:263
+#: webmaster-tools.php:281
 msgid "Example"
 msgstr "例子"
 
-#: webmaster-tools.php:266
+#: webmaster-tools.php:269
 msgid "Google Analytics Tracking Script"
 msgstr "谷歌Analytics跟踪脚本"
 
-#: webmaster-tools.php:267 webmaster-tools.php:268
+#: webmaster-tools.php:270 webmaster-tools.php:271
 msgid "Google Analytics"
 msgstr "谷歌分析"
 
-#: webmaster-tools.php:267
+#: webmaster-tools.php:270
 msgid "is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you're more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites."
 msgstr "是一个Web分析解决方案，让你把你的网站流量和市场效益丰富的见解。强大，灵活和易于使用的功能，现在让你看到和分析的一种全新方法点击量数据。随着谷歌分析，你更愿意写更有针对性的广告，加强您的营销活动，创造更高的转换率的网站。"
 
-#: webmaster-tools.php:268
+#: webmaster-tools.php:271
 msgid "Enter your"
 msgstr "输入您的"
 
-#: webmaster-tools.php:268
+#: webmaster-tools.php:271
 msgid "Account ID"
 msgstr "帐户ID"
 
-#: webmaster-tools.php:268
+#: webmaster-tools.php:271
 msgid "for this site, to allow"
 msgstr "这个网站，让"
 
-#: webmaster-tools.php:268
+#: webmaster-tools.php:271
 msgid "to track you page views."
 msgstr "跟踪你的页面浏览量。"
 
-#: webmaster-tools.php:271
+#: webmaster-tools.php:274
 msgid "Google Analytics Tracking ID"
 msgstr "谷歌Analytics跟踪编号"
 
-#: webmaster-tools.php:285
+#: webmaster-tools.php:304
 msgid "Robots.txt File"
 msgstr "Robots.txt文件"
 
-#: webmaster-tools.php:293
+#: webmaster-tools.php:312
 msgid "You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don't understand what your doing, most likly you don't need to do anything."
 msgstr "您可以编辑在下面的空白处您的robots.txt文件。线，开始<code>#</code>是注释视为。如果你不明白你做什么，最likly你不需要做任何事情。"
 
-#: webmaster-tools.php:294
+#: webmaster-tools.php:313
 msgid "Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples."
 msgstr "使用您的robots.txt文件，您可以禁止特定的机器人，禁止所有机器人，机器人或阻止访问特定的网页或网站的地方。如果你不知道该怎么类型，在此网页底部的例子看看。"
 
-#: webmaster-tools.php:295 webmaster-tools.php:315
+#: webmaster-tools.php:314 webmaster-tools.php:332
 msgid "Privacy Settings"
 msgstr "隐私设置"
 
-#: webmaster-tools.php:295
+#: webmaster-tools.php:314
 msgid "page."
 msgstr "页面。"
 
-#: webmaster-tools.php:296
+#: webmaster-tools.php:315
 msgid "Modify Your Robots.txt file"
 msgstr "修改您的robots.txt文件"
 
-#: webmaster-tools.php:297
+#: webmaster-tools.php:316
 msgid "Your Current Robots.txt file"
 msgstr "您当前的Robots.txt文件"
 
-#: webmaster-tools.php:303
+#: webmaster-tools.php:320
 msgid "reset robots.txt"
 msgstr "复位的robots.txt"
 
-#: webmaster-tools.php:315
+#: webmaster-tools.php:332
 msgid "Privacy Settings are curently <strong>Blocking</strong> all search engines. Enable search engine browsing on the "
 msgstr "隐私设置curently <strong>阻止</strong>所有的搜索引擎。使搜索引擎的浏览"
 
-#: webmaster-tools.php:315
+#: webmaster-tools.php:332
 msgid "page to be able to modify the robots.txt file."
 msgstr "页面能够修改robots.txt文件。"
