@@ -285,15 +285,16 @@ function mdr_webmaster_tools_page() {
      <br />
 
      <?php if (function_exists('cdn_urls')) { ?>
-        <h3><?php _e('CDN Networking URL\'s', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
+        <h3><?php _e('CDN Network URL', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
+	<p><?php _e('A', WEBMASTER_TOOLS_TEXTDOMAIN); ?> <strong><?php _e('Content Delivery Network (CDN)', WEBMASTER_TOOLS_TEXTDOMAIN); ?></strong> <?php _e('is a system of computers containing copies of data, placed at various points in a network so as to maximize bandwidth for access to the data from clients throughout the network. A client accesses a copy of the data near to the client, as opposed to all clients accessing the same central server, so as to avoid bottlenecks near that server.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
 	<table class="form-table">
           <tr valign='top'>
             <th scope='row'><?php _e('CDN Site URL', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</th>
             <td><input value='<?php echo $site_baseurl ?>' size='50' name='cdntools_baseuri' type='text' /><?php
 	      if ( $site_baseurl == NULL ) {
-	        echo "<span style='color: red'><strong>" . __('Disabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>"; 
+	        echo "<span style='color: red'><strong> " . __('Disabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>"; 
 	      } else {
-	        echo "<span style='color: green'><strong>" . __('Enabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>";
+	        echo "<span style='color: green'><strong> " . __('Enabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>";
 	      }?>
 	    </td>
 	 </tr>
