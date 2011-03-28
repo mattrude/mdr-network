@@ -33,6 +33,7 @@ function register_mdr_webmaster_tools() {
   add_option('site_verification_yahoo_id');
   add_option('site_verification_bing_id');
   add_option('site_robots_txt');
+  add_option('cdntools_baseuri');
   add_default_robots_txt();
 }
 
@@ -153,15 +154,15 @@ function head_mdr_webmaster_tools() {
 }
 
 function add_default_robots_txt() {
-// Adds default robots.txt file
-$site_url = get_option('siteurl');
-$site_robots_txt_out = get_option('site_robots_txt');
-if (!$site_robots_txt_out) {
-$site_robots_txt_default = "# This is the default robots.txt file
+	// Adds default robots.txt file
+	$site_url = get_option('siteurl');
+	$site_robots_txt_out = get_option('site_robots_txt');
+	if (!$site_robots_txt_out) {
+		$site_robots_txt_default = "# This is the default robots.txt file
 User-agent: *
 Disallow:";
-update_option('site_robots_txt', $site_robots_txt_default);
-}
+		update_option('site_robots_txt', $site_robots_txt_default);
+	}
 }
 
 $request = str_replace( get_bloginfo('url'), '', 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] );
@@ -191,6 +192,7 @@ function mdr_webmaster_tools_page() {
     update_option( 'site_verification_yahoo_id', $_POST['site_verification_yahoo_id'] );
     update_option( 'site_verification_bing_id', $_POST['site_verification_bing_id'] );
     update_option( 'site_google_analytics_id', $_POST['site_google_analytics_id'] );
+    update_option( 'cdntools_baseuri', $_POST['cdntools_baseuri'] );
     update_option( 'site_robots_txt', $_POST['site_robots_txt'] );
   }
    
@@ -207,6 +209,7 @@ function mdr_webmaster_tools_page() {
   $site_verification_bing_id = get_option( 'site_verification_bing_id' );
   $site_google_analytics_id = get_option( 'site_google_analytics_id' );
   $site_robots_txt_out = get_option('site_robots_txt');
+  $site_baseurl = get_option('cdntools_baseuri');
 
   // And Display the Admin Page ?>
   <style type="text/css"> 
@@ -281,6 +284,21 @@ function mdr_webmaster_tools_page() {
      </table> 
      <br />
 
+     <?php if (function_exists('cdn_urls')) { ?>
+        <h3><?php _e('CDN Networking URL\'s', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
+	<table class="form-table">
+          <tr valign='top'>
+            <th scope='row'><?php _e('CDN Site URL', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</th>
+            <td><input value='<?php echo $site_baseurl ?>' size='50' name='cdntools_baseuri' type='text' /><?php
+	      if ( $site_baseurl == NULL ) {
+	        echo "<span style='color: red'><strong>" . __('Disabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>"; 
+	      } else {
+	        echo "<span style='color: green'><strong>" . __('Enabled', WEBMASTER_TOOLS_TEXTDOMAIN) . "</strong></span>";
+	      }?>
+	    </td>
+	 </tr>
+       </table>
+     <?php } ?>
 
       <h3><?php _e('Robots.txt File', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
       <div class="inside">
@@ -293,12 +311,10 @@ function mdr_webmaster_tools_page() {
           <p><?php _e('You may edit your robots.txt file in the space below. Lines beginning with <code>#</code> are treated as comments. If you don\'t understand what your doing, most likly you don\'t need to do anything.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
           <p><?php _e('Using your robots.txt file, you can ban specific robots, ban all robots, or block robot access to specific pages or areas of your site. If you are not sure what to type, look at the bottom of this page for examples.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
 	  <p><?php _e('To Disable all search engines from browsing your site, see the', WEBMASTER_TOOLS_TEXTDOMAIN); ?> <a href="<?php echo $private_url; ?>"><?php _e('Privacy Settings', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a> <?php _e('page.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
-	  <div class="robots_txt_in_lable"><strong><?php _e('Modify Your Robots.txt file', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</strong</div>
+	  <div class="robots_txt_in_lable"><strong><?php _e('Modify Your Robots.txt file', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</strong></div>
 	  <div class="robots_txt_out_lable"><strong><?php _e('Your Current Robots.txt file', WEBMASTER_TOOLS_TEXTDOMAIN); ?>:</strong></div>
 	  <div class="robots_txt_in">
-            <form method="post" action="http:// <?php echo $_SERVER['HTTP_HOST']; echo $_SERVER['REQUEST_URI']; ?>">
               <textarea id="site_robots_txt" name="site_robots_txt" rows="10" cols="45" class="widefat"><?php echo $site_robots_txt_out; ?></textarea>
-            </form>
 	<div style="float: right;padding: 10px;">
           <input type="submit" name="reset_robots" class="reset" value="<?php _e('reset robots.txt', WEBMASTER_TOOLS_TEXTDOMAIN); ?>" /> 
 	</div>
@@ -313,12 +329,10 @@ function mdr_webmaster_tools_page() {
 	<?php } else {
 	$private_url = 'http://' . $_SERVER['HTTP_HOST'] . '/wp-admin/options-privacy.php'; ?>
        <p><?php _e('Privacy Settings are curently <strong>Blocking</strong> all search engines. Enable search engine browsing on the ', WEBMASTER_TOOLS_TEXTDOMAIN); ?><a href="<?php echo $private_url; ?>"><?php _e('Privacy Settings', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a> <?php _e('page to be able to modify the robots.txt file.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
-	<?php } ?>
-
-	  <br />
-     <p class="submit"> 
-       <input type="submit" name="submit" class="button-primary" value="<?php _e('Save Changes', WEBMASTER_TOOLS_TEXTDOMAIN); ?>" /> 
+       <?php } ?>
      </p> 
+       <p class="submit"> 
+       <input type="submit" name="submit" class="button-primary" value="<?php _e('Save Changes', WEBMASTER_TOOLS_TEXTDOMAIN); ?>" /> 
      </form> 
   </div>
 </div>
