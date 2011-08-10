@@ -14,17 +14,17 @@ function mdr_favicon() {
     $upload_dir = wp_upload_dir();
     if (file_exists($upload_dir['basedir'] . '/favicon.ico')) {
         $favicon = $upload_dir['baseurl'] . '/favicon.ico';
-        echo "<link rel='shortcut icon' href='$favicon'>
+        echo "<link rel='shortcut icon' href='$favicon' />
 ";
     } elseif (file_exists($upload_dir['basedir'] . '/favicon.png')) {
         $favicon = $upload_dir['baseurl'] . '/favicon.png';
-        echo "<link rel='shortcut icon' href='$favicon'>
+        echo "<link rel='shortcut icon' href='$favicon' />
 ";
     } else {
         $default = urlencode('http://wordpress.org/favicon.ico');
         $emailhash = md5(strtolower(trim(get_settings('admin_email'))));
 	$favicon = "http://www.gravatar.com/avatar/$emailhash?s=20&d=$default";
-        echo "<link rel='shortcut icon' href='$favicon'>
+        echo "<link rel='shortcut icon' href='$favicon' />
 ";
     }
 }
