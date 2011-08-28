@@ -335,7 +335,6 @@ function mdr_webmaster_tools_page() {
        <p class="submit"> 
        <input type="submit" name="submit" class="button-primary" value="<?php _e('Save Changes', WEBMASTER_TOOLS_TEXTDOMAIN); ?>" /> 
      </form> 
-  </div>
 </div>
 <?php
 
