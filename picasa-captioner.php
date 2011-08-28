@@ -3,6 +3,7 @@
 Plugin Name: Picasa Captioner
 Description: Fix up WordPress to read Picasa Captions from EXIF info properly.
 Plugin URI: http://ottopress.com/2011/picasa-and-wordpress-and-captions/
+Version: 1.0
 Author: Otto
 Author URI: http://ottodestruct.com/
 **/
