@@ -6,12 +6,13 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mdr-network 1.0\n"
+"Project-Id-Version: mdr-network 1.o\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-28 00:14-0500\n"
+"POT-Creation-Date: 2011-08-28 12:52-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -63,15 +64,19 @@ msgstr ""
 msgid "Save Changes"
 msgstr ""
 
-#: contact_info.php:18
-msgid "Facebook URL"
+#: contact_info.php:24
+msgid "Facebook ID"
 msgstr ""
 
-#: contact_info.php:19
+#: contact_info.php:25
 msgid "Google Talk"
 msgstr ""
 
-#: contact_info.php:20
+#: contact_info.php:26
+msgid "Google+ ID"
+msgstr ""
+
+#: contact_info.php:27
 msgid "Twitter ID"
 msgstr ""
 
@@ -124,92 +129,6 @@ msgstr ""
 
 #: feedburner.php:40
 msgid "You may disable the Feedburner redircted by removing BOTH URLs."
-msgstr ""
-
-#: sitewide-tags.php:35
-msgid "Global Tags"
-msgstr ""
-
-#: sitewide-tags.php:38
-msgid "Tags Blog"
-msgstr ""
-
-#: sitewide-tags.php:40 sitewide-tags.php:69 sitewide-tags.php:87
-#: webmaster-tools.php:239 webmaster-tools.php:249 webmaster-tools.php:259
-#: webmaster-tools.php:277 webmaster-tools.php:297
-msgid "Enabled"
-msgstr ""
-
-#: sitewide-tags.php:51
-msgid ""
-"You can create your post archive in a specific 'tags' blog of your choosing, "
-"or you can use the main blog of your site. Each has it's own pros and cons."
-msgstr ""
-
-#: sitewide-tags.php:53
-msgid ""
-"<strong>Blogname</strong> of the blog your global tags and posts will live "
-"in. Blog will be created."
-msgstr ""
-
-#: sitewide-tags.php:54
-msgid "Post to main blog"
-msgstr ""
-
-#: sitewide-tags.php:55
-msgid ""
-"Create posts in your main blog. All posts will appear on the front page of "
-"your site. Remember to to add a post loop to home.php in the theme directory "
-"if it exists."
-msgstr ""
-
-#: sitewide-tags.php:59
-msgid "Max Posts"
-msgstr ""
-
-#: sitewide-tags.php:63
-msgid "The maximum number of posts stored in the tags blog."
-msgstr ""
-
-#: sitewide-tags.php:67
-msgid "Include Pages"
-msgstr ""
-
-#: sitewide-tags.php:73
-msgid "Privacy"
-msgstr ""
-
-#: sitewide-tags.php:75
-msgid "Tags pages can be indexed by search engines."
-msgstr ""
-
-#: sitewide-tags.php:76
-msgid "Tags pages will not be indexed by search engines."
-msgstr ""
-
-#: sitewide-tags.php:78
-msgid "Will your tags pages be visible to Google and other search engines?"
-msgstr ""
-
-#: sitewide-tags.php:85
-msgid "Non-Public Blogs"
-msgstr ""
-
-#: sitewide-tags.php:88
-msgid "Include posts from blogs not indexed by search engines."
-msgstr ""
-
-#: sitewide-tags.php:92
-msgid "Post Meta"
-msgstr ""
-
-#: sitewide-tags.php:96
-msgid ""
-"If you want to copy custom fields with posts. One custom field per line."
-msgstr ""
-
-#: sitewide-tags.php:142
-msgid "Global Posts"
 msgstr ""
 
 #: subpages.php:216
@@ -474,6 +393,11 @@ msgstr ""
 #: webmaster-tools.php:239 webmaster-tools.php:249 webmaster-tools.php:259
 #: webmaster-tools.php:277 webmaster-tools.php:295
 msgid "Disabled"
+msgstr ""
+
+#: webmaster-tools.php:239 webmaster-tools.php:249 webmaster-tools.php:259
+#: webmaster-tools.php:277 webmaster-tools.php:297
+msgid "Enabled"
 msgstr ""
 
 #: webmaster-tools.php:243 webmaster-tools.php:253 webmaster-tools.php:263
