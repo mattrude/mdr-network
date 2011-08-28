@@ -44,7 +44,7 @@ function widget_subpages_init() {
 
 	// Check for the required plugin functions. This will prevent fatal
 	// errors occurring when you deactivate the dynamic-sidebar plugin.
-	if ( !function_exists('register_sidebar_widget') )
+	if ( !function_exists('wp_register_sidebar_widget') )
 		return;
 
 	// This is the function that outputs our little Google search form.
@@ -224,11 +224,11 @@ function widget_subpages_init() {
 	
 	// This registers our widget so it appears with the other available
 	// widgets and can be dragged and dropped into any active sidebars.
-	register_sidebar_widget(array('Sub Page Menu', 'widgets'), 'widget_subpages');
+	wp_register_sidebar_widget(array('Sub Page Menu', 'widgets'), 'widget_subpages');
 
 	// This registers our optional widget control form. Because of this
 	// our widget will have a button that reveals a 300x100 pixel form.
-	register_widget_control(array('Sub Page Menu', 'widgets'), 'widget_subpages_control', 300, 190);
+	wp_register_widget_control(array('Sub Page Menu', 'widgets'), 'widget_subpages_control', 300, 190);
 }
 
 // Run our code later in case this loads prior to any required plugins.
