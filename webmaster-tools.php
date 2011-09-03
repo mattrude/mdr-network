@@ -4,7 +4,7 @@
 Plugin Name: Webmaster Tools
 Plugin URI: http://github.com/mattrude/mdr-network
 Description: Provides Webmaster site verification scripts for Google, Yahoo, & Bing. Plugin also provides Google Analytics Tracking Script for registered sites. See Tools -> Webmaster Tools
-Version: 1.0
+Version: 1.1
 Author: Matt Rude
 Author URI: http://mattrude.com
 */
@@ -160,7 +160,9 @@ function add_default_robots_txt() {
 	if (!$site_robots_txt_out) {
 		$site_robots_txt_default = "# This is the default robots.txt file
 User-agent: *
-Disallow:";
+Disallow:
+
+Sitemap: $site_url/sitemap.xml";
 		update_option('site_robots_txt', $site_robots_txt_default);
 	}
 }
@@ -177,7 +179,6 @@ if ( (get_bloginfo('url').'/robots.txt' != 'http://'.$_SERVER['HTTP_HOST'].$_SER
     print $site_robots_txt_out;
     echo "
 ";
-    echo "Sitemap: $site_url/sitemap.xml";
   } else {
     return;
   }
@@ -221,7 +222,8 @@ function mdr_webmaster_tools_page() {
   <div class="wrap">
     <div id="icon-themes" class="icon32"><br></div>
      <h2><?php _e('Webmaster Tools', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h2>
-     <h3><?php _e('Site Verification', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
+     <div class="tool-box">
+     <h3 class="title"><?php _e('Site Verification', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
      <p><?php _e('All three major search engines provide webmaster tools that give you detailed information and statistics about how they see and crawl your website. In order to access most of the features, you will have to verify your sites.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
      <p><?php _e('Enter your meta key "content" value to verify your blog with', WEBMASTER_TOOLS_TEXTDOMAIN); ?> 
         <a href="https://www.google.com/webmasters/tools/" target="_blank" ><?php _e('Google Webmaster Tools', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a>, 
@@ -265,8 +267,9 @@ function mdr_webmaster_tools_page() {
        </tr>
      </table>
      <br />
-     
-     <h3><?php _e('Google Analytics Tracking Script', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
+    </div>
+    <div class="tool-box"> 
+     <h3 class="title"><?php _e('Google Analytics Tracking Script', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
      <p><a href="http://www.google.com/analytics/" target="_blank" ><?php _e('Google Analytics', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a> <?php _e('is a web analytics solution that gives you rich insights into your website traffic and marketing effectiveness. Powerful, flexible and easy-to-use features now let you see and analyze your traffic data in an entirely new way. With Google Analytics, you\'re more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
      <p><?php _e('Enter your', WEBMASTER_TOOLS_TEXTDOMAIN); ?> "<strong><?php _e('Account ID', WEBMASTER_TOOLS_TEXTDOMAIN); ?></strong>" <?php _e('for this site, to allow', WEBMASTER_TOOLS_TEXTDOMAIN); ?> <a href="http://www.google.com/analytics/" target="_blank" ><?php _e('Google Analytics', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a> <?php _e('to track you page views.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
      <table class="form-table">
@@ -285,7 +288,7 @@ function mdr_webmaster_tools_page() {
      <br />
 
      <?php if (function_exists('cdn_urls')) { ?>
-        <h3><?php _e('CDN Network URL', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
+        <h3 class="Title"><?php _e('CDN Network URL', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
 	<p><?php _e('A', WEBMASTER_TOOLS_TEXTDOMAIN); ?> <strong><?php _e('Content Delivery Network (CDN)', WEBMASTER_TOOLS_TEXTDOMAIN); ?></strong> <?php _e('is a system of computers containing copies of data, placed at various points in a network so as to maximize bandwidth for access to the data from clients throughout the network. A client accesses a copy of the data near to the client, as opposed to all clients accessing the same central server, so as to avoid bottlenecks near that server.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
 	<table class="form-table">
           <tr valign='top'>
@@ -300,8 +303,10 @@ function mdr_webmaster_tools_page() {
 	 </tr>
        </table>
      <?php } ?>
+    </div>
 
-      <h3><?php _e('Robots.txt File', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
+    <div class="tool-box"> 
+      <h3 class="title"><?php _e('Robots.txt File', WEBMASTER_TOOLS_TEXTDOMAIN); ?></h3>
       <div class="inside">
         <div class="wrap">
           <?php $blog_public = get_option('blog_public');
@@ -332,6 +337,7 @@ function mdr_webmaster_tools_page() {
        <p><?php _e('Privacy Settings are curently <strong>Blocking</strong> all search engines. Enable search engine browsing on the ', WEBMASTER_TOOLS_TEXTDOMAIN); ?><a href="<?php echo $private_url; ?>"><?php _e('Privacy Settings', WEBMASTER_TOOLS_TEXTDOMAIN); ?></a> <?php _e('page to be able to modify the robots.txt file.', WEBMASTER_TOOLS_TEXTDOMAIN); ?></p>
        <?php } ?>
      </p> 
+    </div>
        <p class="submit"> 
        <input type="submit" name="submit" class="button-primary" value="<?php _e('Save Changes', WEBMASTER_TOOLS_TEXTDOMAIN); ?>" /> 
      </form> 
