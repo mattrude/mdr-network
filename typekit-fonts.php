@@ -3,9 +3,16 @@
 Plugin Name: Typekit Fonts
 Plugin URI: http://github.com/mattrude/mdr-network
 Description: Provides Typekit fonts to a website by adding the needed java code to the pages. See Appearance -> Fonts
-Version: 1.0
+Version: 1.1
 Author: Matt Rude
 Author URI: http://mattrude.com
+
+
+ ** Change Log **
+ Version 1.1
+ * Added wp_nonce_field() & wp_verify_nonce
+ * Added esc_attr() on page save
+
 */
 
 define('TYPEKITFONTS_TEXTDOMAIN', 'mdr-network');
@@ -43,9 +50,9 @@ function fonts_page() {
 
   // Update Settings
   if ( isset($_POST['submit']) ) {
-    if (!current_user_can('manage_options')) die(__('You cannot edit this screen.', TYPEKITFONTS_TEXTDOMAIN));
+    if ( !current_user_can('manage_options') || !wp_verify_nonce($_POST['typekitfonts'],'submit_typekit_box') ) die(__('You cannot edit this screen.', TYPEKITFONTS_TEXTDOMAIN));
     $typekit_id = $_POST['typekit_id'];
-    update_option("typekit_id", $typekit_id);
+    update_option("typekit_id", esc_attr( $typekit_id ) );
   }
 
 ?>
@@ -64,6 +71,7 @@ function fonts_page() {
 		<p><?php _e('You can find your Typekit ID on typekit.com under Kit Editor -> Embed Code.', TYPEKITFONTS_TEXTDOMAIN); ?></p> 
 		<?php $typekit_id = get_option( 'typekit_id' );?>
 		<p><input type="text" size="25" name="typekit_id" value="<?php echo $typekit_id; ?>" /></p> 
+		<?php wp_nonce_field('submit_typekit_box','typekitfonts'); ?>
 		<p class="submit"><input type="submit" name="submit" value="<?php _e('Update ID', TYPEKITFONTS_TEXTDOMAIN); ?>" /></p> 
       </form> 
     </div> 
