@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdr-network 1.o\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-28 12:52-0500\n"
+"POT-Creation-Date: 2011-09-08 19:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,23 +60,23 @@ msgid ""
 "matches <strong>any</strong> of the excluded categories."
 msgstr ""
 
-#: category-excluder.php:126 webmaster-tools.php:336
+#: category-excluder.php:126 webmaster-tools.php:342
 msgid "Save Changes"
 msgstr ""
 
-#: contact_info.php:24
+#: contact_info.php:20
 msgid "Facebook ID"
 msgstr ""
 
-#: contact_info.php:25
-msgid "Google Talk"
-msgstr ""
-
-#: contact_info.php:26
+#: contact_info.php:21
 msgid "Google+ ID"
 msgstr ""
 
-#: contact_info.php:27
+#: contact_info.php:22
+msgid "Google Talk"
+msgstr ""
+
+#: contact_info.php:23
 msgid "Twitter ID"
 msgstr ""
 
@@ -131,66 +131,42 @@ msgstr ""
 msgid "You may disable the Feedburner redircted by removing BOTH URLs."
 msgstr ""
 
-#: subpages.php:216
-msgid "Title:"
-msgstr ""
-
-#: subpages.php:217
-msgid "Use Root:"
-msgstr ""
-
-#: subpages.php:218
-msgid "First level only:"
-msgstr ""
-
-#: subpages.php:219
-msgid "Add Parent Page:"
-msgstr ""
-
-#: subpages.php:220
-msgid "Parent Icon:"
-msgstr ""
-
-#: subpages.php:221
-msgid "Position:"
-msgstr ""
-
-#: typekit-fonts.php:19
+#: typekit-fonts.php:26
 msgid "Fonts"
 msgstr ""
 
-#: typekit-fonts.php:29
+#: typekit-fonts.php:36
 msgid ""
 "Typekit&rsquo;s fonts isn&rsquo;t the easist thing to setup. It will require "
 "that you know something about the way your page is displayed to the public. "
 "See the following resources for a overview of what your trying to do."
 msgstr ""
 
-#: typekit-fonts.php:30
+#: typekit-fonts.php:37
 msgid "Using Typekit - The Basics"
 msgstr ""
 
-#: typekit-fonts.php:31
+#: typekit-fonts.php:38
 msgid "Using Typekit with WordPress"
 msgstr ""
 
-#: typekit-fonts.php:32
+#: typekit-fonts.php:39
 msgid "Finding and Using Selectors"
 msgstr ""
 
-#: typekit-fonts.php:46 webmaster-tools.php:190 webmaster-tools.php:201
+#: typekit-fonts.php:53 webmaster-tools.php:191 webmaster-tools.php:202
 msgid "You cannot edit this screen."
 msgstr ""
 
-#: typekit-fonts.php:58
+#: typekit-fonts.php:65
 msgid "Typekit Fonts"
 msgstr ""
 
-#: typekit-fonts.php:59
+#: typekit-fonts.php:66
 msgid "Typekit"
 msgstr ""
 
-#: typekit-fonts.php:59
+#: typekit-fonts.php:66
 msgid ""
 "offer a service that allows you to select from a range of hundreds of high "
 "quality fonts for your WordPress website. The fonts are applied using the "
@@ -200,34 +176,34 @@ msgid ""
 "you don't already have an account, you will need to register for one."
 msgstr ""
 
-#: typekit-fonts.php:63
+#: typekit-fonts.php:70
 msgid "Your Typekit ID"
 msgstr ""
 
-#: typekit-fonts.php:64
+#: typekit-fonts.php:71
 msgid ""
 "You can find your Typekit ID on typekit.com under Kit Editor -> Embed Code."
 msgstr ""
 
-#: typekit-fonts.php:67
+#: typekit-fonts.php:75
 msgid "Update ID"
 msgstr ""
 
-#: typekit-fonts.php:73
+#: typekit-fonts.php:81
 msgid "Sign up for Typekit"
 msgstr ""
 
-#: typekit-fonts.php:74
+#: typekit-fonts.php:82
 msgid ""
 "If you don&#8217;t have a Typekit ID yet you can sign up on their site for "
 "free and enable it on your site with just a few clicks."
 msgstr ""
 
-#: typekit-fonts.php:76
+#: typekit-fonts.php:84
 msgid "Sign up in seconds"
 msgstr ""
 
-#: webmaster-tools.php:27 webmaster-tools.php:223
+#: webmaster-tools.php:27 webmaster-tools.php:224
 msgid "Webmaster Tools"
 msgstr ""
 
@@ -235,7 +211,7 @@ msgstr ""
 msgid "Here's how you optain and setup each search engines key's"
 msgstr ""
 
-#: webmaster-tools.php:44 webmaster-tools.php:227 webmaster-tools.php:236
+#: webmaster-tools.php:44 webmaster-tools.php:229 webmaster-tools.php:238
 msgid "Google Webmaster Tools"
 msgstr ""
 
@@ -309,7 +285,7 @@ msgstr ""
 msgid "Note: It may take up to 24 hours for your site to be authenticated."
 msgstr ""
 
-#: webmaster-tools.php:71 webmaster-tools.php:230 webmaster-tools.php:256
+#: webmaster-tools.php:71 webmaster-tools.php:232 webmaster-tools.php:258
 msgid "Bing Webmaster Center"
 msgstr ""
 
@@ -366,11 +342,11 @@ msgstr ""
 msgid "To Ban all crawlers from four directories of a website"
 msgstr ""
 
-#: webmaster-tools.php:224
+#: webmaster-tools.php:226
 msgid "Site Verification"
 msgstr ""
 
-#: webmaster-tools.php:225
+#: webmaster-tools.php:227
 msgid ""
 "All three major search engines provide webmaster tools that give you "
 "detailed information and statistics about how they see and crawl your "
@@ -378,42 +354,42 @@ msgid ""
 "your sites."
 msgstr ""
 
-#: webmaster-tools.php:226
+#: webmaster-tools.php:228
 msgid "Enter your meta key \"content\" value to verify your blog with"
 msgstr ""
 
-#: webmaster-tools.php:228 webmaster-tools.php:246
+#: webmaster-tools.php:230 webmaster-tools.php:248
 msgid "Yahoo! Site Explorer"
 msgstr ""
 
-#: webmaster-tools.php:229
+#: webmaster-tools.php:231
 msgid "and"
 msgstr ""
 
-#: webmaster-tools.php:239 webmaster-tools.php:249 webmaster-tools.php:259
-#: webmaster-tools.php:277 webmaster-tools.php:295
+#: webmaster-tools.php:241 webmaster-tools.php:251 webmaster-tools.php:261
+#: webmaster-tools.php:280 webmaster-tools.php:298
 msgid "Disabled"
 msgstr ""
 
-#: webmaster-tools.php:239 webmaster-tools.php:249 webmaster-tools.php:259
-#: webmaster-tools.php:277 webmaster-tools.php:297
+#: webmaster-tools.php:241 webmaster-tools.php:251 webmaster-tools.php:261
+#: webmaster-tools.php:280 webmaster-tools.php:300
 msgid "Enabled"
 msgstr ""
 
-#: webmaster-tools.php:243 webmaster-tools.php:253 webmaster-tools.php:263
-#: webmaster-tools.php:281
+#: webmaster-tools.php:245 webmaster-tools.php:255 webmaster-tools.php:265
+#: webmaster-tools.php:284
 msgid "Example"
 msgstr ""
 
-#: webmaster-tools.php:269
+#: webmaster-tools.php:272
 msgid "Google Analytics Tracking Script"
 msgstr ""
 
-#: webmaster-tools.php:270 webmaster-tools.php:271
+#: webmaster-tools.php:273 webmaster-tools.php:274
 msgid "Google Analytics"
 msgstr ""
 
-#: webmaster-tools.php:270
+#: webmaster-tools.php:273
 msgid ""
 "is a web analytics solution that gives you rich insights into your website "
 "traffic and marketing effectiveness. Powerful, flexible and easy-to-use "
@@ -423,39 +399,39 @@ msgid ""
 "websites."
 msgstr ""
 
-#: webmaster-tools.php:271
+#: webmaster-tools.php:274
 msgid "Enter your"
 msgstr ""
 
-#: webmaster-tools.php:271
+#: webmaster-tools.php:274
 msgid "Account ID"
 msgstr ""
 
-#: webmaster-tools.php:271
+#: webmaster-tools.php:274
 msgid "for this site, to allow"
 msgstr ""
 
-#: webmaster-tools.php:271
+#: webmaster-tools.php:274
 msgid "to track you page views."
 msgstr ""
 
-#: webmaster-tools.php:274
+#: webmaster-tools.php:277
 msgid "Google Analytics Tracking ID"
 msgstr ""
 
-#: webmaster-tools.php:288
+#: webmaster-tools.php:291
 msgid "CDN Network URL"
 msgstr ""
 
-#: webmaster-tools.php:289
+#: webmaster-tools.php:292
 msgid "A"
 msgstr ""
 
-#: webmaster-tools.php:289
+#: webmaster-tools.php:292
 msgid "Content Delivery Network (CDN)"
 msgstr ""
 
-#: webmaster-tools.php:289
+#: webmaster-tools.php:292
 msgid ""
 "is a system of computers containing copies of data, placed at various points "
 "in a network so as to maximize bandwidth for access to the data from clients "
@@ -464,58 +440,58 @@ msgid ""
 "to avoid bottlenecks near that server."
 msgstr ""
 
-#: webmaster-tools.php:292
+#: webmaster-tools.php:295
 msgid "CDN Site URL"
 msgstr ""
 
-#: webmaster-tools.php:304
+#: webmaster-tools.php:309
 msgid "Robots.txt File"
 msgstr ""
 
-#: webmaster-tools.php:312
+#: webmaster-tools.php:317
 msgid ""
 "You may edit your robots.txt file in the space below. Lines beginning with "
 "<code>#</code> are treated as comments. If you don't understand what your "
 "doing, most likly you don't need to do anything."
 msgstr ""
 
-#: webmaster-tools.php:313
+#: webmaster-tools.php:318
 msgid ""
 "Using your robots.txt file, you can ban specific robots, ban all robots, or "
 "block robot access to specific pages or areas of your site. If you are not "
 "sure what to type, look at the bottom of this page for examples."
 msgstr ""
 
-#: webmaster-tools.php:314
+#: webmaster-tools.php:319
 msgid "To Disable all search engines from browsing your site, see the"
 msgstr ""
 
-#: webmaster-tools.php:314 webmaster-tools.php:332
+#: webmaster-tools.php:319 webmaster-tools.php:337
 msgid "Privacy Settings"
 msgstr ""
 
-#: webmaster-tools.php:314
+#: webmaster-tools.php:319
 msgid "page."
 msgstr ""
 
-#: webmaster-tools.php:315
+#: webmaster-tools.php:320
 msgid "Modify Your Robots.txt file"
 msgstr ""
 
-#: webmaster-tools.php:316
+#: webmaster-tools.php:321
 msgid "Your Current Robots.txt file"
 msgstr ""
 
-#: webmaster-tools.php:320
+#: webmaster-tools.php:325
 msgid "reset robots.txt"
 msgstr ""
 
-#: webmaster-tools.php:332
+#: webmaster-tools.php:337
 msgid ""
 "Privacy Settings are curently <strong>Blocking</strong> all search engines. "
 "Enable search engine browsing on the "
 msgstr ""
 
-#: webmaster-tools.php:332
+#: webmaster-tools.php:337
 msgid "page to be able to modify the robots.txt file."
 msgstr ""
