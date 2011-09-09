@@ -9,10 +9,6 @@ Author: Matt Rude
 Author URI: http://mattrude.com
 */
 
-/********************************************************************************
-  Add Custom User Contact Methods
-*/
-
 define('CONTACT_INFO_TEXTDOMAIN', 'mdr-network');
 
 if (function_exists('load_plugin_textdomain')) {
@@ -20,16 +16,15 @@ if (function_exists('load_plugin_textdomain')) {
 }
 
 function add_mdr_contactmethod( $contactmethods ) {
-  // Add Twitter
+  // Add Facebook, Google+, Google Talk, & Twitter
   $contactmethods['facebook'] = __('Facebook ID', CONTACT_INFO_TEXTDOMAIN);
-  $contactmethods['googletalk'] = __('Google Talk', CONTACT_INFO_TEXTDOMAIN);
   $contactmethods['googleplus'] = __('Google+ ID', CONTACT_INFO_TEXTDOMAIN);
+  $contactmethods['googletalk'] = __('Google Talk', CONTACT_INFO_TEXTDOMAIN);
   $contactmethods['twitter'] = __('Twitter ID', CONTACT_INFO_TEXTDOMAIN);
 
-  // Remove AOL Messager, Jabber, & Yahoo IM
+  // Remove Jabber, & Yahoo IM
   unset($contactmethods['aim']);
   unset($contactmethods['jabber']);
-  //unset($contactmethods['yim']);
 
   return $contactmethods;
 }
