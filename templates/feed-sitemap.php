@@ -72,22 +72,5 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>'; ?>
 	</url> <?php
  } }
 
-        $args = array(
-                'post_type' => 'technology',
-                'numberposts' => 100,
-                'status' => 'publish',
-                'orderby' => 'date',
-                'order' => 'DESC'
-        );
-        $post_ids = get_posts($args);
-	
-        if ($post_ids) {
-                foreach ($post_ids as $post) { ?>
-	<url>
-                <loc><?php the_permalink_rss() ?></loc>
-                <lastmod><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_post_modified_time('Y-m-d H:i:s', true), false); ?></lastmod>
-                <changefreq>weekly</changefreq>
-                <priority>0.7</priority>
-        </url>
 <?php } } ?> 
 </urlset>
