@@ -29,7 +29,7 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>'; ?>
                 foreach ($post_ids as $post) { ?>
 	<url>
                 <loc><?php the_permalink_rss() ?></loc>
-                <lastmod><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_post_time('Y-m-d H:i:s', true), false); ?></lastmod>
+                <lastmod><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_post_modified_time('Y-m-d H:i:s', true), false); ?></lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.7</priority>
         </url> <?php
@@ -66,7 +66,7 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>'; ?>
 			<image:title><?php echo esc_html($post->post_title, 1) ?></image:title>
 		</image:image>
 <?php } } ?>
-		<lastmod><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_post_time('Y-m-d H:i:s', true), false); ?></lastmod>
+		<lastmod><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_post_modified_time('Y-m-d H:i:s', true), false); ?></lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.5</priority>
 	</url> <?php
@@ -85,7 +85,7 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>'; ?>
                 foreach ($post_ids as $post) { ?>
 	<url>
                 <loc><?php the_permalink_rss() ?></loc>
-                <lastmod><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_post_time('Y-m-d H:i:s', true), false); ?></lastmod>
+                <lastmod><?php echo mysql2date('Y-m-d\TH:i:s\Z', get_post_modified_time('Y-m-d H:i:s', true), false); ?></lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.7</priority>
         </url>
