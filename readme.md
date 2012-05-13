@@ -1,3 +1,5 @@
+# WordPres Plugin MDR Network
+
 This is a group of mostly small plugins needed for multi site installs.  Most of these plugins only do one thing, but a few others add major updates to WordPress.
 
 This repository should be put in the root of wp-content/mu-plugins so each active plugin is directly in mu-plugins, not in a sub folder.  If you do not have a mu-plugins folder, you may simply run the following from the your wordpress root directory:
