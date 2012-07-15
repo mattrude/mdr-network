@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Feedburner
-Plugin URI: http://github.com/mattrude/mdr-network
+Plugin URI: http://gh.mattrude.com/mdr-network/
 Description: Redirects all sites feeds to the entred Feedburner feed. See: Settings -> Reading
 Author: Matt Rude
 Author URI: http://mattrude.com/

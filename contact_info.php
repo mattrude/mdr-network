@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Contact Info
-Plugin URI: http://github.com/mattrude/mdr-network
+Plugin URI: http://gh.mattrude.com/mdr-network/
 Description: Adds Custome User Contact Methods.  Adds Facebook URL, Google Talk, & Twitter ID.  Removes AIM & Jabber. See: Users -> Your Profile
 Version: 1.0
 Author: Matt Rude

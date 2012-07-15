@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Typekit Fonts
-Plugin URI: http://github.com/mattrude/mdr-network
+Plugin URI: http://gh.mattrude.com/mdr-network/
 Description: Provides Typekit fonts to a website by adding the needed java code to the pages. See Appearance -> Fonts
 Version: 1.1
 Author: Matt Rude

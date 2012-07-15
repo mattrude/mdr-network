@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Favicon
-Plugin URI: http://github.com/mattrude/mdr-network
+Plugin URI: http://gh.mattrude.com/mdr-network/
 Description: Provides favicon support for WordPress network installs. If a user dosen't have a favicon.ico or favicon.png file in their files directory, it will use their Gravatar image, if they don't have that, it will use the site's default.
 Version: 1.0
 Author: Matt Rude

@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Category Excluder
-Plugin URI: http://github.com/mattrude/mdr-network
+Plugin URI: http://gh.mattrude.com/mdr-network/
 Description: Allows a user to select the categories they wish to exclude and where they would like to excluded the categories from (main page, feed, archives). See: Tools -> Webmaster Tools
 Version: 1.0
 Author: Matt Rude

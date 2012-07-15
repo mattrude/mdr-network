@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Time Since
-Plugin URI: http://github.com/mattrude/mdr-network
+Plugin URI: http://gh.mattrude.com/mdr-network/
 Description: Adds a Time Since shotcode "[ts date'1980-06-19']" that will display the years since the date provided.
 Version: 1.1
 Author: Matt Rude

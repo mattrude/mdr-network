@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Webmaster Tools
-Plugin URI: http://github.com/mattrude/mdr-network
+Plugin URI: http://gh.mattrude.com/wp-plugin-webmaster-tools/
 Description: Provides Webmaster site verification scripts for Google, Yahoo, & Bing. Plugin also provides Google Analytics Tracking Script for registered sites. See Tools -> Webmaster Tools
 Version: 1.1
 Author: Matt Rude

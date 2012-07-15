@@ -28,7 +28,8 @@ Their are also two disable plugins that you may renable by simply copying them t
 
 ### Rebuilding the POT file
 
-    xgettext --keyword=__ --keyword=_e  --from-code=php --language=php *.php --package-version=1.o --package-name=mdr-network --output=languages/mdr-network.pot
+    xgettext --keyword=__ --keyword=_e  --from-code=php --language=php *.php --package-version=1.o \
+    --package-name=mdr-network --output=languages/mdr-network.pot
 
 ## License
 These Plugins are free software; you may redistribute and/or modify them under the terms of the GNU General Public License version 2 as published by the Free Software Foundation (http://www.fsf.org/).
